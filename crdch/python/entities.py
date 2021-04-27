@@ -38,12 +38,6 @@ DEFAULT_ = CCDH
 
 
 # Types
-class Url(String):
-    type_class_uri = XSD.string
-    type_class_curie = "xsd:string"
-    type_name = "url"
-    type_model_uri = CCDH.Url
-
 
 class String(str):
     """ A character string """
@@ -52,6 +46,11 @@ class String(str):
     type_name = "string"
     type_model_uri = CCDH.String
 
+class Url(String):
+    type_class_uri = XSD.string
+    type_class_curie = "xsd:string"
+    type_name = "url"
+    type_model_uri = CCDH.Url
 
 class Integer(int):
     """ An integer """
