@@ -1,5 +1,7 @@
 # Example data for the CCDH project
 
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/cancerDHC/example-data/)
+
 This repository is intended to act as a store of example data files from across
 the [NCI Cancer Research Data Commons](https://datascience.cancer.gov/data-commons)
 nodes in a number of formats. Each directory represents a single dataset downloaded
