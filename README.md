@@ -14,6 +14,12 @@ Many of the processes in this repository are documented in
 which have an `.ipynb` extension. These files can be viewed directly in
 GitHub (see
 *[CDA example for subject 09CO022](./cptac2-subject-09CO022/CDA%20example%20for%20subject%2009CO022.ipynb)*
-as an example). If you would like to execute this file, you will need to
+as an example).
+
+If you would like to execute this file, you will need to
 [install Jupyter Notebook](https://jupyter.org/install.html). You can then download
-the `.ipynb` file and open it in Jupyter Notebook on your computer.
+the `.ipynb` file and open it in Jupyter Notebook on your computer by running:
+
+```bash
+$ jupyter notebook cptac2-subject-09CO022/CDA\ example\ for\ subject\ 09CO022.ipynb
+```
