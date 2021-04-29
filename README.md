@@ -6,3 +6,14 @@ nodes in a number of formats. Each directory represents a single dataset downloa
 from a node, and contains a [Jupyter Notebook](https://jupyter.org/) documenting how
 they were downloaded. [CCDH](https://datacommons.cancer.gov/center-cancer-data-harmonization)
 will use this example data to build and test the CRDC-H data model.
+
+## Using Jupyter Notebooks
+
+Many of the processes in this repository are documented in
+[Jupyter Notebook format](https://nbformat.readthedocs.io/) files,
+which have an `.ipynb` extension. These files can be viewed directly in
+GitHub (see
+[*CDA example for subject 09CO022*](./cptac2-subject-09CO022/CDA example for subject 09CO022.ipynb)
+as an example). If you would like to execute this file, you will need to
+[install Jupyter Notebook](https://jupyter.org/install.html). You can then download
+the `.ipynb` file and open it in Jupyter Notebook on your computer.
