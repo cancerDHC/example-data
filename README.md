@@ -13,7 +13,7 @@ Many of the processes in this repository are documented in
 [Jupyter Notebook format](https://nbformat.readthedocs.io/) files,
 which have an `.ipynb` extension. These files can be viewed directly in
 GitHub (see
-[*CDA example for subject 09CO022*](./cptac2-subject-09CO022/CDA example for subject 09CO022.ipynb)
+*[CDA example for subject 09CO022](./cptac2-subject-09CO022/CDA+example+for+subject+09CO022.ipynb)*
 as an example). If you would like to execute this file, you will need to
 [install Jupyter Notebook](https://jupyter.org/install.html). You can then download
 the `.ipynb` file and open it in Jupyter Notebook on your computer.
