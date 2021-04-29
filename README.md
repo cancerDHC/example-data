@@ -21,7 +21,7 @@ as an example). You can also run it in the [Jupyter Notebook viewer](https://nbv
 as an example).
 
 If you would like to execute this file, you will need to
-[install Jupyter Notebook](https://jupyter.org/install.html). You can then download
+[install Jupyter Notebook](https://jupyter.org/install.html) (also available on [Homebrew for Mac](https://formulae.brew.sh/formula/jupyterlab#default)). You can then download
 the `.ipynb` file and open it in Jupyter Notebook on your computer by running:
 
 ```bash
