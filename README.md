@@ -14,6 +14,8 @@ Many of the processes in this repository are documented in
 which have an `.ipynb` extension. These files can be viewed directly in
 GitHub (see
 *[CDA example for subject 09CO022](./cptac2-subject-09CO022/CDA%20example%20for%20subject%2009CO022.ipynb)*
+as an example). You can also run it in the [Jupyter Notebook viewer](https://nbviewer.jupyter.org/) (see
+*[CDA example for subject 09CO022](https://nbviewer.jupyter.org/github/cancerDHC/example-data/blob/0a983991cbc274a7fbf3121aa8ae10047549fa1a/cptac2-subject-09CO022/CDA%20example%20for%20subject%2009CO022.ipynb)*
 as an example).
 
 If you would like to execute this file, you will need to
