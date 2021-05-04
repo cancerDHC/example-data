@@ -1,0 +1,205 @@
+{
+    "case_id": "459e3b69-63d6-11e8-bcf1-0a2705229b82",
+    "case_submitter_id": "09CO022",
+    "days_to_lost_to_followup": 0,
+    "demographics": [
+        {
+            "cause_of_death": null,
+            "days_to_birth": null,
+            "days_to_death": null,
+            "demographic_id": "f6954ae9-7588-11e8-bcf1-0a2705229b82",
+            "demographic_submitter_id": "09CO022-DM",
+            "ethnicity": "Not Hispanic or Latino",
+            "gender": "Female",
+            "race": "Black or African American",
+            "vital_status": "Not Reported",
+            "year_of_birth": null,
+            "year_of_death": null
+        }
+    ],
+    "diagnoses": [
+        {
+            "age_at_diagnosis": null,
+            "ajcc_clinical_m": "Not Reported",
+            "ajcc_clinical_n": "Not Reported",
+            "ajcc_clinical_stage": "Not Reported",
+            "ajcc_clinical_t": "Not Reported",
+            "ajcc_pathologic_m": "Not Reported",
+            "ajcc_pathologic_n": "Not Reported",
+            "ajcc_pathologic_stage": "Stage IIB",
+            "ajcc_pathologic_t": "Not Reported",
+            "ann_arbor_b_symptoms": "Not Reported",
+            "ann_arbor_clinical_stage": "Not Reported",
+            "ann_arbor_extranodal_involvement": "Not Reported",
+            "ann_arbor_pathologic_stage": "Not Reported",
+            "best_overall_response": null,
+            "burkitt_lymphoma_clinical_variant": "Not Reported",
+            "circumferential_resection_margin": null,
+            "classification_of_tumor": "Not Reported",
+            "colon_polyps_history": null,
+            "days_to_best_overall_response": null,
+            "days_to_diagnosis": "",
+            "days_to_hiv_diagnosis": null,
+            "days_to_last_follow_up": null,
+            "days_to_last_known_disease_status": null,
+            "days_to_new_event": null,
+            "days_to_recurrence": null,
+            "diagnosis_id": "ff301535-70ca-11e8-bcf1-0a2705229b82",
+            "diagnosis_submitter_id": "09CO022-DX",
+            "figo_stage": "Not Reported",
+            "hiv_positive": null,
+            "hpv_positive_type": null,
+            "hpv_status": null,
+            "icd_10_code": null,
+            "iss_stage": "Not Reported",
+            "last_known_disease_status": "Not Reported",
+            "laterality": "Not Reported",
+            "ldh_level_at_diagnosis": null,
+            "ldh_normal_range_upper": null,
+            "lymph_nodes_positive": null,
+            "lymphatic_invasion_present": "Not Reported",
+            "method_of_diagnosis": "Not Reported",
+            "morphology": "8140/3",
+            "new_event_anatomic_site": null,
+            "new_event_type": null,
+            "overall_survival": null,
+            "perineural_invasion_present": "Not Reported",
+            "primary_diagnosis": "Adenocarcinoma, NOS",
+            "prior_malignancy": "No",
+            "prior_treatment": "Not Reported",
+            "progression_free_survival": null,
+            "progression_free_survival_event": null,
+            "progression_or_recurrence": "Not Reported",
+            "residual_disease": "Not Reported",
+            "site_of_resection_or_biopsy": "Not Reported",
+            "synchronous_malignancy": null,
+            "tissue_or_organ_of_origin": "Colon, NOS",
+            "tumor_grade": "Not Reported",
+            "tumor_largest_dimension_diameter": null,
+            "tumor_stage": "Stage IIB",
+            "vascular_invasion_present": "Not Reported",
+            "year_of_diagnosis": ""
+        }
+    ],
+    "disease_type": "Colon Adenocarcinoma",
+    "externalReferences": [
+        {
+            "external_reference_id": "c5421e34-e5c7-4ba5-aed9-146a5575fd8d",
+            "reference_entity_location": "https://portal.gdc.cancer.gov/cases/c5421e34-e5c7-4ba5-aed9-146a5575fd8d",
+            "reference_resource_name": "Genomic Data Commns",
+            "reference_resource_shortname": "GDC"
+        }
+    ],
+    "index_date": null,
+    "lost_to_followup": "",
+    "primary_site": "Colon",
+    "project_submitter_id": "CPTAC-2",
+    "samples": [
+        {
+            "aliquots": [
+                {
+                    "aliquot_id": "208ebc64-6425-11e8-bcf1-0a2705229b82",
+                    "aliquot_run_metadata": [
+                        {
+                            "aliquot_run_metadata_id": "58a72e91-e26a-11e8-907f-0a2705229b82"
+                        },
+                        {
+                            "aliquot_run_metadata_id": "a2422b46-e26a-11e8-907f-0a2705229b82"
+                        }
+                    ],
+                    "aliquot_submitter_id": "76498650-fdbf-4f5d-a19a-cce9a2_D2",
+                    "analyte_type": "Protein"
+                }
+            ],
+            "biospecimen_anatomic_site": "Not Reported",
+            "composition": "Not Reported",
+            "current_weight": null,
+            "days_to_collection": null,
+            "days_to_sample_procurement": null,
+            "diagnosis_pathologically_confirmed": "Not Reported",
+            "freezing_method": null,
+            "gdc_project_id": "",
+            "gdc_sample_id": "",
+            "initial_weight": null,
+            "intermediate_dimension": null,
+            "is_ffpe": null,
+            "longest_dimension": null,
+            "method_of_sample_procurement": "Not Reported",
+            "oct_embedded": null,
+            "pathology_report_uuid": null,
+            "preservation_method": "Not Reported",
+            "sample_id": "f4af3e4d-641b-11e8-bcf1-0a2705229b82",
+            "sample_submitter_id": "76498650-fdbf-4f5d-a19a-cce9a2",
+            "sample_type": "Solid Tissue Normal",
+            "sample_type_id": "0",
+            "shortest_dimension": null,
+            "time_between_clamping_and_freezing": null,
+            "time_between_excision_and_freezing": null,
+            "tissue_type": "Not Reported",
+            "tumor_code": null,
+            "tumor_code_id": null,
+            "tumor_descriptor": "Not Reported"
+        },
+        {
+            "aliquots": [
+                {
+                    "aliquot_id": "08b2a2bf-6427-11e8-bcf1-0a2705229b82",
+                    "aliquot_run_metadata": [
+                        {
+                            "aliquot_run_metadata_id": "13dbe375-5735-11e8-b664-00a098d917f8"
+                        }
+                    ],
+                    "aliquot_submitter_id": "f69deaeb-6b6f-4c61-8900-fd0f26_D2",
+                    "analyte_type": "Protein"
+                },
+                {
+                    "aliquot_id": "0a0ef804-6427-11e8-bcf1-0a2705229b82",
+                    "aliquot_run_metadata": [],
+                    "aliquot_submitter_id": "f69deaeb-6b6f-4c61-8900-fd0f26_D5",
+                    "analyte_type": "Protein"
+                },
+                {
+                    "aliquot_id": "44f5b956-642a-11e8-bcf1-0a2705229b82",
+                    "aliquot_run_metadata": [
+                        {
+                            "aliquot_run_metadata_id": "dfa93d3f-5737-11e8-b664-00a098d917f8"
+                        },
+                        {
+                            "aliquot_run_metadata_id": "f8d41677-5737-11e8-b664-00a098d917f8"
+                        }
+                    ],
+                    "aliquot_submitter_id": "f69deaeb-6b6f-4c61-8900-fd0f26_D3",
+                    "analyte_type": "Protein"
+                }
+            ],
+            "biospecimen_anatomic_site": "Not Reported",
+            "composition": "Not Reported",
+            "current_weight": null,
+            "days_to_collection": null,
+            "days_to_sample_procurement": null,
+            "diagnosis_pathologically_confirmed": "Not Reported",
+            "freezing_method": null,
+            "gdc_project_id": "",
+            "gdc_sample_id": "4591a53d-5668-4a70-b44b-e08a3d59267e",
+            "initial_weight": null,
+            "intermediate_dimension": null,
+            "is_ffpe": null,
+            "longest_dimension": null,
+            "method_of_sample_procurement": "Not Reported",
+            "oct_embedded": null,
+            "pathology_report_uuid": null,
+            "preservation_method": "Not Reported",
+            "sample_id": "f6cce507-641b-11e8-bcf1-0a2705229b82",
+            "sample_submitter_id": "f69deaeb-6b6f-4c61-8900-fd0f26",
+            "sample_type": "Primary Tumor",
+            "sample_type_id": "1",
+            "shortest_dimension": null,
+            "time_between_clamping_and_freezing": null,
+            "time_between_excision_and_freezing": null,
+            "tissue_type": "Not Reported",
+            "tumor_code": null,
+            "tumor_code_id": null,
+            "tumor_descriptor": "Not Reported"
+        }
+    ]
+}
