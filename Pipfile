@@ -7,11 +7,7 @@ name = "pypi"
 linkml = {ref = "ccdh-dev", git = "https://github.com/cancerDHC/linkml.git"}
 jsonschema = "*"
 jupyter = "*"
-pip = "*"
 pandas = "*"
-pep517 = "*"
-wheel = "*"
-setuptools = "*"
 
 [dev-packages]
 
