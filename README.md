@@ -9,6 +9,12 @@ from a node, and contains a [Jupyter Notebook](https://jupyter.org/) documenting
 they were downloaded. [CCDH](https://datacommons.cancer.gov/center-cancer-data-harmonization)
 will use this example data to build and test the CRDC-H data model.
 
+## GDC Head and Mouth Dataset and conversion to CRDC-H
+
+[Our first example](https://nbviewer.jupyter.org/github/cancerDHC/example-data/blob/gdc-to-crdc-h/GDC%20to%20CCDH%20conversion.ipynb) is based on a [dataset of 560 cases](./head-and-mouth/gdc-head-and-mouth.json) that we [downloaded from the GDC Public API](https://nbviewer.jupyter.org/github/cancerDHC/example-data/blob/gdc-to-crdc-h/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb). In a Jupyter Notebook, we describe how we can load this data into Python Data Classes and then export it as YAML, JSON-LD or Turtle. This is not yet intended to be a comprehensive transform of all the retrieved GDC case, but to showcase the features made available through the Python Data Classes that are part of the [artifacts generated from the CRDC model](https://github.com/cancerDHC/ccdhmodel/). The [JSON-LD](./head-and-mouth/diagnoses.jsonld) and [Turtle](./head-and-mouth/diagnoses.ttl) exports of the data are also available.
+
+This example is based on [CRDC-H model v1.0-pre1](https://github.com/cancerDHC/ccdhmodel/releases/tag/v1.0-pre1) of the CCDH model, which is included in this repository. This will no longer work
+
 ## Using Jupyter Notebooks
 
 Many of the processes in this repository are documented in
