@@ -8,7 +8,6 @@ linkml = "*"
 jsonschema = "*"
 jupyter = "*"
 pytest = "*"
-linkml-model = "*"
 
 [dev-packages]
 

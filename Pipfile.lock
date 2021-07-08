@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "023070fe21332352867b58eaf1a1ca537403bcb86891e090d9e8d3f1e5d852cd"
+            "sha256": "654725c4281dd54519ecf3ec54a402dd1f9948d109504bdbe778096a5e69ab0e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -505,14 +505,6 @@
             ],
             "index": "pypi",
             "version": "==1.0.1"
-        },
-        "linkml-model": {
-            "hashes": [
-                "sha256:1ee5f289b933aad0f811c57b02edcf2379708a6d4e8f721205882e5b9c16980b",
-                "sha256:8c39a58175d739adb615a791849f34e47c40d7c0cc317d5f99e7eb4d09eab9c9"
-            ],
-            "index": "pypi",
-            "version": "==1.0.0"
         },
         "linkml-runtime": {
             "hashes": [
