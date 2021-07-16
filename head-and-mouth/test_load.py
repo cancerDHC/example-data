@@ -1,6 +1,7 @@
 import json
 import pytest
 import logging
+import rdflib
 
 import ccdhmodel as ccdh
 from linkml.generators.jsonldcontextgen import ContextGenerator
@@ -286,5 +287,12 @@ def test_transform_gdc_data():
     as_json = json.loads(as_json_str)
     assert type(as_json) is dict
 
-    with open('./head-and-mouth/ccdh-head-and-mouth.jsonld', 'w') as f:
+    with open('./head-and-mouth/diagnoses.jsonld', 'w') as f:
         f.write(as_json_str)
+
+    # Convert JSON-LD into Turtle.
+    g = rdflib.Graph()
+    g.parse(data=as_json_str, format="json-ld")
+    rdf_as_turtle = g.serialize(format="turtle").decode()
+    with open('head-and-mouth/diagnoses.ttl', 'w') as file:
+        file.write(rdf_as_turtle)
