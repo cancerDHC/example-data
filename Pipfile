@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 linkml = "*"
+linkml-runtime = {editable = true, ref = "replace-enum-str", git = "https://github.com/linkml/linkml-runtime.git"}
 jsonschema = "*"
 jupyter = "*"
 pytest = "*"
