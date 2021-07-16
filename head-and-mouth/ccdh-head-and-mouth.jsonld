@@ -4481,5 +4481,662 @@
       ]
     }
   ],
+  "@context": {
+    "_comments": "Auto generated from ccdhmodel.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2021-07-16 10:12\n    Schema: CRDC-H\n    \n    id: https://example.org/ccdh\n    description: \n    license: https://creativecommons.org/publicdomain/zero/1.0/\n    ",
+    "@context": {
+      "GDC": "http://example.org/gdc/",
+      "HTAN": "http://example.org/htan/",
+      "ICDC": "http://example.org/icdc/",
+      "NCIT": {
+        "@id": "http://purl.obolibrary.org/obo/NCIT_",
+        "@prefix": true
+      },
+      "PDC": "http://example.org/pdc/",
+      "ccdh": "https://example.org/ccdh/",
+      "linkml": "https://w3id.org/linkml/",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "@vocab": "https://example.org/ccdh/",
+      "category": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "focus": {
+        "@type": "@id"
+      },
+      "method_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "observation_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "performed_by": {
+        "@type": "@id"
+      },
+      "subject": {
+        "@type": "@id"
+      },
+      "valueCodeableConcept": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "valueInteger": {
+        "@type": "xsd:integer"
+      },
+      "identifier": {
+        "@type": "@id"
+      },
+      "passage_number": {
+        "@type": "xsd:integer"
+      },
+      "product_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "qualifier": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "site": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "observations": {
+        "@type": "@id"
+      },
+      "valueEntity": {
+        "@type": "@id"
+      },
+      "coding": {
+        "@type": "@id"
+      },
+      "age_at_diagnosis": {
+        "@type": "@id"
+      },
+      "condition": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "disease_status": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "grade": {
+        "@type": "@id"
+      },
+      "metastatic_site": {
+        "@type": "@id"
+      },
+      "method_of_diagnosis": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "morphology": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "primary_site": {
+        "@type": "@id"
+      },
+      "primary_tumor_dimensional_measures": {
+        "@type": "@id"
+      },
+      "prior_diagnosis": {
+        "@type": "@id"
+      },
+      "related_specimen": {
+        "@type": "@id"
+      },
+      "stage": {
+        "@type": "@id"
+      },
+      "supporting_observation": {
+        "@type": "@id"
+      },
+      "year_at_diagnosis": {
+        "@type": "xsd:integer"
+      },
+      "valueQuantity": {
+        "@type": "@id"
+      },
+      "document_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "alcohol_exposure": {
+        "@type": "@id"
+      },
+      "environmental_exposure": {
+        "@type": "@id"
+      },
+      "tobacco_exposure": {
+        "@type": "@id"
+      },
+      "type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "valueBoolean": {
+        "@type": "xsd:boolean"
+      },
+      "valueDateTime": {
+        "@type": "xsd:dateTime"
+      },
+      "valueDecimal": {
+        "@type": "xsd:decimal"
+      },
+      "unit": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "associated_timepoint": {
+        "@type": "@id"
+      },
+      "date_ended": {
+        "@type": "@id"
+      },
+      "date_started": {
+        "@type": "@id"
+      },
+      "part_of": {
+        "@type": "@id"
+      },
+      "primary_anatomic_site": {
+        "@type": "@id"
+      },
+      "research_project_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "age_at_enrollment": {
+        "@type": "@id"
+      },
+      "associated_subject": {
+        "@type": "@id"
+      },
+      "comorbid_diagnosis": {
+        "@type": "@id"
+      },
+      "index_timepoint": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "member_of_research_project": {
+        "@type": "@id"
+      },
+      "originating_site": {
+        "@type": "@id"
+      },
+      "primary_diagnosis": {
+        "@type": "@id"
+      },
+      "primary_diagnosis_condition": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "primary_diagnosis_site": {
+        "@type": "@id"
+      },
+      "analyte_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "associated_project": {
+        "@type": "@id"
+      },
+      "cellular_composition_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "contained_in": {
+        "@type": "@id"
+      },
+      "creation_activity": {
+        "@type": "@id"
+      },
+      "data_provider": {
+        "@type": "@id"
+      },
+      "degree_of_dysplasia": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "derived_product": {
+        "@type": "@id"
+      },
+      "dimensional_measures": {
+        "@type": "@id"
+      },
+      "distance_from_paired_specimen": {
+        "@type": "@id"
+      },
+      "general_tissue_morphology": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "histological_composition_measures": {
+        "@type": "@id"
+      },
+      "morphlogy_assessment_method": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "morphology_assessor_role": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "morphology_pathologically_confirmed": {
+        "@type": "xsd:boolean"
+      },
+      "parent_specimen": {
+        "@type": "@id"
+      },
+      "preinvasive_tissue_morphology": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "processing_activity": {
+        "@type": "@id"
+      },
+      "quality_measure": {
+        "@type": "@id"
+      },
+      "quantity_measure": {
+        "@type": "@id"
+      },
+      "related_document": {
+        "@type": "@id"
+      },
+      "section_location": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "source_material_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "source_subject": {
+        "@type": "@id"
+      },
+      "specific_tissue_morphology": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "specimen_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "storage_activity": {
+        "@type": "@id"
+      },
+      "transport_activity": {
+        "@type": "@id"
+      },
+      "tumor_status_at_collection": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "additive": {
+        "@type": "@id"
+      },
+      "container_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "parent_container": {
+        "@type": "@id"
+      },
+      "activity_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "collection_method_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "collection_site": {
+        "@type": "@id"
+      },
+      "derivation_method_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "execution_condition_observation": {
+        "@type": "@id"
+      },
+      "execution_time_observation": {
+        "@type": "@id"
+      },
+      "quantity_collected": {
+        "@type": "@id"
+      },
+      "specimen_order": {
+        "@type": "xsd:integer"
+      },
+      "duration": {
+        "@type": "@id"
+      },
+      "container": {
+        "@type": "@id"
+      },
+      "transport_destination": {
+        "@type": "@id"
+      },
+      "transport_origin": {
+        "@type": "@id"
+      },
+      "age_at_death": {
+        "@type": "@id"
+      },
+      "breed": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "cause_of_death": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "ethnicity": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "race": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "sex": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "species": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "vital_status": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "year_of_birth": {
+        "@type": "xsd:integer"
+      },
+      "year_of_death": {
+        "@type": "xsd:integer"
+      },
+      "role": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "substance_quantity": {
+        "@type": "@id"
+      },
+      "substance_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "periodEnd_end": {
+        "@type": "@id"
+      },
+      "periodStart_start": {
+        "@type": "@id"
+      },
+      "dateTime": {
+        "@type": "xsd:dateTime"
+      },
+      "eventType": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "indexTimePoint": {
+        "@type": "@id"
+      },
+      "offsetFromIndex": {
+        "@type": "@id"
+      },
+      "concurrent_treatment": {
+        "@type": "@id"
+      },
+      "number_of_cycles": {
+        "@type": "xsd:integer"
+      },
+      "regimen": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "therapeutic_agent": {
+        "@type": "@id"
+      },
+      "treatment_anatomic_site": {
+        "@type": "@id"
+      },
+      "treatment_effect": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "treatment_end_reason": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "treatment_for_diagnosis": {
+        "@type": "@id"
+      },
+      "treatment_frequency": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "treatment_intent": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "treatment_outcome": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      },
+      "treatment_type": {
+        "@context": {
+          "@vocab": "@null",
+          "text": "skos:notation",
+          "description": "skos:prefLabel",
+          "meaning": "@id"
+        }
+      }
+    }
+  },
   "@type": "dict"
 }
