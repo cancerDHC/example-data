@@ -152,7 +152,7 @@ def transform_sample_to_specimen(sample):
 
 
 def transform_diagnosis(diagnosis, case):
-    samples = []  # list(filter(lambda x: x is not None, map(transform_sample_to_specimen, case.get('samples') or [])))
+    samples = list(filter(lambda x: x is not None, map(transform_sample_to_specimen, case.get('samples') or [])))
 
     ccdh_diagnosis = ccdh.Diagnosis(
         id=diagnosis.get('diagnosis_id'),
