@@ -1,9 +1,10 @@
 import json
 import pytest
+import logging
 
 import ccdhmodel as ccdh
 from linkml.generators.jsonldcontextgen import ContextGenerator
-from linkml_runtime.dumpers.json_dumper import JSONDumper
+from linkml_runtime.dumpers import json_dumper
 
 def create_body_site(site_name):
     """ Create a CCDH BodySite based on the name of a site in the human body."""
@@ -159,14 +160,14 @@ def transform_diagnosis(diagnosis, case):
         grade=diagnosis.get('grade'),
         stage=create_stage_from_gdc(diagnosis),
         year_at_diagnosis=diagnosis.get('year_of_diagnosis'),
-        related_specimen=samples
+        related_specimen=samples,
+        identifier=[
+            ccdh.Identifier(
+                system='GDC-submitter-id',
+                value=diagnosis.get('submitter_id')
+            )
+        ]
     )
-    ccdh_diagnosis.identifier = [
-        ccdh.Identifier(
-            system='GDC-submitter-id',
-            value=diagnosis.get('submitter_id')
-        )
-    ]
 
     return ccdh_diagnosis
 
@@ -187,11 +188,16 @@ def test_transform_gdc_data():
     diagnoses = []
     for case in gdc_head_and_mouth:
         for diagnosis in case['diagnoses']:
-            diagnoses.append(transform_diagnosis(case, diagnosis))
+            diagnosis_as_obj = transform_diagnosis(case, diagnosis)
+            diagnoses.append(diagnosis_as_obj)
+            as_json_str = json_dumper.dumps(diagnosis_as_obj, jsonldContextAsDict)
+            assert type(as_json_str) is str
+            as_json = json.loads(as_json_str)
+            assert type(as_json) is dict
 
-    dumper = JSONDumper()
-    as_json_str = dumper.dumps({
-        '@graph': diagnoses
+    as_json_str = json_dumper.dumps({
+        '@graph': diagnoses,
+        '@context': jsonldContextAsDict
     })
     assert type(as_json_str) is str
     as_json = json.loads(as_json_str)
