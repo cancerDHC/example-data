@@ -149,19 +149,17 @@ def transform_sample_to_specimen(sample):
 
 
 def transform_diagnosis(diagnosis, case):
+    samples = list(filter(lambda x: x is not None, map(transform_sample_to_specimen, case.get('samples') or [])))
+
     ccdh_diagnosis = ccdh.Diagnosis(
         id=diagnosis.get('diagnosis_id'),
         condition=diagnosis.get('primary_diagnosis'),
         morphology=diagnosis.get('morphology'),
-        metastatic_site=create_body_site(diagnosis.get('primary_site')),
+        # metastatic_site=diagnosis.get('primary_site'),
         grade=diagnosis.get('grade'),
         stage=create_stage_from_gdc(diagnosis),
         year_at_diagnosis=diagnosis.get('year_of_diagnosis'),
-        related_specimen=[
-            transform_sample_to_specimen(
-                sample
-            ) for sample in case.get('samples')
-        ]
+        related_specimen=samples
     )
     ccdh_diagnosis.identifier = [
         ccdh.Identifier(
@@ -186,11 +184,18 @@ def test_transform_gdc_data():
     jsonldContextAsDict = json.loads(jsonldContext)
     assert type(jsonldContextAsDict) is dict
 
-    diag1_as_jsonld = JSONDumper.dump(
-        transform_diagnosis(
-            gdc_head_and_mouth[131]['diagnoses'][0],
-            gdc_head_and_mouth[131]
-        ), jsonldContext)
-    assert diag1_as_jsonld is str
-    diag1 = json.loads(diag1_as_jsonld)
-    assert type(diag1) is dict
+    diagnoses = []
+    for case in gdc_head_and_mouth:
+        for diagnosis in case['diagnoses']:
+            diagnoses.append(transform_diagnosis(case, diagnosis))
+
+    dumper = JSONDumper()
+    as_json_str = dumper.dumps({
+        '@graph': diagnoses
+    })
+    assert type(as_json_str) is str
+    as_json = json.loads(as_json_str)
+    assert type(as_json) is dict
+
+    with open('./head-and-mouth/ccdh-head-and-mouth.jsonld', 'w') as f:
+        f.write(as_json_str)
