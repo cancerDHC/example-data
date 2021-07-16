@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b470106211aaa39c1aa33da1a83a31caf1ac6c4b932c84e8197479080d9de2d7"
+            "sha256": "fdf9f25294bf4731be164824e222930b02a7f12eb1effa685a281050d9617a35"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -166,11 +166,11 @@
         },
         "charset-normalizer": {
             "hashes": [
-                "sha256:3c502a35807c9df35697b0f44b1d65008f83071ff29c69677c7c22573bc5a45a",
-                "sha256:951567c2f7433a70ab63f1be67e5ee05d3925d9423306ecb71a3b272757bcc95"
+                "sha256:88fce3fa5b1a84fdcb3f603d889f723d1dd89b26059d0123ca435570e848d5e1",
+                "sha256:c46c3ace2d744cfbdebceaa3c19ae691f53ae621b39fd7570f59d14fb7f2fd12"
             ],
             "markers": "python_version >= '3'",
-            "version": "==2.0.2"
+            "version": "==2.0.3"
         },
         "click": {
             "hashes": [
@@ -501,9 +501,12 @@
             "version": "==1.0.1"
         },
         "linkml-runtime": {
-            "editable": true,
-            "git": "https://github.com/linkml/linkml-runtime.git",
-            "ref": "3d0b820fc76957e3477cc68f13b9012513641f27"
+            "hashes": [
+                "sha256:41a25481efeebf08b9cff9791ba501fe70a81e082bf1d059ac5f9e58b5b1d4d1",
+                "sha256:9c92d3f4dc630bb4950da7df07a4ba14f27f30555129d7c52b980f265dfc1360"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==1.0.10"
         },
         "lxml": {
             "hashes": [
@@ -772,6 +775,13 @@
                 "sha256:3c98d3153a2e4ca8ae8942a4bb213477c68519b145ca2d973648bcb9495208e7"
             ],
             "version": "==0.11.6"
+        },
+        "pyld": {
+            "hashes": [
+                "sha256:287445f888c3a332ccbd20a14844c66c2fcbaeab3c99acd506a0788e2ebb2f82"
+            ],
+            "index": "pypi",
+            "version": "==2.0.3"
         },
         "pyldmod": {
             "hashes": [
