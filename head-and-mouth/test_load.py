@@ -158,7 +158,6 @@ def transform_diagnosis(diagnosis, case):
         id=diagnosis.get('diagnosis_id'),
         condition=diagnosis.get('primary_diagnosis'),
         morphology=diagnosis.get('morphology'),
-        # metastatic_site=diagnosis.get('primary_site'),
         grade=diagnosis.get('grade'),
         stage=create_stage_from_gdc(diagnosis),
         year_at_diagnosis=diagnosis.get('year_of_diagnosis'),
@@ -170,6 +169,11 @@ def transform_diagnosis(diagnosis, case):
             )
         ]
     )
+
+    if 'primary_site' in case and case['primary_site'] != '':
+        body_site = create_body_site(case['primary_site'])
+        if body_site is not None:
+            ccdh_diagnosis.metastatic_site.append(body_site)
 
     return ccdh_diagnosis
 
@@ -242,9 +246,12 @@ def test_transform_diagnosis():
              'submitter_sample_ids': ['GENIE-DFCI-010671-11105'],
              'updated_datetime': '2019-11-18T13:54:59.294543-06:00'}
 
+    assert case1['primary_site'] == 'Larynx'
+
     diagnosis = transform_diagnosis(case1['diagnoses'][0], case1)
     assert type(diagnosis) is ccdh.Diagnosis
     assert diagnosis.id == '842d6984-7c03-4ab6-95db-42fa2ea699db'
+    assert diagnosis.metastatic_site == [create_body_site('Larynx')]
 
 def test_transform_gdc_data():
     """

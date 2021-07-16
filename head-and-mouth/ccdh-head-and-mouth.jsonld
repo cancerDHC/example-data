@@ -11,6 +11,14 @@
       "condition": {
         "text": "Adenocarcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -56,6 +64,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -180,6 +196,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -309,6 +333,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -433,6 +465,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -557,6 +597,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -681,6 +729,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -815,6 +871,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -929,6 +993,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1053,6 +1125,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1167,6 +1247,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1291,6 +1379,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1420,6 +1516,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1554,6 +1658,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1678,6 +1790,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1801,6 +1921,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1844,6 +1972,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1887,6 +2023,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1930,6 +2074,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -1973,6 +2125,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2016,6 +2176,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2059,6 +2227,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2102,6 +2278,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2145,6 +2329,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2188,6 +2380,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2231,6 +2431,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2274,6 +2482,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2317,6 +2533,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2360,6 +2584,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2403,6 +2635,14 @@
       "condition": {
         "text": "Adenocarcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2447,6 +2687,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2490,6 +2738,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2533,6 +2789,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2576,6 +2840,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2619,6 +2891,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2662,6 +2942,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2705,6 +2993,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2748,6 +3044,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2792,6 +3096,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2835,6 +3147,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2878,6 +3198,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2921,6 +3249,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -2965,6 +3301,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3009,6 +3353,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3052,6 +3404,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3095,6 +3455,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3138,6 +3506,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3181,6 +3557,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3224,6 +3608,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3267,6 +3659,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3310,6 +3710,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3353,6 +3761,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3396,6 +3812,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3439,6 +3863,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3482,6 +3914,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3525,6 +3965,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3568,6 +4016,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3611,6 +4067,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3654,6 +4118,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3697,6 +4169,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3741,6 +4221,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3784,6 +4272,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3827,6 +4323,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3870,6 +4374,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3914,6 +4426,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -3957,6 +4477,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4000,6 +4528,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4043,6 +4579,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4086,6 +4630,14 @@
       "condition": {
         "text": "Adenocarcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4130,6 +4682,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4173,6 +4733,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4216,6 +4784,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4259,6 +4835,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4302,6 +4886,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4345,6 +4937,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4388,6 +4988,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4432,6 +5040,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4476,6 +5092,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4560,6 +5184,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4684,6 +5316,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4768,6 +5408,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -4902,6 +5550,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5035,6 +5691,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5079,6 +5743,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5122,6 +5794,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5165,6 +5845,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5208,6 +5896,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5251,6 +5947,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5294,6 +5998,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5337,6 +6049,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5380,6 +6100,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5423,6 +6151,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5466,6 +6202,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5509,6 +6253,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5553,6 +6305,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5667,6 +6427,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5771,6 +6539,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -5910,6 +6686,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -6044,6 +6828,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -6168,6 +6960,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -6302,6 +7102,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -6406,6 +7214,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -6530,6 +7346,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -6659,6 +7483,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -6793,6 +7625,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -6907,6 +7747,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7030,6 +7878,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7073,6 +7929,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7116,6 +7980,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7159,6 +8031,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7202,6 +8082,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7245,6 +8133,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7289,6 +8185,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7423,6 +8327,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7547,6 +8459,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7680,6 +8600,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7723,6 +8651,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7766,6 +8702,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7810,6 +8754,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7854,6 +8806,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7897,6 +8857,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7940,6 +8908,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -7983,6 +8959,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8027,6 +9011,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8070,6 +9062,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8113,6 +9113,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8156,6 +9164,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8199,6 +9215,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8242,6 +9266,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8285,6 +9317,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8329,6 +9369,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8443,6 +9491,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8577,6 +9633,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8701,6 +9765,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8835,6 +9907,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -8958,6 +10038,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9001,6 +10089,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9044,6 +10140,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9087,6 +10191,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9130,6 +10242,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9174,6 +10294,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9298,6 +10426,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9392,6 +10528,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9516,6 +10660,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9640,6 +10792,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9764,6 +10924,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -9878,6 +11046,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -10002,6 +11178,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -10126,6 +11310,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -10260,6 +11452,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -10384,6 +11584,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -10508,6 +11716,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -10632,6 +11848,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -10756,6 +11980,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -10890,6 +12122,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11004,6 +12244,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11138,6 +12386,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11272,6 +12528,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11396,6 +12660,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11510,6 +12782,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11644,6 +12924,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11778,6 +13066,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11911,6 +13207,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11954,6 +13258,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -11997,6 +13309,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12040,6 +13360,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12083,6 +13411,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12126,6 +13462,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12169,6 +13513,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12212,6 +13564,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12256,6 +13616,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12299,6 +13667,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12343,6 +13719,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12387,6 +13771,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12430,6 +13822,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12473,6 +13873,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12516,6 +13924,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12560,6 +13976,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12603,6 +14027,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12646,6 +14078,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12689,6 +14129,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12732,6 +14180,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12775,6 +14231,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12818,6 +14282,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12861,6 +14333,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12904,6 +14384,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12947,6 +14435,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -12990,6 +14486,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13033,6 +14537,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13076,6 +14588,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13119,6 +14639,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13163,6 +14691,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13206,6 +14742,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13249,6 +14793,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13292,6 +14844,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13335,6 +14895,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13379,6 +14947,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13422,6 +14998,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13466,6 +15050,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13510,6 +15102,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13554,6 +15154,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13597,6 +15205,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13641,6 +15257,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13684,6 +15308,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13727,6 +15359,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13770,6 +15410,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13813,6 +15461,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13856,6 +15512,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13899,6 +15563,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13942,6 +15614,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -13985,6 +15665,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14028,6 +15716,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14071,6 +15767,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14114,6 +15818,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14157,6 +15869,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14200,6 +15920,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14243,6 +15971,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14286,6 +16022,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14329,6 +16073,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14372,6 +16124,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14415,6 +16175,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14458,6 +16226,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14501,6 +16277,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14544,6 +16328,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14588,6 +16380,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14631,6 +16431,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14674,6 +16482,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14718,6 +16534,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14761,6 +16585,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14804,6 +16636,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14847,6 +16687,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14891,6 +16739,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14934,6 +16790,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -14977,6 +16841,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15020,6 +16892,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15063,6 +16943,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15107,6 +16995,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15150,6 +17046,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15194,6 +17098,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15237,6 +17149,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15280,6 +17200,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15323,6 +17251,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15366,6 +17302,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15409,6 +17353,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15452,6 +17404,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15495,6 +17455,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15538,6 +17506,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15581,6 +17557,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15624,6 +17608,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15667,6 +17659,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15710,6 +17710,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15753,6 +17761,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15796,6 +17812,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15839,6 +17863,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15882,6 +17914,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15925,6 +17965,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -15969,6 +18017,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16013,6 +18069,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16057,6 +18121,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16100,6 +18172,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16144,6 +18224,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16188,6 +18276,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16231,6 +18327,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16274,6 +18378,14 @@
       "condition": {
         "text": "Adenocarcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16318,6 +18430,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16361,6 +18481,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16404,6 +18532,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16447,6 +18583,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16491,6 +18635,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16534,6 +18686,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16577,6 +18737,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16620,6 +18788,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16664,6 +18840,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16708,6 +18892,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16751,6 +18943,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16795,6 +18995,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16838,6 +19046,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16881,6 +19097,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16924,6 +19148,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -16967,6 +19199,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17010,6 +19250,14 @@
       "condition": {
         "text": "Adenocarcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17054,6 +19302,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17098,6 +19354,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17142,6 +19406,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17185,6 +19457,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17228,6 +19508,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17271,6 +19559,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17314,6 +19610,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17357,6 +19661,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17400,6 +19712,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17443,6 +19763,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17486,6 +19814,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17529,6 +19865,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17572,6 +19916,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17615,6 +19967,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17658,6 +20018,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17702,6 +20070,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17745,6 +20121,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17788,6 +20172,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17832,6 +20224,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17876,6 +20276,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17919,6 +20327,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -17962,6 +20378,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18005,6 +20429,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18048,6 +20480,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18091,6 +20531,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18134,6 +20582,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18179,6 +20635,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18313,6 +20777,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18427,6 +20899,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18531,6 +21011,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18645,6 +21133,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Palate",
+            "description": "Palate"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18769,6 +21265,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18853,6 +21357,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -18967,6 +21479,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19100,6 +21620,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19143,6 +21671,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19186,6 +21722,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19229,6 +21773,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19272,6 +21824,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19315,6 +21875,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19358,6 +21926,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19401,6 +21977,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19444,6 +22028,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19487,6 +22079,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19530,6 +22130,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19573,6 +22181,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19616,6 +22232,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19659,6 +22283,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19702,6 +22334,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19745,6 +22385,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19788,6 +22436,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19831,6 +22487,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19874,6 +22538,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19917,6 +22589,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -19960,6 +22640,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20003,6 +22691,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20046,6 +22742,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20089,6 +22793,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20132,6 +22844,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20176,6 +22896,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20219,6 +22947,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20262,6 +22998,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20306,6 +23050,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20349,6 +23101,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20392,6 +23152,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20435,6 +23203,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20478,6 +23254,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20521,6 +23305,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20564,6 +23356,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20608,6 +23408,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20732,6 +23540,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20837,6 +23653,14 @@
         "text": "Basaloid squamous cell carcinoma",
         "description": "Basaloid Squamous Cell Carcinoma"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -20951,6 +23775,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -21065,6 +23897,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -21199,6 +24039,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Palate",
+            "description": "Palate"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -21333,6 +24181,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -21417,6 +24273,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -21551,6 +24415,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -21665,6 +24537,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -21799,6 +24679,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -21913,6 +24801,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22041,6 +24937,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22084,6 +24988,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22127,6 +25039,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22170,6 +25090,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22213,6 +25141,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22257,6 +25193,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22300,6 +25244,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22344,6 +25296,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22387,6 +25347,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22430,6 +25398,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22473,6 +25449,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22516,6 +25500,14 @@
       "condition": {
         "text": "Malignant rhabdoid tumor"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22571,6 +25563,14 @@
       "condition": {
         "text": "Malignant rhabdoid tumor"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22615,6 +25615,14 @@
       "condition": {
         "text": "Malignant rhabdoid tumor"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22659,6 +25667,14 @@
       "condition": {
         "text": "Malignant rhabdoid tumor"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22714,6 +25730,14 @@
       "condition": {
         "text": "Malignant rhabdoid tumor"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22758,6 +25782,14 @@
       "condition": {
         "text": "Malignant rhabdoid tumor"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22813,6 +25845,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22857,6 +25897,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -22996,6 +26044,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23119,6 +26175,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23163,6 +26227,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23292,6 +26364,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23421,6 +26501,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Palate",
+            "description": "Palate"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23555,6 +26643,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23684,6 +26780,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23817,6 +26921,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23860,6 +26972,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23903,6 +27023,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23946,6 +27074,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -23990,6 +27126,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -24124,6 +27268,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -24248,6 +27400,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -24382,6 +27542,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -24516,6 +27684,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -24650,6 +27826,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -24754,6 +27938,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -24878,6 +28070,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Palate",
+            "description": "Palate"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -25003,6 +28203,14 @@
         "text": "Basaloid squamous cell carcinoma",
         "description": "Basaloid Squamous Cell Carcinoma"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -25137,6 +28345,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -25261,6 +28477,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -25375,6 +28599,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -25509,6 +28741,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -25643,6 +28883,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -25767,6 +29015,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -25891,6 +29147,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -26015,6 +29279,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -26139,6 +29411,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -26273,6 +29553,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -26407,6 +29695,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -26501,6 +29797,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -26615,6 +29919,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -26744,6 +30056,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -26878,6 +30198,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27012,6 +30340,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27136,6 +30472,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27240,6 +30584,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27374,6 +30726,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27498,6 +30858,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27627,6 +30995,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27731,6 +31107,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27855,6 +31239,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -27989,6 +31381,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, spindle cell"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -28123,6 +31523,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -28207,6 +31615,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -28331,6 +31747,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -28460,6 +31884,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -28584,6 +32016,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -28713,6 +32153,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -28847,6 +32295,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -28971,6 +32427,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -29105,6 +32569,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Lip",
+            "description": "Lip"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -29239,6 +32711,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -29363,6 +32843,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -29497,6 +32985,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -29631,6 +33127,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -29725,6 +33229,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -29849,6 +33361,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -29943,6 +33463,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30072,6 +33600,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30195,6 +33731,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30238,6 +33782,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30282,6 +33834,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30411,6 +33971,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30534,6 +34102,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30577,6 +34153,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30620,6 +34204,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30663,6 +34255,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30706,6 +34306,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30749,6 +34357,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30792,6 +34408,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30835,6 +34459,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30878,6 +34510,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30921,6 +34561,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -30964,6 +34612,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31007,6 +34663,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31050,6 +34714,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31093,6 +34765,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31137,6 +34817,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31180,6 +34868,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31223,6 +34919,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31266,6 +34970,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31309,6 +35021,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31352,6 +35072,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31395,6 +35123,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31438,6 +35174,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31481,6 +35225,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31524,6 +35276,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31569,6 +35329,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31703,6 +35471,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31827,6 +35603,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -31951,6 +35735,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -32075,6 +35867,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -32209,6 +36009,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -32338,6 +36146,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -32472,6 +36288,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -32566,6 +36390,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -32660,6 +36492,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -32744,6 +36584,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -32868,6 +36716,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33001,6 +36857,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33045,6 +36909,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33139,6 +37011,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33272,6 +37152,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33315,6 +37203,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33358,6 +37254,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33401,6 +37305,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33444,6 +37356,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33488,6 +37408,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33622,6 +37550,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33756,6 +37692,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -33885,6 +37829,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -34009,6 +37961,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -34133,6 +38093,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -34268,6 +38236,14 @@
         "text": "Basaloid squamous cell carcinoma",
         "description": "Basaloid Squamous Cell Carcinoma"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -34402,6 +38378,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -34536,6 +38520,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -34670,6 +38662,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -34799,6 +38799,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -34923,6 +38931,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35047,6 +39063,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35181,6 +39205,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35305,6 +39337,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35409,6 +39449,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35533,6 +39581,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35657,6 +39713,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35771,6 +39835,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35875,6 +39947,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -35999,6 +40079,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Palate",
+            "description": "Palate"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36123,6 +40211,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36247,6 +40343,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36371,6 +40475,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36495,6 +40607,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, large cell, nonkeratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36629,6 +40749,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36752,6 +40880,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36795,6 +40931,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36838,6 +40982,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36881,6 +41033,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36924,6 +41084,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -36967,6 +41135,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37010,6 +41186,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37053,6 +41237,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37097,6 +41289,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37140,6 +41340,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37184,6 +41392,14 @@
       "condition": {
         "text": "Carcinoma, undifferentiated, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37228,6 +41444,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37271,6 +41495,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37314,6 +41546,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37357,6 +41597,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37400,6 +41648,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37443,6 +41699,14 @@
       "condition": {
         "text": "Carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Nasopharynx",
+            "description": "Nasopharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37486,6 +41750,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37529,6 +41801,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37572,6 +41852,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37615,6 +41903,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37659,6 +41955,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37792,6 +42096,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Oropharynx",
+            "description": "Oropharynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37836,6 +42148,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -37940,6 +42260,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -38074,6 +42402,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -38203,6 +42539,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -38332,6 +42676,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -38456,6 +42808,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -38590,6 +42950,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -38725,6 +43093,14 @@
         "text": "Basaloid squamous cell carcinoma",
         "description": "Basaloid Squamous Cell Carcinoma"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -38859,6 +43235,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -38983,6 +43367,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -39117,6 +43509,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -39246,6 +43646,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, keratinizing, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -39380,6 +43788,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Gum",
+            "description": "Gingiva"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -39514,6 +43930,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -39639,6 +44063,14 @@
         "text": "Basaloid squamous cell carcinoma",
         "description": "Basaloid Squamous Cell Carcinoma"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -39773,6 +44205,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Tonsil",
+            "description": "Tonsil"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -39907,6 +44347,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -40040,6 +44488,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -40084,6 +44540,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -40218,6 +44682,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Hypopharynx",
+            "description": "Hypopharynx (Laryngopharynx)"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -40352,6 +44824,14 @@
       "condition": {
         "text": "Squamous cell carcinoma, NOS"
       },
+      "metastatic_site": [
+        {
+          "site": {
+            "text": "Larynx",
+            "description": "Larynx"
+          }
+        }
+      ],
       "stage": [
         {
           "observations": [
@@ -40471,7 +44951,7 @@
     }
   ],
   "@context": {
-    "_comments": "Auto generated from ccdhmodel.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2021-07-16 15:47\n    Schema: CRDC-H\n    \n    id: https://example.org/ccdh\n    description: \n    license: https://creativecommons.org/publicdomain/zero/1.0/\n    ",
+    "_comments": "Auto generated from ccdhmodel.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2021-07-16 16:11\n    Schema: CRDC-H\n    \n    id: https://example.org/ccdh\n    description: \n    license: https://creativecommons.org/publicdomain/zero/1.0/\n    ",
     "@context": {
       "GDC": "http://example.org/gdc/",
       "HTAN": "http://example.org/htan/",
