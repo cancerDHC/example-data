@@ -1,11 +1,16 @@
+import sys
+import os
 import json
 import pytest
 import logging
 import rdflib
 
-import ccdhmodel as ccdh
 from linkml.generators.jsonldcontextgen import ContextGenerator
 from linkml_runtime.dumpers import json_dumper
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+print(sys.path)
+from ccdh import ccdhmodel as ccdh
 
 
 def create_body_site(site_name):
