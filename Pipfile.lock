@@ -370,11 +370,11 @@
         },
         "ipykernel": {
             "hashes": [
-                "sha256:61792e0de765e8b258489715d81b0ff2e87ec0ed9f006bb20819c4d40586dc19",
-                "sha256:7fb3e370dbb481b012b74bed4e794d2d16eb2a83930b31e6d8d030b9fdb4d5b4"
+                "sha256:0df34a78c7e1422800d6078cde65ccdcdb859597046c338c759db4dbc535c58f",
+                "sha256:9f9f41a14caf2fde2b7802446adf83885afcbf50585a46d6c687292599a3c3af"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==6.0.2"
+            "version": "==6.0.3"
         },
         "ipython": {
             "hashes": [
@@ -494,19 +494,19 @@
         },
         "linkml": {
             "hashes": [
-                "sha256:42ca795e3058783436e5d8b13bd3562254d90cf18ec8559528f3f370fd17fbf4",
-                "sha256:b44b8b12d756faaad269e8c86d92d98756a1af58f92d1658ec125baa6d8ccec3"
+                "sha256:1e615f6a2a01ce6a5315ed0d1063960b984d39070f9a0b9454596f661335ecbe",
+                "sha256:a6479b71d1563a3f8336b0bcd8c4b4112d0cf83ae51dd8c1d0448e556b9b7671"
             ],
             "index": "pypi",
-            "version": "==1.0.1"
+            "version": "==1.0.3"
         },
         "linkml-runtime": {
             "hashes": [
-                "sha256:41a25481efeebf08b9cff9791ba501fe70a81e082bf1d059ac5f9e58b5b1d4d1",
-                "sha256:9c92d3f4dc630bb4950da7df07a4ba14f27f30555129d7c52b980f265dfc1360"
+                "sha256:aa7e11e64d4c20f3a5e7d3495488f73a196102b0fe52033fc28169f16f4057b2",
+                "sha256:f1d8826dffcfd19147df2e51ce7af829637086f9b5891619174a5c5593608001"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==1.0.10"
+            "version": "==1.0.11"
         },
         "lxml": {
             "hashes": [
