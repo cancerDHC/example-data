@@ -1,5 +1,5 @@
 # Auto generated from ccdhmodel.yaml by pythongen.py version: 0.9.0
-# Generation date: 2021-05-31 20:50
+# Generation date: 2021-07-21 16:29
 # Schema: CRDC-H
 #
 # id: https://example.org/ccdh
@@ -9,20 +9,21 @@
 import dataclasses
 import sys
 import re
+from jsonasobj2 import JsonObj, as_dict
 from typing import Optional, List, Union, Dict, ClassVar, Any
 from dataclasses import dataclass
-from linkml_model.meta import EnumDefinition, PermissibleValue, PvFormulaOptions
+from linkml_runtime.linkml_model.meta import EnumDefinition, PermissibleValue, PvFormulaOptions
 
-from linkml.utils.slot import Slot
-from linkml.utils.metamodelcore import empty_list, empty_dict, bnode
-from linkml.utils.yamlutils import YAMLRoot, extended_str, extended_float, extended_int
-from linkml.utils.dataclass_extensions_376 import dataclasses_init_fn_with_kwargs
-from linkml.utils.formatutils import camelcase, underscore, sfx
-from linkml.utils.enumerations import EnumDefinitionImpl
+from linkml_runtime.utils.slot import Slot
+from linkml_runtime.utils.metamodelcore import empty_list, empty_dict, bnode
+from linkml_runtime.utils.yamlutils import YAMLRoot, extended_str, extended_float, extended_int
+from linkml_runtime.utils.dataclass_extensions_376 import dataclasses_init_fn_with_kwargs
+from linkml_runtime.utils.formatutils import camelcase, underscore, sfx
+from linkml_runtime.utils.enumerations import EnumDefinitionImpl
 from rdflib import Namespace, URIRef
-from linkml.utils.curienamespace import CurieNamespace
-from linkml.utils.metamodelcore import Bool, Decimal, URIorCURIE, XSDDateTime
-from linkml_model.types import Boolean, Datetime, Decimal, Integer, String, Uriorcurie
+from linkml_runtime.utils.curienamespace import CurieNamespace
+from linkml_runtime.linkml_model.types import Boolean, Datetime, Decimal, Integer, String, Uriorcurie
+from linkml_runtime.utils.metamodelcore import Bool, Decimal, URIorCURIE, XSDDateTime
 
 metamodel_version = "1.7.0"
 
@@ -137,8 +138,8 @@ class AlcoholExposureObservation(Entity):
     valueCodeableConcept: Optional[Union[str, "EnumCCDHAlcoholExposureObservationValueCodeableConcept"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHAlcoholExposureObservationObservationType):
             self.observation_type = EnumCCDHAlcoholExposureObservationObservationType(self.observation_type)
 
@@ -155,10 +156,10 @@ class AlcoholExposureObservation(Entity):
             self.focus = Entity()
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         if self.valueInteger is not None and not isinstance(self.valueInteger, CcdhInteger):
             self.valueInteger = CcdhInteger(self.valueInteger)
@@ -187,15 +188,13 @@ class BodySite(Entity):
     qualifier: Optional[Union[Union[str, "EnumCCDHBodySiteQualifier"], List[Union[str, "EnumCCDHBodySiteQualifier"]]]] = empty_list()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.site is None:
-            raise ValueError("site must be supplied")
+        if self._is_empty(self.site):
+            self.MissingRequiredField("site")
         if not isinstance(self.site, EnumCCDHBodySiteSite):
             self.site = EnumCCDHBodySiteSite(self.site)
 
-        if self.qualifier is None:
-            self.qualifier = []
         if not isinstance(self.qualifier, list):
-            self.qualifier = [self.qualifier]
+            self.qualifier = [self.qualifier] if self.qualifier is not None else []
         self.qualifier = [v if isinstance(v, EnumCCDHBodySiteQualifier) else EnumCCDHBodySiteQualifier(v) for v in self.qualifier]
 
         super().__post_init__(**kwargs)
@@ -225,11 +224,7 @@ class BiologicProduct(Entity):
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.description is not None and not isinstance(self.description, CcdhString):
             self.description = CcdhString(self.description)
@@ -237,16 +232,12 @@ class BiologicProduct(Entity):
         if self.product_type is not None and not isinstance(self.product_type, EnumCCDHBiologicProductProductType):
             self.product_type = EnumCCDHBiologicProductProductType(self.product_type)
 
-        if self.passage_number is None:
-            self.passage_number = []
         if not isinstance(self.passage_number, list):
-            self.passage_number = [self.passage_number]
+            self.passage_number = [self.passage_number] if self.passage_number is not None else []
         self.passage_number = [v if isinstance(v, CcdhInteger) else CcdhInteger(v) for v in self.passage_number]
 
-        if self.growth_rate is None:
-            self.growth_rate = []
         if not isinstance(self.growth_rate, list):
-            self.growth_rate = [self.growth_rate]
+            self.growth_rate = [self.growth_rate] if self.growth_rate is not None else []
         self.growth_rate = [v if isinstance(v, CcdhString) else CcdhString(v) for v in self.growth_rate]
 
         super().__post_init__(**kwargs)
@@ -274,13 +265,13 @@ class CancerGradeObservation(Entity):
     subject: Optional[Union[dict, "Subject"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHCancerGradeObservationObservationType):
             self.observation_type = EnumCCDHCancerGradeObservationObservationType(self.observation_type)
 
-        if self.valueCodeableConcept is None:
-            raise ValueError("valueCodeableConcept must be supplied")
+        if self._is_empty(self.valueCodeableConcept):
+            self.MissingRequiredField("valueCodeableConcept")
         if not isinstance(self.valueCodeableConcept, EnumCCDHCancerGradeObservationValueCodeableConcept):
             self.valueCodeableConcept = EnumCCDHCancerGradeObservationValueCodeableConcept(self.valueCodeableConcept)
 
@@ -297,7 +288,7 @@ class CancerGradeObservation(Entity):
             self.focus = Entity()
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         super().__post_init__(**kwargs)
 
@@ -330,29 +321,21 @@ class CancerGradeObservationSet(Entity):
         if self.category is not None and not isinstance(self.category, EnumCCDHCancerGradeObservationSetCategory):
             self.category = EnumCCDHCancerGradeObservationSetCategory(self.category)
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHCancerGradeObservationSetMethodType) else EnumCCDHCancerGradeObservationSetMethodType(v) for v in self.method_type]
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
-        if self.observations is None:
-            self.observations = []
-        if not isinstance(self.observations, list):
-            self.observations = [self.observations]
-        self._normalize_inlined_slot(slot_name="observations", slot_type=CancerGradeObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="observations", slot_type=CancerGradeObservation, key_name="observation_type", keyed=False)
 
         super().__post_init__(**kwargs)
 
@@ -381,13 +364,13 @@ class CancerStageObservation(Entity):
     valueEntity: Optional[Union[dict, "Entity"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHCancerStageObservationObservationType):
             self.observation_type = EnumCCDHCancerStageObservationObservationType(self.observation_type)
 
-        if self.valueCodeableConcept is None:
-            raise ValueError("valueCodeableConcept must be supplied")
+        if self._is_empty(self.valueCodeableConcept):
+            self.MissingRequiredField("valueCodeableConcept")
         if not isinstance(self.valueCodeableConcept, EnumCCDHCancerStageObservationValueCodeableConcept):
             self.valueCodeableConcept = EnumCCDHCancerStageObservationValueCodeableConcept(self.valueCodeableConcept)
 
@@ -404,10 +387,10 @@ class CancerStageObservation(Entity):
             self.focus = Entity()
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         if self.valueEntity is not None and not isinstance(self.valueEntity, Entity):
             self.valueEntity = Entity()
@@ -443,29 +426,21 @@ class CancerStageObservationSet(Entity):
         if self.category is not None and not isinstance(self.category, EnumCCDHCancerStageObservationSetCategory):
             self.category = EnumCCDHCancerStageObservationSetCategory(self.category)
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHCancerStageObservationSetMethodType) else EnumCCDHCancerStageObservationSetMethodType(v) for v in self.method_type]
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
-        if self.observations is None:
-            self.observations = []
-        if not isinstance(self.observations, list):
-            self.observations = [self.observations]
-        self._normalize_inlined_slot(slot_name="observations", slot_type=CancerStageObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="observations", slot_type=CancerStageObservation, key_name="observation_type", keyed=False)
 
         super().__post_init__(**kwargs)
 
@@ -487,11 +462,7 @@ class CodeableConcept(Entity):
     text: Optional[Union[str, CcdhString]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.coding is None:
-            self.coding = []
-        if not isinstance(self.coding, list):
-            self.coding = [self.coding]
-        self._normalize_inlined_slot(slot_name="coding", slot_type=Coding, key_name="code", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="coding", slot_type=Coding, key_name="code", keyed=False)
 
         if self.text is not None and not isinstance(self.text, CcdhString):
             self.text = CcdhString(self.text)
@@ -519,13 +490,13 @@ class Coding(Entity):
     systemVersion: Optional[Union[str, CcdhString]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.code is None:
-            raise ValueError("code must be supplied")
+        if self._is_empty(self.code):
+            self.MissingRequiredField("code")
         if not isinstance(self.code, CcdhString):
             self.code = CcdhString(self.code)
 
-        if self.system is None:
-            raise ValueError("system must be supplied")
+        if self._is_empty(self.system):
+            self.MissingRequiredField("system")
         if not isinstance(self.system, CcdhString):
             self.system = CcdhString(self.system)
 
@@ -569,24 +540,20 @@ class Diagnosis(Entity):
     prior_diagnosis: Optional[Union[dict, "Diagnosis"]] = None
     method_of_diagnosis: Optional[Union[str, "EnumCCDHDiagnosisMethodOfDiagnosis"]] = None
     related_specimen: Optional[Union[Union[dict, "Specimen"], List[Union[dict, "Specimen"]]]] = empty_list()
-    dimensional_measure: Optional[Union[dict, "DimensionalObservationSet"]] = None
+    primary_tumor_dimensional_measures: Optional[Union[dict, "DimensionalObservationSet"]] = None
     supporting_observation: Optional[Union[Union[dict, "Observation"], List[Union[dict, "Observation"]]]] = empty_list()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.age_at_diagnosis is not None and not isinstance(self.age_at_diagnosis, Quantity):
-            self.age_at_diagnosis = Quantity(**self.age_at_diagnosis)
+            self.age_at_diagnosis = Quantity(**as_dict(self.age_at_diagnosis))
 
         if self.year_at_diagnosis is not None and not isinstance(self.year_at_diagnosis, CcdhInteger):
             self.year_at_diagnosis = CcdhInteger(self.year_at_diagnosis)
@@ -594,29 +561,17 @@ class Diagnosis(Entity):
         if self.condition is not None and not isinstance(self.condition, EnumCCDHDiagnosisCondition):
             self.condition = EnumCCDHDiagnosisCondition(self.condition)
 
-        if self.primary_site is None:
-            self.primary_site = []
-        if not isinstance(self.primary_site, list):
-            self.primary_site = [self.primary_site]
-        self._normalize_inlined_slot(slot_name="primary_site", slot_type=BodySite, key_name="site", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="primary_site", slot_type=BodySite, key_name="site", keyed=False)
 
-        if self.metastatic_site is None:
-            self.metastatic_site = []
-        if not isinstance(self.metastatic_site, list):
-            self.metastatic_site = [self.metastatic_site]
-        self._normalize_inlined_slot(slot_name="metastatic_site", slot_type=BodySite, key_name="site", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="metastatic_site", slot_type=BodySite, key_name="site", keyed=False)
 
-        if self.stage is None:
-            self.stage = []
         if not isinstance(self.stage, list):
-            self.stage = [self.stage]
-        self.stage = [v if isinstance(v, CancerStageObservationSet) else CancerStageObservationSet(**v) for v in self.stage]
+            self.stage = [self.stage] if self.stage is not None else []
+        self.stage = [v if isinstance(v, CancerStageObservationSet) else CancerStageObservationSet(**as_dict(v)) for v in self.stage]
 
-        if self.grade is None:
-            self.grade = []
         if not isinstance(self.grade, list):
-            self.grade = [self.grade]
-        self.grade = [v if isinstance(v, CancerGradeObservationSet) else CancerGradeObservationSet(**v) for v in self.grade]
+            self.grade = [self.grade] if self.grade is not None else []
+        self.grade = [v if isinstance(v, CancerGradeObservationSet) else CancerGradeObservationSet(**as_dict(v)) for v in self.grade]
 
         if self.morphology is not None and not isinstance(self.morphology, EnumCCDHDiagnosisMorphology):
             self.morphology = EnumCCDHDiagnosisMorphology(self.morphology)
@@ -625,25 +580,19 @@ class Diagnosis(Entity):
             self.disease_status = EnumCCDHDiagnosisDiseaseStatus(self.disease_status)
 
         if self.prior_diagnosis is not None and not isinstance(self.prior_diagnosis, Diagnosis):
-            self.prior_diagnosis = Diagnosis(**self.prior_diagnosis)
+            self.prior_diagnosis = Diagnosis(**as_dict(self.prior_diagnosis))
 
         if self.method_of_diagnosis is not None and not isinstance(self.method_of_diagnosis, EnumCCDHDiagnosisMethodOfDiagnosis):
             self.method_of_diagnosis = EnumCCDHDiagnosisMethodOfDiagnosis(self.method_of_diagnosis)
 
-        if self.related_specimen is None:
-            self.related_specimen = []
         if not isinstance(self.related_specimen, list):
-            self.related_specimen = [self.related_specimen]
-        self.related_specimen = [v if isinstance(v, Specimen) else Specimen(**v) for v in self.related_specimen]
+            self.related_specimen = [self.related_specimen] if self.related_specimen is not None else []
+        self.related_specimen = [v if isinstance(v, Specimen) else Specimen(**as_dict(v)) for v in self.related_specimen]
 
-        if self.dimensional_measure is not None and not isinstance(self.dimensional_measure, DimensionalObservationSet):
-            self.dimensional_measure = DimensionalObservationSet(**self.dimensional_measure)
+        if self.primary_tumor_dimensional_measures is not None and not isinstance(self.primary_tumor_dimensional_measures, DimensionalObservationSet):
+            self.primary_tumor_dimensional_measures = DimensionalObservationSet(**as_dict(self.primary_tumor_dimensional_measures))
 
-        if self.supporting_observation is None:
-            self.supporting_observation = []
-        if not isinstance(self.supporting_observation, list):
-            self.supporting_observation = [self.supporting_observation]
-        self._normalize_inlined_slot(slot_name="supporting_observation", slot_type=Observation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="supporting_observation", slot_type=Observation, key_name="observation_type", keyed=False)
 
         super().__post_init__(**kwargs)
 
@@ -668,17 +617,18 @@ class DimensionalObservation(Entity):
     method_type: Optional[Union[Union[str, "EnumCCDHDimensionalObservationMethodType"], List[Union[str, "EnumCCDHDimensionalObservationMethodType"]]]] = empty_list()
     focus: Optional[Union[Union[dict, "Entity"], List[Union[dict, "Entity"]]]] = empty_list()
     subject: Optional[Union[dict, "Subject"]] = None
+    performed_by: Optional[Union[dict, "Organization"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHDimensionalObservationObservationType):
             self.observation_type = EnumCCDHDimensionalObservationObservationType(self.observation_type)
 
-        if self.valueQuantity is None:
-            raise ValueError("valueQuantity must be supplied")
+        if self._is_empty(self.valueQuantity):
+            self.MissingRequiredField("valueQuantity")
         if not isinstance(self.valueQuantity, Quantity):
-            self.valueQuantity = Quantity(**self.valueQuantity)
+            self.valueQuantity = Quantity(**as_dict(self.valueQuantity))
 
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
@@ -686,20 +636,19 @@ class DimensionalObservation(Entity):
         if self.category is not None and not isinstance(self.category, EnumCCDHDimensionalObservationCategory):
             self.category = EnumCCDHDimensionalObservationCategory(self.category)
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHDimensionalObservationMethodType) else EnumCCDHDimensionalObservationMethodType(v) for v in self.method_type]
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
+
+        if self.performed_by is not None and not isinstance(self.performed_by, Organization):
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         super().__post_init__(**kwargs)
 
@@ -731,29 +680,21 @@ class DimensionalObservationSet(Entity):
         if self.category is not None and not isinstance(self.category, EnumCCDHDimensionalObservationSetCategory):
             self.category = EnumCCDHDimensionalObservationSetCategory(self.category)
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHDimensionalObservationSetMethodType) else EnumCCDHDimensionalObservationSetMethodType(v) for v in self.method_type]
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
-        if self.observations is None:
-            self.observations = []
-        if not isinstance(self.observations, list):
-            self.observations = [self.observations]
-        self._normalize_inlined_slot(slot_name="observations", slot_type=DimensionalObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="observations", slot_type=DimensionalObservation, key_name="observation_type", keyed=False)
 
         super().__post_init__(**kwargs)
 
@@ -781,11 +722,7 @@ class Document(Entity):
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.document_type is not None and not isinstance(self.document_type, EnumCCDHDocumentDocumentType):
             self.document_type = EnumCCDHDocumentDocumentType(self.document_type)
@@ -796,10 +733,8 @@ class Document(Entity):
         if self.focus is not None and not isinstance(self.focus, Entity):
             self.focus = Entity()
 
-        if self.url is None:
-            self.url = []
         if not isinstance(self.url, list):
-            self.url = [self.url]
+            self.url = [self.url] if self.url is not None else []
         self.url = [v if isinstance(v, CcdhString) else CcdhString(v) for v in self.url]
 
         super().__post_init__(**kwargs)
@@ -828,13 +763,13 @@ class EnvironmentalExposureObservation(Entity):
     performed_by: Optional[Union[dict, "Organization"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHEnvironmentalExposureObservationObservationType):
             self.observation_type = EnumCCDHEnvironmentalExposureObservationObservationType(self.observation_type)
 
-        if self.valueCodeableConcept is None:
-            raise ValueError("valueCodeableConcept must be supplied")
+        if self._is_empty(self.valueCodeableConcept):
+            self.MissingRequiredField("valueCodeableConcept")
         if not isinstance(self.valueCodeableConcept, EnumCCDHEnvironmentalExposureObservationValueCodeableConcept):
             self.valueCodeableConcept = EnumCCDHEnvironmentalExposureObservationValueCodeableConcept(self.valueCodeableConcept)
 
@@ -851,10 +786,10 @@ class EnvironmentalExposureObservation(Entity):
             self.focus = Entity()
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         super().__post_init__(**kwargs)
 
@@ -885,15 +820,15 @@ class ExecutionTimeObservation(Entity):
     performed_by: Optional[Union[dict, "Organization"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHExecutionTimeObservationObservationType):
             self.observation_type = EnumCCDHExecutionTimeObservationObservationType(self.observation_type)
 
-        if self.valueQuantity is None:
-            raise ValueError("valueQuantity must be supplied")
+        if self._is_empty(self.valueQuantity):
+            self.MissingRequiredField("valueQuantity")
         if not isinstance(self.valueQuantity, Quantity):
-            self.valueQuantity = Quantity(**self.valueQuantity)
+            self.valueQuantity = Quantity(**as_dict(self.valueQuantity))
 
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
@@ -908,10 +843,10 @@ class ExecutionTimeObservation(Entity):
             self.focus = Entity()
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         super().__post_init__(**kwargs)
 
@@ -942,13 +877,13 @@ class ExecutionConditionObservation(Entity):
     performed_by: Optional[Union[dict, "Organization"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHExecutionConditionObservationObservationType):
             self.observation_type = EnumCCDHExecutionConditionObservationObservationType(self.observation_type)
 
-        if self.valueCodeableConcept is None:
-            raise ValueError("valueCodeableConcept must be supplied")
+        if self._is_empty(self.valueCodeableConcept):
+            self.MissingRequiredField("valueCodeableConcept")
         if not isinstance(self.valueCodeableConcept, EnumCCDHExecutionConditionObservationValueCodeableConcept):
             self.valueCodeableConcept = EnumCCDHExecutionConditionObservationValueCodeableConcept(self.valueCodeableConcept)
 
@@ -965,10 +900,10 @@ class ExecutionConditionObservation(Entity):
             self.focus = Entity()
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         super().__post_init__(**kwargs)
 
@@ -994,37 +929,21 @@ class Exposure(Entity):
     subject: Optional[Union[dict, "Subject"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
-        if self.tobacco_exposure is None:
-            self.tobacco_exposure = []
-        if not isinstance(self.tobacco_exposure, list):
-            self.tobacco_exposure = [self.tobacco_exposure]
-        self._normalize_inlined_slot(slot_name="tobacco_exposure", slot_type=TobaccoExposureObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="tobacco_exposure", slot_type=TobaccoExposureObservation, key_name="observation_type", keyed=False)
 
-        if self.alcohol_exposure is None:
-            self.alcohol_exposure = []
-        if not isinstance(self.alcohol_exposure, list):
-            self.alcohol_exposure = [self.alcohol_exposure]
-        self._normalize_inlined_slot(slot_name="alcohol_exposure", slot_type=AlcoholExposureObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="alcohol_exposure", slot_type=AlcoholExposureObservation, key_name="observation_type", keyed=False)
 
-        if self.environmental_exposure is None:
-            self.environmental_exposure = []
-        if not isinstance(self.environmental_exposure, list):
-            self.environmental_exposure = [self.environmental_exposure]
-        self._normalize_inlined_slot(slot_name="environmental_exposure", slot_type=EnvironmentalExposureObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="environmental_exposure", slot_type=EnvironmentalExposureObservation, key_name="observation_type", keyed=False)
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         super().__post_init__(**kwargs)
 
@@ -1053,15 +972,15 @@ class HistologicalCompositionObservation(Entity):
     performed_by: Optional[Union[dict, "Organization"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHHistologicalCompositionObservationObservationType):
             self.observation_type = EnumCCDHHistologicalCompositionObservationObservationType(self.observation_type)
 
-        if self.valueQuantity is None:
-            raise ValueError("valueQuantity must be supplied")
+        if self._is_empty(self.valueQuantity):
+            self.MissingRequiredField("valueQuantity")
         if not isinstance(self.valueQuantity, Quantity):
-            self.valueQuantity = Quantity(**self.valueQuantity)
+            self.valueQuantity = Quantity(**as_dict(self.valueQuantity))
 
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
@@ -1069,23 +988,19 @@ class HistologicalCompositionObservation(Entity):
         if self.category is not None and not isinstance(self.category, EnumCCDHHistologicalCompositionObservationCategory):
             self.category = EnumCCDHHistologicalCompositionObservationCategory(self.category)
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHHistologicalCompositionObservationMethodType) else EnumCCDHHistologicalCompositionObservationMethodType(v) for v in self.method_type]
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         super().__post_init__(**kwargs)
 
@@ -1113,39 +1028,31 @@ class HistologicalCompositionObservationSet(Entity):
     observations: Optional[Union[Union[dict, HistologicalCompositionObservation], List[Union[dict, HistologicalCompositionObservation]]]] = empty_list()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.category is None:
-            raise ValueError("category must be supplied")
+        if self._is_empty(self.category):
+            self.MissingRequiredField("category")
         if not isinstance(self.category, EnumCCDHHistologicalCompositionObservationSetCategory):
             self.category = EnumCCDHHistologicalCompositionObservationSetCategory(self.category)
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHHistologicalCompositionObservationSetMethodType) else EnumCCDHHistologicalCompositionObservationSetMethodType(v) for v in self.method_type]
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
-        if self.observations is None:
-            self.observations = []
-        if not isinstance(self.observations, list):
-            self.observations = [self.observations]
-        self._normalize_inlined_slot(slot_name="observations", slot_type=HistologicalCompositionObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="observations", slot_type=HistologicalCompositionObservation, key_name="observation_type", keyed=False)
 
         super().__post_init__(**kwargs)
 
@@ -1167,8 +1074,8 @@ class Identifier(Entity):
     type: Optional[Union[str, "EnumCCDHIdentifierType"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.value is None:
-            raise ValueError("value must be supplied")
+        if self._is_empty(self.value):
+            self.MissingRequiredField("value")
         if not isinstance(self.value, CcdhString):
             self.value = CcdhString(self.value)
 
@@ -1211,8 +1118,8 @@ class Observation(Entity):
     valueCodeableConcept: Optional[Union[str, "EnumCCDHObservationValueCodeableConcept"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHObservationObservationType):
             self.observation_type = EnumCCDHObservationObservationType(self.observation_type)
 
@@ -1222,23 +1129,19 @@ class Observation(Entity):
         if self.category is not None and not isinstance(self.category, EnumCCDHObservationCategory):
             self.category = EnumCCDHObservationCategory(self.category)
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHObservationMethodType) else EnumCCDHObservationMethodType(v) for v in self.method_type]
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         if self.valueEntity is not None and not isinstance(self.valueEntity, Entity):
             self.valueEntity = Entity()
@@ -1259,7 +1162,7 @@ class Observation(Entity):
             self.valueDateTime = CcdhDateTime(self.valueDateTime)
 
         if self.valueQuantity is not None and not isinstance(self.valueQuantity, Quantity):
-            self.valueQuantity = Quantity(**self.valueQuantity)
+            self.valueQuantity = Quantity(**as_dict(self.valueQuantity))
 
         if self.valueCodeableConcept is not None and not isinstance(self.valueCodeableConcept, EnumCCDHObservationValueCodeableConcept):
             self.valueCodeableConcept = EnumCCDHObservationValueCodeableConcept(self.valueCodeableConcept)
@@ -1289,39 +1192,31 @@ class ObservationSet(Entity):
     observations: Optional[Union[Union[dict, Observation], List[Union[dict, Observation]]]] = empty_list()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.category is None:
-            raise ValueError("category must be supplied")
+        if self._is_empty(self.category):
+            self.MissingRequiredField("category")
         if not isinstance(self.category, EnumCCDHObservationSetCategory):
             self.category = EnumCCDHObservationSetCategory(self.category)
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHObservationSetMethodType) else EnumCCDHObservationSetMethodType(v) for v in self.method_type]
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
-        if self.observations is None:
-            self.observations = []
-        if not isinstance(self.observations, list):
-            self.observations = [self.observations]
-        self._normalize_inlined_slot(slot_name="observations", slot_type=Observation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="observations", slot_type=Observation, key_name="observation_type", keyed=False)
 
         super().__post_init__(**kwargs)
 
@@ -1346,16 +1241,12 @@ class Organization(Entity):
     organization_type: Optional[Union[str, CcdhString]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.name is not None and not isinstance(self.name, CcdhString):
             self.name = CcdhString(self.name)
@@ -1432,19 +1323,15 @@ class ResearchProject(Entity):
     associated_timepoint: Optional[Union[Union[dict, "TimePoint"], List[Union[dict, "TimePoint"]]]] = empty_list()
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.research_project_type is None:
-            raise ValueError("research_project_type must be supplied")
+        if self._is_empty(self.research_project_type):
+            self.MissingRequiredField("research_project_type")
         if not isinstance(self.research_project_type, EnumCCDHResearchProjectResearchProjectType):
             self.research_project_type = EnumCCDHResearchProjectResearchProjectType(self.research_project_type)
 
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.name is not None and not isinstance(self.name, CcdhString):
             self.name = CcdhString(self.name)
@@ -1458,41 +1345,27 @@ class ResearchProject(Entity):
         if self.description_shortened is not None and not isinstance(self.description_shortened, CcdhString):
             self.description_shortened = CcdhString(self.description_shortened)
 
-        if self.sponsor is None:
-            self.sponsor = []
         if not isinstance(self.sponsor, list):
-            self.sponsor = [self.sponsor]
+            self.sponsor = [self.sponsor] if self.sponsor is not None else []
         self.sponsor = [v if isinstance(v, CcdhString) else CcdhString(v) for v in self.sponsor]
 
         if self.date_started is not None and not isinstance(self.date_started, TimePoint):
-            self.date_started = TimePoint(**self.date_started)
+            self.date_started = TimePoint(**as_dict(self.date_started))
 
         if self.date_ended is not None and not isinstance(self.date_ended, TimePoint):
-            self.date_ended = TimePoint(**self.date_ended)
+            self.date_ended = TimePoint(**as_dict(self.date_ended))
 
-        if self.primary_anatomic_site is None:
-            self.primary_anatomic_site = []
-        if not isinstance(self.primary_anatomic_site, list):
-            self.primary_anatomic_site = [self.primary_anatomic_site]
-        self._normalize_inlined_slot(slot_name="primary_anatomic_site", slot_type=BodySite, key_name="site", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="primary_anatomic_site", slot_type=BodySite, key_name="site", keyed=False)
 
-        if self.url is None:
-            self.url = []
         if not isinstance(self.url, list):
-            self.url = [self.url]
+            self.url = [self.url] if self.url is not None else []
         self.url = [v if isinstance(v, CcdhString) else CcdhString(v) for v in self.url]
 
-        if self.part_of is None:
-            self.part_of = []
-        if not isinstance(self.part_of, list):
-            self.part_of = [self.part_of]
-        self._normalize_inlined_slot(slot_name="part_of", slot_type=ResearchProject, key_name="research_project_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="part_of", slot_type=ResearchProject, key_name="research_project_type", keyed=False)
 
-        if self.associated_timepoint is None:
-            self.associated_timepoint = []
         if not isinstance(self.associated_timepoint, list):
-            self.associated_timepoint = [self.associated_timepoint]
-        self.associated_timepoint = [v if isinstance(v, TimePoint) else TimePoint(**v) for v in self.associated_timepoint]
+            self.associated_timepoint = [self.associated_timepoint] if self.associated_timepoint is not None else []
+        self.associated_timepoint = [v if isinstance(v, TimePoint) else TimePoint(**as_dict(v)) for v in self.associated_timepoint]
 
         super().__post_init__(**kwargs)
 
@@ -1526,54 +1399,46 @@ class ResearchSubject(Entity):
     originating_site: Optional[Union[dict, Organization]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.associated_subject is None:
-            raise ValueError("associated_subject must be supplied")
+        if self._is_empty(self.associated_subject):
+            self.MissingRequiredField("associated_subject")
         if not isinstance(self.associated_subject, Subject):
-            self.associated_subject = Subject(**self.associated_subject)
+            self.associated_subject = Subject(**as_dict(self.associated_subject))
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.description is not None and not isinstance(self.description, CcdhString):
             self.description = CcdhString(self.description)
 
         if self.member_of_research_project is not None and not isinstance(self.member_of_research_project, ResearchProject):
-            self.member_of_research_project = ResearchProject(**self.member_of_research_project)
+            self.member_of_research_project = ResearchProject(**as_dict(self.member_of_research_project))
 
         if self.age_at_enrollment is not None and not isinstance(self.age_at_enrollment, Quantity):
-            self.age_at_enrollment = Quantity(**self.age_at_enrollment)
+            self.age_at_enrollment = Quantity(**as_dict(self.age_at_enrollment))
 
         if self.primary_diagnosis_condition is not None and not isinstance(self.primary_diagnosis_condition, EnumCCDHResearchSubjectPrimaryDiagnosisCondition):
             self.primary_diagnosis_condition = EnumCCDHResearchSubjectPrimaryDiagnosisCondition(self.primary_diagnosis_condition)
 
         if self.primary_diagnosis_site is not None and not isinstance(self.primary_diagnosis_site, BodySite):
-            self.primary_diagnosis_site = BodySite(**self.primary_diagnosis_site)
+            self.primary_diagnosis_site = BodySite(**as_dict(self.primary_diagnosis_site))
 
-        if self.primary_diagnosis is None:
-            self.primary_diagnosis = []
         if not isinstance(self.primary_diagnosis, list):
-            self.primary_diagnosis = [self.primary_diagnosis]
-        self.primary_diagnosis = [v if isinstance(v, Diagnosis) else Diagnosis(**v) for v in self.primary_diagnosis]
+            self.primary_diagnosis = [self.primary_diagnosis] if self.primary_diagnosis is not None else []
+        self.primary_diagnosis = [v if isinstance(v, Diagnosis) else Diagnosis(**as_dict(v)) for v in self.primary_diagnosis]
 
-        if self.comorbid_diagnosis is None:
-            self.comorbid_diagnosis = []
         if not isinstance(self.comorbid_diagnosis, list):
-            self.comorbid_diagnosis = [self.comorbid_diagnosis]
-        self.comorbid_diagnosis = [v if isinstance(v, Diagnosis) else Diagnosis(**v) for v in self.comorbid_diagnosis]
+            self.comorbid_diagnosis = [self.comorbid_diagnosis] if self.comorbid_diagnosis is not None else []
+        self.comorbid_diagnosis = [v if isinstance(v, Diagnosis) else Diagnosis(**as_dict(v)) for v in self.comorbid_diagnosis]
 
         if self.index_timepoint is not None and not isinstance(self.index_timepoint, EnumCCDHResearchSubjectIndexTimepoint):
             self.index_timepoint = EnumCCDHResearchSubjectIndexTimepoint(self.index_timepoint)
 
         if self.originating_site is not None and not isinstance(self.originating_site, Organization):
-            self.originating_site = Organization(**self.originating_site)
+            self.originating_site = Organization(**as_dict(self.originating_site))
 
         super().__post_init__(**kwargs)
 
@@ -1601,18 +1466,17 @@ class Specimen(Entity):
     source_material_type: Optional[Union[str, "EnumCCDHSpecimenSourceMaterialType"]] = None
     parent_specimen: Optional[Union[Union[dict, "Specimen"], List[Union[dict, "Specimen"]]]] = empty_list()
     source_subject: Optional[Union[dict, "Subject"]] = None
-    source_model_system: Optional[Union[dict, Entity]] = None
     tumor_status_at_collection: Optional[Union[str, "EnumCCDHSpecimenTumorStatusAtCollection"]] = None
     creation_activity: Optional[Union[dict, "SpecimenCreationActivity"]] = None
     processing_activity: Optional[Union[Union[dict, "SpecimenProcessingActivity"], List[Union[dict, "SpecimenProcessingActivity"]]]] = empty_list()
     storage_activity: Optional[Union[Union[dict, "SpecimenStorageActivity"], List[Union[dict, "SpecimenStorageActivity"]]]] = empty_list()
     transport_activity: Optional[Union[Union[dict, "SpecimenTransportActivity"], List[Union[dict, "SpecimenTransportActivity"]]]] = empty_list()
     contained_in: Optional[Union[dict, "SpecimenContainer"]] = None
-    dimensional_measure: Optional[Union[dict, DimensionalObservationSet]] = None
+    dimensional_measures: Optional[Union[dict, DimensionalObservationSet]] = None
     quantity_measure: Optional[Union[Union[dict, "SpecimenQuantityObservation"], List[Union[dict, "SpecimenQuantityObservation"]]]] = empty_list()
     quality_measure: Optional[Union[Union[dict, "SpecimenQualityObservation"], List[Union[dict, "SpecimenQualityObservation"]]]] = empty_list()
     cellular_composition_type: Optional[Union[str, "EnumCCDHSpecimenCellularCompositionType"]] = None
-    histological_composition_measure: Optional[Union[Union[dict, HistologicalCompositionObservationSet], List[Union[dict, HistologicalCompositionObservationSet]]]] = empty_list()
+    histological_composition_measures: Optional[Union[Union[dict, HistologicalCompositionObservationSet], List[Union[dict, HistologicalCompositionObservationSet]]]] = empty_list()
     general_tissue_morphology: Optional[Union[str, "EnumCCDHSpecimenGeneralTissueMorphology"]] = None
     specific_tissue_morphology: Optional[Union[str, "EnumCCDHSpecimenSpecificTissueMorphology"]] = None
     preinvasive_tissue_morphology: Optional[Union[str, "EnumCCDHSpecimenPreinvasiveTissueMorphology"]] = None
@@ -1630,11 +1494,7 @@ class Specimen(Entity):
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.description is not None and not isinstance(self.description, CcdhString):
             self.description = CcdhString(self.description)
@@ -1646,76 +1506,53 @@ class Specimen(Entity):
             self.analyte_type = EnumCCDHSpecimenAnalyteType(self.analyte_type)
 
         if self.associated_project is not None and not isinstance(self.associated_project, ResearchProject):
-            self.associated_project = ResearchProject(**self.associated_project)
+            self.associated_project = ResearchProject(**as_dict(self.associated_project))
 
         if self.data_provider is not None and not isinstance(self.data_provider, Organization):
-            self.data_provider = Organization(**self.data_provider)
+            self.data_provider = Organization(**as_dict(self.data_provider))
 
         if self.source_material_type is not None and not isinstance(self.source_material_type, EnumCCDHSpecimenSourceMaterialType):
             self.source_material_type = EnumCCDHSpecimenSourceMaterialType(self.source_material_type)
 
-        if self.parent_specimen is None:
-            self.parent_specimen = []
         if not isinstance(self.parent_specimen, list):
-            self.parent_specimen = [self.parent_specimen]
-        self.parent_specimen = [v if isinstance(v, Specimen) else Specimen(**v) for v in self.parent_specimen]
+            self.parent_specimen = [self.parent_specimen] if self.parent_specimen is not None else []
+        self.parent_specimen = [v if isinstance(v, Specimen) else Specimen(**as_dict(v)) for v in self.parent_specimen]
 
         if self.source_subject is not None and not isinstance(self.source_subject, Subject):
-            self.source_subject = Subject(**self.source_subject)
-
-        if self.source_model_system is not None and not isinstance(self.source_model_system, Entity):
-            self.source_model_system = Entity()
+            self.source_subject = Subject(**as_dict(self.source_subject))
 
         if self.tumor_status_at_collection is not None and not isinstance(self.tumor_status_at_collection, EnumCCDHSpecimenTumorStatusAtCollection):
             self.tumor_status_at_collection = EnumCCDHSpecimenTumorStatusAtCollection(self.tumor_status_at_collection)
 
         if self.creation_activity is not None and not isinstance(self.creation_activity, SpecimenCreationActivity):
-            self.creation_activity = SpecimenCreationActivity(**self.creation_activity)
+            self.creation_activity = SpecimenCreationActivity(**as_dict(self.creation_activity))
 
-        if self.processing_activity is None:
-            self.processing_activity = []
         if not isinstance(self.processing_activity, list):
-            self.processing_activity = [self.processing_activity]
-        self.processing_activity = [v if isinstance(v, SpecimenProcessingActivity) else SpecimenProcessingActivity(**v) for v in self.processing_activity]
+            self.processing_activity = [self.processing_activity] if self.processing_activity is not None else []
+        self.processing_activity = [v if isinstance(v, SpecimenProcessingActivity) else SpecimenProcessingActivity(**as_dict(v)) for v in self.processing_activity]
 
-        if self.storage_activity is None:
-            self.storage_activity = []
         if not isinstance(self.storage_activity, list):
-            self.storage_activity = [self.storage_activity]
-        self.storage_activity = [v if isinstance(v, SpecimenStorageActivity) else SpecimenStorageActivity(**v) for v in self.storage_activity]
+            self.storage_activity = [self.storage_activity] if self.storage_activity is not None else []
+        self.storage_activity = [v if isinstance(v, SpecimenStorageActivity) else SpecimenStorageActivity(**as_dict(v)) for v in self.storage_activity]
 
-        if self.transport_activity is None:
-            self.transport_activity = []
         if not isinstance(self.transport_activity, list):
-            self.transport_activity = [self.transport_activity]
-        self.transport_activity = [v if isinstance(v, SpecimenTransportActivity) else SpecimenTransportActivity(**v) for v in self.transport_activity]
+            self.transport_activity = [self.transport_activity] if self.transport_activity is not None else []
+        self.transport_activity = [v if isinstance(v, SpecimenTransportActivity) else SpecimenTransportActivity(**as_dict(v)) for v in self.transport_activity]
 
         if self.contained_in is not None and not isinstance(self.contained_in, SpecimenContainer):
-            self.contained_in = SpecimenContainer(**self.contained_in)
+            self.contained_in = SpecimenContainer(**as_dict(self.contained_in))
 
-        if self.dimensional_measure is not None and not isinstance(self.dimensional_measure, DimensionalObservationSet):
-            self.dimensional_measure = DimensionalObservationSet(**self.dimensional_measure)
+        if self.dimensional_measures is not None and not isinstance(self.dimensional_measures, DimensionalObservationSet):
+            self.dimensional_measures = DimensionalObservationSet(**as_dict(self.dimensional_measures))
 
-        if self.quantity_measure is None:
-            self.quantity_measure = []
-        if not isinstance(self.quantity_measure, list):
-            self.quantity_measure = [self.quantity_measure]
-        self._normalize_inlined_slot(slot_name="quantity_measure", slot_type=SpecimenQuantityObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="quantity_measure", slot_type=SpecimenQuantityObservation, key_name="observation_type", keyed=False)
 
-        if self.quality_measure is None:
-            self.quality_measure = []
-        if not isinstance(self.quality_measure, list):
-            self.quality_measure = [self.quality_measure]
-        self._normalize_inlined_slot(slot_name="quality_measure", slot_type=SpecimenQualityObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="quality_measure", slot_type=SpecimenQualityObservation, key_name="observation_type", keyed=False)
 
         if self.cellular_composition_type is not None and not isinstance(self.cellular_composition_type, EnumCCDHSpecimenCellularCompositionType):
             self.cellular_composition_type = EnumCCDHSpecimenCellularCompositionType(self.cellular_composition_type)
 
-        if self.histological_composition_measure is None:
-            self.histological_composition_measure = []
-        if not isinstance(self.histological_composition_measure, list):
-            self.histological_composition_measure = [self.histological_composition_measure]
-        self._normalize_inlined_slot(slot_name="histological_composition_measure", slot_type=HistologicalCompositionObservationSet, key_name="id", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="histological_composition_measures", slot_type=HistologicalCompositionObservationSet, key_name="id", keyed=False)
 
         if self.general_tissue_morphology is not None and not isinstance(self.general_tissue_morphology, EnumCCDHSpecimenGeneralTissueMorphology):
             self.general_tissue_morphology = EnumCCDHSpecimenGeneralTissueMorphology(self.general_tissue_morphology)
@@ -1741,23 +1578,19 @@ class Specimen(Entity):
         if self.dysplasia_fraction is not None and not isinstance(self.dysplasia_fraction, CcdhString):
             self.dysplasia_fraction = CcdhString(self.dysplasia_fraction)
 
-        if self.related_document is None:
-            self.related_document = []
         if not isinstance(self.related_document, list):
-            self.related_document = [self.related_document]
-        self.related_document = [v if isinstance(v, Document) else Document(**v) for v in self.related_document]
+            self.related_document = [self.related_document] if self.related_document is not None else []
+        self.related_document = [v if isinstance(v, Document) else Document(**as_dict(v)) for v in self.related_document]
 
         if self.section_location is not None and not isinstance(self.section_location, EnumCCDHSpecimenSectionLocation):
             self.section_location = EnumCCDHSpecimenSectionLocation(self.section_location)
 
-        if self.derived_product is None:
-            self.derived_product = []
         if not isinstance(self.derived_product, list):
-            self.derived_product = [self.derived_product]
-        self.derived_product = [v if isinstance(v, BiologicProduct) else BiologicProduct(**v) for v in self.derived_product]
+            self.derived_product = [self.derived_product] if self.derived_product is not None else []
+        self.derived_product = [v if isinstance(v, BiologicProduct) else BiologicProduct(**as_dict(v)) for v in self.derived_product]
 
         if self.distance_from_paired_specimen is not None and not isinstance(self.distance_from_paired_specimen, Quantity):
-            self.distance_from_paired_specimen = Quantity(**self.distance_from_paired_specimen)
+            self.distance_from_paired_specimen = Quantity(**as_dict(self.distance_from_paired_specimen))
 
         super().__post_init__(**kwargs)
 
@@ -1786,11 +1619,7 @@ class SpecimenContainer(Entity):
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.container_type is not None and not isinstance(self.container_type, EnumCCDHSpecimenContainerContainerType):
             self.container_type = EnumCCDHSpecimenContainerContainerType(self.container_type)
@@ -1798,14 +1627,12 @@ class SpecimenContainer(Entity):
         if self.container_number is not None and not isinstance(self.container_number, CcdhString):
             self.container_number = CcdhString(self.container_number)
 
-        if self.additive is None:
-            self.additive = []
         if not isinstance(self.additive, list):
-            self.additive = [self.additive]
-        self.additive = [v if isinstance(v, Substance) else Substance(**v) for v in self.additive]
+            self.additive = [self.additive] if self.additive is not None else []
+        self.additive = [v if isinstance(v, Substance) else Substance(**as_dict(v)) for v in self.additive]
 
         if self.parent_container is not None and not isinstance(self.parent_container, SpecimenContainer):
-            self.parent_container = SpecimenContainer(**self.parent_container)
+            self.parent_container = SpecimenContainer(**as_dict(self.parent_container))
 
         super().__post_init__(**kwargs)
 
@@ -1833,7 +1660,7 @@ class SpecimenCreationActivity(Entity):
     collection_site: Optional[Union[dict, BodySite]] = None
     quantity_collected: Optional[Union[dict, Quantity]] = None
     execution_time_observation: Optional[Union[Union[dict, ExecutionTimeObservation], List[Union[dict, ExecutionTimeObservation]]]] = empty_list()
-    execution_condition_observation: Optional[Union[Union[dict, Entity], List[Union[dict, Entity]]]] = empty_list()
+    execution_condition_observation: Optional[Union[Union[dict, ExecutionConditionObservation], List[Union[dict, ExecutionConditionObservation]]]] = empty_list()
     specimen_order: Optional[Union[int, CcdhInteger]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
@@ -1841,13 +1668,13 @@ class SpecimenCreationActivity(Entity):
             self.activity_type = EnumCCDHSpecimenCreationActivityActivityType(self.activity_type)
 
         if self.date_started is not None and not isinstance(self.date_started, TimePoint):
-            self.date_started = TimePoint(**self.date_started)
+            self.date_started = TimePoint(**as_dict(self.date_started))
 
         if self.date_ended is not None and not isinstance(self.date_ended, TimePoint):
-            self.date_ended = TimePoint(**self.date_ended)
+            self.date_ended = TimePoint(**as_dict(self.date_ended))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         if self.collection_method_type is not None and not isinstance(self.collection_method_type, EnumCCDHSpecimenCreationActivityCollectionMethodType):
             self.collection_method_type = EnumCCDHSpecimenCreationActivityCollectionMethodType(self.collection_method_type)
@@ -1855,29 +1682,19 @@ class SpecimenCreationActivity(Entity):
         if self.derivation_method_type is not None and not isinstance(self.derivation_method_type, EnumCCDHSpecimenCreationActivityDerivationMethodType):
             self.derivation_method_type = EnumCCDHSpecimenCreationActivityDerivationMethodType(self.derivation_method_type)
 
-        if self.additive is None:
-            self.additive = []
         if not isinstance(self.additive, list):
-            self.additive = [self.additive]
-        self.additive = [v if isinstance(v, Substance) else Substance(**v) for v in self.additive]
+            self.additive = [self.additive] if self.additive is not None else []
+        self.additive = [v if isinstance(v, Substance) else Substance(**as_dict(v)) for v in self.additive]
 
         if self.collection_site is not None and not isinstance(self.collection_site, BodySite):
-            self.collection_site = BodySite(**self.collection_site)
+            self.collection_site = BodySite(**as_dict(self.collection_site))
 
         if self.quantity_collected is not None and not isinstance(self.quantity_collected, Quantity):
-            self.quantity_collected = Quantity(**self.quantity_collected)
+            self.quantity_collected = Quantity(**as_dict(self.quantity_collected))
 
-        if self.execution_time_observation is None:
-            self.execution_time_observation = []
-        if not isinstance(self.execution_time_observation, list):
-            self.execution_time_observation = [self.execution_time_observation]
-        self._normalize_inlined_slot(slot_name="execution_time_observation", slot_type=ExecutionTimeObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="execution_time_observation", slot_type=ExecutionTimeObservation, key_name="observation_type", keyed=False)
 
-        if self.execution_condition_observation is None:
-            self.execution_condition_observation = []
-        if not isinstance(self.execution_condition_observation, list):
-            self.execution_condition_observation = [self.execution_condition_observation]
-        self.execution_condition_observation = [v if isinstance(v, Entity) else Entity(**v) for v in self.execution_condition_observation]
+        self._normalize_inlined_as_dict(slot_name="execution_condition_observation", slot_type=ExecutionConditionObservation, key_name="observation_type", keyed=False)
 
         if self.specimen_order is not None and not isinstance(self.specimen_order, CcdhInteger):
             self.specimen_order = CcdhInteger(self.specimen_order)
@@ -1899,6 +1716,7 @@ class SpecimenQualityObservation(Entity):
     class_model_uri: ClassVar[URIRef] = CCDH.SpecimenQualityObservation
 
     observation_type: Union[str, "EnumCCDHSpecimenQualityObservationObservationType"] = None
+    valueQuantity: Union[dict, Quantity] = None
     id: Optional[Union[str, CcdhString]] = None
     category: Optional[Union[str, "EnumCCDHSpecimenQualityObservationCategory"]] = None
     method_type: Optional[Union[Union[str, "EnumCCDHSpecimenQualityObservationMethodType"], List[Union[str, "EnumCCDHSpecimenQualityObservationMethodType"]]]] = empty_list()
@@ -1907,10 +1725,15 @@ class SpecimenQualityObservation(Entity):
     performed_by: Optional[Union[dict, Organization]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHSpecimenQualityObservationObservationType):
             self.observation_type = EnumCCDHSpecimenQualityObservationObservationType(self.observation_type)
+
+        if self._is_empty(self.valueQuantity):
+            self.MissingRequiredField("valueQuantity")
+        if not isinstance(self.valueQuantity, Quantity):
+            self.valueQuantity = Quantity(**as_dict(self.valueQuantity))
 
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
@@ -1918,23 +1741,19 @@ class SpecimenQualityObservation(Entity):
         if self.category is not None and not isinstance(self.category, EnumCCDHSpecimenQualityObservationCategory):
             self.category = EnumCCDHSpecimenQualityObservationCategory(self.category)
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHSpecimenQualityObservationMethodType) else EnumCCDHSpecimenQualityObservationMethodType(v) for v in self.method_type]
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         super().__post_init__(**kwargs)
 
@@ -1962,15 +1781,15 @@ class SpecimenQuantityObservation(Entity):
     performed_by: Optional[Union[dict, Organization]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHSpecimenQuantityObservationObservationType):
             self.observation_type = EnumCCDHSpecimenQuantityObservationObservationType(self.observation_type)
 
-        if self.valueQuantity is None:
-            raise ValueError("valueQuantity must be supplied")
+        if self._is_empty(self.valueQuantity):
+            self.MissingRequiredField("valueQuantity")
         if not isinstance(self.valueQuantity, Quantity):
-            self.valueQuantity = Quantity(**self.valueQuantity)
+            self.valueQuantity = Quantity(**as_dict(self.valueQuantity))
 
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
@@ -1978,23 +1797,19 @@ class SpecimenQuantityObservation(Entity):
         if self.category is not None and not isinstance(self.category, EnumCCDHSpecimenQuantityObservationCategory):
             self.category = EnumCCDHSpecimenQuantityObservationCategory(self.category)
 
-        if self.method_type is None:
-            self.method_type = []
         if not isinstance(self.method_type, list):
-            self.method_type = [self.method_type]
+            self.method_type = [self.method_type] if self.method_type is not None else []
         self.method_type = [v if isinstance(v, EnumCCDHSpecimenQuantityObservationMethodType) else EnumCCDHSpecimenQuantityObservationMethodType(v) for v in self.method_type]
 
-        if self.focus is None:
-            self.focus = []
         if not isinstance(self.focus, list):
-            self.focus = [self.focus]
-        self.focus = [v if isinstance(v, Entity) else Entity(**v) for v in self.focus]
+            self.focus = [self.focus] if self.focus is not None else []
+        self.focus = [v if isinstance(v, Entity) else Entity(**as_dict(v)) for v in self.focus]
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         super().__post_init__(**kwargs)
 
@@ -2028,40 +1843,28 @@ class SpecimenProcessingActivity(Entity):
             self.activity_type = EnumCCDHSpecimenProcessingActivityActivityType(self.activity_type)
 
         if self.date_started is not None and not isinstance(self.date_started, TimePoint):
-            self.date_started = TimePoint(**self.date_started)
+            self.date_started = TimePoint(**as_dict(self.date_started))
 
         if self.date_ended is not None and not isinstance(self.date_ended, TimePoint):
-            self.date_ended = TimePoint(**self.date_ended)
+            self.date_ended = TimePoint(**as_dict(self.date_ended))
 
-        if self.duration is None:
-            self.duration = []
         if not isinstance(self.duration, list):
-            self.duration = [self.duration]
-        self.duration = [v if isinstance(v, Quantity) else Quantity(**v) for v in self.duration]
+            self.duration = [self.duration] if self.duration is not None else []
+        self.duration = [v if isinstance(v, Quantity) else Quantity(**as_dict(v)) for v in self.duration]
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         if self.method_type is not None and not isinstance(self.method_type, EnumCCDHSpecimenProcessingActivityMethodType):
             self.method_type = EnumCCDHSpecimenProcessingActivityMethodType(self.method_type)
 
-        if self.additive is None:
-            self.additive = []
         if not isinstance(self.additive, list):
-            self.additive = [self.additive]
-        self.additive = [v if isinstance(v, Substance) else Substance(**v) for v in self.additive]
+            self.additive = [self.additive] if self.additive is not None else []
+        self.additive = [v if isinstance(v, Substance) else Substance(**as_dict(v)) for v in self.additive]
 
-        if self.execution_time_observation is None:
-            self.execution_time_observation = []
-        if not isinstance(self.execution_time_observation, list):
-            self.execution_time_observation = [self.execution_time_observation]
-        self._normalize_inlined_slot(slot_name="execution_time_observation", slot_type=ExecutionTimeObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="execution_time_observation", slot_type=ExecutionTimeObservation, key_name="observation_type", keyed=False)
 
-        if self.execution_condition_observation is None:
-            self.execution_condition_observation = []
-        if not isinstance(self.execution_condition_observation, list):
-            self.execution_condition_observation = [self.execution_condition_observation]
-        self._normalize_inlined_slot(slot_name="execution_condition_observation", slot_type=ExecutionConditionObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="execution_condition_observation", slot_type=ExecutionConditionObservation, key_name="observation_type", keyed=False)
 
         super().__post_init__(**kwargs)
 
@@ -2089,25 +1892,23 @@ class SpecimenStorageActivity(Entity):
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self.date_started is not None and not isinstance(self.date_started, TimePoint):
-            self.date_started = TimePoint(**self.date_started)
+            self.date_started = TimePoint(**as_dict(self.date_started))
 
         if self.date_ended is not None and not isinstance(self.date_ended, TimePoint):
-            self.date_ended = TimePoint(**self.date_ended)
+            self.date_ended = TimePoint(**as_dict(self.date_ended))
 
         if self.duration is not None and not isinstance(self.duration, Quantity):
-            self.duration = Quantity(**self.duration)
+            self.duration = Quantity(**as_dict(self.duration))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         if self.method_type is not None and not isinstance(self.method_type, EnumCCDHSpecimenStorageActivityMethodType):
             self.method_type = EnumCCDHSpecimenStorageActivityMethodType(self.method_type)
 
-        if self.container is None:
-            self.container = []
         if not isinstance(self.container, list):
-            self.container = [self.container]
-        self.container = [v if isinstance(v, SpecimenContainer) else SpecimenContainer(**v) for v in self.container]
+            self.container = [self.container] if self.container is not None else []
+        self.container = [v if isinstance(v, SpecimenContainer) else SpecimenContainer(**as_dict(v)) for v in self.container]
 
         super().__post_init__(**kwargs)
 
@@ -2115,7 +1916,7 @@ class SpecimenStorageActivity(Entity):
 @dataclass
 class SpecimenTransportActivity(Entity):
     """
-    An activity through which a specimen is transported between locations.
+    An activity through which a specimen is transported between locations or organizations.
     """
     _inherited_slots: ClassVar[List[str]] = []
 
@@ -2134,31 +1935,25 @@ class SpecimenTransportActivity(Entity):
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self.date_started is not None and not isinstance(self.date_started, TimePoint):
-            self.date_started = TimePoint(**self.date_started)
+            self.date_started = TimePoint(**as_dict(self.date_started))
 
         if self.date_ended is not None and not isinstance(self.date_ended, TimePoint):
-            self.date_ended = TimePoint(**self.date_ended)
+            self.date_ended = TimePoint(**as_dict(self.date_ended))
 
-        if self.duration is None:
-            self.duration = []
         if not isinstance(self.duration, list):
-            self.duration = [self.duration]
+            self.duration = [self.duration] if self.duration is not None else []
         self.duration = [v if isinstance(v, CcdhString) else CcdhString(v) for v in self.duration]
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         if self.transport_origin is not None and not isinstance(self.transport_origin, Organization):
-            self.transport_origin = Organization(**self.transport_origin)
+            self.transport_origin = Organization(**as_dict(self.transport_origin))
 
         if self.transport_destination is not None and not isinstance(self.transport_destination, Organization):
-            self.transport_destination = Organization(**self.transport_destination)
+            self.transport_destination = Organization(**as_dict(self.transport_destination))
 
-        if self.execution_condition_observation is None:
-            self.execution_condition_observation = []
-        if not isinstance(self.execution_condition_observation, list):
-            self.execution_condition_observation = [self.execution_condition_observation]
-        self._normalize_inlined_slot(slot_name="execution_condition_observation", slot_type=ExecutionConditionObservation, key_name="observation_type", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="execution_condition_observation", slot_type=ExecutionConditionObservation, key_name="observation_type", keyed=False)
 
         super().__post_init__(**kwargs)
 
@@ -2190,16 +1985,12 @@ class Subject(Entity):
     cause_of_death: Optional[Union[str, "EnumCCDHSubjectCauseOfDeath"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.id is None:
-            raise ValueError("id must be supplied")
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
         if not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
         if self.species is not None and not isinstance(self.species, EnumCCDHSubjectSpecies):
             self.species = EnumCCDHSubjectSpecies(self.species)
@@ -2213,10 +2004,8 @@ class Subject(Entity):
         if self.ethnicity is not None and not isinstance(self.ethnicity, EnumCCDHSubjectEthnicity):
             self.ethnicity = EnumCCDHSubjectEthnicity(self.ethnicity)
 
-        if self.race is None:
-            self.race = []
         if not isinstance(self.race, list):
-            self.race = [self.race]
+            self.race = [self.race] if self.race is not None else []
         self.race = [v if isinstance(v, EnumCCDHSubjectRace) else EnumCCDHSubjectRace(v) for v in self.race]
 
         if self.year_of_birth is not None and not isinstance(self.year_of_birth, CcdhInteger):
@@ -2226,7 +2015,7 @@ class Subject(Entity):
             self.vital_status = EnumCCDHSubjectVitalStatus(self.vital_status)
 
         if self.age_at_death is not None and not isinstance(self.age_at_death, Quantity):
-            self.age_at_death = Quantity(**self.age_at_death)
+            self.age_at_death = Quantity(**as_dict(self.age_at_death))
 
         if self.year_of_death is not None and not isinstance(self.year_of_death, CcdhInteger):
             self.year_of_death = CcdhInteger(self.year_of_death)
@@ -2258,14 +2047,12 @@ class Substance(Entity):
         if self.substance_type is not None and not isinstance(self.substance_type, EnumCCDHSubstanceSubstanceType):
             self.substance_type = EnumCCDHSubstanceSubstanceType(self.substance_type)
 
-        if self.role is None:
-            self.role = []
         if not isinstance(self.role, list):
-            self.role = [self.role]
+            self.role = [self.role] if self.role is not None else []
         self.role = [v if isinstance(v, EnumCCDHSubstanceRole) else EnumCCDHSubstanceRole(v) for v in self.role]
 
         if self.substance_quantity is not None and not isinstance(self.substance_quantity, Quantity):
-            self.substance_quantity = Quantity(**self.substance_quantity)
+            self.substance_quantity = Quantity(**as_dict(self.substance_quantity))
 
         super().__post_init__(**kwargs)
 
@@ -2297,15 +2084,13 @@ class TimePoint(Entity):
             self.dateTime = CcdhDateTime(self.dateTime)
 
         if self.indexTimePoint is not None and not isinstance(self.indexTimePoint, TimePoint):
-            self.indexTimePoint = TimePoint(**self.indexTimePoint)
+            self.indexTimePoint = TimePoint(**as_dict(self.indexTimePoint))
 
         if self.offsetFromIndex is not None and not isinstance(self.offsetFromIndex, Quantity):
-            self.offsetFromIndex = Quantity(**self.offsetFromIndex)
+            self.offsetFromIndex = Quantity(**as_dict(self.offsetFromIndex))
 
-        if self.eventType is None:
-            self.eventType = []
         if not isinstance(self.eventType, list):
-            self.eventType = [self.eventType]
+            self.eventType = [self.eventType] if self.eventType is not None else []
         self.eventType = [v if isinstance(v, EnumCCDHTimePointEventType) else EnumCCDHTimePointEventType(v) for v in self.eventType]
 
         super().__post_init__(**kwargs)
@@ -2328,10 +2113,10 @@ class TimePeriod(Entity):
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self.periodStart_start is not None and not isinstance(self.periodStart_start, TimePoint):
-            self.periodStart_start = TimePoint(**self.periodStart_start)
+            self.periodStart_start = TimePoint(**as_dict(self.periodStart_start))
 
         if self.periodEnd_end is not None and not isinstance(self.periodEnd_end, TimePoint):
-            self.periodEnd_end = TimePoint(**self.periodEnd_end)
+            self.periodEnd_end = TimePoint(**as_dict(self.periodEnd_end))
 
         super().__post_init__(**kwargs)
 
@@ -2360,8 +2145,8 @@ class TobaccoExposureObservation(Entity):
     valueCodeableConcept: Optional[Union[str, "EnumCCDHTobaccoExposureObservationValueCodeableConcept"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
-        if self.observation_type is None:
-            raise ValueError("observation_type must be supplied")
+        if self._is_empty(self.observation_type):
+            self.MissingRequiredField("observation_type")
         if not isinstance(self.observation_type, EnumCCDHTobaccoExposureObservationObservationType):
             self.observation_type = EnumCCDHTobaccoExposureObservationObservationType(self.observation_type)
 
@@ -2378,10 +2163,10 @@ class TobaccoExposureObservation(Entity):
             self.focus = Entity()
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.performed_by is not None and not isinstance(self.performed_by, Organization):
-            self.performed_by = Organization(**self.performed_by)
+            self.performed_by = Organization(**as_dict(self.performed_by))
 
         if self.valueInteger is not None and not isinstance(self.valueInteger, CcdhInteger):
             self.valueInteger = CcdhInteger(self.valueInteger)
@@ -2407,84 +2192,74 @@ class Treatment(Entity):
     id: Optional[Union[str, CcdhString]] = None
     identifier: Optional[Union[Union[dict, Identifier], List[Union[dict, Identifier]]]] = empty_list()
     treatment_for_diagnosis: Optional[Union[Union[dict, Diagnosis], List[Union[dict, Diagnosis]]]] = empty_list()
+    concurrent_treatment: Optional[Union[Union[dict, "Treatment"], List[Union[dict, "Treatment"]]]] = empty_list()
+    treatment_type: Optional[Union[str, "EnumCCDHTreatmentTreatmentType"]] = None
     subject: Optional[Union[dict, Subject]] = None
     date_started: Optional[Union[dict, TimePoint]] = None
     date_ended: Optional[Union[dict, TimePoint]] = None
+    treatment_end_reason: Optional[Union[Union[str, "EnumCCDHTreatmentTreatmentEndReason"], List[Union[str, "EnumCCDHTreatmentTreatmentEndReason"]]]] = empty_list()
     regimen: Optional[Union[str, "EnumCCDHTreatmentRegimen"]] = None
     therapeutic_agent: Optional[Union[dict, Substance]] = None
-    treatment_anatomic_site: Optional[Union[dict, BodySite]] = None
-    treatment_effect: Optional[Union[str, "EnumCCDHTreatmentTreatmentEffect"]] = None
-    treatment_intent: Optional[Union[str, "EnumCCDHTreatmentTreatmentIntent"]] = None
-    treatment_outcome: Optional[Union[str, "EnumCCDHTreatmentTreatmentOutcome"]] = None
-    treatment_type: Optional[Union[str, "EnumCCDHTreatmentTreatmentType"]] = None
-    treatment_frequency: Optional[Union[str, "EnumCCDHTreatmentTreatmentFrequency"]] = None
-    concurrent_treatment: Optional[Union[Union[dict, "Treatment"], List[Union[dict, "Treatment"]]]] = empty_list()
     number_of_cycles: Optional[Union[int, CcdhInteger]] = None
-    treatment_end_reason: Optional[Union[Union[str, "EnumCCDHTreatmentTreatmentEndReason"], List[Union[str, "EnumCCDHTreatmentTreatmentEndReason"]]]] = empty_list()
+    treatment_frequency: Optional[Union[str, "EnumCCDHTreatmentTreatmentFrequency"]] = None
+    treatment_anatomic_site: Optional[Union[dict, BodySite]] = None
+    treatment_intent: Optional[Union[str, "EnumCCDHTreatmentTreatmentIntent"]] = None
+    treatment_effect: Optional[Union[str, "EnumCCDHTreatmentTreatmentEffect"]] = None
+    treatment_outcome: Optional[Union[str, "EnumCCDHTreatmentTreatmentOutcome"]] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self.id is not None and not isinstance(self.id, CcdhString):
             self.id = CcdhString(self.id)
 
-        if self.identifier is None:
-            self.identifier = []
-        if not isinstance(self.identifier, list):
-            self.identifier = [self.identifier]
-        self._normalize_inlined_slot(slot_name="identifier", slot_type=Identifier, key_name="value", inlined_as_list=True, keyed=False)
+        self._normalize_inlined_as_dict(slot_name="identifier", slot_type=Identifier, key_name="value", keyed=False)
 
-        if self.treatment_for_diagnosis is None:
-            self.treatment_for_diagnosis = []
         if not isinstance(self.treatment_for_diagnosis, list):
-            self.treatment_for_diagnosis = [self.treatment_for_diagnosis]
-        self.treatment_for_diagnosis = [v if isinstance(v, Diagnosis) else Diagnosis(**v) for v in self.treatment_for_diagnosis]
+            self.treatment_for_diagnosis = [self.treatment_for_diagnosis] if self.treatment_for_diagnosis is not None else []
+        self.treatment_for_diagnosis = [v if isinstance(v, Diagnosis) else Diagnosis(**as_dict(v)) for v in self.treatment_for_diagnosis]
+
+        if not isinstance(self.concurrent_treatment, list):
+            self.concurrent_treatment = [self.concurrent_treatment] if self.concurrent_treatment is not None else []
+        self.concurrent_treatment = [v if isinstance(v, Treatment) else Treatment(**as_dict(v)) for v in self.concurrent_treatment]
+
+        if self.treatment_type is not None and not isinstance(self.treatment_type, EnumCCDHTreatmentTreatmentType):
+            self.treatment_type = EnumCCDHTreatmentTreatmentType(self.treatment_type)
 
         if self.subject is not None and not isinstance(self.subject, Subject):
-            self.subject = Subject(**self.subject)
+            self.subject = Subject(**as_dict(self.subject))
 
         if self.date_started is not None and not isinstance(self.date_started, TimePoint):
-            self.date_started = TimePoint(**self.date_started)
+            self.date_started = TimePoint(**as_dict(self.date_started))
 
         if self.date_ended is not None and not isinstance(self.date_ended, TimePoint):
-            self.date_ended = TimePoint(**self.date_ended)
+            self.date_ended = TimePoint(**as_dict(self.date_ended))
+
+        if not isinstance(self.treatment_end_reason, list):
+            self.treatment_end_reason = [self.treatment_end_reason] if self.treatment_end_reason is not None else []
+        self.treatment_end_reason = [v if isinstance(v, EnumCCDHTreatmentTreatmentEndReason) else EnumCCDHTreatmentTreatmentEndReason(v) for v in self.treatment_end_reason]
 
         if self.regimen is not None and not isinstance(self.regimen, EnumCCDHTreatmentRegimen):
             self.regimen = EnumCCDHTreatmentRegimen(self.regimen)
 
         if self.therapeutic_agent is not None and not isinstance(self.therapeutic_agent, Substance):
-            self.therapeutic_agent = Substance(**self.therapeutic_agent)
-
-        if self.treatment_anatomic_site is not None and not isinstance(self.treatment_anatomic_site, BodySite):
-            self.treatment_anatomic_site = BodySite(**self.treatment_anatomic_site)
-
-        if self.treatment_effect is not None and not isinstance(self.treatment_effect, EnumCCDHTreatmentTreatmentEffect):
-            self.treatment_effect = EnumCCDHTreatmentTreatmentEffect(self.treatment_effect)
-
-        if self.treatment_intent is not None and not isinstance(self.treatment_intent, EnumCCDHTreatmentTreatmentIntent):
-            self.treatment_intent = EnumCCDHTreatmentTreatmentIntent(self.treatment_intent)
-
-        if self.treatment_outcome is not None and not isinstance(self.treatment_outcome, EnumCCDHTreatmentTreatmentOutcome):
-            self.treatment_outcome = EnumCCDHTreatmentTreatmentOutcome(self.treatment_outcome)
-
-        if self.treatment_type is not None and not isinstance(self.treatment_type, EnumCCDHTreatmentTreatmentType):
-            self.treatment_type = EnumCCDHTreatmentTreatmentType(self.treatment_type)
-
-        if self.treatment_frequency is not None and not isinstance(self.treatment_frequency, EnumCCDHTreatmentTreatmentFrequency):
-            self.treatment_frequency = EnumCCDHTreatmentTreatmentFrequency(self.treatment_frequency)
-
-        if self.concurrent_treatment is None:
-            self.concurrent_treatment = []
-        if not isinstance(self.concurrent_treatment, list):
-            self.concurrent_treatment = [self.concurrent_treatment]
-        self.concurrent_treatment = [v if isinstance(v, Treatment) else Treatment(**v) for v in self.concurrent_treatment]
+            self.therapeutic_agent = Substance(**as_dict(self.therapeutic_agent))
 
         if self.number_of_cycles is not None and not isinstance(self.number_of_cycles, CcdhInteger):
             self.number_of_cycles = CcdhInteger(self.number_of_cycles)
 
-        if self.treatment_end_reason is None:
-            self.treatment_end_reason = []
-        if not isinstance(self.treatment_end_reason, list):
-            self.treatment_end_reason = [self.treatment_end_reason]
-        self.treatment_end_reason = [v if isinstance(v, EnumCCDHTreatmentTreatmentEndReason) else EnumCCDHTreatmentTreatmentEndReason(v) for v in self.treatment_end_reason]
+        if self.treatment_frequency is not None and not isinstance(self.treatment_frequency, EnumCCDHTreatmentTreatmentFrequency):
+            self.treatment_frequency = EnumCCDHTreatmentTreatmentFrequency(self.treatment_frequency)
+
+        if self.treatment_anatomic_site is not None and not isinstance(self.treatment_anatomic_site, BodySite):
+            self.treatment_anatomic_site = BodySite(**as_dict(self.treatment_anatomic_site))
+
+        if self.treatment_intent is not None and not isinstance(self.treatment_intent, EnumCCDHTreatmentTreatmentIntent):
+            self.treatment_intent = EnumCCDHTreatmentTreatmentIntent(self.treatment_intent)
+
+        if self.treatment_effect is not None and not isinstance(self.treatment_effect, EnumCCDHTreatmentTreatmentEffect):
+            self.treatment_effect = EnumCCDHTreatmentTreatmentEffect(self.treatment_effect)
+
+        if self.treatment_outcome is not None and not isinstance(self.treatment_outcome, EnumCCDHTreatmentTreatmentOutcome):
+            self.treatment_outcome = EnumCCDHTreatmentTreatmentOutcome(self.treatment_outcome)
 
         super().__post_init__(**kwargs)
 
@@ -2498,8 +2273,13 @@ class EnumCCDHAlcoholExposureObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHAlcoholExposureObservationCategory",
         description="Autogenerated Enumeration for CRDC-H AlcoholExposureObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:38.107547+00:00",
+        code_set_version="2021-07-21T20:27:15.459636+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHAlcoholExposureObservationObservationType(EnumDefinitionImpl):
     """
@@ -2519,6 +2299,11 @@ class EnumCCDHAlcoholExposureObservationObservationType(EnumDefinitionImpl):
         description="Types of observations about a Subject's exposure to alcohol.",
     )
 
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHAlcoholExposureObservationMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H AlcoholExposureObservation method_type
@@ -2527,8 +2312,13 @@ class EnumCCDHAlcoholExposureObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHAlcoholExposureObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H AlcoholExposureObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:38.761060+00:00",
+        code_set_version="2021-07-21T20:27:15.842992+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHAlcoholExposureObservationValueCodeableConcept(EnumDefinitionImpl):
     """
@@ -2545,7 +2335,7 @@ class EnumCCDHAlcoholExposureObservationValueCodeableConcept(EnumDefinitionImpl)
         name="EnumCCDHAlcoholExposureObservationValueCodeableConcept",
         description="Autogenerated Enumeration for CRDC-H AlcoholExposureObservation valueCodeableConcept",
         code_set=None,
-        code_set_version="2021-06-01T00:48:38.939646+00:00",
+        code_set_version="2021-07-21T20:27:16.016265+00:00",
     )
 
     @classmethod
@@ -2561,6 +2351,10 @@ class EnumCCDHAlcoholExposureObservationValueCodeableConcept(EnumDefinitionImpl)
                 PermissibleValue(text="Lifelong Non-Drinker") )
         setattr(cls, "Non-Drinker",
                 PermissibleValue(text="Non-Drinker") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHBodySiteSite(EnumDefinitionImpl):
     """
@@ -2879,7 +2673,7 @@ class EnumCCDHBodySiteSite(EnumDefinitionImpl):
         name="EnumCCDHBodySiteSite",
         description="Autogenerated Enumeration for CRDC-H BodySite site",
         code_set=None,
-        code_set_version="2021-06-01T00:48:39.335983+00:00",
+        code_set_version="2021-07-21T20:27:16.179554+00:00",
     )
 
     @classmethod
@@ -3887,6 +3681,10 @@ class EnumCCDHBodySiteSite(EnumDefinitionImpl):
         setattr(cls, "Submandibular Gland",
                 PermissibleValue(text="Submandibular Gland") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHBodySiteQualifier(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H BodySite qualifier
@@ -3903,13 +3701,17 @@ class EnumCCDHBodySiteQualifier(EnumDefinitionImpl):
         name="EnumCCDHBodySiteQualifier",
         description="Autogenerated Enumeration for CRDC-H BodySite qualifier",
         code_set=None,
-        code_set_version="2021-06-01T00:48:40.110384+00:00",
+        code_set_version="2021-07-21T20:27:16.852504+00:00",
     )
 
     @classmethod
     def _addvals(cls):
         setattr(cls, "Not Reported",
                 PermissibleValue(text="Not Reported") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHBiologicProductProductType(EnumDefinitionImpl):
     """
@@ -3919,8 +3721,13 @@ class EnumCCDHBiologicProductProductType(EnumDefinitionImpl):
         name="EnumCCDHBiologicProductProductType",
         description="Autogenerated Enumeration for CRDC-H BiologicProduct product_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:40.502620+00:00",
+        code_set_version="2021-07-21T20:27:16.999086+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHCancerGradeObservationCategory(EnumDefinitionImpl):
     """
@@ -3930,8 +3737,13 @@ class EnumCCDHCancerGradeObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHCancerGradeObservationCategory",
         description="Autogenerated Enumeration for CRDC-H CancerGradeObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:40.667038+00:00",
+        code_set_version="2021-07-21T20:27:17.162221+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHCancerGradeObservationObservationType(EnumDefinitionImpl):
 
@@ -3954,6 +3766,11 @@ class EnumCCDHCancerGradeObservationObservationType(EnumDefinitionImpl):
         name="EnumCCDHCancerGradeObservationObservationType",
     )
 
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHCancerGradeObservationMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H CancerGradeObservation method_type
@@ -3962,8 +3779,13 @@ class EnumCCDHCancerGradeObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHCancerGradeObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H CancerGradeObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:41.100426+00:00",
+        code_set_version="2021-07-21T20:27:17.495977+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHCancerGradeObservationValueCodeableConcept(EnumDefinitionImpl):
     """
@@ -3991,7 +3813,7 @@ class EnumCCDHCancerGradeObservationValueCodeableConcept(EnumDefinitionImpl):
         name="EnumCCDHCancerGradeObservationValueCodeableConcept",
         description="Autogenerated Enumeration for CRDC-H CancerGradeObservation valueCodeableConcept",
         code_set=None,
-        code_set_version="2021-06-01T00:48:41.475320+00:00",
+        code_set_version="2021-07-21T20:27:17.660618+00:00",
     )
 
     @classmethod
@@ -4047,6 +3869,10 @@ class EnumCCDHCancerGradeObservationValueCodeableConcept(EnumDefinitionImpl):
                 PermissibleValue(text="Poorly Differentiated",
                                  description="Poorly Differentiated Neuroblastoma") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHCancerGradeObservationSetCategory(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H CancerGradeObservationSet category
@@ -4055,8 +3881,13 @@ class EnumCCDHCancerGradeObservationSetCategory(EnumDefinitionImpl):
         name="EnumCCDHCancerGradeObservationSetCategory",
         description="Autogenerated Enumeration for CRDC-H CancerGradeObservationSet category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:41.669198+00:00",
+        code_set_version="2021-07-21T20:27:17.849341+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHCancerGradeObservationSetMethodType(EnumDefinitionImpl):
     """
@@ -4079,6 +3910,10 @@ class EnumCCDHCancerGradeObservationSetMethodType(EnumDefinitionImpl):
         setattr(cls, "Unspecified grading system",
                 PermissibleValue(text="Unspecified grading system") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHCancerStageObservationCategory(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H CancerStageObservation category
@@ -4087,8 +3922,13 @@ class EnumCCDHCancerStageObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHCancerStageObservationCategory",
         description="Autogenerated Enumeration for CRDC-H CancerStageObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:42.114020+00:00",
+        code_set_version="2021-07-21T20:27:18.156165+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHCancerStageObservationObservationType(EnumDefinitionImpl):
     """
@@ -4141,6 +3981,10 @@ class EnumCCDHCancerStageObservationObservationType(EnumDefinitionImpl):
                 PermissibleValue(text="Ann Arbor Substage Modifier",
                                  description="The substage classification modifiers amend each stage based on distinct features.") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHCancerStageObservationMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H CancerStageObservation method_type
@@ -4149,8 +3993,13 @@ class EnumCCDHCancerStageObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHCancerStageObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H CancerStageObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:42.744297+00:00",
+        code_set_version="2021-07-21T20:27:18.495096+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHCancerStageObservationValueCodeableConcept(EnumDefinitionImpl):
     """
@@ -4298,7 +4147,7 @@ class EnumCCDHCancerStageObservationValueCodeableConcept(EnumDefinitionImpl):
         name="EnumCCDHCancerStageObservationValueCodeableConcept",
         description="Autogenerated Enumeration for CRDC-H CancerStageObservation valueCodeableConcept",
         code_set=None,
-        code_set_version="2021-06-01T00:48:42.988009+00:00",
+        code_set_version="2021-07-21T20:27:18.651437+00:00",
     )
 
     @classmethod
@@ -4529,6 +4378,10 @@ class EnumCCDHCancerStageObservationValueCodeableConcept(EnumDefinitionImpl):
         setattr(cls, "Stage IIIA2",
                 PermissibleValue(text="Stage IIIA2") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHCancerStageObservationSetCategory(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H CancerStageObservationSet category
@@ -4537,8 +4390,13 @@ class EnumCCDHCancerStageObservationSetCategory(EnumDefinitionImpl):
         name="EnumCCDHCancerStageObservationSetCategory",
         description="Autogenerated Enumeration for CRDC-H CancerStageObservationSet category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:43.585308+00:00",
+        code_set_version="2021-07-21T20:27:18.998638+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHCancerStageObservationSetMethodType(EnumDefinitionImpl):
     """
@@ -4611,6 +4469,10 @@ class EnumCCDHCancerStageObservationSetMethodType(EnumDefinitionImpl):
         setattr(cls, "Unspecified staging system",
                 PermissibleValue(text="Unspecified staging system",
                                  description="For use when a data contributor has a cancer staging value, but no clearly specified staging system under which that value falls.") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHDiagnosisCondition(EnumDefinitionImpl):
     """
@@ -4799,7 +4661,7 @@ class EnumCCDHDiagnosisCondition(EnumDefinitionImpl):
         name="EnumCCDHDiagnosisCondition",
         description="Autogenerated Enumeration for CRDC-H Diagnosis condition",
         code_set=None,
-        code_set_version="2021-06-01T00:48:44.018115+00:00",
+        code_set_version="2021-07-21T20:27:19.318443+00:00",
     )
 
     @classmethod
@@ -9750,6 +9612,10 @@ class EnumCCDHDiagnosisCondition(EnumDefinitionImpl):
         setattr(cls, "Malignant lymphoma, small lymphocytic, diffuse",
                 PermissibleValue(text="Malignant lymphoma, small lymphocytic, diffuse") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHDiagnosisMorphology(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Diagnosis morphology
@@ -9760,7 +9626,7 @@ class EnumCCDHDiagnosisMorphology(EnumDefinitionImpl):
         name="EnumCCDHDiagnosisMorphology",
         description="Autogenerated Enumeration for CRDC-H Diagnosis morphology",
         code_set=None,
-        code_set_version="2021-06-01T00:48:46.242279+00:00",
+        code_set_version="2021-07-21T20:27:21.376154+00:00",
     )
 
     @classmethod
@@ -12060,6 +11926,10 @@ class EnumCCDHDiagnosisMorphology(EnumDefinitionImpl):
         setattr(cls, "8310/6",
                 PermissibleValue(text="8310/6") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHDiagnosisDiseaseStatus(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Diagnosis disease_status
@@ -12070,7 +11940,7 @@ class EnumCCDHDiagnosisDiseaseStatus(EnumDefinitionImpl):
         name="EnumCCDHDiagnosisDiseaseStatus",
         description="Autogenerated Enumeration for CRDC-H Diagnosis disease_status",
         code_set=None,
-        code_set_version="2021-06-01T00:48:47.279298+00:00",
+        code_set_version="2021-07-21T20:27:22.319843+00:00",
     )
 
     @classmethod
@@ -12085,6 +11955,10 @@ class EnumCCDHDiagnosisDiseaseStatus(EnumDefinitionImpl):
                 PermissibleValue(text="Recurrent Disease") )
         setattr(cls, "Progressive Disease",
                 PermissibleValue(text="Progressive Disease") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHDiagnosisMethodOfDiagnosis(EnumDefinitionImpl):
     """
@@ -12119,7 +11993,7 @@ class EnumCCDHDiagnosisMethodOfDiagnosis(EnumDefinitionImpl):
         name="EnumCCDHDiagnosisMethodOfDiagnosis",
         description="Autogenerated Enumeration for CRDC-H Diagnosis method_of_diagnosis",
         code_set=None,
-        code_set_version="2021-06-01T00:48:47.451574+00:00",
+        code_set_version="2021-07-21T20:27:22.480594+00:00",
     )
 
     @classmethod
@@ -12169,6 +12043,10 @@ class EnumCCDHDiagnosisMethodOfDiagnosis(EnumDefinitionImpl):
                 PermissibleValue(text="Diagnostic Imaging",
                                  description="Diagnostic Imaging") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHDimensionalObservationCategory(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H DimensionalObservation category
@@ -12177,8 +12055,13 @@ class EnumCCDHDimensionalObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHDimensionalObservationCategory",
         description="Autogenerated Enumeration for CRDC-H DimensionalObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:47.865869+00:00",
+        code_set_version="2021-07-21T20:27:22.658706+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHDimensionalObservationObservationType(EnumDefinitionImpl):
     """
@@ -12202,6 +12085,11 @@ class EnumCCDHDimensionalObservationObservationType(EnumDefinitionImpl):
         description="Types of measurements that describe the physical dimensions of an entity (e.g. a Specimen)",
     )
 
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHDimensionalObservationMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H DimensionalObservation method_type
@@ -12210,8 +12098,13 @@ class EnumCCDHDimensionalObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHDimensionalObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H DimensionalObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:48.293830+00:00",
+        code_set_version="2021-07-21T20:27:22.962025+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHDimensionalObservationSetCategory(EnumDefinitionImpl):
     """
@@ -12221,8 +12114,13 @@ class EnumCCDHDimensionalObservationSetCategory(EnumDefinitionImpl):
         name="EnumCCDHDimensionalObservationSetCategory",
         description="Autogenerated Enumeration for CRDC-H DimensionalObservationSet category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:48.466261+00:00",
+        code_set_version="2021-07-21T20:27:23.115872+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHDimensionalObservationSetMethodType(EnumDefinitionImpl):
     """
@@ -12232,8 +12130,13 @@ class EnumCCDHDimensionalObservationSetMethodType(EnumDefinitionImpl):
         name="EnumCCDHDimensionalObservationSetMethodType",
         description="Autogenerated Enumeration for CRDC-H DimensionalObservationSet method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:48.859020+00:00",
+        code_set_version="2021-07-21T20:27:23.291551+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHDocumentDocumentType(EnumDefinitionImpl):
     """
@@ -12253,6 +12156,10 @@ class EnumCCDHDocumentDocumentType(EnumDefinitionImpl):
                 PermissibleValue(text="pathology report",
                                  description="A pathology report describing the specimen") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHEnvironmentalExposureObservationCategory(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H EnvironmentalExposureObservation category
@@ -12261,8 +12168,13 @@ class EnumCCDHEnvironmentalExposureObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHEnvironmentalExposureObservationCategory",
         description="Autogenerated Enumeration for CRDC-H EnvironmentalExposureObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:49.291271+00:00",
+        code_set_version="2021-07-21T20:27:23.611877+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHEnvironmentalExposureObservationObservationType(EnumDefinitionImpl):
     """
@@ -12284,6 +12196,11 @@ class EnumCCDHEnvironmentalExposureObservationObservationType(EnumDefinitionImpl
         description="Types of observations about a Subject's environmental exposures.",
     )
 
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHEnvironmentalExposureObservationMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H EnvironmentalExposureObservation method_type
@@ -12292,8 +12209,13 @@ class EnumCCDHEnvironmentalExposureObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHEnvironmentalExposureObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H EnvironmentalExposureObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:49.866503+00:00",
+        code_set_version="2021-07-21T20:27:23.952854+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHEnvironmentalExposureObservationValueCodeableConcept(EnumDefinitionImpl):
     """
@@ -12308,7 +12230,7 @@ class EnumCCDHEnvironmentalExposureObservationValueCodeableConcept(EnumDefinitio
         name="EnumCCDHEnvironmentalExposureObservationValueCodeableConcept",
         description="Autogenerated Enumeration for CRDC-H EnvironmentalExposureObservation valueCodeableConcept",
         code_set=None,
-        code_set_version="2021-06-01T00:48:50.039833+00:00",
+        code_set_version="2021-07-21T20:27:24.119038+00:00",
     )
 
     @classmethod
@@ -12414,6 +12336,10 @@ class EnumCCDHEnvironmentalExposureObservationValueCodeableConcept(EnumDefinitio
         setattr(cls, "Tobacco smoke, NOS",
                 PermissibleValue(text="Tobacco smoke, NOS") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHExecutionTimeObservationCategory(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H ExecutionTimeObservation category
@@ -12422,8 +12348,13 @@ class EnumCCDHExecutionTimeObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHExecutionTimeObservationCategory",
         description="Autogenerated Enumeration for CRDC-H ExecutionTimeObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:50.342631+00:00",
+        code_set_version="2021-07-21T20:27:24.318116+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHExecutionTimeObservationObservationType(EnumDefinitionImpl):
     """
@@ -12433,8 +12364,13 @@ class EnumCCDHExecutionTimeObservationObservationType(EnumDefinitionImpl):
         name="EnumCCDHExecutionTimeObservationObservationType",
         description="Autogenerated Enumeration for CRDC-H ExecutionTimeObservation observation_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:50.514505+00:00",
+        code_set_version="2021-07-21T20:27:24.492867+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHExecutionTimeObservationMethodType(EnumDefinitionImpl):
     """
@@ -12444,8 +12380,13 @@ class EnumCCDHExecutionTimeObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHExecutionTimeObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H ExecutionTimeObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:50.870815+00:00",
+        code_set_version="2021-07-21T20:27:24.648661+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHExecutionConditionObservationCategory(EnumDefinitionImpl):
     """
@@ -12455,8 +12396,13 @@ class EnumCCDHExecutionConditionObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHExecutionConditionObservationCategory",
         description="Autogenerated Enumeration for CRDC-H ExecutionConditionObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:51.046166+00:00",
+        code_set_version="2021-07-21T20:27:24.807235+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHExecutionConditionObservationObservationType(EnumDefinitionImpl):
     """
@@ -12466,8 +12412,13 @@ class EnumCCDHExecutionConditionObservationObservationType(EnumDefinitionImpl):
         name="EnumCCDHExecutionConditionObservationObservationType",
         description="Autogenerated Enumeration for CRDC-H ExecutionConditionObservation observation_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:51.313353+00:00",
+        code_set_version="2021-07-21T20:27:24.981425+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHExecutionConditionObservationMethodType(EnumDefinitionImpl):
     """
@@ -12477,8 +12428,13 @@ class EnumCCDHExecutionConditionObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHExecutionConditionObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H ExecutionConditionObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:51.505416+00:00",
+        code_set_version="2021-07-21T20:27:25.145582+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHExecutionConditionObservationValueCodeableConcept(EnumDefinitionImpl):
     """
@@ -12488,8 +12444,13 @@ class EnumCCDHExecutionConditionObservationValueCodeableConcept(EnumDefinitionIm
         name="EnumCCDHExecutionConditionObservationValueCodeableConcept",
         description="Autogenerated Enumeration for CRDC-H ExecutionConditionObservation valueCodeableConcept",
         code_set=None,
-        code_set_version="2021-06-01T00:48:51.679663+00:00",
+        code_set_version="2021-07-21T20:27:25.304413+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHHistologicalCompositionObservationCategory(EnumDefinitionImpl):
     """
@@ -12499,8 +12460,13 @@ class EnumCCDHHistologicalCompositionObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHHistologicalCompositionObservationCategory",
         description="Autogenerated Enumeration for CRDC-H HistologicalCompositionObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:52.056063+00:00",
+        code_set_version="2021-07-21T20:27:25.512480+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHHistologicalCompositionObservationObservationType(EnumDefinitionImpl):
     """
@@ -12553,6 +12519,11 @@ class EnumCCDHHistologicalCompositionObservationObservationType(EnumDefinitionIm
         description="Types of measurements that describe microscopic characteristics of a specimen - typically related to its cellular and tissue composition.",
     )
 
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHHistologicalCompositionObservationMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H HistologicalCompositionObservation method_type
@@ -12561,8 +12532,13 @@ class EnumCCDHHistologicalCompositionObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHHistologicalCompositionObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H HistologicalCompositionObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:52.509398+00:00",
+        code_set_version="2021-07-21T20:27:25.839551+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHHistologicalCompositionObservationSetCategory(EnumDefinitionImpl):
     """
@@ -12572,8 +12548,13 @@ class EnumCCDHHistologicalCompositionObservationSetCategory(EnumDefinitionImpl):
         name="EnumCCDHHistologicalCompositionObservationSetCategory",
         description="Autogenerated Enumeration for CRDC-H HistologicalCompositionObservationSet category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:52.684168+00:00",
+        code_set_version="2021-07-21T20:27:26.018337+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHHistologicalCompositionObservationSetMethodType(EnumDefinitionImpl):
     """
@@ -12583,8 +12564,13 @@ class EnumCCDHHistologicalCompositionObservationSetMethodType(EnumDefinitionImpl
         name="EnumCCDHHistologicalCompositionObservationSetMethodType",
         description="Autogenerated Enumeration for CRDC-H HistologicalCompositionObservationSet method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:53.050737+00:00",
+        code_set_version="2021-07-21T20:27:26.209420+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHIdentifierType(EnumDefinitionImpl):
     """
@@ -12594,8 +12580,13 @@ class EnumCCDHIdentifierType(EnumDefinitionImpl):
         name="EnumCCDHIdentifierType",
         description="Autogenerated Enumeration for CRDC-H Identifier type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:53.222985+00:00",
+        code_set_version="2021-07-21T20:27:26.399326+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHObservationCategory(EnumDefinitionImpl):
     """
@@ -12605,8 +12596,13 @@ class EnumCCDHObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHObservationCategory",
         description="Autogenerated Enumeration for CRDC-H Observation category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:53.489369+00:00",
+        code_set_version="2021-07-21T20:27:26.571554+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHObservationObservationType(EnumDefinitionImpl):
     """
@@ -12616,8 +12612,13 @@ class EnumCCDHObservationObservationType(EnumDefinitionImpl):
         name="EnumCCDHObservationObservationType",
         description="Autogenerated Enumeration for CRDC-H Observation observation_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:53.649272+00:00",
+        code_set_version="2021-07-21T20:27:26.723773+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHObservationMethodType(EnumDefinitionImpl):
     """
@@ -12627,8 +12628,13 @@ class EnumCCDHObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H Observation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:54.017868+00:00",
+        code_set_version="2021-07-21T20:27:26.877607+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHObservationValueCodeableConcept(EnumDefinitionImpl):
     """
@@ -12638,8 +12644,13 @@ class EnumCCDHObservationValueCodeableConcept(EnumDefinitionImpl):
         name="EnumCCDHObservationValueCodeableConcept",
         description="Autogenerated Enumeration for CRDC-H Observation valueCodeableConcept",
         code_set=None,
-        code_set_version="2021-06-01T00:48:54.187547+00:00",
+        code_set_version="2021-07-21T20:27:27.041225+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHObservationSetCategory(EnumDefinitionImpl):
     """
@@ -12649,8 +12660,13 @@ class EnumCCDHObservationSetCategory(EnumDefinitionImpl):
         name="EnumCCDHObservationSetCategory",
         description="Autogenerated Enumeration for CRDC-H ObservationSet category",
         code_set=None,
-        code_set_version="2021-06-01T00:48:54.413135+00:00",
+        code_set_version="2021-07-21T20:27:27.184566+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHObservationSetMethodType(EnumDefinitionImpl):
     """
@@ -12660,8 +12676,13 @@ class EnumCCDHObservationSetMethodType(EnumDefinitionImpl):
         name="EnumCCDHObservationSetMethodType",
         description="Autogenerated Enumeration for CRDC-H ObservationSet method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:54.583937+00:00",
+        code_set_version="2021-07-21T20:27:27.335217+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHQuantityValueCodeableConcept(EnumDefinitionImpl):
     """
@@ -12674,7 +12695,7 @@ class EnumCCDHQuantityValueCodeableConcept(EnumDefinitionImpl):
         name="EnumCCDHQuantityValueCodeableConcept",
         description="Autogenerated Enumeration for CRDC-H Quantity valueCodeableConcept",
         code_set=None,
-        code_set_version="2021-06-01T00:48:54.756149+00:00",
+        code_set_version="2021-07-21T20:27:27.491203+00:00",
     )
 
     @classmethod
@@ -12689,6 +12710,10 @@ class EnumCCDHQuantityValueCodeableConcept(EnumDefinitionImpl):
                 PermissibleValue(text="Adjacent (< or = 2cm)",
                                  description="Adjacent") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHQuantityUnit(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Quantity unit
@@ -12697,8 +12722,13 @@ class EnumCCDHQuantityUnit(EnumDefinitionImpl):
         name="EnumCCDHQuantityUnit",
         description="Autogenerated Enumeration for CRDC-H Quantity unit",
         code_set=None,
-        code_set_version="2021-06-01T00:48:55.154167+00:00",
+        code_set_version="2021-07-21T20:27:27.650443+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHResearchProjectResearchProjectType(EnumDefinitionImpl):
     """
@@ -12719,6 +12749,10 @@ class EnumCCDHResearchProjectResearchProjectType(EnumDefinitionImpl):
         setattr(cls, "Clinical Trial",
                 PermissibleValue(text="Clinical Trial",
                                  description="A research study that prospectively assigns participants to one or more health-related interventions to evaluate the effects on health outcomes.") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHResearchSubjectPrimaryDiagnosisCondition(EnumDefinitionImpl):
     """
@@ -12745,7 +12779,7 @@ class EnumCCDHResearchSubjectPrimaryDiagnosisCondition(EnumDefinitionImpl):
         name="EnumCCDHResearchSubjectPrimaryDiagnosisCondition",
         description="Autogenerated Enumeration for CRDC-H ResearchSubject primary_diagnosis_condition",
         code_set=None,
-        code_set_version="2021-06-01T00:48:55.594965+00:00",
+        code_set_version="2021-07-21T20:27:27.983795+00:00",
     )
 
     @classmethod
@@ -13006,6 +13040,10 @@ class EnumCCDHResearchSubjectPrimaryDiagnosisCondition(EnumDefinitionImpl):
         setattr(cls, "Colon Adenocarcinoma",
                 PermissibleValue(text="Colon Adenocarcinoma") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHResearchSubjectIndexTimepoint(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H ResearchSubject index_timepoint
@@ -13018,7 +13056,7 @@ class EnumCCDHResearchSubjectIndexTimepoint(EnumDefinitionImpl):
         name="EnumCCDHResearchSubjectIndexTimepoint",
         description="Autogenerated Enumeration for CRDC-H ResearchSubject index_timepoint",
         code_set=None,
-        code_set_version="2021-06-01T00:48:55.855029+00:00",
+        code_set_version="2021-07-21T20:27:28.227248+00:00",
     )
 
     @classmethod
@@ -13036,6 +13074,10 @@ class EnumCCDHResearchSubjectIndexTimepoint(EnumDefinitionImpl):
                                  description="Tissue Procurement") )
         setattr(cls, "Initial Genomic Sequencing",
                 PermissibleValue(text="Initial Genomic Sequencing") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenSpecimenType(EnumDefinitionImpl):
     """
@@ -13061,6 +13103,10 @@ class EnumCCDHSpecimenSpecimenType(EnumDefinitionImpl):
         setattr(cls, "initial sample",
                 PermissibleValue(text="initial sample",
                                  description="A specimen representing the material that was directly collected from a subject (i.e. not generated through portioning, aliquoting, or analyte extraction from an existing specimen).") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenAnalyteType(EnumDefinitionImpl):
     """
@@ -13095,7 +13141,7 @@ class EnumCCDHSpecimenAnalyteType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenAnalyteType",
         description="Autogenerated Enumeration for CRDC-H Specimen analyte_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:56.416776+00:00",
+        code_set_version="2021-07-21T20:27:28.633325+00:00",
     )
 
     @classmethod
@@ -13126,6 +13172,10 @@ class EnumCCDHSpecimenAnalyteType(EnumDefinitionImpl):
         setattr(cls, "GenomePlex (Rubicon) Amplified DNA",
                 PermissibleValue(text="GenomePlex (Rubicon) Amplified DNA") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenSourceMaterialType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Specimen source_material_type
@@ -13146,7 +13196,7 @@ class EnumCCDHSpecimenSourceMaterialType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenSourceMaterialType",
         description="Autogenerated Enumeration for CRDC-H Specimen source_material_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:56.680616+00:00",
+        code_set_version="2021-07-21T20:27:28.839359+00:00",
     )
 
     @classmethod
@@ -13306,6 +13356,10 @@ class EnumCCDHSpecimenSourceMaterialType(EnumDefinitionImpl):
         setattr(cls, "40",
                 PermissibleValue(text="40") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenTumorStatusAtCollection(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Specimen tumor_status_at_collection
@@ -13332,7 +13386,7 @@ class EnumCCDHSpecimenTumorStatusAtCollection(EnumDefinitionImpl):
         name="EnumCCDHSpecimenTumorStatusAtCollection",
         description="Autogenerated Enumeration for CRDC-H Specimen tumor_status_at_collection",
         code_set=None,
-        code_set_version="2021-06-01T00:48:56.905996+00:00",
+        code_set_version="2021-07-21T20:27:29.080170+00:00",
     )
 
     @classmethod
@@ -13345,6 +13399,10 @@ class EnumCCDHSpecimenTumorStatusAtCollection(EnumDefinitionImpl):
                 PermissibleValue(text="Not Applicable") )
         setattr(cls, "Not Reported",
                 PermissibleValue(text="Not Reported") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenCellularCompositionType(EnumDefinitionImpl):
     """
@@ -13370,7 +13428,7 @@ class EnumCCDHSpecimenCellularCompositionType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenCellularCompositionType",
         description="Autogenerated Enumeration for CRDC-H Specimen cellular_composition_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:57.300574+00:00",
+        code_set_version="2021-07-21T20:27:29.256525+00:00",
     )
 
     @classmethod
@@ -13442,6 +13500,10 @@ class EnumCCDHSpecimenCellularCompositionType(EnumDefinitionImpl):
         setattr(cls, "Not Allowed To Collect",
                 PermissibleValue(text="Not Allowed To Collect") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenGeneralTissueMorphology(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Specimen general_tissue_morphology
@@ -13461,7 +13523,7 @@ class EnumCCDHSpecimenGeneralTissueMorphology(EnumDefinitionImpl):
         name="EnumCCDHSpecimenGeneralTissueMorphology",
         description="Autogenerated Enumeration for CRDC-H Specimen general_tissue_morphology",
         code_set=None,
-        code_set_version="2021-06-01T00:48:57.573932+00:00",
+        code_set_version="2021-07-21T20:27:29.449564+00:00",
     )
 
     @classmethod
@@ -13470,6 +13532,10 @@ class EnumCCDHSpecimenGeneralTissueMorphology(EnumDefinitionImpl):
                 PermissibleValue(text="Not Allowed To Collect") )
         setattr(cls, "Not Reported",
                 PermissibleValue(text="Not Reported") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenSpecificTissueMorphology(EnumDefinitionImpl):
     """
@@ -13481,7 +13547,7 @@ class EnumCCDHSpecimenSpecificTissueMorphology(EnumDefinitionImpl):
         name="EnumCCDHSpecimenSpecificTissueMorphology",
         description="Autogenerated Enumeration for CRDC-H Specimen specific_tissue_morphology",
         code_set=None,
-        code_set_version="2021-06-01T00:48:57.767224+00:00",
+        code_set_version="2021-07-21T20:27:29.609901+00:00",
     )
 
     @classmethod
@@ -13585,6 +13651,10 @@ class EnumCCDHSpecimenSpecificTissueMorphology(EnumDefinitionImpl):
         setattr(cls, "Wilms tumor (WT)",
                 PermissibleValue(text="Wilms tumor (WT)") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenPreinvasiveTissueMorphology(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Specimen preinvasive_tissue_morphology
@@ -13593,8 +13663,13 @@ class EnumCCDHSpecimenPreinvasiveTissueMorphology(EnumDefinitionImpl):
         name="EnumCCDHSpecimenPreinvasiveTissueMorphology",
         description="Autogenerated Enumeration for CRDC-H Specimen preinvasive_tissue_morphology",
         code_set=None,
-        code_set_version="2021-06-01T00:48:57.991170+00:00",
+        code_set_version="2021-07-21T20:27:29.816929+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenMorphologyAssessorRole(EnumDefinitionImpl):
     """
@@ -13604,8 +13679,13 @@ class EnumCCDHSpecimenMorphologyAssessorRole(EnumDefinitionImpl):
         name="EnumCCDHSpecimenMorphologyAssessorRole",
         description="Autogenerated Enumeration for CRDC-H Specimen morphology_assessor_role",
         code_set=None,
-        code_set_version="2021-06-01T00:48:58.373984+00:00",
+        code_set_version="2021-07-21T20:27:30.003718+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenMorphlogyAssessmentMethod(EnumDefinitionImpl):
     """
@@ -13615,8 +13695,13 @@ class EnumCCDHSpecimenMorphlogyAssessmentMethod(EnumDefinitionImpl):
         name="EnumCCDHSpecimenMorphlogyAssessmentMethod",
         description="Autogenerated Enumeration for CRDC-H Specimen morphlogy_assessment_method",
         code_set=None,
-        code_set_version="2021-06-01T00:48:58.655104+00:00",
+        code_set_version="2021-07-21T20:27:30.184704+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenDegreeOfDysplasia(EnumDefinitionImpl):
     """
@@ -13626,8 +13711,13 @@ class EnumCCDHSpecimenDegreeOfDysplasia(EnumDefinitionImpl):
         name="EnumCCDHSpecimenDegreeOfDysplasia",
         description="Autogenerated Enumeration for CRDC-H Specimen degree_of_dysplasia",
         code_set=None,
-        code_set_version="2021-06-01T00:48:58.829322+00:00",
+        code_set_version="2021-07-21T20:27:30.424482+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenSectionLocation(EnumDefinitionImpl):
     """
@@ -13645,6 +13735,11 @@ class EnumCCDHSpecimenSectionLocation(EnumDefinitionImpl):
         description="The location in a parent specimen from which a section/portion was excised.",
     )
 
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenContainerContainerType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H SpecimenContainer container_type
@@ -13653,8 +13748,13 @@ class EnumCCDHSpecimenContainerContainerType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenContainerContainerType",
         description="Autogenerated Enumeration for CRDC-H SpecimenContainer container_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:59.407206+00:00",
+        code_set_version="2021-07-21T20:27:31.165214+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenCreationActivityActivityType(EnumDefinitionImpl):
     """
@@ -13674,6 +13774,10 @@ class EnumCCDHSpecimenCreationActivityActivityType(EnumDefinitionImpl):
         setattr(cls, "derivation from specimen",
                 PermissibleValue(text="derivation from specimen",
                                  description="An activity that derives a new specimen from an existing one.") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenCreationActivityCollectionMethodType(EnumDefinitionImpl):
     """
@@ -13713,7 +13817,7 @@ class EnumCCDHSpecimenCreationActivityCollectionMethodType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenCreationActivityCollectionMethodType",
         description="Autogenerated Enumeration for CRDC-H SpecimenCreationActivity collection_method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:48:59.835421+00:00",
+        code_set_version="2021-07-21T20:27:31.602078+00:00",
     )
 
     @classmethod
@@ -13871,6 +13975,10 @@ class EnumCCDHSpecimenCreationActivityCollectionMethodType(EnumDefinitionImpl):
         setattr(cls, "Transoral Laser Excision",
                 PermissibleValue(text="Transoral Laser Excision") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenCreationActivityDerivationMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H SpecimenCreationActivity derivation_method_type
@@ -13879,8 +13987,13 @@ class EnumCCDHSpecimenCreationActivityDerivationMethodType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenCreationActivityDerivationMethodType",
         description="Autogenerated Enumeration for CRDC-H SpecimenCreationActivity derivation_method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:49:00.081077+00:00",
+        code_set_version="2021-07-21T20:27:31.820775+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenQualityObservationCategory(EnumDefinitionImpl):
     """
@@ -13890,8 +14003,13 @@ class EnumCCDHSpecimenQualityObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHSpecimenQualityObservationCategory",
         description="Autogenerated Enumeration for CRDC-H SpecimenQualityObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:49:00.462091+00:00",
+        code_set_version="2021-07-21T20:27:31.972581+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenQualityObservationObservationType(EnumDefinitionImpl):
     """
@@ -13911,6 +14029,10 @@ class EnumCCDHSpecimenQualityObservationObservationType(EnumDefinitionImpl):
                 PermissibleValue(text="a260_a280_ratio  ",
                                  description="Ratio of absorbance measured at a wavelength of 260 over that at a wavelength of 280.") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenQualityObservationMethodType(EnumDefinitionImpl):
     """
     A type of method used in determining the quantity of a specimen.
@@ -13929,6 +14051,10 @@ class EnumCCDHSpecimenQualityObservationMethodType(EnumDefinitionImpl):
                 PermissibleValue(text="Pico Green",
                                  description="A technique applying the Pico488 fluorescent sensor dye that is used for quantifying the amount of double-stranded DNA (dsDNA) present in a given sample.") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenQuantityObservationCategory(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H SpecimenQuantityObservation category
@@ -13937,8 +14063,13 @@ class EnumCCDHSpecimenQuantityObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHSpecimenQuantityObservationCategory",
         description="Autogenerated Enumeration for CRDC-H SpecimenQuantityObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:49:01.081468+00:00",
+        code_set_version="2021-07-21T20:27:32.455000+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenQuantityObservationObservationType(EnumDefinitionImpl):
     """
@@ -13957,6 +14088,11 @@ class EnumCCDHSpecimenQuantityObservationObservationType(EnumDefinitionImpl):
         description="Measures related to the quantity of a specimen or analyte it currently contains - e.g. its weight, volume, or concentration.",
     )
 
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenQuantityObservationMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H SpecimenQuantityObservation method_type
@@ -13965,8 +14101,13 @@ class EnumCCDHSpecimenQuantityObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenQuantityObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H SpecimenQuantityObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:49:01.754678+00:00",
+        code_set_version="2021-07-21T20:27:32.771678+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenProcessingActivityActivityType(EnumDefinitionImpl):
     """
@@ -13985,6 +14126,11 @@ class EnumCCDHSpecimenProcessingActivityActivityType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenProcessingActivityActivityType",
         description="The high-level type of processing activity performed.",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSpecimenProcessingActivityMethodType(EnumDefinitionImpl):
     """
@@ -14009,6 +14155,10 @@ class EnumCCDHSpecimenProcessingActivityMethodType(EnumDefinitionImpl):
                 PermissibleValue(text="-20",
                                  description="Freezing at -20 degrees celcius") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSpecimenStorageActivityMethodType(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H SpecimenStorageActivity method_type
@@ -14017,8 +14167,13 @@ class EnumCCDHSpecimenStorageActivityMethodType(EnumDefinitionImpl):
         name="EnumCCDHSpecimenStorageActivityMethodType",
         description="Autogenerated Enumeration for CRDC-H SpecimenStorageActivity method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:49:02.511853+00:00",
+        code_set_version="2021-07-21T20:27:33.276395+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSubjectSpecies(EnumDefinitionImpl):
     """
@@ -14037,6 +14192,10 @@ class EnumCCDHSubjectSpecies(EnumDefinitionImpl):
                 PermissibleValue(text="Canis familiaris") )
         setattr(cls, "Mus musculus",
                 PermissibleValue(text="Mus musculus") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSubjectBreed(EnumDefinitionImpl):
     """
@@ -14132,6 +14291,10 @@ class EnumCCDHSubjectBreed(EnumDefinitionImpl):
         setattr(cls, "Yorkshire Terrier",
                 PermissibleValue(text="Yorkshire Terrier") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSubjectSex(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Subject sex
@@ -14145,13 +14308,17 @@ class EnumCCDHSubjectSex(EnumDefinitionImpl):
         name="EnumCCDHSubjectSex",
         description="Autogenerated Enumeration for CRDC-H Subject sex",
         code_set=None,
-        code_set_version="2021-06-01T00:49:03.065233+00:00",
+        code_set_version="2021-07-21T20:27:33.788556+00:00",
     )
 
     @classmethod
     def _addvals(cls):
         setattr(cls, "not reported",
                 PermissibleValue(text="not reported") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSubjectEthnicity(EnumDefinitionImpl):
     """
@@ -14165,7 +14332,7 @@ class EnumCCDHSubjectEthnicity(EnumDefinitionImpl):
         name="EnumCCDHSubjectEthnicity",
         description="Autogenerated Enumeration for CRDC-H Subject ethnicity",
         code_set=None,
-        code_set_version="2021-06-01T00:49:03.227730+00:00",
+        code_set_version="2021-07-21T20:27:33.955340+00:00",
     )
 
     @classmethod
@@ -14178,6 +14345,10 @@ class EnumCCDHSubjectEthnicity(EnumDefinitionImpl):
                 PermissibleValue(text="not reported") )
         setattr(cls, "not allowed to collect",
                 PermissibleValue(text="not allowed to collect") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSubjectRace(EnumDefinitionImpl):
     """
@@ -14194,7 +14365,7 @@ class EnumCCDHSubjectRace(EnumDefinitionImpl):
         name="EnumCCDHSubjectRace",
         description="Autogenerated Enumeration for CRDC-H Subject race",
         code_set=None,
-        code_set_version="2021-06-01T00:49:03.395781+00:00",
+        code_set_version="2021-07-21T20:27:34.176769+00:00",
     )
 
     @classmethod
@@ -14209,6 +14380,10 @@ class EnumCCDHSubjectRace(EnumDefinitionImpl):
                 PermissibleValue(text="american indian or alaska native") )
         setattr(cls, "black or african american",
                 PermissibleValue(text="black or african american") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSubjectVitalStatus(EnumDefinitionImpl):
     """
@@ -14225,7 +14400,7 @@ class EnumCCDHSubjectVitalStatus(EnumDefinitionImpl):
         name="EnumCCDHSubjectVitalStatus",
         description="Autogenerated Enumeration for CRDC-H Subject vital_status",
         code_set=None,
-        code_set_version="2021-06-01T00:49:03.567490+00:00",
+        code_set_version="2021-07-21T20:27:34.340256+00:00",
     )
 
     @classmethod
@@ -14233,6 +14408,10 @@ class EnumCCDHSubjectVitalStatus(EnumDefinitionImpl):
         setattr(cls, "Not Reported",
                 PermissibleValue(text="Not Reported",
                                  description="Not Reported") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSubjectCauseOfDeath(EnumDefinitionImpl):
     """
@@ -14249,7 +14428,7 @@ class EnumCCDHSubjectCauseOfDeath(EnumDefinitionImpl):
         name="EnumCCDHSubjectCauseOfDeath",
         description="Autogenerated Enumeration for CRDC-H Subject cause_of_death",
         code_set=None,
-        code_set_version="2021-06-01T00:49:03.731374+00:00",
+        code_set_version="2021-07-21T20:27:34.507604+00:00",
     )
 
     @classmethod
@@ -14276,6 +14455,10 @@ class EnumCCDHSubjectCauseOfDeath(EnumDefinitionImpl):
                                  description="Cardiovascular Disorder, NOS") )
         setattr(cls, "Cancer Related",
                 PermissibleValue(text="Cancer Related") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSubstanceSubstanceType(EnumDefinitionImpl):
     """
@@ -15636,7 +15819,7 @@ class EnumCCDHSubstanceSubstanceType(EnumDefinitionImpl):
         name="EnumCCDHSubstanceSubstanceType",
         description="Autogenerated Enumeration for CRDC-H Substance substance_type",
         code_set=None,
-        code_set_version="2021-06-01T00:49:03.920748+00:00",
+        code_set_version="2021-07-21T20:27:34.672122+00:00",
     )
 
     @classmethod
@@ -21886,6 +22069,10 @@ class EnumCCDHSubstanceSubstanceType(EnumDefinitionImpl):
         setattr(cls, "Anti-CSF1 Monoclonal Antibody PD-0360324",
                 PermissibleValue(text="Anti-CSF1 Monoclonal Antibody PD-0360324") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHSubstanceRole(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Substance role
@@ -21894,8 +22081,13 @@ class EnumCCDHSubstanceRole(EnumDefinitionImpl):
         name="EnumCCDHSubstanceRole",
         description="Autogenerated Enumeration for CRDC-H Substance role",
         code_set=None,
-        code_set_version="2021-06-01T00:49:06.855557+00:00",
+        code_set_version="2021-07-21T20:27:37.531824+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHTimePointEventType(EnumDefinitionImpl):
     """
@@ -21918,6 +22110,10 @@ class EnumCCDHTimePointEventType(EnumDefinitionImpl):
                 PermissibleValue(text="Histological confirmation of diagnosis",
                                  description="The date that a histological diagnosis was confirmed.") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHTobaccoExposureObservationCategory(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H TobaccoExposureObservation category
@@ -21926,8 +22122,13 @@ class EnumCCDHTobaccoExposureObservationCategory(EnumDefinitionImpl):
         name="EnumCCDHTobaccoExposureObservationCategory",
         description="Autogenerated Enumeration for CRDC-H TobaccoExposureObservation category",
         code_set=None,
-        code_set_version="2021-06-01T00:49:07.222241+00:00",
+        code_set_version="2021-07-21T20:27:37.854039+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHTobaccoExposureObservationObservationType(EnumDefinitionImpl):
     """
@@ -21937,8 +22138,13 @@ class EnumCCDHTobaccoExposureObservationObservationType(EnumDefinitionImpl):
         name="EnumCCDHTobaccoExposureObservationObservationType",
         description="Autogenerated Enumeration for CRDC-H TobaccoExposureObservation observation_type",
         code_set=None,
-        code_set_version="2021-06-01T00:49:07.388728+00:00",
+        code_set_version="2021-07-21T20:27:38.012708+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHTobaccoExposureObservationMethodType(EnumDefinitionImpl):
     """
@@ -21948,8 +22154,13 @@ class EnumCCDHTobaccoExposureObservationMethodType(EnumDefinitionImpl):
         name="EnumCCDHTobaccoExposureObservationMethodType",
         description="Autogenerated Enumeration for CRDC-H TobaccoExposureObservation method_type",
         code_set=None,
-        code_set_version="2021-06-01T00:49:07.551906+00:00",
+        code_set_version="2021-07-21T20:27:38.162431+00:00",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHTobaccoExposureObservationValueCodeableConcept(EnumDefinitionImpl):
     """
@@ -21969,7 +22180,7 @@ class EnumCCDHTobaccoExposureObservationValueCodeableConcept(EnumDefinitionImpl)
         name="EnumCCDHTobaccoExposureObservationValueCodeableConcept",
         description="Autogenerated Enumeration for CRDC-H TobaccoExposureObservation valueCodeableConcept",
         code_set=None,
-        code_set_version="2021-06-01T00:49:07.720572+00:00",
+        code_set_version="2021-07-21T20:27:38.323007+00:00",
     )
 
     @classmethod
@@ -22014,131 +22225,9 @@ class EnumCCDHTobaccoExposureObservationValueCodeableConcept(EnumDefinitionImpl)
                 PermissibleValue(text="6",
                                  description="Smoker at Diagnosis") )
 
-class EnumCCDHTreatmentRegimen(EnumDefinitionImpl):
-    """
-    Autogenerated Enumeration for CRDC-H Treatment regimen
-    """
-    _defn = EnumDefinition(
-        name="EnumCCDHTreatmentRegimen",
-        description="Autogenerated Enumeration for CRDC-H Treatment regimen",
-        code_set=None,
-        code_set_version="2021-06-01T00:49:07.902996+00:00",
-    )
-
-class EnumCCDHTreatmentTreatmentEffect(EnumDefinitionImpl):
-    """
-    Autogenerated Enumeration for CRDC-H Treatment treatment_effect
-    """
-    Yes = PermissibleValue(text="Yes")
-    Unknown = PermissibleValue(text="Unknown",
-                                     description="Unknown")
-    No = PermissibleValue(text="No")
-
-    _defn = EnumDefinition(
-        name="EnumCCDHTreatmentTreatmentEffect",
-        description="Autogenerated Enumeration for CRDC-H Treatment treatment_effect",
-        code_set=None,
-        code_set_version="2021-06-01T00:49:08.064129+00:00",
-    )
-
-    @classmethod
-    def _addvals(cls):
-        setattr(cls, "Not Reported",
-                PermissibleValue(text="Not Reported",
-                                 description="Not Reported") )
-        setattr(cls, "Incomplete Necrosis (Viable Tumor Present)",
-                PermissibleValue(text="Incomplete Necrosis (Viable Tumor Present)") )
-        setattr(cls, "No Necrosis",
-                PermissibleValue(text="No Necrosis") )
-        setattr(cls, "No Known Treatment Effect",
-                PermissibleValue(text="No Known Treatment Effect") )
-        setattr(cls, "Complete Necrosis (No Viable Tumor)",
-                PermissibleValue(text="Complete Necrosis (No Viable Tumor)") )
-
-class EnumCCDHTreatmentTreatmentIntent(EnumDefinitionImpl):
-    """
-    Autogenerated Enumeration for CRDC-H Treatment treatment_intent
-    """
-    Neoadjuvant = PermissibleValue(text="Neoadjuvant",
-                                             description="Neoadjuvant Therapy")
-    Unknown = PermissibleValue(text="Unknown")
-    Prevention = PermissibleValue(text="Prevention",
-                                           description="Cancer Prevention")
-    Adjuvant = PermissibleValue(text="Adjuvant",
-                                       description="Adjuvant Therapy")
-    Cure = PermissibleValue(text="Cure",
-                               description="Cure")
-    Palliative = PermissibleValue(text="Palliative",
-                                           description="Palliative")
-
-    _defn = EnumDefinition(
-        name="EnumCCDHTreatmentTreatmentIntent",
-        description="Autogenerated Enumeration for CRDC-H Treatment treatment_intent",
-        code_set=None,
-        code_set_version="2021-06-01T00:49:08.231224+00:00",
-    )
-
-    @classmethod
-    def _addvals(cls):
-        setattr(cls, "Not Reported",
-                PermissibleValue(text="Not Reported") )
-        setattr(cls, "Maintenance Therapy",
-                PermissibleValue(text="Maintenance Therapy") )
-        setattr(cls, "Androgen Deprivation Therapy (ADT)",
-                PermissibleValue(text="Androgen Deprivation Therapy (ADT)") )
-        setattr(cls, "Cancer Control",
-                PermissibleValue(text="Cancer Control") )
-
-class EnumCCDHTreatmentTreatmentOutcome(EnumDefinitionImpl):
-    """
-    Autogenerated Enumeration for CRDC-H Treatment treatment_outcome
-    """
-    Unknown = PermissibleValue(text="Unknown",
-                                     description="Unknown")
-
-    _defn = EnumDefinition(
-        name="EnumCCDHTreatmentTreatmentOutcome",
-        description="Autogenerated Enumeration for CRDC-H Treatment treatment_outcome",
-        code_set=None,
-        code_set_version="2021-06-01T00:49:08.420874+00:00",
-    )
-
-    @classmethod
-    def _addvals(cls):
-        setattr(cls, "Treatment Ongoing",
-                PermissibleValue(text="Treatment Ongoing",
-                                 description="Treatment Still in Progress") )
-        setattr(cls, "Complete Response",
-                PermissibleValue(text="Complete Response",
-                                 description="Complete Response") )
-        setattr(cls, "Very Good Partial Response",
-                PermissibleValue(text="Very Good Partial Response",
-                                 description="Very good Partial Response") )
-        setattr(cls, "No Measurable Disease",
-                PermissibleValue(text="No Measurable Disease") )
-        setattr(cls, "Stable Disease",
-                PermissibleValue(text="Stable Disease",
-                                 description="Stable Disease") )
-        setattr(cls, "Mixed Response",
-                PermissibleValue(text="Mixed Response",
-                                 description="Mixed response") )
-        setattr(cls, "Persistent Disease",
-                PermissibleValue(text="Persistent Disease",
-                                 description="Persistent disease (Hematologic persistence)") )
-        setattr(cls, "Not Reported",
-                PermissibleValue(text="Not Reported") )
-        setattr(cls, "Treatment Stopped Due to Toxicity",
-                PermissibleValue(text="Treatment Stopped Due to Toxicity",
-                                 description="Treatment Terminated Due to Toxicity") )
-        setattr(cls, "Progressive Disease",
-                PermissibleValue(text="Progressive Disease",
-                                 description="Progressive Disease") )
-        setattr(cls, "Partial Response",
-                PermissibleValue(text="Partial Response",
-                                 description="Partial Response") )
-        setattr(cls, "No Response",
-                PermissibleValue(text="No Response",
-                                 description="No Response") )
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHTreatmentTreatmentType(EnumDefinitionImpl):
     """
@@ -22163,7 +22252,7 @@ class EnumCCDHTreatmentTreatmentType(EnumDefinitionImpl):
         name="EnumCCDHTreatmentTreatmentType",
         description="Autogenerated Enumeration for CRDC-H Treatment treatment_type",
         code_set=None,
-        code_set_version="2021-06-01T00:49:08.595766+00:00",
+        code_set_version="2021-07-21T20:27:38.504042+00:00",
     )
 
     @classmethod
@@ -22280,6 +22369,55 @@ class EnumCCDHTreatmentTreatmentType(EnumDefinitionImpl):
         setattr(cls, "Radiation, Radioisotope",
                 PermissibleValue(text="Radiation, Radioisotope") )
 
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
+class EnumCCDHTreatmentTreatmentEndReason(EnumDefinitionImpl):
+    """
+    Autogenerated Enumeration for CRDC-H Treatment treatment_end_reason
+    """
+    Other = PermissibleValue(text="Other")
+    Death = PermissibleValue(text="Death")
+
+    _defn = EnumDefinition(
+        name="EnumCCDHTreatmentTreatmentEndReason",
+        description="Autogenerated Enumeration for CRDC-H Treatment treatment_end_reason",
+        code_set=None,
+        code_set_version="2021-07-21T20:27:38.766596+00:00",
+    )
+
+    @classmethod
+    def _addvals(cls):
+        setattr(cls, "Disease Progression",
+                PermissibleValue(text="Disease Progression") )
+        setattr(cls, "Withdrawal by Subject",
+                PermissibleValue(text="Withdrawal by Subject") )
+        setattr(cls, "Adverse Event",
+                PermissibleValue(text="Adverse Event") )
+        setattr(cls, "Course of Therapy Completed",
+                PermissibleValue(text="Course of Therapy Completed") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
+class EnumCCDHTreatmentRegimen(EnumDefinitionImpl):
+    """
+    Autogenerated Enumeration for CRDC-H Treatment regimen
+    """
+    _defn = EnumDefinition(
+        name="EnumCCDHTreatmentRegimen",
+        description="Autogenerated Enumeration for CRDC-H Treatment regimen",
+        code_set=None,
+        code_set_version="2021-07-21T20:27:39.000087+00:00",
+    )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
 class EnumCCDHTreatmentTreatmentFrequency(EnumDefinitionImpl):
     """
     Autogenerated Enumeration for CRDC-H Treatment treatment_frequency
@@ -22290,7 +22428,7 @@ class EnumCCDHTreatmentTreatmentFrequency(EnumDefinitionImpl):
         name="EnumCCDHTreatmentTreatmentFrequency",
         description="Autogenerated Enumeration for CRDC-H Treatment treatment_frequency",
         code_set=None,
-        code_set_version="2021-06-01T00:49:08.800628+00:00",
+        code_set_version="2021-07-21T20:27:39.181028+00:00",
     )
 
     @classmethod
@@ -22316,30 +22454,136 @@ class EnumCCDHTreatmentTreatmentFrequency(EnumDefinitionImpl):
         setattr(cls, "Four Times Daily",
                 PermissibleValue(text="Four Times Daily") )
 
-class EnumCCDHTreatmentTreatmentEndReason(EnumDefinitionImpl):
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
+class EnumCCDHTreatmentTreatmentIntent(EnumDefinitionImpl):
     """
-    Autogenerated Enumeration for CRDC-H Treatment treatment_end_reason
+    Autogenerated Enumeration for CRDC-H Treatment treatment_intent
     """
-    Other = PermissibleValue(text="Other")
-    Death = PermissibleValue(text="Death")
+    Neoadjuvant = PermissibleValue(text="Neoadjuvant",
+                                             description="Neoadjuvant Therapy")
+    Unknown = PermissibleValue(text="Unknown")
+    Prevention = PermissibleValue(text="Prevention",
+                                           description="Cancer Prevention")
+    Adjuvant = PermissibleValue(text="Adjuvant",
+                                       description="Adjuvant Therapy")
+    Cure = PermissibleValue(text="Cure",
+                               description="Cure")
+    Palliative = PermissibleValue(text="Palliative",
+                                           description="Palliative")
 
     _defn = EnumDefinition(
-        name="EnumCCDHTreatmentTreatmentEndReason",
-        description="Autogenerated Enumeration for CRDC-H Treatment treatment_end_reason",
+        name="EnumCCDHTreatmentTreatmentIntent",
+        description="Autogenerated Enumeration for CRDC-H Treatment treatment_intent",
         code_set=None,
-        code_set_version="2021-06-01T00:49:08.977607+00:00",
+        code_set_version="2021-07-21T20:27:39.398457+00:00",
     )
 
     @classmethod
     def _addvals(cls):
-        setattr(cls, "Disease Progression",
-                PermissibleValue(text="Disease Progression") )
-        setattr(cls, "Withdrawal by Subject",
-                PermissibleValue(text="Withdrawal by Subject") )
-        setattr(cls, "Adverse Event",
-                PermissibleValue(text="Adverse Event") )
-        setattr(cls, "Course of Therapy Completed",
-                PermissibleValue(text="Course of Therapy Completed") )
+        setattr(cls, "Not Reported",
+                PermissibleValue(text="Not Reported") )
+        setattr(cls, "Maintenance Therapy",
+                PermissibleValue(text="Maintenance Therapy") )
+        setattr(cls, "Androgen Deprivation Therapy (ADT)",
+                PermissibleValue(text="Androgen Deprivation Therapy (ADT)") )
+        setattr(cls, "Cancer Control",
+                PermissibleValue(text="Cancer Control") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
+class EnumCCDHTreatmentTreatmentEffect(EnumDefinitionImpl):
+    """
+    Autogenerated Enumeration for CRDC-H Treatment treatment_effect
+    """
+    Yes = PermissibleValue(text="Yes")
+    Unknown = PermissibleValue(text="Unknown",
+                                     description="Unknown")
+    No = PermissibleValue(text="No")
+
+    _defn = EnumDefinition(
+        name="EnumCCDHTreatmentTreatmentEffect",
+        description="Autogenerated Enumeration for CRDC-H Treatment treatment_effect",
+        code_set=None,
+        code_set_version="2021-07-21T20:27:39.599540+00:00",
+    )
+
+    @classmethod
+    def _addvals(cls):
+        setattr(cls, "Not Reported",
+                PermissibleValue(text="Not Reported",
+                                 description="Not Reported") )
+        setattr(cls, "Incomplete Necrosis (Viable Tumor Present)",
+                PermissibleValue(text="Incomplete Necrosis (Viable Tumor Present)") )
+        setattr(cls, "No Necrosis",
+                PermissibleValue(text="No Necrosis") )
+        setattr(cls, "No Known Treatment Effect",
+                PermissibleValue(text="No Known Treatment Effect") )
+        setattr(cls, "Complete Necrosis (No Viable Tumor)",
+                PermissibleValue(text="Complete Necrosis (No Viable Tumor)") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
+class EnumCCDHTreatmentTreatmentOutcome(EnumDefinitionImpl):
+    """
+    Autogenerated Enumeration for CRDC-H Treatment treatment_outcome
+    """
+    Unknown = PermissibleValue(text="Unknown",
+                                     description="Unknown")
+
+    _defn = EnumDefinition(
+        name="EnumCCDHTreatmentTreatmentOutcome",
+        description="Autogenerated Enumeration for CRDC-H Treatment treatment_outcome",
+        code_set=None,
+        code_set_version="2021-07-21T20:27:39.839122+00:00",
+    )
+
+    @classmethod
+    def _addvals(cls):
+        setattr(cls, "Treatment Ongoing",
+                PermissibleValue(text="Treatment Ongoing",
+                                 description="Treatment Still in Progress") )
+        setattr(cls, "Complete Response",
+                PermissibleValue(text="Complete Response",
+                                 description="Complete Response") )
+        setattr(cls, "Very Good Partial Response",
+                PermissibleValue(text="Very Good Partial Response",
+                                 description="Very good Partial Response") )
+        setattr(cls, "No Measurable Disease",
+                PermissibleValue(text="No Measurable Disease") )
+        setattr(cls, "Stable Disease",
+                PermissibleValue(text="Stable Disease",
+                                 description="Stable Disease") )
+        setattr(cls, "Mixed Response",
+                PermissibleValue(text="Mixed Response",
+                                 description="Mixed response") )
+        setattr(cls, "Persistent Disease",
+                PermissibleValue(text="Persistent Disease",
+                                 description="Persistent disease (Hematologic persistence)") )
+        setattr(cls, "Not Reported",
+                PermissibleValue(text="Not Reported") )
+        setattr(cls, "Treatment Stopped Due to Toxicity",
+                PermissibleValue(text="Treatment Stopped Due to Toxicity",
+                                 description="Treatment Terminated Due to Toxicity") )
+        setattr(cls, "Progressive Disease",
+                PermissibleValue(text="Progressive Disease",
+                                 description="Progressive Disease") )
+        setattr(cls, "Partial Response",
+                PermissibleValue(text="Partial Response",
+                                 description="Partial Response") )
+        setattr(cls, "No Response",
+                PermissibleValue(text="No Response",
+                                 description="No Response") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHExecutionConditionObservation(EnumDefinitionImpl):
     """
@@ -22353,6 +22597,11 @@ class EnumCCDHExecutionConditionObservation(EnumDefinitionImpl):
         name="EnumCCDHExecutionConditionObservation",
         description="Types of observations about the environmental conditions under which specific aspects of an activity were performed.",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHExecutionTimeObservation(EnumDefinitionImpl):
     """
@@ -22369,6 +22618,26 @@ class EnumCCDHExecutionTimeObservation(EnumDefinitionImpl):
         name="EnumCCDHExecutionTimeObservation",
         description="An observation about the duration of specific aspects / parts of an activity.",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
+
+class EnumCCDHResearchProjectPrimaryAnatomicSite(EnumDefinitionImpl):
+    """
+    The text term used to describe the general location of the malignant disease, as categorized by the World Health
+    Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).
+    """
+    _defn = EnumDefinition(
+        name="EnumCCDHResearchProjectPrimaryAnatomicSite",
+        description="The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).",
+    )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHSubstanceRole(EnumDefinitionImpl):
     """
@@ -22394,6 +22663,10 @@ class EnumCCDHSubstanceRole(EnumDefinitionImpl):
         setattr(cls, "collection media",
                 PermissibleValue(text="collection media",
                                  description="A substance applied to stabilize or support the growth/metabolic activity of a specimen or derived product such as a cell line.") )
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 class EnumCCDHTobbaccoExposureObservationObservationType(EnumDefinitionImpl):
     """
@@ -22424,6 +22697,11 @@ class EnumCCDHTobbaccoExposureObservationObservationType(EnumDefinitionImpl):
         name="EnumCCDHTobbaccoExposureObservationObservationType",
         description="Types of observations about a Subject's exposure to or use of tobacco.",
     )
+
+
+    def __str__(self) -> str:
+        """ Use only the code of this enumeration when dumping this enumeration to a string. """
+        return self._code.text
 
 # Slots
 class slots:
@@ -22636,8 +22914,8 @@ slots.diagnosis__method_of_diagnosis = Slot(uri=CCDH.method_of_diagnosis, name="
 slots.diagnosis__related_specimen = Slot(uri=CCDH.related_specimen, name="diagnosis__related_specimen", curie=CCDH.curie('related_specimen'),
                    model_uri=CCDH.diagnosis__related_specimen, domain=Diagnosis, range=Optional[Union[Union[dict, "Specimen"], List[Union[dict, "Specimen"]]]])
 
-slots.diagnosis__dimensional_measure = Slot(uri=CCDH.dimensional_measure, name="diagnosis__dimensional_measure", curie=CCDH.curie('dimensional_measure'),
-                   model_uri=CCDH.diagnosis__dimensional_measure, domain=Diagnosis, range=Optional[Union[dict, "DimensionalObservationSet"]])
+slots.diagnosis__primary_tumor_dimensional_measures = Slot(uri=CCDH.primary_tumor_dimensional_measures, name="diagnosis__primary_tumor_dimensional_measures", curie=CCDH.curie('primary_tumor_dimensional_measures'),
+                   model_uri=CCDH.diagnosis__primary_tumor_dimensional_measures, domain=Diagnosis, range=Optional[Union[dict, "DimensionalObservationSet"]])
 
 slots.diagnosis__supporting_observation = Slot(uri=CCDH.supporting_observation, name="diagnosis__supporting_observation", curie=CCDH.curie('supporting_observation'),
                    model_uri=CCDH.diagnosis__supporting_observation, domain=Diagnosis, range=Optional[Union[Union[dict, "Observation"], List[Union[dict, "Observation"]]]])
@@ -22659,6 +22937,9 @@ slots.dimensionalObservation__focus = Slot(uri=CCDH.focus, name="dimensionalObse
 
 slots.dimensionalObservation__subject = Slot(uri=CCDH.subject, name="dimensionalObservation__subject", curie=CCDH.curie('subject'),
                    model_uri=CCDH.dimensionalObservation__subject, domain=DimensionalObservation, range=Optional[Union[dict, "Subject"]])
+
+slots.dimensionalObservation__performed_by = Slot(uri=CCDH.performed_by, name="dimensionalObservation__performed_by", curie=CCDH.curie('performed_by'),
+                   model_uri=CCDH.dimensionalObservation__performed_by, domain=DimensionalObservation, range=Optional[Union[dict, "Organization"]])
 
 slots.dimensionalObservation__valueQuantity = Slot(uri=CCDH.valueQuantity, name="dimensionalObservation__valueQuantity", curie=CCDH.curie('valueQuantity'),
                    model_uri=CCDH.dimensionalObservation__valueQuantity, domain=DimensionalObservation, range=Union[dict, "Quantity"])
@@ -23044,9 +23325,6 @@ slots.specimen__parent_specimen = Slot(uri=CCDH.parent_specimen, name="specimen_
 slots.specimen__source_subject = Slot(uri=CCDH.source_subject, name="specimen__source_subject", curie=CCDH.curie('source_subject'),
                    model_uri=CCDH.specimen__source_subject, domain=Specimen, range=Optional[Union[dict, "Subject"]])
 
-slots.specimen__source_model_system = Slot(uri=CCDH.source_model_system, name="specimen__source_model_system", curie=CCDH.curie('source_model_system'),
-                   model_uri=CCDH.specimen__source_model_system, domain=Specimen, range=Optional[Union[dict, Entity]])
-
 slots.specimen__tumor_status_at_collection = Slot(uri=CCDH.tumor_status_at_collection, name="specimen__tumor_status_at_collection", curie=CCDH.curie('tumor_status_at_collection'),
                    model_uri=CCDH.specimen__tumor_status_at_collection, domain=Specimen, range=Optional[Union[str, "EnumCCDHSpecimenTumorStatusAtCollection"]])
 
@@ -23065,8 +23343,8 @@ slots.specimen__transport_activity = Slot(uri=CCDH.transport_activity, name="spe
 slots.specimen__contained_in = Slot(uri=CCDH.contained_in, name="specimen__contained_in", curie=CCDH.curie('contained_in'),
                    model_uri=CCDH.specimen__contained_in, domain=Specimen, range=Optional[Union[dict, "SpecimenContainer"]])
 
-slots.specimen__dimensional_measure = Slot(uri=CCDH.dimensional_measure, name="specimen__dimensional_measure", curie=CCDH.curie('dimensional_measure'),
-                   model_uri=CCDH.specimen__dimensional_measure, domain=Specimen, range=Optional[Union[dict, DimensionalObservationSet]])
+slots.specimen__dimensional_measures = Slot(uri=CCDH.dimensional_measures, name="specimen__dimensional_measures", curie=CCDH.curie('dimensional_measures'),
+                   model_uri=CCDH.specimen__dimensional_measures, domain=Specimen, range=Optional[Union[dict, DimensionalObservationSet]])
 
 slots.specimen__quantity_measure = Slot(uri=CCDH.quantity_measure, name="specimen__quantity_measure", curie=CCDH.curie('quantity_measure'),
                    model_uri=CCDH.specimen__quantity_measure, domain=Specimen, range=Optional[Union[Union[dict, "SpecimenQuantityObservation"], List[Union[dict, "SpecimenQuantityObservation"]]]])
@@ -23077,8 +23355,8 @@ slots.specimen__quality_measure = Slot(uri=CCDH.quality_measure, name="specimen_
 slots.specimen__cellular_composition_type = Slot(uri=CCDH.cellular_composition_type, name="specimen__cellular_composition_type", curie=CCDH.curie('cellular_composition_type'),
                    model_uri=CCDH.specimen__cellular_composition_type, domain=Specimen, range=Optional[Union[str, "EnumCCDHSpecimenCellularCompositionType"]])
 
-slots.specimen__histological_composition_measure = Slot(uri=CCDH.histological_composition_measure, name="specimen__histological_composition_measure", curie=CCDH.curie('histological_composition_measure'),
-                   model_uri=CCDH.specimen__histological_composition_measure, domain=Specimen, range=Optional[Union[Union[dict, HistologicalCompositionObservationSet], List[Union[dict, HistologicalCompositionObservationSet]]]])
+slots.specimen__histological_composition_measures = Slot(uri=CCDH.histological_composition_measures, name="specimen__histological_composition_measures", curie=CCDH.curie('histological_composition_measures'),
+                   model_uri=CCDH.specimen__histological_composition_measures, domain=Specimen, range=Optional[Union[Union[dict, HistologicalCompositionObservationSet], List[Union[dict, HistologicalCompositionObservationSet]]]])
 
 slots.specimen__general_tissue_morphology = Slot(uri=CCDH.general_tissue_morphology, name="specimen__general_tissue_morphology", curie=CCDH.curie('general_tissue_morphology'),
                    model_uri=CCDH.specimen__general_tissue_morphology, domain=Specimen, range=Optional[Union[str, "EnumCCDHSpecimenGeneralTissueMorphology"]])
@@ -23165,7 +23443,7 @@ slots.specimenCreationActivity__execution_time_observation = Slot(uri=CCDH.execu
                    model_uri=CCDH.specimenCreationActivity__execution_time_observation, domain=SpecimenCreationActivity, range=Optional[Union[Union[dict, ExecutionTimeObservation], List[Union[dict, ExecutionTimeObservation]]]])
 
 slots.specimenCreationActivity__execution_condition_observation = Slot(uri=CCDH.execution_condition_observation, name="specimenCreationActivity__execution_condition_observation", curie=CCDH.curie('execution_condition_observation'),
-                   model_uri=CCDH.specimenCreationActivity__execution_condition_observation, domain=SpecimenCreationActivity, range=Optional[Union[Union[dict, Entity], List[Union[dict, Entity]]]])
+                   model_uri=CCDH.specimenCreationActivity__execution_condition_observation, domain=SpecimenCreationActivity, range=Optional[Union[Union[dict, ExecutionConditionObservation], List[Union[dict, ExecutionConditionObservation]]]])
 
 slots.specimenCreationActivity__specimen_order = Slot(uri=CCDH.specimen_order, name="specimenCreationActivity__specimen_order", curie=CCDH.curie('specimen_order'),
                    model_uri=CCDH.specimenCreationActivity__specimen_order, domain=SpecimenCreationActivity, range=Optional[Union[int, CcdhInteger]])
@@ -23190,6 +23468,9 @@ slots.specimenQualityObservation__subject = Slot(uri=CCDH.subject, name="specime
 
 slots.specimenQualityObservation__performed_by = Slot(uri=CCDH.performed_by, name="specimenQualityObservation__performed_by", curie=CCDH.curie('performed_by'),
                    model_uri=CCDH.specimenQualityObservation__performed_by, domain=SpecimenQualityObservation, range=Optional[Union[dict, Organization]])
+
+slots.specimenQualityObservation__valueQuantity = Slot(uri=CCDH.valueQuantity, name="specimenQualityObservation__valueQuantity", curie=CCDH.curie('valueQuantity'),
+                   model_uri=CCDH.specimenQualityObservation__valueQuantity, domain=SpecimenQualityObservation, range=Union[dict, Quantity])
 
 slots.specimenQuantityObservation__id = Slot(uri=CCDH.id, name="specimenQuantityObservation__id", curie=CCDH.curie('id'),
                    model_uri=CCDH.specimenQuantityObservation__id, domain=SpecimenQuantityObservation, range=Optional[Union[str, CcdhString]])
@@ -23383,6 +23664,12 @@ slots.treatment__identifier = Slot(uri=CCDH.identifier, name="treatment__identif
 slots.treatment__treatment_for_diagnosis = Slot(uri=CCDH.treatment_for_diagnosis, name="treatment__treatment_for_diagnosis", curie=CCDH.curie('treatment_for_diagnosis'),
                    model_uri=CCDH.treatment__treatment_for_diagnosis, domain=Treatment, range=Optional[Union[Union[dict, Diagnosis], List[Union[dict, Diagnosis]]]])
 
+slots.treatment__concurrent_treatment = Slot(uri=CCDH.concurrent_treatment, name="treatment__concurrent_treatment", curie=CCDH.curie('concurrent_treatment'),
+                   model_uri=CCDH.treatment__concurrent_treatment, domain=Treatment, range=Optional[Union[Union[dict, "Treatment"], List[Union[dict, "Treatment"]]]])
+
+slots.treatment__treatment_type = Slot(uri=CCDH.treatment_type, name="treatment__treatment_type", curie=CCDH.curie('treatment_type'),
+                   model_uri=CCDH.treatment__treatment_type, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentType"]])
+
 slots.treatment__subject = Slot(uri=CCDH.subject, name="treatment__subject", curie=CCDH.curie('subject'),
                    model_uri=CCDH.treatment__subject, domain=Treatment, range=Optional[Union[dict, Subject]])
 
@@ -23392,35 +23679,29 @@ slots.treatment__date_started = Slot(uri=CCDH.date_started, name="treatment__dat
 slots.treatment__date_ended = Slot(uri=CCDH.date_ended, name="treatment__date_ended", curie=CCDH.curie('date_ended'),
                    model_uri=CCDH.treatment__date_ended, domain=Treatment, range=Optional[Union[dict, TimePoint]])
 
+slots.treatment__treatment_end_reason = Slot(uri=CCDH.treatment_end_reason, name="treatment__treatment_end_reason", curie=CCDH.curie('treatment_end_reason'),
+                   model_uri=CCDH.treatment__treatment_end_reason, domain=Treatment, range=Optional[Union[Union[str, "EnumCCDHTreatmentTreatmentEndReason"], List[Union[str, "EnumCCDHTreatmentTreatmentEndReason"]]]])
+
 slots.treatment__regimen = Slot(uri=CCDH.regimen, name="treatment__regimen", curie=CCDH.curie('regimen'),
                    model_uri=CCDH.treatment__regimen, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentRegimen"]])
 
 slots.treatment__therapeutic_agent = Slot(uri=CCDH.therapeutic_agent, name="treatment__therapeutic_agent", curie=CCDH.curie('therapeutic_agent'),
                    model_uri=CCDH.treatment__therapeutic_agent, domain=Treatment, range=Optional[Union[dict, Substance]])
 
-slots.treatment__treatment_anatomic_site = Slot(uri=CCDH.treatment_anatomic_site, name="treatment__treatment_anatomic_site", curie=CCDH.curie('treatment_anatomic_site'),
-                   model_uri=CCDH.treatment__treatment_anatomic_site, domain=Treatment, range=Optional[Union[dict, BodySite]])
-
-slots.treatment__treatment_effect = Slot(uri=CCDH.treatment_effect, name="treatment__treatment_effect", curie=CCDH.curie('treatment_effect'),
-                   model_uri=CCDH.treatment__treatment_effect, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentEffect"]])
-
-slots.treatment__treatment_intent = Slot(uri=CCDH.treatment_intent, name="treatment__treatment_intent", curie=CCDH.curie('treatment_intent'),
-                   model_uri=CCDH.treatment__treatment_intent, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentIntent"]])
-
-slots.treatment__treatment_outcome = Slot(uri=CCDH.treatment_outcome, name="treatment__treatment_outcome", curie=CCDH.curie('treatment_outcome'),
-                   model_uri=CCDH.treatment__treatment_outcome, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentOutcome"]])
-
-slots.treatment__treatment_type = Slot(uri=CCDH.treatment_type, name="treatment__treatment_type", curie=CCDH.curie('treatment_type'),
-                   model_uri=CCDH.treatment__treatment_type, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentType"]])
+slots.treatment__number_of_cycles = Slot(uri=CCDH.number_of_cycles, name="treatment__number_of_cycles", curie=CCDH.curie('number_of_cycles'),
+                   model_uri=CCDH.treatment__number_of_cycles, domain=Treatment, range=Optional[Union[int, CcdhInteger]])
 
 slots.treatment__treatment_frequency = Slot(uri=CCDH.treatment_frequency, name="treatment__treatment_frequency", curie=CCDH.curie('treatment_frequency'),
                    model_uri=CCDH.treatment__treatment_frequency, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentFrequency"]])
 
-slots.treatment__concurrent_treatment = Slot(uri=CCDH.concurrent_treatment, name="treatment__concurrent_treatment", curie=CCDH.curie('concurrent_treatment'),
-                   model_uri=CCDH.treatment__concurrent_treatment, domain=Treatment, range=Optional[Union[Union[dict, "Treatment"], List[Union[dict, "Treatment"]]]])
+slots.treatment__treatment_anatomic_site = Slot(uri=CCDH.treatment_anatomic_site, name="treatment__treatment_anatomic_site", curie=CCDH.curie('treatment_anatomic_site'),
+                   model_uri=CCDH.treatment__treatment_anatomic_site, domain=Treatment, range=Optional[Union[dict, BodySite]])
 
-slots.treatment__number_of_cycles = Slot(uri=CCDH.number_of_cycles, name="treatment__number_of_cycles", curie=CCDH.curie('number_of_cycles'),
-                   model_uri=CCDH.treatment__number_of_cycles, domain=Treatment, range=Optional[Union[int, CcdhInteger]])
+slots.treatment__treatment_intent = Slot(uri=CCDH.treatment_intent, name="treatment__treatment_intent", curie=CCDH.curie('treatment_intent'),
+                   model_uri=CCDH.treatment__treatment_intent, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentIntent"]])
 
-slots.treatment__treatment_end_reason = Slot(uri=CCDH.treatment_end_reason, name="treatment__treatment_end_reason", curie=CCDH.curie('treatment_end_reason'),
-                   model_uri=CCDH.treatment__treatment_end_reason, domain=Treatment, range=Optional[Union[Union[str, "EnumCCDHTreatmentTreatmentEndReason"], List[Union[str, "EnumCCDHTreatmentTreatmentEndReason"]]]])
+slots.treatment__treatment_effect = Slot(uri=CCDH.treatment_effect, name="treatment__treatment_effect", curie=CCDH.curie('treatment_effect'),
+                   model_uri=CCDH.treatment__treatment_effect, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentEffect"]])
+
+slots.treatment__treatment_outcome = Slot(uri=CCDH.treatment_outcome, name="treatment__treatment_outcome", curie=CCDH.curie('treatment_outcome'),
+                   model_uri=CCDH.treatment__treatment_outcome, domain=Treatment, range=Optional[Union[str, "EnumCCDHTreatmentTreatmentOutcome"]])
