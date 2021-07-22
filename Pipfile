@@ -4,12 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-linkml = {ref = "ccdh-dev", git = "https://github.com/cancerDHC/linkml.git"}
+linkml = "*"
 jsonschema = "*"
 jupyter = "*"
-pandas = "*"
+pytest = "*"
+pyld = "*"
 
 [dev-packages]
-
-[requires]
-python_version = "3.9"
