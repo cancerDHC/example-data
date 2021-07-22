@@ -9,5 +9,7 @@ jsonschema = "*"
 jupyter = "*"
 pytest = "*"
 pyld = "*"
+pandas = "*"
+pip = "*"
 
 [dev-packages]
