@@ -9,7 +9,6 @@ jsonschema = "*"
 jupyter = "*"
 pytest = "*"
 pyld = "*"
-pandas = "*"
 pip = "*"
 crdch-model = "*"
 
