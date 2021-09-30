@@ -12,4 +12,6 @@ pyld = "*"
 pandas = "*"
 pip = "*"
 
+# crdch-model = "*"
+
 [dev-packages]
