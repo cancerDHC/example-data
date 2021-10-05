@@ -12,17 +12,29 @@ from linkml_runtime.dumpers import json_dumper
 
 import crdch_model
 
-# Demonstrator 1
-# TODO: change this to relative paths
-d1_gdc_path = 'ccdh-pilot/demonstrator-1/d1_harmonized_gdc_specimen_cc.yaml'
-with open(d1_gdc_path) as f:
-    d1_gdc = yaml.load_all(f, Loader=yaml.FullLoader)
+# Demonstrators
+def test_demonstrators():
+    # TODO: change this to relative paths
+    input_paths = [
+        'ccdh-pilot/demonstrator-1/d1_harmonized_gdc_specimen_cc.yaml',
+        'ccdh-pilot/demonstrator-1/d1_harmonized_pdc_specimen_cc.yaml',
+        'ccdh-pilot/demonstrator-1/d1_harmonized_icdc_specimen_cc.yaml'
+    ]
+    for input_path in input_paths:
+        with open(input_path) as f:
+            d1_gdc = yaml.load_all(f, Loader=yaml.FullLoader)
 
-    for entry in d1_gdc:
-        first_key = list(entry)[0]
-        if first_key.endswith('_specimen'):
-            specimen1 = YAMLLoader().load(entry[first_key]['Example'], crdch_model.Specimen)
-            assert specimen1 is crdch_model.Specimen
-            assert str(specimen1) == ''
-        else:
-            raise RuntimeError(f'Could not load entry: {entry}')
+            for entry in d1_gdc:
+                first_key = list(entry)[0]
+                if first_key.endswith('_specimen'):
+                    specimen = YAMLLoader().load(entry[first_key]['Example'], crdch_model.Specimen)
+                elif first_key.endswith('_subject'):
+                    subject = YAMLLoader().load(entry[first_key]['Example'], crdch_model.Subject)
+                elif first_key.endswith('_research_project'):
+                    research_project = YAMLLoader().load(entry[first_key]['Example'], crdch_model.ResearchProject)
+                elif first_key.endswith('_research_subject'):
+                    research_subject = YAMLLoader().load(entry[first_key]['Example'], crdch_model.ResearchSubject)
+                elif first_key.endswith('_diagnosis'):
+                    diagnosis = YAMLLoader().load(entry[first_key]['Example'], crdch_model.Diagnosis)
+                else:
+                    raise RuntimeError(f'Could not load entry: {entry}')
