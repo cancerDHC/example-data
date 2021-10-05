@@ -9,10 +9,10 @@ gdc_specimen:
 
   Example:                                                        # type = Specimen
     id: "f2f:05f1574e-2a28-50bc-bdc1-e4c6dee92fd1"                # Local uuid for the Specimen a assigned by the system in which this record lives (here, the CCDH F2F Demonstrator, hence the 'f2f' prefix).
-    identifier:                                                   # type = Identifier   (Identifier is a complex data type, but we are only showing a single field from this type)
-    #- value: "target:TARGET-40-0A4I9I-01A"                      # GDC.Sample.sample_submitter_id (specified here as a CURIE, where the prefix indicates the system that assigned it)
-    #- value: "gdc-sample:9575763d-9c34-4e8e-a43a-419f5c13962f"  # GDC.Sample.sample_id (specified here as a CURIE, where the prefix indicates the system that assigned it)
-    #- value: "biosample:SAMEA1652204"                           # Proposed globally unique identifier format, per recommendation of the CRDC-DST (specified here as a CURIE, where the prefix indicates the system that assigned it)
+#    identifier:                                                   # type = Identifier   (Identifier is a complex data type, but we are only showing a single field from this type)
+#    - value: "target:TARGET-40-0A4I9I-01A"                      # GDC.Sample.sample_submitter_id (specified here as a CURIE, where the prefix indicates the system that assigned it)
+#    - value: "gdc-sample:9575763d-9c34-4e8e-a43a-419f5c13962f"  # GDC.Sample.sample_id (specified here as a CURIE, where the prefix indicates the system that assigned it)
+#    - value: "biosample:SAMEA1652204"                           # Proposed globally unique identifier format, per recommendation of the CRDC-DST (specified here as a CURIE, where the prefix indicates the system that assigned it)
 
     specimen_type:                                                # type = CodeableConcept
       coding:                                                     # type = Coding
@@ -123,7 +123,7 @@ gdc_specimen:
                   - harmonized
         index_time_point:                                         # type = TimePoint
           event_type:                                             # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because CCDH made up this 'Study Start' value to demonstrate how to specify events as a conceptual index timepoint.
-            coding:                                               # type = Coding
+            - coding:                                               # type = Coding
               - code: C142714
                 label: Study Start
                 system: http://ncithesaurus.nci.nih.gov

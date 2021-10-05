@@ -8,7 +8,7 @@ icdc_specimen:
 
   Example:                                                        # type = Specimen
     id: "f2f:052c671d-118a-11e9-afb9-0a9c39d33490"                # Local uuid for the Specimen a assigned by the system in which this record lives (here, the CCDH F2F Demonstrator, hence the 'f2f' prefix).
-    identifier:                                                   # type = Identifier   (Identifier is a complex data type, but we are only showing a single field from this type)
+#    identifier:                                                   # type = Identifier   (Identifier is a complex data type, but we are only showing a single field from this type)
 #      - value: "ncats-cop:NCATS-COP01-CCB050227 0103"             # ICDC.Sample.sample_id (specified here as a CURIE, where the prefix indicates the system that assigned it)
 #      - value: "icdc-sample:30502"                                # ICDC.Sample._id (specified here as a CURIE, where the prefix indicates the system that assigned it)
 #      - value: "biosample:SAMEA1652206"                           # Proposed globally unique identifier format, per recommendation of the CRDC-DST  (specified here as a CURIE, where the prefix indicates the system that assigned it)

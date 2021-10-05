@@ -4,6 +4,7 @@ import json
 import pytest
 import logging
 import rdflib
+import requests
 import yaml
 
 from linkml_runtime.loaders.yaml_loader import YAMLLoader
@@ -11,9 +12,18 @@ from linkml.generators.jsonldcontextgen import ContextGenerator
 from linkml_runtime.dumpers import json_dumper
 
 import crdch_model
+import jsonschema
 
 # Demonstrators
 def test_demonstrators():
+    # JSON Schema URL
+    json_schema_url = 'https://raw.githubusercontent.com/cancerDHC/ccdhmodel/main/crdch_model/json_schema/crdch_model.schema.json'
+    req = requests.get(json_schema_url)
+    ccdh_json_schema = req.json()
+
+    # We need a RefResolver for the entire schema.
+    ref_resolver = jsonschema.RefResolver.from_schema(ccdh_json_schema)
+
     # TODO: change this to relative paths
     input_paths = [
         # Demonstrator 1
@@ -29,6 +39,7 @@ def test_demonstrators():
     ]
     for input_path in input_paths:
         with open(input_path) as f:
+            logging.info(f'Validating {input_path}')
             examples = yaml.load_all(f, Loader=yaml.FullLoader)
 
             for entry in examples:
@@ -36,6 +47,11 @@ def test_demonstrators():
                 example = entry[first_key]['Example']
                 if first_key.endswith('_specimen'):
                     specimen = YAMLLoader().load(example, crdch_model.Specimen)
+                    validator = jsonschema.Draft7Validator(ccdh_json_schema['$defs']['Specimen'], ref_resolver)
+                    errors = validator.iter_errors(example)
+                    for error in errors:
+                        logging.error(f"Validation error in {input_path} at {error.path}: {error.message}")
+                    validator.validate(example)
                 elif first_key.endswith('_subject'):
                     subject = YAMLLoader().load(example, crdch_model.Subject)
                 elif first_key.endswith('_research_project'):
