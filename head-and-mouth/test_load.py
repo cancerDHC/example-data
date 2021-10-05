@@ -8,7 +8,7 @@ import rdflib
 from linkml.generators.jsonldcontextgen import ContextGenerator
 from linkml_runtime.dumpers import json_dumper
 
-from crdch_model import crdch_model as ccdh
+import crdch_model as ccdh
 
 
 def codeable_concept(text, system, code):

@@ -179,11 +179,11 @@
         },
         "crdch-model": {
             "hashes": [
-                "sha256:421be7ea6936db0a46ebb10e7308654d6be83e05048b3bf98b6a249b608c4d64",
-                "sha256:483e04d1f92825ea28eb4e3b8c37c5bec5c423901a6ef8f66990dba7f2ca4525"
+                "sha256:0d432d832aa64f3c9f8250b2b4d3559c1299f74af24de3d827afa5cfa9f484ef",
+                "sha256:287a5e6f9cdb3eceee3aeaf9eece170c6e3e692ec85b888660eaf3f17b5cac3b"
             ],
             "index": "pypi",
-            "version": "==1.1.2"
+            "version": "==1.1.3"
         },
         "debugpy": {
             "hashes": [
