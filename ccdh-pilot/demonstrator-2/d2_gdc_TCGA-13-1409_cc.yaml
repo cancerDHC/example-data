@@ -187,7 +187,7 @@ gdc_research_project:
           system: http://ncithesaurus.nci.nih.gov/
           tag:
             - harmonized
-    part_of:                                                                # type = ResearchProject
+#    part_of:                                                                # type = ResearchProject
 #      - id: "f2f:6b0cc2d2-2fec-4049-8ac4-77edb6d914f8"                      # Local uuid assigned by this system for the Research Project
 #        identifier:                                                         # type = Identifier
 #          - value: "gdc-program:b80aa962-9650-5110-b3eb-bd087da808db"

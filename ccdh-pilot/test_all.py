@@ -54,11 +54,31 @@ def test_demonstrators():
                     validator.validate(example)
                 elif first_key.endswith('_subject'):
                     subject = YAMLLoader().load(example, crdch_model.Subject)
+                    validator = jsonschema.Draft7Validator(ccdh_json_schema['$defs']['Subject'], ref_resolver)
+                    errors = validator.iter_errors(example)
+                    for error in errors:
+                        logging.error(f"Validation error in {input_path} at {error.path}: {error.message}")
+                    validator.validate(example)
                 elif first_key.endswith('_research_project'):
                     research_project = YAMLLoader().load(example, crdch_model.ResearchProject)
+                    validator = jsonschema.Draft7Validator(ccdh_json_schema['$defs']['ResearchProject'], ref_resolver)
+                    errors = validator.iter_errors(example)
+                    for error in errors:
+                        logging.error(f"Validation error in {input_path} at {error.path}: {error.message}")
+                    validator.validate(example)
                 elif first_key.endswith('_research_subject'):
                     research_subject = YAMLLoader().load(example, crdch_model.ResearchSubject)
+                    validator = jsonschema.Draft7Validator(ccdh_json_schema['$defs']['ResearchSubject'], ref_resolver)
+                    errors = validator.iter_errors(example)
+                    for error in errors:
+                        logging.error(f"Validation error in {input_path} at {error.path}: {error.message}")
+                    validator.validate(example)
                 elif first_key.endswith('_diagnosis'):
                     diagnosis = YAMLLoader().load(example, crdch_model.Diagnosis)
+                    validator = jsonschema.Draft7Validator(ccdh_json_schema['$defs']['Diagnosis'], ref_resolver)
+                    errors = validator.iter_errors(example)
+                    for error in errors:
+                        logging.error(f"Validation error in {input_path} at {error.path}: {error.message}")
+                    validator.validate(example)
                 else:
                     raise RuntimeError(f'Could not load entry: {entry}')

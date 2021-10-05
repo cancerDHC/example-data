@@ -329,7 +329,7 @@ gdc_diagnosis:
                 - harmonized
       index_time_point:                                             # type = TimePoint (This nested Timepoint specifies the index time point using an event as a proxy, captured in the event_type field.)
        event_type:                                                  # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because CCDH made up this 'Study Start' value to demonstrate how to specify events as a conceptual index timepoint.
-         coding:                                                    # type = Coding
+         - coding:                                                    # type = Coding
            - code: C142714
              label: Study Start
              system: http://ncithesaurus.nci.nih.gov

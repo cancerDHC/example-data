@@ -120,7 +120,7 @@ icdc_specimen:
       - "This is a minimal example showing only id and identifiers.  For a richer Subject record, see the examples in Demonstrator 2."
     Example:                                                        # type: Subject
       id: "f2f:17029fd8-cd05-4089-8da3-52795823a647"                # Local uuid assigned by this system for the Subject
-      identifier:                                                   # type: Identifier
+#      identifier:                                                   # type: Identifier
 #        - value: "icdc-case:30196"                                  # ICDC.Cases.case_id
 #        - value: "crdc:su0000003"                                   # Proposed globally unique identifier per recommendation of the CRDC-DST
 
@@ -133,7 +133,7 @@ icdc_diagnosis:
     - "For easiest viewing, **TURN WORD WRAP OFF** so that comments don't run onto a new line."
   Example:                                                          # type = Diagnosis
     id: "f2f:de3468e83-4c86-4258-98d1-a986445cce73"                 # Local uuid assigned by this system for the Diagnosis
-    identifier:                                                     # type = Identifier
+#    identifier:                                                     # type = Identifier
 #      - value: "icdc-diagnosis:30279"                               # ICDC.Diagnosis._id
     subject:                                                        # type = Subject
       id: "f2f:01b2691b-63d8-11e8-bcf1-0a2705229b82"
@@ -162,8 +162,8 @@ icdc_diagnosis:
 #              system: http://crdc.nci.nih.gov/icdc
 #              tag:
 #                - original
-    stage:                                                          # type = CancerStageObservationSet
-      -  observations:                                               # type = CancerStageObservation - one of many individual Stage determinations (e.g. T, N, M, Overall) about the same tumor that can comprise a single CancerStageObservationSet (here just an 'Overall' assessment, but may also include T, N, and M assessments).
+#    stage:                                                          # type = CancerStageObservationSet
+#      -  observations:                                               # type = CancerStageObservation - one of many individual Stage determinations (e.g. T, N, M, Overall) about the same tumor that can comprise a single CancerStageObservationSet (here just an 'Overall' assessment, but may also include T, N, and M assessments).
 #          - observation_type:                                       # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because the staging level semantic is captured in an explicit property in the source PDC model, not a key-value pair as shown here)
 #              coding:                                               # type = Coding
 #                - code: C25605

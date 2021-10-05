@@ -28,10 +28,13 @@ pdc_specimen:
             - original
     associated_project:                                           # type = ResearchProject.
       id: "f2f:69886602-a4f1-4ad4-ba56-a0e031c2e294"              # Local uuid assigned by this system for the Research Project. The Project instance is represented separately later in this document. We will define a formal way to specify references in the next phase of work.
-      research_project_type:
-        coding:
-          - code: TODO
-            system: TODO
+      research_project_type:                                      # type = CodeableConcept
+        coding:                                                   # type = Coding
+          - code: C47885                                          # Note also that because the CRDC-H collapses PDC.Program and PDC.Project into a single type called 'ResearchProject', the ResearchProject.research_project_type field is used to indicate which specific type this instance represents.
+            label: Project
+            system: http://ncithesaurus.nci.nih.gov/
+            tag:
+              - harmonized
     source_subject:                                               # type = Subject
       id: "f2f:55bad781-96ce-537c-ab5c-7492c31c836c"              # Local uuid assigned by this system for the Subject. The Subject instance is represented separately later in this document.
     source_material_type:                                         # type = CodeableConcept (see comments on the 'specimen_type' field above for a detailed explanation of this data object's content)
@@ -202,7 +205,7 @@ pdc_specimen:
       - "This is a minimal example showing only id and identifiers.  For a richer Subject record, see the examples in Demonstrator 2."
     Example:                                                        # type: Subject
       id: "f2f:55bad781-96ce-537c-ab5c-7492c31c836c"                # Local uuid assigned by this system for the Subject
-      identifier:                                                   # type: Identifier
+#      identifier:                                                   # type: Identifier
 #        - value: "pdc-case:3073d082-63d8-11e8-bcf1-0a2705229b82"   # PDC.Cases.case_id
 #        - value: "tcga-coad:TCGA-AA-3518"                           # PDC.Cases.submitter_id
 #        - value: "crdc:su0000002"                                   # Proposed globally unique identifier per recommendation of the CRDC-DST
@@ -218,12 +221,13 @@ pdc_specimen:
 #        identifier:                                                 # type = Identifier
 #          - value: "pdc-project:TCGA-COAD"                          # PDC.Sample.project_id
 #          - value: "crdc:pj1000005"                                 # Proposed globally unique identifier per recommendation of the CRDC-DST
-        research_project_type:
-          coding:
-            code: Project                              # Note also that because the CRDC-H collapses PDC.Program and PDC.Project into a single type called 'ResearchProject', the ResearchProject.research_project_type field is used to indicate which specific type this instance represents.
-            system: TODO
-
-
+        research_project_type:                                      # type = CodeableConcept
+          coding:                                                   # type = Coding
+            - code: C47885                                          # Note also that because the CRDC-H collapses PDC.Program and PDC.Project into a single type called 'ResearchProject', the ResearchProject.research_project_type field is used to indicate which specific type this instance represents.
+              label: Project
+              system: http://ncithesaurus.nci.nih.gov/
+              tag:
+                - harmonized
 ---
 pdc_diagnosis:
   Title: PDC Diagnosis Example - Sept 2021 F2F Demonstrator 1
@@ -233,7 +237,7 @@ pdc_diagnosis:
     - "For easiest viewing, **TURN WORD WRAP OFF** so that comments don't run onto a new line."
   Example:                                                          # type = Diagnosis
     id: "f2f:62199412-6428-11e8-bcf1-0a2705229b82"                  # Local uuid assigned by this system for the Diagnosis
-    identifier:                                                     # type = Identifier
+#    identifier:                                                     # type = Identifier
 #      - value: "pdc-diagnosis:e3dd3c20-1fcb-11e9-b7f8-0a80fada099c" # PDC.Diagnosis.diagnosis_id
 #      - value: "TCGA-COAD:C3N-01648-DIAG"                           # PDC.Diagnosis.submitter_id
 
@@ -324,7 +328,7 @@ pdc_diagnosis:
                 - harmonized
       index_time_point:                                             # type = TimePoint (This nested Timepoint specifies the index time point using an event as a proxy, captured in the event_type field.)
        event_type:                                                  # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because CCDH made up this 'Study Start' value to demonstrate how to specify events as a conceptual index timepoint.
-         coding:                                                    # type = Coding
+         - coding:                                                    # type = Coding
            - code: C142714
              label: Study Start
              system: http://ncithesaurus.nci.nih.gov

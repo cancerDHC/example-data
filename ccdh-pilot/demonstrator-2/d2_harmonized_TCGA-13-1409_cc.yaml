@@ -250,7 +250,7 @@ harmonized_research_project:
         tag:
           - harmonized
     name: Ovarian Serous Cystadenocarcinoma
-    part_of:
+#    part_of:
 #      - research_project_type:
 #          coding:
 #          - code: C52647
