@@ -1,0 +1,282 @@
+---
+harmonized_subject:
+  Title: Harmonized Subject Example
+  Schema: ccdh.0713cc.Subject
+  Description:
+    - "CRDCH-compliant representation of an aggregated and harmonized data example from multiple needs.  Source data described here: https://docs.google.com/spreadsheets/d/14lWLDD7iyJG0G57m6BgWYIeqrxK04P3qQRwxziqEz1A/edit#gid=0"
+    - "**FOR EASIEST VIEWING TURN WORD WRAP OFF SO THAT COMMENTS DON'T RUN ONTO A NEW LINE**"
+    - "In this example enumerated values are captured using a CodeableConcept object which bundles one or more Coding objects, each holding a single concept code and supporting metadata."
+  Example:                                                                  # type = Subject
+    id: "f2f:9731ddf7-5524-4e12-beb9-adfc044ea0a6"
+    identifier:                                                             # type = Identifier
+      - value: "pdc-case:3a36a497-63d7-11e8-bcf1-0a2705229b82"              # PDC.Cases.case_id
+      - value: "tcga:TCGA-13-1409"                                          # PDC.Cases.case_submitter_id
+      - value: "gdc-case:18e0e996-8f23-4f53-94a5-dde38b550863"              # GDC.Cases.case_id
+      - value: "tcga:TCGA-13-1409"                                          # GDC.Cases.submitter_id
+      - value: "idc-case:ffde0494-7583-44ca-9e9d-902e84a3b4b3"              # IDC.dicom_all.case_id
+      - value: "tcga:TCGA-13-1409"                                          # IDC.dicom_all.submitter_id
+      - value: "crdc:su0000005"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST 
+    ethnicity:
+      coding:
+        - code: C41222
+          label: Not Hispanic or Latino
+          system: https://ncithesaurus.nci.nih.gov/
+          tag:
+            - harmonized
+        - code: not hispanic or latino
+          label: not hispanic or latino
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+            - original
+        - code: Not Hispanic or Latino
+          label: Not Hispanic or Latino
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+    race:
+      - coding:
+        - code: C41261
+          label: White
+          system: https://ncithesaurus.nci.nih.gov/
+          tag:
+            - harmonized
+        - code: white
+          label: white
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+            - original
+        - code: White
+          label: White
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+    sex:
+      coding:
+        - code: C16576
+          label: Female
+          system: https://ncithesaurus.nci.nih.gov/
+          tag:
+            - harmonized
+        - code: female
+          label: female
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+            - original
+        - code: Female
+          label: Female
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+        - code: F
+          label: F
+          system: http://crdc.nci.nih.gov/idc
+          tag:
+            - original
+    vital_status:
+      coding:
+        - code: C28554
+          label: Dead
+          system: https://ncithesaurus.nci.nih.gov/
+          tag:
+            - harmonized
+        - code: Dead
+          label: Dead
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+            - original
+        - code: Dead
+          label: Dead
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+    year_of_birth: 1935
+    species: 
+      coding:
+        - code: C14225
+          label: Human
+          system: https://ncithesaurus.nci.nih.gov/
+          tag:
+            - harmonized
+        - code: Human
+          label: Human
+          system: http://crdc.nci.nih.gov/idc
+          tag:
+            - original
+    age_at_death:                                                           # type = Quantity
+      value_decimal: 28578
+      unit:
+        coding:                                                             # type = Coding
+          - code: C25301                                            
+            label: Day                                     
+            system: http://ncithesaurus.nci.nih.gov/              
+            tag:                                              
+              - harmonized  
+    
+---
+harmonized_diagnosis:
+  Title: Harmonized Diagnosis Example
+  Schema: ccdh.0713cc.Diagnosis
+  Example:                                                                  # type = Diagnosis
+    id: "f2f:e5a619d3-40b4-4aaa-a40e-c2a0d75e8d79"
+    identifier:                                                             # type = Identifier
+      - value: "pdc-diagnosis:ff2f0efb-70ca-11e8-bcf1-0a2705229b82"         # PDC.Diagnosis.diagnosis_id
+      - value: "tcga:TCGA-13-1409-DX"                                       # PDC.Diagnosis.diagnosis_submitter_id
+      - value: "gdc-diagnosis:6b0f33e6-884d-5a93-8335-9f55569790a7"         # GDC.Diagnosis.diagnosis_id
+      - value: "tcga:TCGA-13-1409_diagnosis"                                # GDC.Diagnosis.submitter_id
+    subject:                                                                # type = Subject
+      id: "f2f:9731ddf7-5524-4e12-beb9-adfc044ea0a6"
+    age_at_diagnosis:                                                       # type = Quantity
+      value_decimal: 26836
+      unit: 
+        coding:                                                             # type = Coding
+        - code: C25301                                            
+          label: Day                                     
+          system: http://ncithesaurus.nci.nih.gov/              
+          tag:                                              
+            - harmonized  
+    diagnosis_date: 2008
+    condition:
+      coding:
+        - code: C3778
+          label: Serous Cystadenocarcinoma
+          system: https://ncithesaurus.nci.nih.gov/
+          tag:
+            - harmonized
+        - code: Serous cystadenocarcinoma, NOS                              # GDC.Diagnosis.primary_diagnosis
+          label: Serous cystadenocarcinoma, NOS
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+            - original
+        - code: Serous cystadenocarcinoma, NOS                              # GDC.Diagnosis.primary_diagnosis
+          label: Serous cystadenocarcinoma, NOS
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+        - code: C56.9                                                       # GDC.Diagnosis.icd_10_code
+          label: Malignant neoplasm of unspecified ovary                    # This is the ICD-10 preferred term for C56.9
+          system: http://who.int/icd10/
+          tag:
+            - original
+    morphology:
+      coding:
+        - code: C3778
+          label: Serous Cystadenocarcinoma
+          system: https://ncithesaurus.nci.nih.gov/
+          tag:
+            - harmonized
+        - code: 8441/3
+          label: Serous cystadenocarcinoma, NOS
+          system: http://who.int/icdo3/
+          tag:
+            - original
+        - code: 8441/3
+          label: Serous cystadenocarcinoma, NOS
+          system: http://who.int/icdo3/
+          tag:
+            - original
+    primary_site:
+      - site:
+          coding:
+            - code: C12404
+              label: Ovary
+              system: https://ncithesaurus.nci.nih.gov/
+              tag:
+                - harmonized
+            - code: Ovary
+              label: Ovary
+              system: http://crdc.nci.nih.gov/gdc
+              tag:
+                - original
+            - code: Ovary
+              label: Ovary
+              system: http://crdc.nci.nih.gov/pdc
+              tag:
+                - original
+            - code: Ovary
+              label: Ovary
+              system: http://crdc.nci.nih.gov/idc
+              tag:
+                - original
+    stage:
+      - method_type:
+        - coding:
+          - code: C125738
+            label: FIGO Stage
+            system: https://ncithesaurus.nci.nih.gov/
+            tag:
+              - harmonized
+      - observations:
+        - observation_type:
+            coding:
+              - code: C25605
+                label: Overall
+                system: http://ncithesaurus.nci.nih.gov/
+                tag:
+                  - harmonized
+          value_codeable_concept:
+            coding:
+              - code: C96258
+                label: FIGO Stage IIIC
+                system: http://ncithesaurus.nci.nih.gov/
+                tag:
+                  - harmonized
+              - code: Stage IIIC
+                label: Stage IIIC
+                system: http://crdc.nci.nih.gov/gdc
+                tag:
+                  - original
+              - code: Stage IIIC
+                label: Stage IIIC
+                system: http://crdc.nci.nih.gov/pdc
+                tag:
+                  - original
+
+---
+harmonized_researchproject:
+  Title: PDC ResearchProject Example
+  Schema: ccdh.0713cc.ResearchProject
+  Example:                                                                  # type = ResearchProject
+    id: "f2f:77ed81c1-5e63-481e-889d-604844807a10"
+    identifier:                                                             # type = Identifier
+      - value: "crdc:pj1000015"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST 
+      - value: "gdc-project:TCGA-OV"                                        # GDC.Project.project_id 
+      - value: "idc-project:tcga_ov"                                        # IDC.dicom_all.collection_id 
+    research_project_type: 
+      coding:
+      - code: C47885
+        label: Project
+        system: http://ncithesaurus.nci.nih.gov/
+        tag:
+          - harmonized
+    name: Ovarian Serous Cystadenocarcinoma
+    part_of:
+      - research_project_type: 
+          coding:
+          - code: C52647
+            label: Program
+            system: http://ncithesaurus.nci.nih.gov/
+            tag:
+              - harmonized
+        id: "f2f:c19a8e03-f674-4124-b8ac-2222e08de978"
+        identifier:
+          - value: "crdc:pg1000013"                                         # Proposed globally unique identifier per recommendation of the CRDC-DST
+          - value: "dbgap:phs000178"                                        # GDC.Project.dbgap_accession_number
+        name: TCGA
+
+---
+harmonized_researchsubject:
+  Title: Harmonized ResearchSubject Example
+  Schema: ccdh.0713cc.ResearchSubject
+  Example:                                                                  # type = ResearchSubject
+    id: "f2f:2b66c18b-dec1-4a7d-bbf5-8c435fd85efc"
+    associated_subject:                                                     # type = Subject
+      id: "f2f:9731ddf7-5524-4e12-beb9-adfc044ea0a6"
+    member_of_research_project:                                             # type = ResearchProject
+      research_project_type: 
+        coding:
+        - code: C47885
+          label: Project
+          system: http://ncithesaurus.nci.nih.gov/
+          tag:
+            - harmonized
+      id: "f2f:77ed81c1-5e63-481e-889d-604844807a10"
