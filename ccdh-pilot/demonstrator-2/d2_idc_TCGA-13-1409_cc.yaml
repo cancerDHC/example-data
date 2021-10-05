@@ -8,10 +8,10 @@ idc_subject:
     - "In this example enumerated values are captured using a CodeableConcept object which bundles one or more Coding objects, each holding a single concept code and supporting metadata."
   Example:                                                                  # type = Subject
     id: "f2f:4e9c2068-6b9c-4944-9a62-ab38f408d777"                          # Local uuid for the Subject as assigned by the system in which this record lives (here, the CCDH F2F Demonstrator, hence the 'f2f' prefix).
-    identifier:                                                             # type = Identifier
-      - value: "idc-case:ffde0494-7583-44ca-9e9d-902e84a3b4b3"              # IDC.dicom_all.case_id
-      - value: "tcga:TCGA-13-1409"                                          # IDC.dicom_all.submitter_id
-      - value: "crdc:su0000025"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST 
+#    identifier:                                                             # type = Identifier
+#      - value: "idc-case:ffde0494-7583-44ca-9e9d-902e84a3b4b3"              # IDC.dicom_all.case_id
+#      - value: "tcga:TCGA-13-1409"                                          # IDC.dicom_all.submitter_id
+#      - value: "crdc:su0000025"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST
     sex:                                                                    # type = CodeableConcept
       coding:                                                               # type = Coding
         - code: C16576
@@ -43,31 +43,31 @@ idc_diagnosis:
   Schema: ccdh.0713cc.Diagnosis
   Example:                                                                  # type = Diagnosis
     id: "f2f:b2dcfb3a-8a28-4325-9202-7ca70bf24fd6"
-    primary_site:                                                           # type = BodySite
-      - site:                                                               # type = CodeableConcept
-          coding:                                                           # type = Coding
-            - code: C12404
-              label: Ovary
-              system: https://ncithesaurus.nci.nih.gov/
-              tag:
-                - harmonized
-            - code: Ovary
-              label: Ovary
-              system: http://crdc.nci.nih.gov/idc
-              tag:
-                - original
+#    primary_site:                                                           # type = BodySite
+#      - site:                                                               # type = CodeableConcept
+#          coding:                                                           # type = Coding
+#            - code: C12404
+#              label: Ovary
+#              system: https://ncithesaurus.nci.nih.gov/
+#              tag:
+#                - harmonized
+#            - code: Ovary
+#              label: Ovary
+#              system: http://crdc.nci.nih.gov/idc
+#              tag:
+#                - original
     subject:                                                                # type = Subject
       id: "f2f:4e9c2068-6b9c-4944-9a62-ab38f408d777"
 
 ---
-idc_researchProject:
+idc_research_project:
   Title: IDC ResearchProject Example - Sept 2021 F2F Demonstrator 2
   Schema: ccdh.0713cc.ResearchProject
   Example:                                                                  # type = ResearchProject
     id: "f2f:3a24f021-7fb9-478f-81bc-e114e7263960"                          # Local uuid assigned by this system for the ResearchProject
-    identifier:                                                             # type = Identifier
-      - value: "idc-project:tcga_ov"                                        # IDC.dicom_all.collection_id 
-      - value: "crdc:pj1000015"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST 
+#    identifier:                                                             # type = Identifier
+#      - value: "idc-project:tcga_ov"                                        # IDC.dicom_all.collection_id
+#      - value: "crdc:pj1000015"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST
     research_project_type:                                                  # type = CodeableConcept
       coding:                                                               # type = Coding
         - code: C47885
@@ -77,21 +77,21 @@ idc_researchProject:
             - harmonized
 
 ---
-idc_researchsubject:
+idc_research_subject:
   Title: IDC ResearchSubject Example - Sept 2021 F2F Demonstrator 2
   Schema: ccdh.0713cc.ResearchSubject
   Example:                                                                  # type = ResearchSubject
     id: "f2f:15b7b028-4b37-4642-938b-5fd58d3d4f75"
     # Below is an association by reference only
-    associated_subject:                                                     # type = Subject
-      id: "f2f:4e9c2068-6b9c-4944-9a62-ab38f408d777"
-    # Below is an association by inline inclusion
-    member_of_research_project:                                             # type = ResearchProject
-      id: "f2f:3a24f021-7fb9-478f-81bc-e114e7263960"
-      research_project_type:                                                # type = CodeableConcept
-        coding:                                                             # type = Coding
-          - code: C47885
-            label: Project
-            system: http://ncithesaurus.nci.nih.gov/
-            tag:
-              - harmonized
+#    associated_subject:                                                     # type = Subject
+#      id: "f2f:4e9c2068-6b9c-4944-9a62-ab38f408d777"
+#    # Below is an association by inline inclusion
+#    member_of_research_project:                                             # type = ResearchProject
+#      id: "f2f:3a24f021-7fb9-478f-81bc-e114e7263960"
+#      research_project_type:                                                # type = CodeableConcept
+#        coding:                                                             # type = Coding
+#          - code: C47885
+#            label: Project
+#            system: http://ncithesaurus.nci.nih.gov/
+#            tag:
+#              - harmonized

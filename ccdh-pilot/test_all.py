@@ -16,9 +16,15 @@ import crdch_model
 def test_demonstrators():
     # TODO: change this to relative paths
     input_paths = [
+        # Demonstrator 1
         'ccdh-pilot/demonstrator-1/d1_harmonized_gdc_specimen_cc.yaml',
         'ccdh-pilot/demonstrator-1/d1_harmonized_pdc_specimen_cc.yaml',
-        'ccdh-pilot/demonstrator-1/d1_harmonized_icdc_specimen_cc.yaml'
+        'ccdh-pilot/demonstrator-1/d1_harmonized_icdc_specimen_cc.yaml',
+
+        # Demonstrator 2
+        'ccdh-pilot/demonstrator-2/d2_gdc_TCGA-13-1409_cc.yaml',
+        'ccdh-pilot/demonstrator-2/d2_harmonized_TCGA-13-1409_cc.yaml',
+        'ccdh-pilot/demonstrator-2/d2_idc_TCGA-13-1409_cc.yaml'
     ]
     for input_path in input_paths:
         with open(input_path) as f:
