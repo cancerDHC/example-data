@@ -8,10 +8,10 @@ pdc_subject:
     - "In this example enumerated values are captured using a CodeableConcept object which bundles one or more Coding objects, each holding a single concept code and supporting metadata."
   Example:                                                                  # type = Subject
     id: "f2f:c59cec71-88b1-439e-b7c5-b2498eaaca3a"                          # Local uuid for the Subject as assigned by the system in which this record lives (here, the CCDH F2F Demonstrator, hence the 'f2f' prefix).
-    identifier:                                                             # type = Identifier
-      - value: "pdc-case:3a36a497-63d7-11e8-bcf1-0a2705229b82"              # PDC.Cases.case_id
-      - value: "tcga:TCGA-13-1409"                                          # PDC.Cases.case_submitter_id
-      - value: "crdc:su0000005"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST 
+#    identifier:                                                             # type = Identifier
+#      - value: "pdc-case:3a36a497-63d7-11e8-bcf1-0a2705229b82"              # PDC.Cases.case_id
+#      - value: "tcga:TCGA-13-1409"                                          # PDC.Cases.case_submitter_id
+#      - value: "crdc:su0000005"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST
     ethnicity:                                                              # type = CodeableConcept
       coding:                                                               # type = Coding
         - code: C41222                                                      # The first Coding holds the harmonized code for this concept - the code for an NCIT term.
@@ -20,7 +20,7 @@ pdc_subject:
           tag:                                                              # A tag indicating this to be the harmonized code for this concept
             - harmonized
         - code: Not Hispanic or Latino                                      # The second Coding holds the original code used by the source node.
-          label: Not Hispanic or Latino                                     # The human-readable label (implicitly the same as the code, which are human-readable in GDC) 
+          label: Not Hispanic or Latino                                     # The human-readable label (implicitly the same as the code, which are human-readable in GDC)
           system: http://crdc.nci.nih.gov/pdc                               # A URL for the PDC system (we made this up - t.b.d. what an official URL would look like)
           tag:                                                              # A 'tag' indicating this to be the code for this concept in the original source data.
             - original
@@ -72,36 +72,36 @@ pdc_subject:
       value_decimal: 28578
       unit:                                                                 # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because unit of measure is not explicitly declared in the source data - so there is no original value.)
         coding:                                                             # type = Coding
-          - code: C25301                                            
-            label: Day                                     
-            system: http://ncithesaurus.nci.nih.gov/              
-            tag:                                              
-              - harmonized  
-    
+          - code: C25301
+            label: Day
+            system: http://ncithesaurus.nci.nih.gov/
+            tag:
+              - harmonized
+
 ---
 pdc_diagnosis:
   Title: PDC Diagnosis Example - Sept 2021 F2F Demonstrator 2
   Schema: ccdh.0713cc.Diagnosis
   Example:                                                                  # type = Diagnosis
     id: "f2f:424098d8-242f-4d8b-9ea7-6f73b4b2ec4c"
-    identifier:                                                             # type = Identifier
-      - value: "pdc-diagnosis:ff2f0efb-70ca-11e8-bcf1-0a2705229b82"         # PDC.Diagnosis.diagnosis_id
-      - value: "tcga:TCGA-13-1409-DX"                                       # PDC.Diagnosis.diagnosis_submitter_id
+#    identifier:                                                             # type = Identifier
+#      - value: "pdc-diagnosis:ff2f0efb-70ca-11e8-bcf1-0a2705229b82"         # PDC.Diagnosis.diagnosis_id
+#      - value: "tcga:TCGA-13-1409-DX"                                       # PDC.Diagnosis.diagnosis_submitter_id
     subject:                                                                # type = Subject
       id: "f2f:c59cec71-88b1-439e-b7c5-b2498eaaca3a"
     age_at_diagnosis:                                                       # type = Quantity
       value_decimal: 26836
       unit:                                                                 # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because unit of measure is not explicitly declared in the source data - so there is no original value.)
         coding:                                                             # type = Coding
-          - code: C25301                                            
-            label: Day                                     
-            system: http://ncithesaurus.nci.nih.gov/              
-            tag:                                              
-              - harmonized  
+          - code: C25301
+            label: Day
+            system: http://ncithesaurus.nci.nih.gov/
+            tag:
+              - harmonized
       # unit: days
     # year_at_diagnosis: 2008
     diagnosis_date:
-      date_time: 2008
+      date_time: "2008-01-01"
     condition:                                                              # type = CodeableConcept
       coding:                                                               # type = Coding
         - code: C3778
@@ -126,19 +126,19 @@ pdc_diagnosis:
           system: http://who.int/icdo3/
           tag:
             - original
-    primary_site:                                                           # type = BodySite
-      - site:                                                               # type = CodeableConcept
-          coding:                                                           # type = Coding
-            - code: C12404
-              label: Ovary
-              system: https://ncithesaurus.nci.nih.gov/
-              tag:
-                - harmonized
-            - code: Ovary
-              label: Ovary
-              system: http://crdc.nci.nih.gov/pdc
-              tag:
-                - original
+#    primary_site:                                                           # type = BodySite
+#      - site:                                                               # type = CodeableConcept
+#          coding:                                                           # type = Coding
+#            - code: C12404
+#              label: Ovary
+#              system: https://ncithesaurus.nci.nih.gov/
+#              tag:
+#                - harmonized
+#            - code: Ovary
+#              label: Ovary
+#              system: http://crdc.nci.nih.gov/pdc
+#              tag:
+#                - original
     stage:                                                                  # type = CancerStageObservationSet
       - method_type:                                                        # type = CodeableConcept
         - coding:                                                           # type = Coding
@@ -147,36 +147,36 @@ pdc_diagnosis:
             system: https://ncithesaurus.nci.nih.gov/
             tag:
               - harmonized
-      - observations:                                                       # type = CancerStageObservation
-        - observation_type:                                                 # type = CodeableConcept
-            coding:                                                         # type = Coding
-              - code: C25605
-                label: Overall
-                system: http://ncithesaurus.nci.nih.gov/
-                tag:
-                  - harmonized
-          value_codeable_concept:                                           # type = CodeableConcept
-            coding:                                                         # type = Coding
-              - code: C96258
-                label: FIGO Stage IIIC
-                system: http://ncithesaurus.nci.nih.gov/
-                tag:
-                  - harmonized
-              - code: Stage IIIC
-                label: Stage IIIC
-                system: http://crdc.nci.nih.gov/pdc
-                tag:
-                  - original
+#      - observations:                                                       # type = CancerStageObservation
+#        - observation_type:                                                 # type = CodeableConcept
+#            coding:                                                         # type = Coding
+#              - code: C25605
+#                label: Overall
+#                system: http://ncithesaurus.nci.nih.gov/
+#                tag:
+#                  - harmonized
+#          value_codeable_concept:                                           # type = CodeableConcept
+#            coding:                                                         # type = Coding
+#              - code: C96258
+#                label: FIGO Stage IIIC
+#                system: http://ncithesaurus.nci.nih.gov/
+#                tag:
+#                  - harmonized
+#              - code: Stage IIIC
+#                label: Stage IIIC
+#                system: http://crdc.nci.nih.gov/pdc
+#                tag:
+#                  - original
 
 ---
-pdc_researchproject:
+pdc_research_project:
   Title: PDC ResearchProject Example - Sept 2021 F2F Demonstrator 2
   Schema: ccdh.0713cc.ResearchProject
   Example:                                                                  # type = ResearchProject
     id: "f2f:7196cb06-6999-4e6e-9b78-e1b4233629ab"
-    identifier:                                                             # type = Identifier
-      - value: "pdc-project:CPTAC-TCGA"
-      - value: "crdc:pj1000017"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST 
+#    identifier:                                                             # type = Identifier
+#      - value: "pdc-project:CPTAC-TCGA"
+#      - value: "crdc:pj1000017"                                             # Proposed globally unique identifier per recommendation of the CRDC-DST
     research_project_type:                                                  # type = CodeableConcept
       coding:                                                               # type = Coding
         - code: C47885
@@ -185,35 +185,35 @@ pdc_researchproject:
           tag:
             - harmonized
     name: CPTAC2 Retrospective
-    part_of:
-      - research_project_type:                                              # type = CodeableConcept
-          coding:                                                           # type = Coding
-          - code: C52647
-            label: Program
-            system: http://ncithesaurus.nci.nih.gov/
-            tag:
-              - harmonized
-        id: "f2f:c19a8e03-f674-4124-b8ac-2222e08de978"
-        identifier:
-          - value: "pdc-program:10251935-5540-11e8-b664-00a098d917f8"
-          - value: "pdc-program:Clinical Proteomic Tumor Analysis Consortium"
-          - value: "crdc:pg1000023"                                         # Proposed globally unique identifier per recommendation of the CRDC-DST
-        name: Clinical Proteomic Tumor Analysis Consortium
+#    part_of:
+#      - research_project_type:                                              # type = CodeableConcept
+#          coding:                                                           # type = Coding
+#          - code: C52647
+#            label: Program
+#            system: http://ncithesaurus.nci.nih.gov/
+#            tag:
+#              - harmonized
+#        id: "f2f:c19a8e03-f674-4124-b8ac-2222e08de978"
+#        identifier:
+#          - value: "pdc-program:10251935-5540-11e8-b664-00a098d917f8"
+#          - value: "pdc-program:Clinical Proteomic Tumor Analysis Consortium"
+#          - value: "crdc:pg1000023"                                         # Proposed globally unique identifier per recommendation of the CRDC-DST
+#        name: Clinical Proteomic Tumor Analysis Consortium
 
 ---
-pdc_researchsubject:
+pdc_research_subject:
   Title: PDC ResearchSubject Example - Sept 2021 F2F Demonstrator 2
   Schema: ccdh.0713cc.ResearchSubject
   Example:                                                                  # type = ResearchSubject
     id: "f2f:1306ef67-11cd-4e72-a4db-ae05584460a1"
-    associated_subject:                                                     # type = Subject
-      id: "f2f:c59cec71-88b1-439e-b7c5-b2498eaaca3a"
-    member_of_research_project:                                             # type = ResearchProject
-      research_project_type:                                                # type = CodeableConcept
-        coding:                                                             # type = Coding
-          - code: C47885
-            label: Project
-            system: http://ncithesaurus.nci.nih.gov/
-            tag:
-              - harmonized
-      id: "f2f:7196cb06-6999-4e6e-9b78-e1b4233629ab"
+#    associated_subject:                                                     # type = Subject
+#      id: "f2f:c59cec71-88b1-439e-b7c5-b2498eaaca3a"
+#    member_of_research_project:                                             # type = ResearchProject
+#      research_project_type:                                                # type = CodeableConcept
+#        coding:                                                             # type = Coding
+#          - code: C47885
+#            label: Project
+#            system: http://ncithesaurus.nci.nih.gov/
+#            tag:
+#              - harmonized
+#      id: "f2f:7196cb06-6999-4e6e-9b78-e1b4233629ab"
