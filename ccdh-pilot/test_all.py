@@ -24,23 +24,25 @@ def test_demonstrators():
         # Demonstrator 2
         'ccdh-pilot/demonstrator-2/d2_gdc_TCGA-13-1409_cc.yaml',
         'ccdh-pilot/demonstrator-2/d2_harmonized_TCGA-13-1409_cc.yaml',
-        'ccdh-pilot/demonstrator-2/d2_idc_TCGA-13-1409_cc.yaml'
+        'ccdh-pilot/demonstrator-2/d2_idc_TCGA-13-1409_cc.yaml',
+        'ccdh-pilot/demonstrator-2/d2_pdc_TCGA-13-1409_cc.yaml'
     ]
     for input_path in input_paths:
         with open(input_path) as f:
-            d1_gdc = yaml.load_all(f, Loader=yaml.FullLoader)
+            examples = yaml.load_all(f, Loader=yaml.FullLoader)
 
-            for entry in d1_gdc:
+            for entry in examples:
                 first_key = list(entry)[0]
+                example = entry[first_key]['Example']
                 if first_key.endswith('_specimen'):
-                    specimen = YAMLLoader().load(entry[first_key]['Example'], crdch_model.Specimen)
+                    specimen = YAMLLoader().load(example, crdch_model.Specimen)
                 elif first_key.endswith('_subject'):
-                    subject = YAMLLoader().load(entry[first_key]['Example'], crdch_model.Subject)
+                    subject = YAMLLoader().load(example, crdch_model.Subject)
                 elif first_key.endswith('_research_project'):
-                    research_project = YAMLLoader().load(entry[first_key]['Example'], crdch_model.ResearchProject)
+                    research_project = YAMLLoader().load(example, crdch_model.ResearchProject)
                 elif first_key.endswith('_research_subject'):
-                    research_subject = YAMLLoader().load(entry[first_key]['Example'], crdch_model.ResearchSubject)
+                    research_subject = YAMLLoader().load(example, crdch_model.ResearchSubject)
                 elif first_key.endswith('_diagnosis'):
-                    diagnosis = YAMLLoader().load(entry[first_key]['Example'], crdch_model.Diagnosis)
+                    diagnosis = YAMLLoader().load(example, crdch_model.Diagnosis)
                 else:
                     raise RuntimeError(f'Could not load entry: {entry}')
