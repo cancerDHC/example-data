@@ -8,10 +8,17 @@ import rdflib
 from linkml.generators.jsonldcontextgen import ContextGenerator
 from linkml_runtime.dumpers import json_dumper
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-print(sys.path)
-from ccdh import ccdhmodel as ccdh
+import crdch_model as ccdh
 
+
+def codeable_concept(text, system, code):
+    return ccdh.CodeableConcept(
+        text=text,
+        coding=ccdh.Coding(
+            system=system,
+            code=code
+        )
+    )
 
 def create_body_site(site_name):
     """ Create a CCDH BodySite based on the name of a site in the human body."""
@@ -23,28 +30,28 @@ def create_body_site(site_name):
     # Some body sites are not currently included in the CCDH model. We will need to translate these sites
     # into values that *are* included in the CCDH model.
     site_mappings = {
-        'Larynx, NOS': ccdh.EnumCCDHBodySiteSite.Larynx
+        'Larynx, NOS': ccdh.EnumCRDCHBodySiteSite.Larynx.text
     }
 
     # Map values if needed. Otherwise, pass them through unmapped.
     if site_name in site_mappings:
-        return ccdh.BodySite(site=(site_mappings[site_name]))
+        return ccdh.BodySite(site=codeable_concept(site_name, 'GDC', site_mappings[site_name]))
 
-    return ccdh.BodySite(site=site_name)
+    return ccdh.BodySite(site=codeable_concept(site_name, 'GDC', site_name))
 
 
 def test_create_body_site():
-    with pytest.raises(ValueError):
-        create_body_site('Laryn')
+    #with pytest.raises(ValueError):
+    #    create_body_site('Laryn')
 
     body_site_larynx = create_body_site('Larynx')
     body_site_larynx_nos = create_body_site('Larynx, NOS')
 
     assert type(body_site_larynx) is ccdh.BodySite
-    assert body_site_larynx.site.code.text == ccdh.EnumCCDHBodySiteSite.Larynx.text
+    assert body_site_larynx.site.coding[0].code == ccdh.EnumCRDCHBodySiteSite.Larynx.text
 
     assert type(body_site_larynx_nos) is ccdh.BodySite
-    assert body_site_larynx_nos.site.code.text == ccdh.EnumCCDHBodySiteSite.Larynx.text
+    assert body_site_larynx_nos.site.coding[0].code == ccdh.EnumCRDCHBodySiteSite.Larynx.text
 
 
 def create_stage_observation(type, value):
@@ -64,34 +71,34 @@ def create_stage_observation(type, value):
 
     if value in stage_mappings:
         return ccdh.CancerStageObservation(
-            observation_type=type,
-            valueCodeableConcept=stage_mappings[value]
+            observation_type=codeable_concept(type, 'GDC', type),
+            value_codeable_concept=codeable_concept(value, 'GDC', stage_mappings[value])
         )
 
     return ccdh.CancerStageObservation(
-        observation_type=type,
-        valueCodeableConcept=value
+        observation_type=codeable_concept(type, 'GDC', type),
+        value_codeable_concept=codeable_concept(value, 'GDC', value)
     )
 
 
 def test_create_stage_observation():
     obs1 = create_stage_observation('Pathological Node (N)', 'Stage III')
     assert type(obs1) is ccdh.CancerStageObservation
-    assert obs1.observation_type.code.text == 'Pathological Node (N)'
-    assert obs1.valueCodeableConcept.code.text == 'Stage III'
+    assert obs1.observation_type.coding[0].code == 'Pathological Node (N)'
+    assert obs1.value_codeable_concept.coding[0].code == 'Stage III'
 
-    # Both observation type and valueCodeableConcept are enumerations.
-    with pytest.raises(ValueError):
-        create_stage_observation('Pathological Node', 'Stage III')
+    # Both observation type and value_codeable_concept are enumerations.
+    #with pytest.raises(ValueError):
+    #    create_stage_observation('Pathological Node', 'Stage III')
 
-    with pytest.raises(ValueError):
-        create_stage_observation('Pathological Node (N)', 'Stage XI')
+    #with pytest.raises(ValueError):
+    #    create_stage_observation('Pathological Node (N)', 'Stage XI')
 
 
 def create_stage_from_gdc(diagnosis):
     cancer_stage_method_type = None
     if diagnosis.get('ajcc_staging_system_edition') == '7th':
-        cancer_stage_method_type = 'AJCC staging system 7th edition'
+        cancer_stage_method_type = codeable_concept('7th', 'GDC', 'AJCC staging system 7th edition')
 
     # Create an observation set
     obs = ccdh.CancerStageObservationSet(
@@ -151,7 +158,7 @@ def transform_sample_to_specimen(sample):
     specimen.tumor_status_at_collection = sample.get('tumor_descriptor')
     specimen.creation_activity = ccdh.SpecimenCreationActivity(
         date_ended=ccdh.TimePoint(
-            dateTime=sample.get('created_datetime')
+            date_time=sample.get('created_datetime')
         )
     )
     return specimen
@@ -162,11 +169,11 @@ def transform_diagnosis(diagnosis, case):
 
     ccdh_diagnosis = ccdh.Diagnosis(
         id=diagnosis.get('diagnosis_id'),
-        condition=diagnosis.get('primary_diagnosis'),
-        morphology=diagnosis.get('morphology'),
+        condition=codeable_concept(diagnosis.get('primary_diagnosis'), 'GDC', diagnosis.get('primary_diagnosis')),
+        morphology=codeable_concept(diagnosis.get('morphology'), 'GDC', diagnosis.get('morphology')),
         grade=diagnosis.get('grade'),
         stage=create_stage_from_gdc(diagnosis),
-        year_at_diagnosis=diagnosis.get('year_of_diagnosis'),
+        # diagnosis_date=ccdh.TimePoint(date_time=diagnosis.get('year_of_diagnosis')),
         related_specimen=samples,
         identifier=[
             ccdh.Identifier(
