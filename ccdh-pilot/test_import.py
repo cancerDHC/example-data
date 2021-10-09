@@ -14,6 +14,7 @@ from linkml_runtime.dumpers.yaml_dumper import YAMLDumper
 import crdch_model
 
 # Some general constants
+EXAMPLE_PREFIX = 'gdc_head_and_mouth_example:'
 GDC_URL = 'http://crdc.nci.nih.gov/gdc'
 ICD10_URL = 'http://hl7.org/fhir/ValueSet/icd-10'
 
@@ -35,6 +36,14 @@ def codeable_concept(system, code, label=None, text=None, tags=[]):
 DAY = codeable_concept('http://ncithesaurus.nci.nih.gov', 'C25301', 'Day')
 
 
+# Convert a single GDC sample into a CRDC-H specimen.
+def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, case_index):
+    specimen = crdch_model.Specimen(
+        id=f'{EXAMPLE_PREFIX}case_{case_index}_sample_{sample_index}'
+    )
+    return specimen
+
+
 # Demonstrators
 def test_import_gdc_head_and_mouth():
     with open('head-and-mouth/gdc-head-and-mouth.json') as file:
@@ -46,7 +55,7 @@ def test_import_gdc_head_and_mouth():
     for (index, gdc_case) in enumerate(gdc_head_and_mouth):
         for (diag_index, gdc_diagnosis) in enumerate(gdc_case['diagnoses']):
             diagnosis = crdch_model.Diagnosis(
-                id=f'gdc_head_and_mouth_example:{index}_diagnosis_{diag_index}',
+                id=f'{EXAMPLE_PREFIX}case_{index}_diagnosis_{diag_index}',
 
                 # -- TODO: these fields do not currently validate.
                 #identifier=[
@@ -123,6 +132,12 @@ def test_import_gdc_head_and_mouth():
                     date_time=gdc_diagnosis.get('created_datetime')
                 )
 
+            # Convert the specimen.
+            specimens = [create_specimen(sample, sample_index, diagnosis, diag_index) for (sample_index, sample) in enumerate(gdc_case.get('sample') or [])]
+            if len(specimens) > 0:
+                diagnosis.related_specimen = specimens
+
+            # Write out the diagnosis.
             diagnoses.append({
                 f'gdc_head_and_mouth_example_{index}_diagnosis_{diag_index}_diagnosis': {
                     'Provenance':
