@@ -15,8 +15,16 @@ import crdch_model
 
 # Some general constants
 EXAMPLE_PREFIX = 'gdc_head_and_mouth_example:'
+NCIT_URL = 'http://ncithesaurus.nci.nih.gov'
 GDC_URL = 'http://crdc.nci.nih.gov/gdc'
 ICD10_URL = 'http://hl7.org/fhir/ValueSet/icd-10'
+
+
+# Helper method to
+def quantity(value_decimal, unit):
+    q = crdch_model.Quantity(unit=unit)
+    q.value_decimal = value_decimal
+    return q
 
 
 # Helper method to create a codeable concept.
@@ -33,8 +41,8 @@ def codeable_concept(system, code, label=None, text=None, tags=[]):
 
 
 # Some codeable concepts we use repeatedly.
-DAY = codeable_concept('http://ncithesaurus.nci.nih.gov', 'C25301', 'Day')
-
+DAY = codeable_concept(NCIT_URL, 'C25301', 'Day', tags=['harmonized'])
+MILLIGRAM = codeable_concept(NCIT_URL, 'C28253', 'Milligram', tags=['harmonized'])
 
 # Convert a single GDC sample into a CRDC-H specimen.
 def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gdc_case, case_index):
@@ -71,6 +79,19 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
 
     if gdc_sample.get('tumor_descriptor'):
         specimen.tumor_status_at_collection = codeable_concept(GDC_URL, gdc_sample.get('tumor_descriptor'))
+
+    if gdc_sample.get('current_weight'):
+        specimen.quantity_measure = crdch_model.SpecimenQuantityObservation(
+            observation_type=codeable_concept(NCIT_URL, 'C25208', 'Weight', tags=['harmonized']),
+            value_quantity=quantity(gdc_sample.get('current_weight'), unit=MILLIGRAM)
+        )
+
+    if gdc_sample.get('days_to_collection'):
+        date_ended = crdch_model.TimePoint(
+            offset_from_index=quantity(gdc_sample.get('days_to_collection'), DAY),
+            index_time_point=crdch_model.TimePoint(event_type=codeable_concept(NCIT_URL, 'C142714', 'Study Start', tags=['harmonized']))
+        )
+        specimen.creation_activity = crdch_model.SpecimenCreationActivity(date_ended=date_ended)
 
     return specimen
 
@@ -195,7 +216,6 @@ def test_import_gdc_head_and_mouth():
         yaml.dump_all(diagnoses,
                       f, Dumper=yaml.SafeDumper,
                       sort_keys=False)
-        linkml_runtime.utils.formatutils.remove_empty_items
 
     # yaml.dump(linkml_runtime.utils.formatutils.remove_empty_items(element, hide_protected_keys=True),
     #          Dumper=yaml.SafeDumper, sort_keys=False,
