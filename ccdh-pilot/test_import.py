@@ -37,13 +37,32 @@ DAY = codeable_concept('http://ncithesaurus.nci.nih.gov', 'C25301', 'Day')
 
 
 # Convert a single GDC sample into a CRDC-H specimen.
-def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, case_index):
+def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gdc_case, case_index):
     specimen = crdch_model.Specimen(
         id=f'{EXAMPLE_PREFIX}case_{case_index}_sample_{sample_index}',
     )
 
-    # if gdc_sample.get('sample_id'):
-    #     specimen.identifier = [crdch_model.Identifier(value=gdc_sample.get('sample_id'))]
+    if gdc_sample.get('sample_id'):
+        specimen.identifier = [crdch_model.Identifier(
+            value=gdc_sample.get('sample_id'),
+            system=GDC_URL
+        )]
+
+    # TODO: double-check this with DMH, doesn't quite match what I'm seeing in the CCDH Pilot files.
+    if gdc_sample.get('sample_type'):
+        specimen.specimen_type = codeable_concept(GDC_URL, gdc_sample.get('sample_type'))
+
+    # TODO: figure out what to do about associated_project.
+
+    # Make sure this is right.
+    if gdc_sample.get('submitter_id'):
+        specimen.source_subject = crdch_model.Subject(
+            id=f'{EXAMPLE_PREFIX}case_{case_index}_sample_{sample_index}_subject'
+        )
+        specimen.source_subject.identifier = [crdch_model.Identifier(
+            value=gdc_sample.get('submitter_id'),
+            system=GDC_URL
+        )]
 
     return specimen
 
@@ -68,8 +87,11 @@ def test_import_gdc_head_and_mouth():
                 # subject=crdch_model.Subject()
             )
 
-            # if gdc_diagnosis.get('diagnosis_id'):
-            #     diagnosis.identifier = crdch_model.Identifier(value=f"gdc:{gdc_diagnosis['diagnosis_id']}")
+            if gdc_diagnosis.get('diagnosis_id'):
+                diagnosis.identifier = [crdch_model.Identifier(
+                    value=gdc_diagnosis['diagnosis_id'],
+                    system=GDC_URL
+                )]
 
             if gdc_diagnosis.get('age_at_diagnosis'):
                 # TODO: this is caused by a weird LinkML bug that means that setting properties directly does NOT
@@ -138,7 +160,7 @@ def test_import_gdc_head_and_mouth():
 
             # Convert the specimen.
             specimens = [
-                create_specimen(sample, sample_index, diagnosis, diag_index, case_index)
+                create_specimen(sample, sample_index, diagnosis, diag_index, gdc_case, case_index)
                 for (sample_index, sample) in enumerate(gdc_case.get('samples') or [])
             ]
             if len(specimens) > 0:
