@@ -115,6 +115,14 @@ def test_import_gdc_head_and_mouth():
 
             # elif gdc_diagnosis.get('figo_stage'):
 
+
+
+            # We assume that the diagnosis was created as its created_datetime.
+            if gdc_diagnosis.get('created_datetime'):
+                diagnosis.diagnosis_date = crdch_model.TimePoint(
+                    date_time=gdc_diagnosis.get('created_datetime')
+                )
+
             diagnoses.append({
                 f'gdc_head_and_mouth_example_{index}_diagnosis_{diag_index}_diagnosis': {
                     'Provenance':

@@ -12,6 +12,8 @@ gdc_head_and_mouth_example_0_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:09:57.388287-05:00'
     condition:
       coding:
       - code: Adenocarcinoma, NOS
@@ -474,6 +476,8 @@ gdc_head_and_mouth_example_15_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:15_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:00:16.387540-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -488,6 +492,8 @@ gdc_head_and_mouth_example_16_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:16_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:09:08.236831-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -502,6 +508,8 @@ gdc_head_and_mouth_example_17_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:17_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -516,6 +524,8 @@ gdc_head_and_mouth_example_18_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:18_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-24T15:54:10.899939-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -530,6 +540,8 @@ gdc_head_and_mouth_example_19_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:19_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:22:44.605538-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -544,6 +556,8 @@ gdc_head_and_mouth_example_20_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:20_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:18:12.577279-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -558,6 +572,8 @@ gdc_head_and_mouth_example_21_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:21_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -572,6 +588,8 @@ gdc_head_and_mouth_example_22_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:22_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -586,6 +604,8 @@ gdc_head_and_mouth_example_23_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:23_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -600,6 +620,8 @@ gdc_head_and_mouth_example_24_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:24_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:12:39.483344-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -614,6 +636,8 @@ gdc_head_and_mouth_example_25_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:25_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:55:06.122857-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -628,6 +652,8 @@ gdc_head_and_mouth_example_26_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:26_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:08:45.485442-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -642,6 +668,8 @@ gdc_head_and_mouth_example_27_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:27_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:08:56.415519-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -656,6 +684,8 @@ gdc_head_and_mouth_example_28_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:28_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:50:07.070680-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -677,6 +707,8 @@ gdc_head_and_mouth_example_29_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:16:22.159933-05:00'
     condition:
       coding:
       - code: Adenocarcinoma, NOS
@@ -691,6 +723,8 @@ gdc_head_and_mouth_example_30_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:30_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:33:02.788870-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -705,6 +739,8 @@ gdc_head_and_mouth_example_31_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:31_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -719,6 +755,8 @@ gdc_head_and_mouth_example_32_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:32_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T13:59:19.948181-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -733,6 +771,8 @@ gdc_head_and_mouth_example_33_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:33_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:46:49.196648-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -747,6 +787,8 @@ gdc_head_and_mouth_example_34_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:34_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -761,6 +803,8 @@ gdc_head_and_mouth_example_35_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:35_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:52:07.547537-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -775,6 +819,8 @@ gdc_head_and_mouth_example_36_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:36_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:56:34.850243-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -796,6 +842,8 @@ gdc_head_and_mouth_example_37_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:52:07.271413-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -810,6 +858,8 @@ gdc_head_and_mouth_example_38_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:38_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:19:55.456063-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -824,6 +874,8 @@ gdc_head_and_mouth_example_39_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:39_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:56:34.850243-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -838,6 +890,8 @@ gdc_head_and_mouth_example_40_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:40_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:40:34.984546-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -859,6 +913,8 @@ gdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:39:52.796359-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -880,6 +936,8 @@ gdc_head_and_mouth_example_42_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:46:56.383024-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -894,6 +952,8 @@ gdc_head_and_mouth_example_43_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:43_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:55:06.122857-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -908,6 +968,8 @@ gdc_head_and_mouth_example_44_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:44_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-04T18:15:00.468044-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -922,6 +984,8 @@ gdc_head_and_mouth_example_45_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:45_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -936,6 +1000,8 @@ gdc_head_and_mouth_example_46_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:46_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -950,6 +1016,8 @@ gdc_head_and_mouth_example_47_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:47_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -964,6 +1032,8 @@ gdc_head_and_mouth_example_48_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:48_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -978,6 +1048,8 @@ gdc_head_and_mouth_example_49_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:49_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:48:18.301860-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -992,6 +1064,8 @@ gdc_head_and_mouth_example_50_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:50_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1006,6 +1080,8 @@ gdc_head_and_mouth_example_51_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:51_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1020,6 +1096,8 @@ gdc_head_and_mouth_example_52_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:52_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -1034,6 +1112,8 @@ gdc_head_and_mouth_example_53_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:53_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:22:44.605538-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1048,6 +1128,8 @@ gdc_head_and_mouth_example_54_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:54_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1062,6 +1144,8 @@ gdc_head_and_mouth_example_55_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:55_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1076,6 +1160,8 @@ gdc_head_and_mouth_example_56_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:56_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:50:07.070680-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1090,6 +1176,8 @@ gdc_head_and_mouth_example_57_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:57_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:04:34.648341-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1104,6 +1192,8 @@ gdc_head_and_mouth_example_58_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:58_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-28T11:53:02.573086-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1125,6 +1215,8 @@ gdc_head_and_mouth_example_59_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:08:58.276340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1139,6 +1231,8 @@ gdc_head_and_mouth_example_60_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:60_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:44:57.775194-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1153,6 +1247,8 @@ gdc_head_and_mouth_example_61_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:61_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1167,6 +1263,8 @@ gdc_head_and_mouth_example_62_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:62_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1188,6 +1286,8 @@ gdc_head_and_mouth_example_63_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:17:04.216071-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1202,6 +1302,8 @@ gdc_head_and_mouth_example_64_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:64_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:12:39.483344-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1216,6 +1318,8 @@ gdc_head_and_mouth_example_65_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:65_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1230,6 +1334,8 @@ gdc_head_and_mouth_example_66_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:66_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:54:43.342794-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1244,6 +1350,8 @@ gdc_head_and_mouth_example_67_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:67_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:48:18.301860-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1265,6 +1373,8 @@ gdc_head_and_mouth_example_68_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:37:11.337058-05:00'
     condition:
       coding:
       - code: Adenocarcinoma, NOS
@@ -1279,6 +1389,8 @@ gdc_head_and_mouth_example_69_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:69_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:52:07.547537-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -1293,6 +1405,8 @@ gdc_head_and_mouth_example_70_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:70_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:50:07.070680-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1307,6 +1421,8 @@ gdc_head_and_mouth_example_71_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:71_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1321,6 +1437,8 @@ gdc_head_and_mouth_example_72_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:72_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1335,6 +1453,8 @@ gdc_head_and_mouth_example_73_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:73_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1349,6 +1469,8 @@ gdc_head_and_mouth_example_74_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:74_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1370,6 +1492,8 @@ gdc_head_and_mouth_example_75_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:50:50.640983-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1384,6 +1508,8 @@ gdc_head_and_mouth_example_76_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:76_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1565,6 +1691,8 @@ gdc_head_and_mouth_example_82_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:52:57.352192-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -1579,6 +1707,8 @@ gdc_head_and_mouth_example_83_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:83_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:48:32.249009-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1593,6 +1723,8 @@ gdc_head_and_mouth_example_84_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:84_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:48:32.249009-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -1607,6 +1739,8 @@ gdc_head_and_mouth_example_85_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:85_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:46:49.196648-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1621,6 +1755,8 @@ gdc_head_and_mouth_example_86_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:86_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:12:39.483344-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1635,6 +1771,8 @@ gdc_head_and_mouth_example_87_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:87_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-28T11:53:02.573086-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -1649,6 +1787,8 @@ gdc_head_and_mouth_example_88_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:88_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:13:52.289903-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1663,6 +1803,8 @@ gdc_head_and_mouth_example_89_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:89_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:08:45.485442-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -1677,6 +1819,8 @@ gdc_head_and_mouth_example_90_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:90_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1691,6 +1835,8 @@ gdc_head_and_mouth_example_91_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:91_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:27:03.405022-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -1705,6 +1851,8 @@ gdc_head_and_mouth_example_92_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:92_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -1719,6 +1867,8 @@ gdc_head_and_mouth_example_93_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:93_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-28T11:53:02.573086-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2117,6 +2267,8 @@ gdc_head_and_mouth_example_106_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:106_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:08:56.415519-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2131,6 +2283,8 @@ gdc_head_and_mouth_example_107_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:107_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:08:56.415519-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2145,6 +2299,8 @@ gdc_head_and_mouth_example_108_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:108_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2159,6 +2315,8 @@ gdc_head_and_mouth_example_109_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:109_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2173,6 +2331,8 @@ gdc_head_and_mouth_example_110_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:110_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2187,6 +2347,8 @@ gdc_head_and_mouth_example_111_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:111_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2297,6 +2459,8 @@ gdc_head_and_mouth_example_115_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:115_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2311,6 +2475,8 @@ gdc_head_and_mouth_example_116_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:116_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2332,6 +2498,8 @@ gdc_head_and_mouth_example_117_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:45:38.412227-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -2353,6 +2521,8 @@ gdc_head_and_mouth_example_118_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:06:45.380259-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2367,6 +2537,8 @@ gdc_head_and_mouth_example_119_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:119_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2381,6 +2553,8 @@ gdc_head_and_mouth_example_120_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:120_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:19:55.456063-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2395,6 +2569,8 @@ gdc_head_and_mouth_example_121_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:121_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2416,6 +2592,8 @@ gdc_head_and_mouth_example_122_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:32:33.361284-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2430,6 +2608,8 @@ gdc_head_and_mouth_example_123_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:123_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2444,6 +2624,8 @@ gdc_head_and_mouth_example_124_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:124_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2458,6 +2640,8 @@ gdc_head_and_mouth_example_125_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:125_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2472,6 +2656,8 @@ gdc_head_and_mouth_example_126_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:126_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:06:42.641534-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2486,6 +2672,8 @@ gdc_head_and_mouth_example_127_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:127_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:44:57.775194-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2500,6 +2688,8 @@ gdc_head_and_mouth_example_128_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:128_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2514,6 +2704,8 @@ gdc_head_and_mouth_example_129_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:129_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-24T15:54:10.899939-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2688,6 +2880,8 @@ gdc_head_and_mouth_example_135_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:135_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:00:16.387540-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2702,6 +2896,8 @@ gdc_head_and_mouth_example_136_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:136_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:46:49.196648-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2716,6 +2912,8 @@ gdc_head_and_mouth_example_137_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:137_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:46:49.196648-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2730,6 +2928,8 @@ gdc_head_and_mouth_example_138_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:138_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2744,6 +2944,8 @@ gdc_head_and_mouth_example_139_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:139_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3462,6 +3664,8 @@ gdc_head_and_mouth_example_162_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:162_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3476,6 +3680,8 @@ gdc_head_and_mouth_example_163_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:163_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:18:12.577279-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -3490,6 +3696,8 @@ gdc_head_and_mouth_example_164_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:164_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3504,6 +3712,8 @@ gdc_head_and_mouth_example_165_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:165_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3518,6 +3728,8 @@ gdc_head_and_mouth_example_166_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:166_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:10:55.549888-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3532,6 +3744,8 @@ gdc_head_and_mouth_example_167_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:167_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:20:45.626350-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3546,6 +3760,8 @@ gdc_head_and_mouth_example_168_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:168_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-28T11:58:09.925822-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3567,6 +3783,8 @@ gdc_head_and_mouth_example_169_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:24:41.118584-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3581,6 +3799,8 @@ gdc_head_and_mouth_example_170_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:170_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3602,6 +3822,8 @@ gdc_head_and_mouth_example_171_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:00:37.699351-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3623,6 +3845,8 @@ gdc_head_and_mouth_example_172_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:24:21.473292-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -3637,6 +3861,8 @@ gdc_head_and_mouth_example_173_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:173_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3651,6 +3877,8 @@ gdc_head_and_mouth_example_174_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:174_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:46:49.196648-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3665,6 +3893,8 @@ gdc_head_and_mouth_example_175_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:175_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:46:49.196648-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3686,6 +3916,8 @@ gdc_head_and_mouth_example_176_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:03:06.646436-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3700,6 +3932,8 @@ gdc_head_and_mouth_example_177_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:177_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:31:06.867333-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3714,6 +3948,8 @@ gdc_head_and_mouth_example_178_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:178_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:51:43.229579-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3728,6 +3964,8 @@ gdc_head_and_mouth_example_179_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:179_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:19:55.456063-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3742,6 +3980,8 @@ gdc_head_and_mouth_example_180_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:180_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:48:18.301860-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3756,6 +3996,8 @@ gdc_head_and_mouth_example_181_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:181_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:51:43.229579-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3770,6 +4012,8 @@ gdc_head_and_mouth_example_182_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:182_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:52:07.547537-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -3784,6 +4028,8 @@ gdc_head_and_mouth_example_183_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:183_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:56:34.850243-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -3798,6 +4044,8 @@ gdc_head_and_mouth_example_184_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:184_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3812,6 +4060,8 @@ gdc_head_and_mouth_example_185_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:185_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:51:43.229579-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3826,6 +4076,8 @@ gdc_head_and_mouth_example_186_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:186_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:46:49.196648-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3840,6 +4092,8 @@ gdc_head_and_mouth_example_187_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:187_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3854,6 +4108,8 @@ gdc_head_and_mouth_example_188_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:188_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3868,6 +4124,8 @@ gdc_head_and_mouth_example_189_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:189_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3889,6 +4147,8 @@ gdc_head_and_mouth_example_190_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:11:07.491799-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -3903,6 +4163,8 @@ gdc_head_and_mouth_example_191_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:191_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3917,6 +4179,8 @@ gdc_head_and_mouth_example_192_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:192_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3931,6 +4195,8 @@ gdc_head_and_mouth_example_193_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:193_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:09:08.236831-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3945,6 +4211,8 @@ gdc_head_and_mouth_example_194_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:194_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3966,6 +4234,8 @@ gdc_head_and_mouth_example_195_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:22:57.109415-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -3980,6 +4250,8 @@ gdc_head_and_mouth_example_196_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:196_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:12:39.483344-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -4001,6 +4273,8 @@ gdc_head_and_mouth_example_197_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:04:08.462038-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4022,6 +4296,8 @@ gdc_head_and_mouth_example_198_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:58:27.042647-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4043,6 +4319,8 @@ gdc_head_and_mouth_example_199_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:09:34.231704-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4057,6 +4335,8 @@ gdc_head_and_mouth_example_200_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:200_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4078,6 +4358,8 @@ gdc_head_and_mouth_example_201_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:38:08.149770-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4092,6 +4374,8 @@ gdc_head_and_mouth_example_202_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:202_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4106,6 +4390,8 @@ gdc_head_and_mouth_example_203_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:203_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4120,6 +4406,8 @@ gdc_head_and_mouth_example_204_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:204_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:52:30.422252-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4134,6 +4422,8 @@ gdc_head_and_mouth_example_205_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:205_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:50:07.070680-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4148,6 +4438,8 @@ gdc_head_and_mouth_example_206_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:206_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:55:06.122857-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4162,6 +4454,8 @@ gdc_head_and_mouth_example_207_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:207_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-24T15:54:10.899939-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4176,6 +4470,8 @@ gdc_head_and_mouth_example_208_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:208_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:51:43.229579-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4190,6 +4486,8 @@ gdc_head_and_mouth_example_209_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:209_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4204,6 +4502,8 @@ gdc_head_and_mouth_example_210_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:210_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:40:34.984546-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4218,6 +4518,8 @@ gdc_head_and_mouth_example_211_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:211_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4232,6 +4534,8 @@ gdc_head_and_mouth_example_212_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:212_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4246,6 +4550,8 @@ gdc_head_and_mouth_example_213_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:213_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:48:18.301860-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4260,6 +4566,8 @@ gdc_head_and_mouth_example_214_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:214_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:27:03.405022-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -4274,6 +4582,8 @@ gdc_head_and_mouth_example_215_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:215_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4288,6 +4598,8 @@ gdc_head_and_mouth_example_216_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:216_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4302,6 +4614,8 @@ gdc_head_and_mouth_example_217_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:217_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:40:34.984546-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4316,6 +4630,8 @@ gdc_head_and_mouth_example_218_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:218_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4330,6 +4646,8 @@ gdc_head_and_mouth_example_219_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:219_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4344,6 +4662,8 @@ gdc_head_and_mouth_example_220_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:220_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:56:34.850243-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -4358,6 +4678,8 @@ gdc_head_and_mouth_example_221_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:221_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4372,6 +4694,8 @@ gdc_head_and_mouth_example_222_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:222_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -4393,6 +4717,8 @@ gdc_head_and_mouth_example_223_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:50:15.912336-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4407,6 +4733,8 @@ gdc_head_and_mouth_example_224_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:224_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -4421,6 +4749,8 @@ gdc_head_and_mouth_example_225_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:225_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:12:39.483344-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4442,6 +4772,8 @@ gdc_head_and_mouth_example_226_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:06:42.699936-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4456,6 +4788,8 @@ gdc_head_and_mouth_example_227_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:227_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4470,6 +4804,8 @@ gdc_head_and_mouth_example_228_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:228_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:40:34.984546-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4484,6 +4820,8 @@ gdc_head_and_mouth_example_229_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:229_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4505,6 +4843,8 @@ gdc_head_and_mouth_example_230_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:35:32.882569-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4519,6 +4859,8 @@ gdc_head_and_mouth_example_231_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:231_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:22:17.161349-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4533,6 +4875,8 @@ gdc_head_and_mouth_example_232_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:232_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:51:43.229579-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4547,6 +4891,8 @@ gdc_head_and_mouth_example_233_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:233_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4561,6 +4907,8 @@ gdc_head_and_mouth_example_234_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:234_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T23:02:35.412247-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4582,6 +4930,8 @@ gdc_head_and_mouth_example_235_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:49:09.096160-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4596,6 +4946,8 @@ gdc_head_and_mouth_example_236_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:236_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:06:42.641534-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4617,6 +4969,8 @@ gdc_head_and_mouth_example_237_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:29:52.147488-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4631,6 +4985,8 @@ gdc_head_and_mouth_example_238_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:238_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4645,6 +5001,8 @@ gdc_head_and_mouth_example_239_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:239_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4659,6 +5017,8 @@ gdc_head_and_mouth_example_240_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:240_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:51:43.229579-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4673,6 +5033,8 @@ gdc_head_and_mouth_example_241_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:241_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4687,6 +5049,8 @@ gdc_head_and_mouth_example_242_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:242_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:54:59.022237-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4701,6 +5065,8 @@ gdc_head_and_mouth_example_243_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:243_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4715,6 +5081,8 @@ gdc_head_and_mouth_example_244_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:244_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:50:07.070680-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -4729,6 +5097,8 @@ gdc_head_and_mouth_example_245_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:245_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4743,6 +5113,8 @@ gdc_head_and_mouth_example_246_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:246_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:06:42.641534-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4757,6 +5129,8 @@ gdc_head_and_mouth_example_247_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:247_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:50:07.070680-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4771,6 +5145,8 @@ gdc_head_and_mouth_example_248_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:248_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T17:08:35.009811-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4785,6 +5161,8 @@ gdc_head_and_mouth_example_249_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:249_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:18:12.577279-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4799,6 +5177,8 @@ gdc_head_and_mouth_example_250_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:250_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4813,6 +5193,8 @@ gdc_head_and_mouth_example_251_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:251_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4827,6 +5209,8 @@ gdc_head_and_mouth_example_252_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:252_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -4841,6 +5225,8 @@ gdc_head_and_mouth_example_253_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:253_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4855,6 +5241,8 @@ gdc_head_and_mouth_example_254_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:254_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4876,6 +5264,8 @@ gdc_head_and_mouth_example_255_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:11:56.463738-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4897,6 +5287,8 @@ gdc_head_and_mouth_example_256_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:03:06.646436-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4918,6 +5310,8 @@ gdc_head_and_mouth_example_257_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:04:28.356056-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4932,6 +5326,8 @@ gdc_head_and_mouth_example_258_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:258_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4953,6 +5349,8 @@ gdc_head_and_mouth_example_259_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:54:16.233716-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4974,6 +5372,8 @@ gdc_head_and_mouth_example_260_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:13:32.220966-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -4988,6 +5388,8 @@ gdc_head_and_mouth_example_261_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:261_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5002,6 +5404,8 @@ gdc_head_and_mouth_example_262_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:262_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:43:10.694359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -5023,6 +5427,8 @@ gdc_head_and_mouth_example_263_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:02:02.244491-05:00'
     condition:
       coding:
       - code: Adenocarcinoma, NOS
@@ -5037,6 +5443,8 @@ gdc_head_and_mouth_example_264_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:264_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:27:03.405022-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5051,6 +5459,8 @@ gdc_head_and_mouth_example_265_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:265_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:04:34.648341-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5065,6 +5475,8 @@ gdc_head_and_mouth_example_266_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:266_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:48:32.249009-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5086,6 +5498,8 @@ gdc_head_and_mouth_example_267_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:48:53.689413-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5100,6 +5514,8 @@ gdc_head_and_mouth_example_268_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:268_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5114,6 +5530,8 @@ gdc_head_and_mouth_example_269_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:269_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:40:34.984546-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5128,6 +5546,8 @@ gdc_head_and_mouth_example_270_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:270_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5149,6 +5569,8 @@ gdc_head_and_mouth_example_271_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:29:55.985949-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5170,6 +5592,8 @@ gdc_head_and_mouth_example_272_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T10:32:00.594855-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5184,6 +5608,8 @@ gdc_head_and_mouth_example_273_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:273_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:22:44.605538-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -5205,6 +5631,8 @@ gdc_head_and_mouth_example_274_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:04:48.159357-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5219,6 +5647,8 @@ gdc_head_and_mouth_example_275_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:275_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5233,6 +5663,8 @@ gdc_head_and_mouth_example_276_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:276_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T17:11:09.176054-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5247,6 +5679,8 @@ gdc_head_and_mouth_example_277_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:277_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5261,6 +5695,8 @@ gdc_head_and_mouth_example_278_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:278_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:18:12.577279-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5275,6 +5711,8 @@ gdc_head_and_mouth_example_279_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:279_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:56:34.850243-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -5296,6 +5734,8 @@ gdc_head_and_mouth_example_280_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:19:31.530646-05:00'
     condition:
       coding:
       - code: Adenocarcinoma, NOS
@@ -5317,6 +5757,8 @@ gdc_head_and_mouth_example_281_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:53:20.454258-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5338,6 +5780,8 @@ gdc_head_and_mouth_example_282_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:10:26.977545-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5352,6 +5796,8 @@ gdc_head_and_mouth_example_283_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:283_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:48:18.301860-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5366,6 +5812,8 @@ gdc_head_and_mouth_example_284_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:284_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-24T15:54:10.899939-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5380,6 +5828,8 @@ gdc_head_and_mouth_example_285_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:285_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T13:59:19.948181-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5394,6 +5844,8 @@ gdc_head_and_mouth_example_286_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:286_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5408,6 +5860,8 @@ gdc_head_and_mouth_example_287_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:287_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5422,6 +5876,8 @@ gdc_head_and_mouth_example_288_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:288_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:08:45.485442-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -5436,6 +5892,8 @@ gdc_head_and_mouth_example_289_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:289_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:08:45.485442-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5450,6 +5908,8 @@ gdc_head_and_mouth_example_290_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:290_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5464,6 +5924,8 @@ gdc_head_and_mouth_example_291_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:291_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5478,6 +5940,8 @@ gdc_head_and_mouth_example_292_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:292_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T17:11:09.176054-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5492,6 +5956,8 @@ gdc_head_and_mouth_example_293_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:293_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T18:06:55.927419-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5506,6 +5972,8 @@ gdc_head_and_mouth_example_294_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:294_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:18:12.577279-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5527,6 +5995,8 @@ gdc_head_and_mouth_example_295_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:23:56.738866-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5541,6 +6011,8 @@ gdc_head_and_mouth_example_296_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:296_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:33:45.008555-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -5555,6 +6027,8 @@ gdc_head_and_mouth_example_297_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:297_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:33:02.788870-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5576,6 +6050,8 @@ gdc_head_and_mouth_example_298_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:41:54.034178-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5597,6 +6073,8 @@ gdc_head_and_mouth_example_299_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:07:21.507175-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5611,6 +6089,8 @@ gdc_head_and_mouth_example_300_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:300_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5625,6 +6105,8 @@ gdc_head_and_mouth_example_301_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:301_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -5639,6 +6121,8 @@ gdc_head_and_mouth_example_302_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:302_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5653,6 +6137,8 @@ gdc_head_and_mouth_example_303_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:303_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:20:45.626350-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5667,6 +6153,8 @@ gdc_head_and_mouth_example_304_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:304_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:56:34.850243-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -5681,6 +6169,8 @@ gdc_head_and_mouth_example_305_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:305_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -5702,6 +6192,8 @@ gdc_head_and_mouth_example_306_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:11:12.963409-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -5972,6 +6464,8 @@ gdc_head_and_mouth_example_315_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:315_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5986,6 +6480,8 @@ gdc_head_and_mouth_example_316_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:316_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:09:08.236831-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6000,6 +6496,8 @@ gdc_head_and_mouth_example_317_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:317_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6014,6 +6512,8 @@ gdc_head_and_mouth_example_318_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:318_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6028,6 +6528,8 @@ gdc_head_and_mouth_example_319_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:319_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6042,6 +6544,8 @@ gdc_head_and_mouth_example_320_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:320_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T17:33:33.067458-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6056,6 +6560,8 @@ gdc_head_and_mouth_example_321_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:321_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -6070,6 +6576,8 @@ gdc_head_and_mouth_example_322_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:322_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -6084,6 +6592,8 @@ gdc_head_and_mouth_example_323_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:323_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T18:06:55.927419-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6098,6 +6608,8 @@ gdc_head_and_mouth_example_324_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:324_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:52:30.422252-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6112,6 +6624,8 @@ gdc_head_and_mouth_example_325_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:325_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -6126,6 +6640,8 @@ gdc_head_and_mouth_example_326_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:326_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -6140,6 +6656,8 @@ gdc_head_and_mouth_example_327_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:327_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -6154,6 +6672,8 @@ gdc_head_and_mouth_example_328_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:328_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6168,6 +6688,8 @@ gdc_head_and_mouth_example_329_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:329_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6182,6 +6704,8 @@ gdc_head_and_mouth_example_330_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:330_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:48:32.249009-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6196,6 +6720,8 @@ gdc_head_and_mouth_example_331_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:331_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-29T19:46:29.066295-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6210,6 +6736,8 @@ gdc_head_and_mouth_example_332_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:332_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:12:39.483344-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6224,6 +6752,8 @@ gdc_head_and_mouth_example_333_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:333_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6238,6 +6768,8 @@ gdc_head_and_mouth_example_334_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:334_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-04T18:15:00.468044-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6252,6 +6784,8 @@ gdc_head_and_mouth_example_335_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:335_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -6266,6 +6800,8 @@ gdc_head_and_mouth_example_336_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:336_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-04T13:43:58.124900-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6280,6 +6816,8 @@ gdc_head_and_mouth_example_337_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:337_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6294,6 +6832,8 @@ gdc_head_and_mouth_example_338_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:338_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:11:33.492105-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6315,6 +6855,8 @@ gdc_head_and_mouth_example_339_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:31:11.486434-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -6329,6 +6871,8 @@ gdc_head_and_mouth_example_340_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:340_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6343,6 +6887,8 @@ gdc_head_and_mouth_example_341_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:341_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:20:45.626350-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6364,6 +6910,8 @@ gdc_head_and_mouth_example_342_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:33:55.297898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6378,6 +6926,8 @@ gdc_head_and_mouth_example_343_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:343_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6392,6 +6942,8 @@ gdc_head_and_mouth_example_344_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:344_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6406,6 +6958,8 @@ gdc_head_and_mouth_example_345_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:345_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-04T18:15:00.468044-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6420,6 +6974,8 @@ gdc_head_and_mouth_example_346_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:346_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -6434,6 +6990,8 @@ gdc_head_and_mouth_example_347_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:347_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6448,6 +7006,8 @@ gdc_head_and_mouth_example_348_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:348_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:33:45.008555-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6462,6 +7022,8 @@ gdc_head_and_mouth_example_349_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:349_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6860,6 +7422,8 @@ gdc_head_and_mouth_example_362_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:362_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:04:34.648341-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6874,6 +7438,8 @@ gdc_head_and_mouth_example_363_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:363_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-28T11:53:02.573086-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6888,6 +7454,8 @@ gdc_head_and_mouth_example_364_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:364_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6902,6 +7470,8 @@ gdc_head_and_mouth_example_365_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:365_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -6923,6 +7493,8 @@ gdc_head_and_mouth_example_366_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:17:48.877840-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -6937,6 +7509,8 @@ gdc_head_and_mouth_example_367_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:367_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6958,6 +7532,8 @@ gdc_head_and_mouth_example_368_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-19T09:17:04.216071-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6972,6 +7548,8 @@ gdc_head_and_mouth_example_369_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:369_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6986,6 +7564,8 @@ gdc_head_and_mouth_example_370_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:370_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:51:43.229579-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7000,6 +7580,8 @@ gdc_head_and_mouth_example_371_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:371_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-24T15:54:10.899939-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7014,6 +7596,8 @@ gdc_head_and_mouth_example_372_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:372_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7035,6 +7619,8 @@ gdc_head_and_mouth_example_373_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2016-05-25T19:06:06.338930-05:00'
     condition:
       coding:
       - code: Malignant rhabdoid tumor
@@ -7056,6 +7642,8 @@ gdc_head_and_mouth_example_374_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-02-24T20:53:57.146340-06:00'
     condition:
       coding:
       - code: Malignant rhabdoid tumor
@@ -7077,6 +7665,8 @@ gdc_head_and_mouth_example_375_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-02-24T20:53:58.663956-06:00'
     condition:
       coding:
       - code: Malignant rhabdoid tumor
@@ -7098,6 +7688,8 @@ gdc_head_and_mouth_example_376_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2016-05-25T19:06:06.581824-05:00'
     condition:
       coding:
       - code: Malignant rhabdoid tumor
@@ -7119,6 +7711,8 @@ gdc_head_and_mouth_example_377_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-02-24T20:53:57.624669-06:00'
     condition:
       coding:
       - code: Malignant rhabdoid tumor
@@ -7140,6 +7734,8 @@ gdc_head_and_mouth_example_378_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2016-05-25T19:05:56.458287-05:00'
     condition:
       coding:
       - code: Malignant rhabdoid tumor
@@ -7154,6 +7750,8 @@ gdc_head_and_mouth_example_379_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:379_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7232,6 +7830,8 @@ gdc_head_and_mouth_example_382_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:382_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7406,6 +8006,8 @@ gdc_head_and_mouth_example_388_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:388_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:04:34.648341-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7420,6 +8022,8 @@ gdc_head_and_mouth_example_389_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:389_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:48:18.301860-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7434,6 +8038,8 @@ gdc_head_and_mouth_example_390_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:390_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:22:44.605538-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7448,6 +8054,8 @@ gdc_head_and_mouth_example_391_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:391_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:00:16.387540-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9062,6 +9670,8 @@ gdc_head_and_mouth_example_442_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:442_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9076,6 +9686,8 @@ gdc_head_and_mouth_example_443_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:443_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:12:39.483344-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9154,6 +9766,8 @@ gdc_head_and_mouth_example_446_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:446_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:13:52.289903-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9168,6 +9782,8 @@ gdc_head_and_mouth_example_447_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:447_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9182,6 +9798,8 @@ gdc_head_and_mouth_example_448_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:448_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9196,6 +9814,8 @@ gdc_head_and_mouth_example_449_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:449_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -9210,6 +9830,8 @@ gdc_head_and_mouth_example_450_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:450_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:15:12.926124-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9224,6 +9846,8 @@ gdc_head_and_mouth_example_451_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:451_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:51:43.229579-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9238,6 +9862,8 @@ gdc_head_and_mouth_example_452_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:452_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9252,6 +9878,8 @@ gdc_head_and_mouth_example_453_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:453_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:31:23.532984-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9266,6 +9894,8 @@ gdc_head_and_mouth_example_454_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:454_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:49:54.963340-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9280,6 +9910,8 @@ gdc_head_and_mouth_example_455_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:455_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9294,6 +9926,8 @@ gdc_head_and_mouth_example_456_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:456_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-21T23:51:43.143677-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9308,6 +9942,8 @@ gdc_head_and_mouth_example_457_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:457_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9322,6 +9958,8 @@ gdc_head_and_mouth_example_458_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:458_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-28T11:58:09.925822-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9343,6 +9981,8 @@ gdc_head_and_mouth_example_459_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:50:15.912336-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -9357,6 +9997,8 @@ gdc_head_and_mouth_example_460_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:460_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:33:02.788870-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9371,6 +10013,8 @@ gdc_head_and_mouth_example_461_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:461_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:50:07.070680-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9385,6 +10029,8 @@ gdc_head_and_mouth_example_462_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:462_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T16:31:06.867333-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9399,6 +10045,8 @@ gdc_head_and_mouth_example_463_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:463_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -9413,6 +10061,8 @@ gdc_head_and_mouth_example_464_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:464_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T17:08:35.009811-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9427,6 +10077,8 @@ gdc_head_and_mouth_example_465_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:465_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:22:44.605538-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9441,6 +10093,8 @@ gdc_head_and_mouth_example_466_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:466_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:18:12.577279-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9455,6 +10109,8 @@ gdc_head_and_mouth_example_467_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:467_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9469,6 +10125,8 @@ gdc_head_and_mouth_example_468_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:468_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:44:57.775194-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9490,6 +10148,8 @@ gdc_head_and_mouth_example_469_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:21:20.304647-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -9888,6 +10548,8 @@ gdc_head_and_mouth_example_482_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:482_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:48:18.301860-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9966,6 +10628,8 @@ gdc_head_and_mouth_example_485_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:485_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9980,6 +10644,8 @@ gdc_head_and_mouth_example_486_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:486_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:00:16.387540-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9994,6 +10660,8 @@ gdc_head_and_mouth_example_487_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:487_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:18:12.577279-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10008,6 +10676,8 @@ gdc_head_and_mouth_example_488_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:488_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:35:30.337998-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -10022,6 +10692,8 @@ gdc_head_and_mouth_example_489_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:489_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:04:34.648341-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10868,6 +11540,8 @@ gdc_head_and_mouth_example_516_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:516_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-28T11:58:09.925822-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10882,6 +11556,8 @@ gdc_head_and_mouth_example_517_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:517_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-24T15:54:10.899939-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10896,6 +11572,8 @@ gdc_head_and_mouth_example_518_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:518_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:22:44.605538-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10910,6 +11588,8 @@ gdc_head_and_mouth_example_519_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:519_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:52:07.547537-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -10924,6 +11604,8 @@ gdc_head_and_mouth_example_520_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:520_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T18:52:07.547537-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -10938,6 +11620,8 @@ gdc_head_and_mouth_example_521_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:521_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:22:44.605538-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10952,6 +11636,8 @@ gdc_head_and_mouth_example_522_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:522_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-05-31T17:08:35.009811-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10973,6 +11659,8 @@ gdc_head_and_mouth_example_523_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:09:38.109031-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -10987,6 +11675,8 @@ gdc_head_and_mouth_example_524_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:524_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-02T17:58:12.000359-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -11008,6 +11698,8 @@ gdc_head_and_mouth_example_525_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T16:06:42.699936-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -11029,6 +11721,8 @@ gdc_head_and_mouth_example_526_diagnosis_0_diagnosis:
         - code: C25301
           system: http://ncithesaurus.nci.nih.gov
           label: Day
+    diagnosis_date:
+      date_time: '2017-06-16T15:39:21.040567-05:00'
     condition:
       coding:
       - code: Carcinoma, undifferentiated, NOS
@@ -11043,6 +11737,8 @@ gdc_head_and_mouth_example_527_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:527_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:50:07.070680-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11057,6 +11753,8 @@ gdc_head_and_mouth_example_528_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:528_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-24T15:54:10.899939-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11071,6 +11769,8 @@ gdc_head_and_mouth_example_529_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:529_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:55:45.682943-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11085,6 +11785,8 @@ gdc_head_and_mouth_example_530_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:530_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T02:40:34.984546-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11099,6 +11801,8 @@ gdc_head_and_mouth_example_531_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:531_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11113,6 +11817,8 @@ gdc_head_and_mouth_example_532_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:532_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-10-03T03:13:59.504008-05:00'
     condition:
       coding:
       - code: Carcinoma, NOS
@@ -11127,6 +11833,8 @@ gdc_head_and_mouth_example_533_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:533_diagnosis_0
+    diagnosis_date:
+      date_time: '2019-06-03T14:33:02.788870-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11141,6 +11849,8 @@ gdc_head_and_mouth_example_534_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:534_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11155,6 +11865,8 @@ gdc_head_and_mouth_example_535_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:535_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:20:45.626350-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11169,6 +11881,8 @@ gdc_head_and_mouth_example_536_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:536_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T19:28:25.480729-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11215,6 +11929,8 @@ gdc_head_and_mouth_example_538_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:538_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-14T18:20:45.626350-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11773,6 +12489,8 @@ gdc_head_and_mouth_example_556_diagnosis_0_diagnosis:
   Documentation: https://cancerdhc.github.io/ccdhmodel/v1.1/Diagnosis/
   Example:
     id: gdc_head_and_mouth_example:556_diagnosis_0
+    diagnosis_date:
+      date_time: '2018-09-22T00:57:04.451898-05:00'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
