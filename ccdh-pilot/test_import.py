@@ -93,6 +93,20 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
         )
         specimen.creation_activity = crdch_model.SpecimenCreationActivity(date_ended=date_ended)
 
+    if gdc_sample.get('initial_weight'):
+        initial_weight = quantity(gdc_sample.get('initial_weight'), MILLIGRAM)
+        if specimen.creation_activity:
+            specimen.creation_activity.quantity_collected = initial_weight
+        else:
+            specimen.creation_activity = crdch_model.SpecimenCreationActivity(quantity_collected=initial_weight)
+
+    if gdc_sample.get('biospecimen_anatomic_site'):
+        biospecimen_anatomic_site = codeable_concept(GDC_URL, gdc_sample.get('biospecimen_anatomic_site'), label=gdc_sample.get('biospecimen_anatomic_site'))
+        if specimen.creation_activity:
+            specimen.creation_activity.collection_site = crdch_model.BodySite(site=biospecimen_anatomic_site)
+        else:
+            specimen.creation_activity = crdch_model.SpecimenCreationActivity(collection_site=crdch_model.BodySite(site=biospecimen_anatomic_site))
+
     return specimen
 
 

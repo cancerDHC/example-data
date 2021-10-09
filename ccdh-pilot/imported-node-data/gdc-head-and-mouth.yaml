@@ -327,6 +327,15 @@ gdc_head_and_mouth_example_3_diagnosis_0_diagnosis:
             value_decimal: 228
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 140.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -620,6 +629,15 @@ gdc_head_and_mouth_example_6_diagnosis_0_diagnosis:
             value_decimal: 346
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 130.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -1337,6 +1355,15 @@ gdc_head_and_mouth_example_13_diagnosis_0_diagnosis:
             value_decimal: 35
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 30.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -5399,6 +5426,15 @@ gdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
             value_decimal: 36
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 670.0
+          unit:
+            coding: &id002
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -5447,6 +5483,10 @@ gdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
             value_decimal: 36
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 80.0
+          unit:
+            coding: *id002
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -5569,6 +5609,15 @@ gdc_head_and_mouth_example_97_diagnosis_0_diagnosis:
             value_decimal: 1302
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 50.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -5785,6 +5834,15 @@ gdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
             value_decimal: 1333
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 50.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -5984,6 +6042,15 @@ gdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
             value_decimal: 4438
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 160.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -6200,6 +6267,15 @@ gdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
             value_decimal: 211
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 130.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -6322,6 +6398,15 @@ gdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
             value_decimal: 85
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 230.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -6790,6 +6875,15 @@ gdc_head_and_mouth_example_112_diagnosis_0_diagnosis:
             value_decimal: 75
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 140.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -6975,6 +7069,15 @@ gdc_head_and_mouth_example_114_diagnosis_0_diagnosis:
             value_decimal: 519
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 150.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -7857,6 +7960,15 @@ gdc_head_and_mouth_example_131_diagnosis_0_diagnosis:
             value_decimal: 50
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 80.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -8548,6 +8660,15 @@ gdc_head_and_mouth_example_141_diagnosis_0_diagnosis:
             value_decimal: 156
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 60.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -8906,6 +9027,15 @@ gdc_head_and_mouth_example_144_diagnosis_0_diagnosis:
             value_decimal: 125
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 240.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -9310,6 +9440,15 @@ gdc_head_and_mouth_example_148_diagnosis_0_diagnosis:
             value_decimal: 69
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 60.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -9415,6 +9554,15 @@ gdc_head_and_mouth_example_149_diagnosis_0_diagnosis:
             value_decimal: 194
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 230.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -9802,6 +9950,15 @@ gdc_head_and_mouth_example_153_diagnosis_0_diagnosis:
             value_decimal: 1071
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 80.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -9924,6 +10081,15 @@ gdc_head_and_mouth_example_154_diagnosis_0_diagnosis:
             value_decimal: 457
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 240.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -10109,6 +10275,15 @@ gdc_head_and_mouth_example_156_diagnosis_0_diagnosis:
             value_decimal: 279
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 140.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -10419,6 +10594,15 @@ gdc_head_and_mouth_example_159_diagnosis_0_diagnosis:
             value_decimal: 86
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 60.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -10572,6 +10756,15 @@ gdc_head_and_mouth_example_160_diagnosis_0_diagnosis:
             value_decimal: 38
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 60.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -10663,6 +10856,15 @@ gdc_head_and_mouth_example_161_diagnosis_0_diagnosis:
             value_decimal: 2922
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 10.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -17305,6 +17507,15 @@ gdc_head_and_mouth_example_307_diagnosis_0_diagnosis:
             value_decimal: 504
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 200.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -17815,6 +18026,15 @@ gdc_head_and_mouth_example_313_diagnosis_0_diagnosis:
             value_decimal: 483
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 170.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -17920,6 +18140,15 @@ gdc_head_and_mouth_example_314_diagnosis_0_diagnosis:
             value_decimal: 388
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 360.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -19740,6 +19969,15 @@ gdc_head_and_mouth_example_352_diagnosis_0_diagnosis:
             value_decimal: 97
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 380.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -19908,6 +20146,15 @@ gdc_head_and_mouth_example_354_diagnosis_0_diagnosis:
             value_decimal: 4786
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 50.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -20249,6 +20496,15 @@ gdc_head_and_mouth_example_357_diagnosis_0_diagnosis:
             value_decimal: 366
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 250.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -20465,6 +20721,15 @@ gdc_head_and_mouth_example_359_diagnosis_0_diagnosis:
             value_decimal: 49
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 130.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -21684,6 +21949,15 @@ gdc_head_and_mouth_example_380_diagnosis_0_diagnosis:
             value_decimal: 230
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 100.0
+          unit:
+            coding: &id002
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -21715,6 +21989,10 @@ gdc_head_and_mouth_example_380_diagnosis_0_diagnosis:
             value_decimal: 230
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 150.0
+          unit:
+            coding: *id002
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -22195,6 +22473,15 @@ gdc_head_and_mouth_example_385_diagnosis_0_diagnosis:
             value_decimal: 555
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 80.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -22459,6 +22746,15 @@ gdc_head_and_mouth_example_387_diagnosis_0_diagnosis:
             value_decimal: 117
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 400.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -22795,6 +23091,15 @@ gdc_head_and_mouth_example_393_diagnosis_0_diagnosis:
             value_decimal: 118
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 160.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -23042,6 +23347,15 @@ gdc_head_and_mouth_example_395_diagnosis_0_diagnosis:
             value_decimal: 549
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 20.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -23241,6 +23555,15 @@ gdc_head_and_mouth_example_397_diagnosis_0_diagnosis:
             value_decimal: 314
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 50.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -23520,6 +23843,15 @@ gdc_head_and_mouth_example_400_diagnosis_0_diagnosis:
             value_decimal: 3039
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 40.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -23656,6 +23988,15 @@ gdc_head_and_mouth_example_401_diagnosis_0_diagnosis:
             value_decimal: 394
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 270.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -23855,6 +24196,15 @@ gdc_head_and_mouth_example_403_diagnosis_0_diagnosis:
             value_decimal: 352
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 100.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -24493,6 +24843,15 @@ gdc_head_and_mouth_example_410_diagnosis_0_diagnosis:
             value_decimal: 167
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 200.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -25070,6 +25429,15 @@ gdc_head_and_mouth_example_415_diagnosis_0_diagnosis:
             value_decimal: 880
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 50.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -25315,6 +25683,15 @@ gdc_head_and_mouth_example_418_diagnosis_0_diagnosis:
             value_decimal: 950
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 120.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -25796,6 +26173,15 @@ gdc_head_and_mouth_example_423_diagnosis_0_diagnosis:
             value_decimal: 1364
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 40.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -25918,6 +26304,15 @@ gdc_head_and_mouth_example_424_diagnosis_0_diagnosis:
             value_decimal: 288
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 130.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -26558,6 +26953,15 @@ gdc_head_and_mouth_example_430_diagnosis_0_diagnosis:
             value_decimal: 41
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 50.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -26632,6 +27036,15 @@ gdc_head_and_mouth_example_431_diagnosis_0_diagnosis:
             value_decimal: 4002
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 220.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -26896,6 +27309,15 @@ gdc_head_and_mouth_example_433_diagnosis_0_diagnosis:
             value_decimal: 4183
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 220.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -27112,6 +27534,15 @@ gdc_head_and_mouth_example_435_diagnosis_0_diagnosis:
             value_decimal: 4481
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 30.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -27217,6 +27648,15 @@ gdc_head_and_mouth_example_436_diagnosis_0_diagnosis:
             value_decimal: 1494
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 120.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -27356,6 +27796,15 @@ gdc_head_and_mouth_example_437_diagnosis_0_diagnosis:
             value_decimal: 55
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 70.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -27430,6 +27879,15 @@ gdc_head_and_mouth_example_438_diagnosis_0_diagnosis:
             value_decimal: 141
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 170.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -27552,6 +28010,15 @@ gdc_head_and_mouth_example_439_diagnosis_0_diagnosis:
             value_decimal: 2875
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 250.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -29293,6 +29760,15 @@ gdc_head_and_mouth_example_471_diagnosis_0_diagnosis:
             value_decimal: 450
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 180.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -29367,6 +29843,15 @@ gdc_head_and_mouth_example_472_diagnosis_0_diagnosis:
             value_decimal: 58
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 510.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -29614,6 +30099,15 @@ gdc_head_and_mouth_example_474_diagnosis_0_diagnosis:
             value_decimal: 835
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 90.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -29847,6 +30341,15 @@ gdc_head_and_mouth_example_476_diagnosis_0_diagnosis:
             value_decimal: 147
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 240.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -29921,6 +30424,15 @@ gdc_head_and_mouth_example_477_diagnosis_0_diagnosis:
             value_decimal: 335
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 90.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -30043,6 +30555,15 @@ gdc_head_and_mouth_example_478_diagnosis_0_diagnosis:
             value_decimal: 6651
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 240.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -30165,6 +30686,15 @@ gdc_head_and_mouth_example_479_diagnosis_0_diagnosis:
             value_decimal: 1723
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 550.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -30412,6 +30942,15 @@ gdc_head_and_mouth_example_481_diagnosis_0_diagnosis:
             value_decimal: 24
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 210.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -30622,6 +31161,15 @@ gdc_head_and_mouth_example_484_diagnosis_0_diagnosis:
             value_decimal: 108
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 80.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -30985,6 +31533,15 @@ gdc_head_and_mouth_example_490_diagnosis_0_diagnosis:
             value_decimal: 1219
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 70.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -31375,6 +31932,15 @@ gdc_head_and_mouth_example_494_diagnosis_0_diagnosis:
             value_decimal: 414
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 60.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -31497,6 +32063,15 @@ gdc_head_and_mouth_example_495_diagnosis_0_diagnosis:
             value_decimal: 2855
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 50.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -31619,6 +32194,15 @@ gdc_head_and_mouth_example_496_diagnosis_0_diagnosis:
             value_decimal: 15
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 10.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -31758,6 +32342,15 @@ gdc_head_and_mouth_example_497_diagnosis_0_diagnosis:
             value_decimal: 65
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 290.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -32193,6 +32786,15 @@ gdc_head_and_mouth_example_501_diagnosis_0_diagnosis:
             value_decimal: 293
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 130.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -32315,6 +32917,15 @@ gdc_head_and_mouth_example_502_diagnosis_0_diagnosis:
             value_decimal: 945
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 60.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -32560,6 +33171,15 @@ gdc_head_and_mouth_example_505_diagnosis_0_diagnosis:
             value_decimal: 498
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 190.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -32930,6 +33550,15 @@ gdc_head_and_mouth_example_509_diagnosis_0_diagnosis:
             value_decimal: 101
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 800.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -33052,6 +33681,15 @@ gdc_head_and_mouth_example_510_diagnosis_0_diagnosis:
             value_decimal: 309
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 280.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -33470,6 +34108,15 @@ gdc_head_and_mouth_example_514_diagnosis_0_diagnosis:
             value_decimal: 107
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 300.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -34590,6 +35237,15 @@ gdc_head_and_mouth_example_537_diagnosis_0_diagnosis:
             value_decimal: 30
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 200.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -34831,6 +35487,15 @@ gdc_head_and_mouth_example_540_diagnosis_0_diagnosis:
             value_decimal: 85
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 110.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -35221,6 +35886,15 @@ gdc_head_and_mouth_example_544_diagnosis_0_diagnosis:
             value_decimal: 385
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 120.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -35343,6 +36017,15 @@ gdc_head_and_mouth_example_545_diagnosis_0_diagnosis:
             value_decimal: 1149
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 110.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -35465,6 +36148,15 @@ gdc_head_and_mouth_example_546_diagnosis_0_diagnosis:
             value_decimal: 3207
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 30.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -35698,6 +36390,15 @@ gdc_head_and_mouth_example_548_diagnosis_0_diagnosis:
             value_decimal: 45
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 160.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -35914,6 +36615,15 @@ gdc_head_and_mouth_example_550_diagnosis_0_diagnosis:
             value_decimal: 87
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 200.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -36067,6 +36777,15 @@ gdc_head_and_mouth_example_551_diagnosis_0_diagnosis:
             value_decimal: 1200
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 20.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -36300,6 +37019,15 @@ gdc_head_and_mouth_example_553_diagnosis_0_diagnosis:
             value_decimal: 150
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 600.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -36391,6 +37119,15 @@ gdc_head_and_mouth_example_554_diagnosis_0_diagnosis:
             value_decimal: 478
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 30.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -36649,6 +37386,15 @@ gdc_head_and_mouth_example_557_diagnosis_0_diagnosis:
             value_decimal: 45
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 230.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
@@ -36771,6 +37517,15 @@ gdc_head_and_mouth_example_558_diagnosis_0_diagnosis:
             value_decimal: 141
             unit:
               coding: *id001
+        quantity_collected:
+          value_decimal: 60.0
+          unit:
+            coding:
+            - code: C28253
+              system: http://ncithesaurus.nci.nih.gov
+              label: Milligram
+              tag:
+              - harmonized
       general_tissue_pathology:
         coding:
         - code: Not Reported
