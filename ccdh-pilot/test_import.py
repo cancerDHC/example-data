@@ -48,10 +48,6 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
             system=GDC_URL
         )]
 
-    # TODO: double-check this with DMH, doesn't quite match what I'm seeing in the CCDH Pilot files.
-    if gdc_sample.get('sample_type'):
-        specimen.specimen_type = codeable_concept(GDC_URL, gdc_sample.get('sample_type'))
-
     # TODO: figure out what to do about associated_project.
 
     # Make sure this is right.
@@ -63,6 +59,18 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
             value=gdc_sample.get('submitter_id'),
             system=GDC_URL
         )]
+
+    if gdc_sample.get('sample_type'):
+        specimen.source_material_type = codeable_concept(GDC_URL, gdc_sample.get('sample_type'))
+
+    if gdc_sample.get('tissue_type'):
+        specimen.general_tissue_pathology = codeable_concept(GDC_URL, gdc_sample.get('tissue_type'))
+
+    if gdc_sample.get('tumor_code'):
+        specimen.specific_tissue_pathology = codeable_concept(GDC_URL, gdc_sample.get('tumor_code'))
+
+    if gdc_sample.get('tumor_descriptor'):
+        specimen.tumor_status_at_collection = codeable_concept(GDC_URL, gdc_sample.get('tumor_descriptor'))
 
     return specimen
 
