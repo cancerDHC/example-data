@@ -16,6 +16,7 @@ import crdch_model
 # Some general constants
 EXAMPLE_PREFIX = 'gdc_head_and_mouth_example:'
 NCIT_URL = 'http://ncithesaurus.nci.nih.gov'
+CCDH_URL = 'http://crdc.nci.nih.gov/ccdh'
 GDC_URL = 'http://crdc.nci.nih.gov/gdc'
 ICD10_URL = 'http://hl7.org/fhir/ValueSet/icd-10'
 
@@ -106,6 +107,15 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
             specimen.creation_activity.collection_site = crdch_model.BodySite(site=biospecimen_anatomic_site)
         else:
             specimen.creation_activity = crdch_model.SpecimenCreationActivity(collection_site=crdch_model.BodySite(site=biospecimen_anatomic_site))
+
+    if gdc_sample.get('time_between_excision_and_freezing'):
+        time_obs = crdch_model.ExecutionTimeObservation(
+            observation_type=codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing')
+        )
+        if specimen.creation_activity:
+            specimen.creation_activity.execution_time_observation = time_obs
+        else:
+            specimen.creation_activity = crdch_model.SpecimenCreationActivity(execution_time_observation=time_obs)
 
     return specimen
 
