@@ -50,7 +50,7 @@ def test_import_gdc_head_and_mouth():
 
                 # -- TODO: these fields do not currently validate.
                 #identifier=[
-                #    crdch_model.Identifier(value=f"gdc:{gdc_case['id']}")
+                #    crdch_model.Identifier(value=f"gdc:{gdc_diagnosis['diagnosis_id']}")
                 #],
 
                 # -- TODO: I'm not sure how to model these fields
@@ -85,6 +85,33 @@ def test_import_gdc_head_and_mouth():
             #    diagnosis.primary_site = crdch_model.BodySite(
             #        site=codeable_concept(GDC_URL, gdc_diagnosis.get('tissue_or_organ_of_origin'), tags=['original'])
             #    )
+
+            if gdc_diagnosis.get('ajcc_staging_system_edition'):
+                observations = []
+
+                def add_observation(type_code, type_label, stage_code):
+                    if stage_code:
+                        observations.append(crdch_model.CancerStageObservation(
+                            observation_type=codeable_concept(GDC_URL, type_code, type_label, tags=['harmonized']),
+                            value_codeable_concept=codeable_concept(GDC_URL, stage_code, stage_code, tags=['original'])
+                        ))
+
+                # TODO: I couldn't find AJCC v7 in NCIt, so these codes reference the 8th edition. Need to be fixed.
+                add_observation('C177555', 'AJCC v8 Clinical Stage', gdc_diagnosis.get('ajcc_clinical_stage'))
+                add_observation('C177606', 'AJCC v8 Clinical M Category', gdc_diagnosis.get('ajcc_clinical_m'))
+                add_observation('C177611', 'AJCC v8 Clinical N Category', gdc_diagnosis.get('ajcc_clinical_n'))
+                add_observation('C177635', 'AJCC v8 Clinical T Category', gdc_diagnosis.get('ajcc_clinical_t'))
+                add_observation('C177556', 'AJCC v8 Pathologic Stage', gdc_diagnosis.get('ajcc_pathologic_stage'))
+                add_observation('C177607', 'AJCC v8 Pathologic M Category', gdc_diagnosis.get('ajcc_pathologic_m'))
+                add_observation('C177612', 'AJCC v8 Pathologic N Category', gdc_diagnosis.get('ajcc_pathologic_n'))
+                add_observation('C177636', 'AJCC v8 Pathologic T Category', gdc_diagnosis.get('ajcc_pathologic_t'))
+
+                diagnosis.stage = crdch_model.CancerStageObservationSet(
+                    method_type=codeable_concept(GDC_URL, gdc_diagnosis.get('ajcc_staging_system_edition'), tags=['original']),
+                    observations=observations
+                )
+
+            # elif gdc_diagnosis.get('figo_stage'):
 
             diagnoses.append({
                 f'gdc_head_and_mouth_example_{index}_diagnosis_{diag_index}_diagnosis': {
