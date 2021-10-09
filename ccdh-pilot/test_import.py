@@ -14,10 +14,12 @@ from linkml_runtime.dumpers.yaml_dumper import YAMLDumper
 import crdch_model
 
 # Helper method to create a codeable concept.
-def codeable_concept(system, code, label=None, text=None):
+def codeable_concept(system, code, label=None, text=None, tags=[]):
     coding = crdch_model.Coding(system=system, code=code)
     if label is not None:
         coding.label = label
+    if len(tags) > 0:
+        coding.tag = tags
     cc = crdch_model.CodeableConcept(coding)
     if text is not None:
         cc.text = text
@@ -51,8 +53,13 @@ def test_import_gdc_head_and_mouth():
             )
 
             if gdc_diagnosis.get('age_at_diagnosis'):
+                # TODO: this is caused by a weird LinkML bug that means that setting properties directly does NOT
+                # convert it into the correct base type. We should, uh, iron these out at some point.
                 diagnosis.age_at_diagnosis = crdch_model.Quantity(unit=DAY)
                 diagnosis.age_at_diagnosis.value_decimal = gdc_diagnosis['age_at_diagnosis']
+
+            if gdc_diagnosis.get('primary_diagnosis'):
+                diagnosis.condition = codeable_concept('http://crdc.nci.nih.gov/gdc', gdc_diagnosis.get('primary_diagnosis'), tags = ['original'])
 
             diagnoses.append({
                 f'gdc_head_and_mouth_example_{index}_diagnosis_{diag_index}_diagnosis': {
