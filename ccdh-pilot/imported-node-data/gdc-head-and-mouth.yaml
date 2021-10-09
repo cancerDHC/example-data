@@ -43,6 +43,13 @@ gdc_head_and_mouth_example_1_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_2_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -68,6 +75,13 @@ gdc_head_and_mouth_example_2_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_3_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -93,6 +107,13 @@ gdc_head_and_mouth_example_3_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_4_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -118,6 +139,13 @@ gdc_head_and_mouth_example_4_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_5_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -143,6 +171,13 @@ gdc_head_and_mouth_example_5_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_6_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -168,6 +203,13 @@ gdc_head_and_mouth_example_6_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_7_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -193,6 +235,13 @@ gdc_head_and_mouth_example_7_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_8_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -218,6 +267,13 @@ gdc_head_and_mouth_example_8_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_9_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -243,6 +299,13 @@ gdc_head_and_mouth_example_9_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_10_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -268,6 +331,13 @@ gdc_head_and_mouth_example_10_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_11_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -293,6 +363,13 @@ gdc_head_and_mouth_example_11_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_12_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -318,6 +395,13 @@ gdc_head_and_mouth_example_12_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_13_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -343,6 +427,13 @@ gdc_head_and_mouth_example_13_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_14_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -368,6 +459,13 @@ gdc_head_and_mouth_example_14_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_15_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1317,6 +1415,13 @@ gdc_head_and_mouth_example_77_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_78_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1342,6 +1447,13 @@ gdc_head_and_mouth_example_78_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_79_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1367,6 +1479,13 @@ gdc_head_and_mouth_example_79_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_80_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1392,6 +1511,13 @@ gdc_head_and_mouth_example_80_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_81_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1417,6 +1543,13 @@ gdc_head_and_mouth_example_81_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_82_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1617,6 +1750,13 @@ gdc_head_and_mouth_example_94_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_95_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1642,6 +1782,13 @@ gdc_head_and_mouth_example_95_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1667,6 +1814,13 @@ gdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_97_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1692,6 +1846,13 @@ gdc_head_and_mouth_example_97_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_98_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1717,6 +1878,13 @@ gdc_head_and_mouth_example_98_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1742,6 +1910,13 @@ gdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_100_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1767,6 +1942,13 @@ gdc_head_and_mouth_example_100_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1792,6 +1974,13 @@ gdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 5th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_102_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1817,6 +2006,13 @@ gdc_head_and_mouth_example_102_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1842,6 +2038,13 @@ gdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1867,6 +2070,13 @@ gdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_105_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -1892,6 +2102,13 @@ gdc_head_and_mouth_example_105_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_106_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2001,6 +2218,13 @@ gdc_head_and_mouth_example_112_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_113_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2026,6 +2250,13 @@ gdc_head_and_mouth_example_113_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_114_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2051,6 +2282,13 @@ gdc_head_and_mouth_example_114_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_115_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2307,6 +2545,13 @@ gdc_head_and_mouth_example_130_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_131_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2332,6 +2577,13 @@ gdc_head_and_mouth_example_131_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_132_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2357,6 +2609,13 @@ gdc_head_and_mouth_example_132_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_133_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2382,6 +2641,13 @@ gdc_head_and_mouth_example_133_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_134_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2407,6 +2673,13 @@ gdc_head_and_mouth_example_134_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_135_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2502,6 +2775,13 @@ gdc_head_and_mouth_example_140_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_141_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2527,6 +2807,13 @@ gdc_head_and_mouth_example_141_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_142_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2552,6 +2839,13 @@ gdc_head_and_mouth_example_142_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_143_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2577,6 +2871,13 @@ gdc_head_and_mouth_example_143_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_144_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2602,6 +2903,13 @@ gdc_head_and_mouth_example_144_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_145_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2627,6 +2935,13 @@ gdc_head_and_mouth_example_145_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_146_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2652,6 +2967,13 @@ gdc_head_and_mouth_example_146_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_147_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2677,6 +2999,13 @@ gdc_head_and_mouth_example_147_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_148_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2702,6 +3031,13 @@ gdc_head_and_mouth_example_148_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_149_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2727,6 +3063,13 @@ gdc_head_and_mouth_example_149_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_150_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2752,6 +3095,13 @@ gdc_head_and_mouth_example_150_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_151_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2777,6 +3127,13 @@ gdc_head_and_mouth_example_151_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_152_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2802,6 +3159,13 @@ gdc_head_and_mouth_example_152_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_153_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2827,6 +3191,13 @@ gdc_head_and_mouth_example_153_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_154_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2852,6 +3223,13 @@ gdc_head_and_mouth_example_154_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_155_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2877,6 +3255,13 @@ gdc_head_and_mouth_example_155_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_156_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2902,6 +3287,13 @@ gdc_head_and_mouth_example_156_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_157_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2927,6 +3319,13 @@ gdc_head_and_mouth_example_157_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_158_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2952,6 +3351,13 @@ gdc_head_and_mouth_example_158_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_159_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -2977,6 +3383,13 @@ gdc_head_and_mouth_example_159_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_160_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -3002,6 +3415,13 @@ gdc_head_and_mouth_example_160_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_161_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -3027,6 +3447,13 @@ gdc_head_and_mouth_example_161_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_162_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -5306,6 +5733,13 @@ gdc_head_and_mouth_example_307_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_308_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -5331,6 +5765,13 @@ gdc_head_and_mouth_example_308_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_309_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -5356,6 +5797,13 @@ gdc_head_and_mouth_example_309_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_310_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -5381,6 +5829,13 @@ gdc_head_and_mouth_example_310_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_311_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -5406,6 +5861,13 @@ gdc_head_and_mouth_example_311_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_312_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -5431,6 +5893,13 @@ gdc_head_and_mouth_example_312_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_313_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -5456,6 +5925,13 @@ gdc_head_and_mouth_example_313_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_314_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -5481,6 +5957,13 @@ gdc_head_and_mouth_example_314_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_315_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6010,6 +6493,13 @@ gdc_head_and_mouth_example_350_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_351_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6035,6 +6525,13 @@ gdc_head_and_mouth_example_351_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_352_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6060,6 +6557,13 @@ gdc_head_and_mouth_example_352_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_353_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6085,6 +6589,13 @@ gdc_head_and_mouth_example_353_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_354_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6110,6 +6621,13 @@ gdc_head_and_mouth_example_354_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 5th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_355_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6135,6 +6653,13 @@ gdc_head_and_mouth_example_355_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_356_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6160,6 +6685,13 @@ gdc_head_and_mouth_example_356_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_357_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6185,6 +6717,13 @@ gdc_head_and_mouth_example_357_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_358_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6210,6 +6749,13 @@ gdc_head_and_mouth_example_358_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_359_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6235,6 +6781,13 @@ gdc_head_and_mouth_example_359_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_360_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6260,6 +6813,13 @@ gdc_head_and_mouth_example_360_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_361_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6285,6 +6845,13 @@ gdc_head_and_mouth_example_361_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_362_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6618,6 +7185,13 @@ gdc_head_and_mouth_example_380_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_381_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6643,6 +7217,13 @@ gdc_head_and_mouth_example_381_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_382_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6682,6 +7263,13 @@ gdc_head_and_mouth_example_383_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_384_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6707,6 +7295,13 @@ gdc_head_and_mouth_example_384_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_385_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6732,6 +7327,13 @@ gdc_head_and_mouth_example_385_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_386_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6757,6 +7359,13 @@ gdc_head_and_mouth_example_386_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_387_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6782,6 +7391,13 @@ gdc_head_and_mouth_example_387_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_388_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6863,6 +7479,13 @@ gdc_head_and_mouth_example_392_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_393_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6888,6 +7511,13 @@ gdc_head_and_mouth_example_393_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_394_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6913,6 +7543,13 @@ gdc_head_and_mouth_example_394_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_395_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6938,6 +7575,13 @@ gdc_head_and_mouth_example_395_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_396_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6963,6 +7607,13 @@ gdc_head_and_mouth_example_396_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_397_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -6988,6 +7639,13 @@ gdc_head_and_mouth_example_397_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_398_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7013,6 +7671,13 @@ gdc_head_and_mouth_example_398_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_399_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7038,6 +7703,13 @@ gdc_head_and_mouth_example_399_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_400_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7063,6 +7735,13 @@ gdc_head_and_mouth_example_400_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_401_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7088,6 +7767,13 @@ gdc_head_and_mouth_example_401_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_402_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7113,6 +7799,13 @@ gdc_head_and_mouth_example_402_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_403_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7138,6 +7831,13 @@ gdc_head_and_mouth_example_403_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_404_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7163,6 +7863,13 @@ gdc_head_and_mouth_example_404_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_405_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7188,6 +7895,13 @@ gdc_head_and_mouth_example_405_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_406_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7213,6 +7927,13 @@ gdc_head_and_mouth_example_406_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_407_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7238,6 +7959,13 @@ gdc_head_and_mouth_example_407_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_408_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7263,6 +7991,13 @@ gdc_head_and_mouth_example_408_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_409_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7288,6 +8023,13 @@ gdc_head_and_mouth_example_409_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_410_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7313,6 +8055,13 @@ gdc_head_and_mouth_example_410_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_411_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7338,6 +8087,13 @@ gdc_head_and_mouth_example_411_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_412_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7363,6 +8119,13 @@ gdc_head_and_mouth_example_412_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_413_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7388,6 +8151,13 @@ gdc_head_and_mouth_example_413_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_414_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7413,6 +8183,13 @@ gdc_head_and_mouth_example_414_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_415_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7438,6 +8215,13 @@ gdc_head_and_mouth_example_415_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_416_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7463,6 +8247,13 @@ gdc_head_and_mouth_example_416_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_417_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7488,6 +8279,13 @@ gdc_head_and_mouth_example_417_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_418_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7513,6 +8311,13 @@ gdc_head_and_mouth_example_418_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_419_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7538,6 +8343,13 @@ gdc_head_and_mouth_example_419_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_420_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7563,6 +8375,13 @@ gdc_head_and_mouth_example_420_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_421_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7588,6 +8407,13 @@ gdc_head_and_mouth_example_421_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_422_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7613,6 +8439,13 @@ gdc_head_and_mouth_example_422_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_423_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7638,6 +8471,13 @@ gdc_head_and_mouth_example_423_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_424_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7663,6 +8503,13 @@ gdc_head_and_mouth_example_424_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_425_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7688,6 +8535,13 @@ gdc_head_and_mouth_example_425_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_426_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7713,6 +8567,13 @@ gdc_head_and_mouth_example_426_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_427_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7738,6 +8599,13 @@ gdc_head_and_mouth_example_427_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_428_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7763,6 +8631,13 @@ gdc_head_and_mouth_example_428_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_429_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7788,6 +8663,13 @@ gdc_head_and_mouth_example_429_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_430_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7813,6 +8695,13 @@ gdc_head_and_mouth_example_430_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_431_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7838,6 +8727,13 @@ gdc_head_and_mouth_example_431_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 5th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_432_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7863,6 +8759,13 @@ gdc_head_and_mouth_example_432_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_433_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7888,6 +8791,13 @@ gdc_head_and_mouth_example_433_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 5th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_434_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7913,6 +8823,13 @@ gdc_head_and_mouth_example_434_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_435_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7938,6 +8855,13 @@ gdc_head_and_mouth_example_435_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 5th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_436_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7963,6 +8887,13 @@ gdc_head_and_mouth_example_436_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_437_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -7988,6 +8919,13 @@ gdc_head_and_mouth_example_437_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_438_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8013,6 +8951,13 @@ gdc_head_and_mouth_example_438_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_439_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8038,6 +8983,13 @@ gdc_head_and_mouth_example_439_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_440_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8063,6 +9015,13 @@ gdc_head_and_mouth_example_440_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_441_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8088,6 +9047,13 @@ gdc_head_and_mouth_example_441_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_442_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8141,6 +9107,13 @@ gdc_head_and_mouth_example_444_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_445_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8166,6 +9139,13 @@ gdc_head_and_mouth_example_445_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_446_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8541,6 +9521,13 @@ gdc_head_and_mouth_example_470_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_471_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8566,6 +9553,13 @@ gdc_head_and_mouth_example_471_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_472_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8591,6 +9585,13 @@ gdc_head_and_mouth_example_472_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_473_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8616,6 +9617,13 @@ gdc_head_and_mouth_example_473_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_474_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8641,6 +9649,13 @@ gdc_head_and_mouth_example_474_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_475_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8666,6 +9681,13 @@ gdc_head_and_mouth_example_475_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_476_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8691,6 +9713,13 @@ gdc_head_and_mouth_example_476_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_477_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8716,6 +9745,13 @@ gdc_head_and_mouth_example_477_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_478_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8741,6 +9777,13 @@ gdc_head_and_mouth_example_478_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_479_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8766,6 +9809,13 @@ gdc_head_and_mouth_example_479_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_480_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8791,6 +9841,13 @@ gdc_head_and_mouth_example_480_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_481_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8816,6 +9873,13 @@ gdc_head_and_mouth_example_481_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_482_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8855,6 +9919,13 @@ gdc_head_and_mouth_example_483_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_484_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8880,6 +9951,13 @@ gdc_head_and_mouth_example_484_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_485_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -8975,6 +10053,13 @@ gdc_head_and_mouth_example_490_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_491_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9000,6 +10085,13 @@ gdc_head_and_mouth_example_491_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_492_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9025,6 +10117,13 @@ gdc_head_and_mouth_example_492_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_493_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9050,6 +10149,13 @@ gdc_head_and_mouth_example_493_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_494_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9075,6 +10181,13 @@ gdc_head_and_mouth_example_494_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_495_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9100,6 +10213,13 @@ gdc_head_and_mouth_example_495_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_496_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9125,6 +10245,13 @@ gdc_head_and_mouth_example_496_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_497_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9150,6 +10277,13 @@ gdc_head_and_mouth_example_497_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_498_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9175,6 +10309,13 @@ gdc_head_and_mouth_example_498_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_499_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9200,6 +10341,13 @@ gdc_head_and_mouth_example_499_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_500_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9225,6 +10373,13 @@ gdc_head_and_mouth_example_500_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_501_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9250,6 +10405,13 @@ gdc_head_and_mouth_example_501_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_502_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9275,6 +10437,13 @@ gdc_head_and_mouth_example_502_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_503_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9300,6 +10469,13 @@ gdc_head_and_mouth_example_503_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_504_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9325,6 +10501,13 @@ gdc_head_and_mouth_example_504_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_505_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9350,6 +10533,13 @@ gdc_head_and_mouth_example_505_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_506_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9375,6 +10565,13 @@ gdc_head_and_mouth_example_506_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_507_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9400,6 +10597,13 @@ gdc_head_and_mouth_example_507_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_508_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9425,6 +10629,13 @@ gdc_head_and_mouth_example_508_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_509_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9450,6 +10661,13 @@ gdc_head_and_mouth_example_509_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_510_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9475,6 +10693,13 @@ gdc_head_and_mouth_example_510_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_511_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9500,6 +10725,13 @@ gdc_head_and_mouth_example_511_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_512_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9525,6 +10757,13 @@ gdc_head_and_mouth_example_512_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_513_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9550,6 +10789,13 @@ gdc_head_and_mouth_example_513_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_514_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9575,6 +10821,13 @@ gdc_head_and_mouth_example_514_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_515_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9600,6 +10853,13 @@ gdc_head_and_mouth_example_515_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_516_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9940,6 +11200,13 @@ gdc_head_and_mouth_example_537_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_538_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -9979,6 +11246,13 @@ gdc_head_and_mouth_example_539_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_540_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10004,6 +11278,13 @@ gdc_head_and_mouth_example_540_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_541_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10029,6 +11310,13 @@ gdc_head_and_mouth_example_541_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_542_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10054,6 +11342,13 @@ gdc_head_and_mouth_example_542_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_543_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10079,6 +11374,13 @@ gdc_head_and_mouth_example_543_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_544_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10104,6 +11406,13 @@ gdc_head_and_mouth_example_544_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_545_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10129,6 +11438,13 @@ gdc_head_and_mouth_example_545_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_546_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10154,6 +11470,13 @@ gdc_head_and_mouth_example_546_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_547_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10179,6 +11502,13 @@ gdc_head_and_mouth_example_547_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_548_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10204,6 +11534,13 @@ gdc_head_and_mouth_example_548_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_549_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10229,6 +11566,13 @@ gdc_head_and_mouth_example_549_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_550_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10254,6 +11598,13 @@ gdc_head_and_mouth_example_550_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_551_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10279,6 +11630,13 @@ gdc_head_and_mouth_example_551_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_552_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10304,6 +11662,13 @@ gdc_head_and_mouth_example_552_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_553_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10329,6 +11694,13 @@ gdc_head_and_mouth_example_553_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_554_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10354,6 +11726,13 @@ gdc_head_and_mouth_example_554_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_555_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10379,6 +11758,13 @@ gdc_head_and_mouth_example_555_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 6th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_556_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10418,6 +11804,13 @@ gdc_head_and_mouth_example_557_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_558_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10443,6 +11836,13 @@ gdc_head_and_mouth_example_558_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
 ---
 gdc_head_and_mouth_example_559_diagnosis_0_diagnosis:
   Provenance: Downloaded from the GDC Public API (see https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb
@@ -10468,3 +11868,10 @@ gdc_head_and_mouth_example_559_diagnosis_0_diagnosis:
         system: http://hl7.org/fhir/ValueSet/icd-10
         tag:
         - original
+    stage:
+    - method_type:
+      - coding:
+        - code: 7th
+          system: http://crdc.nci.nih.gov/gdc
+          tag:
+          - original
