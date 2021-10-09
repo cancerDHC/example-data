@@ -15,6 +15,7 @@ import crdch_model
 
 # Some general constants
 GDC_URL = 'http://crdc.nci.nih.gov/gdc'
+ICD10_URL = 'http://hl7.org/fhir/ValueSet/icd-10'
 
 
 # Helper method to create a codeable concept.
@@ -62,15 +63,28 @@ def test_import_gdc_head_and_mouth():
                 diagnosis.age_at_diagnosis = crdch_model.Quantity(unit=DAY)
                 diagnosis.age_at_diagnosis.value_decimal = gdc_diagnosis['age_at_diagnosis']
 
+            condition_codings = []
             if gdc_diagnosis.get('primary_diagnosis'):
-                diagnosis.condition = codeable_concept(GDC_URL, gdc_diagnosis.get('primary_diagnosis'), tags=['original'])
+                condition_codings.append(crdch_model.Coding(
+                    system=GDC_URL,
+                    code=gdc_diagnosis.get('primary_diagnosis'),
+                    tag=['original']
+                ))
+
+            # TODO: double-check with DMH if this makes sense
+            if gdc_diagnosis.get('icd_10_code'):
+                condition_codings.append(crdch_model.Coding(
+                    system=ICD10_URL,
+                    code=gdc_diagnosis.get('icd_10_code'),
+                    tag=['original']
+                ))
+
+            diagnosis.condition = crdch_model.CodeableConcept(coding=condition_codings)
 
             #if gdc_diagnosis.get('tissue_or_organ_of_origin'):
             #    diagnosis.primary_site = crdch_model.BodySite(
             #        site=codeable_concept(GDC_URL, gdc_diagnosis.get('tissue_or_organ_of_origin'), tags=['original'])
             #    )
-
-
 
             diagnoses.append({
                 f'gdc_head_and_mouth_example_{index}_diagnosis_{diag_index}_diagnosis': {
