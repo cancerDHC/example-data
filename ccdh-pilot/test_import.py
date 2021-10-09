@@ -79,13 +79,16 @@ def test_import_gdc_head_and_mouth():
         for (diag_index, gdc_diagnosis) in enumerate(gdc_case['diagnoses']):
             diagnosis = crdch_model.Diagnosis(
                 id=f'{EXAMPLE_PREFIX}case_{case_index}_diagnosis_{diag_index}',
-
-                # -- TODO: these fields do not currently validate.
-                #
-
-                # -- TODO: I'm not sure how to model these fields
-                # subject=crdch_model.Subject()
             )
+
+            if gdc_case.get('submitter_id'):
+                diagnosis.subject = crdch_model.Subject(
+                    id=f'{EXAMPLE_PREFIX}case_{case_index}_diagnosis_{diag_index}_subject'
+                )
+                diagnosis.subject.identifier = [crdch_model.Identifier(
+                    value=gdc_case.get('submitter_id'),
+                    system=GDC_URL
+                )]
 
             if gdc_diagnosis.get('diagnosis_id'):
                 diagnosis.identifier = [crdch_model.Identifier(
