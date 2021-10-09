@@ -39,8 +39,12 @@ DAY = codeable_concept('http://ncithesaurus.nci.nih.gov', 'C25301', 'Day')
 # Convert a single GDC sample into a CRDC-H specimen.
 def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, case_index):
     specimen = crdch_model.Specimen(
-        id=f'{EXAMPLE_PREFIX}case_{case_index}_sample_{sample_index}'
+        id=f'{EXAMPLE_PREFIX}case_{case_index}_sample_{sample_index}',
     )
+
+    # if gdc_sample.get('sample_id'):
+    #     specimen.identifier = [crdch_model.Identifier(value=gdc_sample.get('sample_id'))]
+
     return specimen
 
 
@@ -52,19 +56,20 @@ def test_import_gdc_head_and_mouth():
     # Each entry is a GDC case. To transform this into CRDC-H instance data, we need to
     # transform it as a series of diagnoses.
     diagnoses = []
-    for (index, gdc_case) in enumerate(gdc_head_and_mouth):
+    for (case_index, gdc_case) in enumerate(gdc_head_and_mouth):
         for (diag_index, gdc_diagnosis) in enumerate(gdc_case['diagnoses']):
             diagnosis = crdch_model.Diagnosis(
-                id=f'{EXAMPLE_PREFIX}case_{index}_diagnosis_{diag_index}',
+                id=f'{EXAMPLE_PREFIX}case_{case_index}_diagnosis_{diag_index}',
 
                 # -- TODO: these fields do not currently validate.
-                #identifier=[
-                #    crdch_model.Identifier(value=f"gdc:{gdc_diagnosis['diagnosis_id']}")
-                #],
+                #
 
                 # -- TODO: I'm not sure how to model these fields
                 # subject=crdch_model.Subject()
             )
+
+            # if gdc_diagnosis.get('diagnosis_id'):
+            #     diagnosis.identifier = crdch_model.Identifier(value=f"gdc:{gdc_diagnosis['diagnosis_id']}")
 
             if gdc_diagnosis.get('age_at_diagnosis'):
                 # TODO: this is caused by a weird LinkML bug that means that setting properties directly does NOT
@@ -90,7 +95,7 @@ def test_import_gdc_head_and_mouth():
 
             diagnosis.condition = crdch_model.CodeableConcept(coding=condition_codings)
 
-            #if gdc_diagnosis.get('tissue_or_organ_of_origin'):
+            # if gdc_diagnosis.get('tissue_or_organ_of_origin'):
             #    diagnosis.primary_site = crdch_model.BodySite(
             #        site=codeable_concept(GDC_URL, gdc_diagnosis.get('tissue_or_organ_of_origin'), tags=['original'])
             #    )
@@ -118,13 +123,12 @@ def test_import_gdc_head_and_mouth():
                 # add_observation('C177636', 'AJCC v8 Pathologic T Category', gdc_diagnosis.get('ajcc_pathologic_t'))
 
                 diagnosis.stage = [crdch_model.CancerStageObservationSet(
-                    method_type=codeable_concept(GDC_URL, gdc_diagnosis.get('ajcc_staging_system_edition'), tags=['original']),
+                    method_type=codeable_concept(GDC_URL, gdc_diagnosis.get('ajcc_staging_system_edition'),
+                                                 tags=['original']),
                     observations=observations
                 )]
 
             # elif gdc_diagnosis.get('figo_stage'):
-
-
 
             # We assume that the diagnosis was created as its created_datetime.
             if gdc_diagnosis.get('created_datetime'):
@@ -133,13 +137,16 @@ def test_import_gdc_head_and_mouth():
                 )
 
             # Convert the specimen.
-            specimens = [create_specimen(sample, sample_index, diagnosis, diag_index) for (sample_index, sample) in enumerate(gdc_case.get('sample') or [])]
+            specimens = [
+                create_specimen(sample, sample_index, diagnosis, diag_index, case_index)
+                for (sample_index, sample) in enumerate(gdc_case.get('samples') or [])
+            ]
             if len(specimens) > 0:
                 diagnosis.related_specimen = specimens
 
             # Write out the diagnosis.
             diagnoses.append({
-                f'gdc_head_and_mouth_example_{index}_diagnosis_{diag_index}_diagnosis': {
+                f'gdc_head_and_mouth_example_{case_index}_diagnosis_{diag_index}_diagnosis': {
                     'Provenance':
                         'Downloaded from the GDC Public API (see ' +
                         'https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb ' +
@@ -157,5 +164,5 @@ def test_import_gdc_head_and_mouth():
                       sort_keys=False)
         linkml_runtime.utils.formatutils.remove_empty_items
 
-    #yaml.dump(linkml_runtime.utils.formatutils.remove_empty_items(element, hide_protected_keys=True),
+    # yaml.dump(linkml_runtime.utils.formatutils.remove_empty_items(element, hide_protected_keys=True),
     #          Dumper=yaml.SafeDumper, sort_keys=False,
