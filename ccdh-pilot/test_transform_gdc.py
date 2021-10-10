@@ -250,11 +250,11 @@ def test_import_gdc_head_and_mouth():
 
             # elif gdc_diagnosis.get('figo_stage'):
 
-            # We assume that the diagnosis was created as its created_datetime.
-            if gdc_diagnosis.get('created_datetime'):
-                diagnosis.diagnosis_date = crdch_model.TimePoint(
-                    date_time=gdc_diagnosis.get('created_datetime')
-                )
+            # Year of diagnosis
+            if gdc_diagnosis.get('year_of_diagnosis'):
+                # TODO: We need to add support for approximate dates.
+                diagnosis.diagnosis_date = crdch_model.TimePoint()
+                diagnosis.diagnosis_date.date_time = f"{gdc_diagnosis.get('year_of_diagnosis')}-01-01"
 
             # Convert the specimen.
             specimens = [
