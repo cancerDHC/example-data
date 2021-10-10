@@ -77,11 +77,16 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
         )]
 
     if gdc_case.get('case_id'):
+        case_id = crdch_model.Identifier(
+            value=gdc_case.get('case_id'),
+            system=f"{GDC_URL}#case_id"
+        )
         if specimen.source_subject:
-            specimen.source_subject.identifier.append(crdch_model.Identifier(
-                value=gdc_case.get('case_id'),
-                system=f"{GDC_URL}#case_id"
-            ))
+            specimen.source_subject.identifier.append(case_id)
+        else:
+            specimen.source_subject = [case_id]
+
+    # TODO: How do we calculate the Sample.type?
 
     if gdc_sample.get('sample_type'):
         specimen.source_material_type = codeable_concept(GDC_URL, gdc_sample.get('sample_type'))
@@ -165,20 +170,27 @@ def test_import_gdc_head_and_mouth():
                 id=f'{EXAMPLE_PREFIX}case_{case_index}_diagnosis_{diag_index}',
             )
 
-            if gdc_case.get('submitter_id'):
-                diagnosis.subject = crdch_model.Subject(
-                    id=f'{EXAMPLE_PREFIX}case_{case_index}_diagnosis_{diag_index}_subject'
-                )
-                diagnosis.subject.identifier = [crdch_model.Identifier(
-                    value=gdc_case.get('submitter_id'),
-                    system=GDC_URL
-                )]
-
             if gdc_diagnosis.get('diagnosis_id'):
                 diagnosis.identifier = [crdch_model.Identifier(
                     value=gdc_diagnosis['diagnosis_id'],
-                    system=GDC_URL
+                    system=f"{GDC_URL}#diagnosis_id"
                 )]
+
+            diagnosis.subject = crdch_model.Subject(
+                id=f'{EXAMPLE_PREFIX}case_{case_index}'
+            )
+
+            if gdc_case.get('case_id'):
+                diagnosis.subject.identifier = [crdch_model.Identifier(
+                    value=gdc_case.get('case_id'),
+                    system=f"{GDC_URL}#case_id"
+                )]
+
+                if gdc_case.get('submitter_id'):
+                    diagnosis.subject.identifier.append(crdch_model.Identifier(
+                        value=gdc_case.get('submitter_id'),
+                        system=f"{GDC_URL}#submitter_id"
+                    ))
 
             if gdc_diagnosis.get('age_at_diagnosis'):
                 # TODO: this is caused by a weird LinkML bug that means that setting properties directly does NOT
