@@ -133,7 +133,8 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
 
     if gdc_sample.get('time_between_excision_and_freezing'):
         time_obs = crdch_model.ExecutionTimeObservation(
-            observation_type=codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing')
+            observation_type=codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing'),
+            value_quantity=quantity(gdc_sample.get('time_between_excision_and_freezing'), DAY)
         )
         if specimen.creation_activity:
             specimen.creation_activity.execution_time_observation = time_obs
@@ -266,7 +267,7 @@ def test_transform_gdc_head_and_mouth():
 
             # Write out the diagnosis.
             diagnoses.append({
-                f'gdc_head_and_mouth_example_{case_index}_diagnosis_{diag_index}_diagnosis': {
+                f'gdc_head_and_mouth_case_{case_index}_diagnosis_{diag_index}_diagnosis': {
                     'Provenance':
                         'Downloaded from the GDC Public API (see ' +
                         'https://github.com/cancerDHC/example-data/blob/main/head-and-mouth/Head%20and%20Mouth%20Cancer%20Datasets.ipynb ' +
