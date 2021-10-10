@@ -45,6 +45,7 @@ def codeable_concept(system, code, label=None, text=None, tags=[]):
 DAY = codeable_concept(NCIT_URL, 'C25301', 'Day', tags=['harmonized'])
 MILLIGRAM = codeable_concept(NCIT_URL, 'C28253', 'Milligram', tags=['harmonized'])
 
+
 # Convert a single GDC sample into a CRDC-H specimen.
 def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gdc_case, case_index):
     specimen = crdch_model.Specimen(
