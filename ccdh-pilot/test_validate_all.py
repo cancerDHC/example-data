@@ -1,19 +1,13 @@
-import sys
-import os
-import json
-import pytest
-import logging
-import rdflib
-import requests
-import yaml
 import glob
-
-from linkml_runtime.loaders.yaml_loader import YAMLLoader
-from linkml.generators.jsonldcontextgen import ContextGenerator
-from linkml_runtime.dumpers import json_dumper
+import logging
+import os
 
 import crdch_model
 import jsonschema
+import requests
+import yaml
+from linkml_runtime.loaders.yaml_loader import YAMLLoader
+
 
 # Generate tests for each file to validate.
 def pytest_generate_tests(metafunc):
@@ -24,6 +18,7 @@ def pytest_generate_tests(metafunc):
     files_to_validate = glob.glob(query, recursive=True)
 
     metafunc.parametrize("input_file", files_to_validate)
+
 
 # Test each input file.
 def test_files(input_file):

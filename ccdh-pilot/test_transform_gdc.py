@@ -5,13 +5,9 @@
 #
 
 import json
-import yaml
-
-import linkml_runtime
-from linkml_runtime.loaders.yaml_loader import YAMLLoader
-from linkml_runtime.dumpers.yaml_dumper import YAMLDumper
 
 import crdch_model
+import yaml
 
 # Some general constants
 EXAMPLE_PREFIX = 'gdc_head_and_mouth_example:'
