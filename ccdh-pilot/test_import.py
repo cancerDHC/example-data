@@ -87,6 +87,8 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
             value_quantity=quantity(gdc_sample.get('current_weight'), unit=MILLIGRAM)
         )
 
+    # The following fields relate to the Specimen.creation_activity.
+
     if gdc_sample.get('days_to_collection'):
         date_ended = crdch_model.TimePoint(
             offset_from_index=quantity(gdc_sample.get('days_to_collection'), DAY),
@@ -116,6 +118,19 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
             specimen.creation_activity.execution_time_observation = time_obs
         else:
             specimen.creation_activity = crdch_model.SpecimenCreationActivity(execution_time_observation=time_obs)
+
+    # The following fields relate to the Specimen.processing_activity.
+    if gdc_sample.get('preservation_method'):
+        specimen.processing_activity = [
+            crdch_model.SpecimenProcessingActivity(activity_type=codeable_concept(GDC_URL, gdc_sample.get('preservation_method')))
+        ]
+
+    if gdc_sample.get('freezing_method'):
+        method_type = codeable_concept(GDC_URL, gdc_sample.get('freezing_method'))
+        if len(specimen.processing_activity) > 0:
+            specimen.processing_activity[0].method_type = method_type
+        else:
+            specimen.processing_activity = [crdch_model.SpecimenProcessingActivity(method_type=method_type)]
 
     return specimen
 
