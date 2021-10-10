@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 #
-# test_transform_gdc.py - Import GDC data via public APIs and transform them into CRDC-H Instance data.
+# test_transform_pdc.py - Import PDC data via public APIs and transform them into CRDC-H Instance data.
 #
 
 import json
@@ -42,7 +42,7 @@ DAY = codeable_concept(NCIT_URL, 'C25301', 'Day', tags=['harmonized'])
 MILLIGRAM = codeable_concept(NCIT_URL, 'C28253', 'Milligram', tags=['harmonized'])
 
 
-# Convert a single GDC sample into a CRDC-H specimen.
+# Convert a single PDC sample into a CRDC-H specimen.
 def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gdc_case, case_index):
     specimen = crdch_model.Specimen(
         id=f'{EXAMPLE_PREFIX}case_{case_index}_sample_{sample_index}',
@@ -133,7 +133,8 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
 
     if gdc_sample.get('time_between_excision_and_freezing'):
         time_obs = crdch_model.ExecutionTimeObservation(
-            observation_type=codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing')
+            observation_type=codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing'),
+            value_quantity=quantity(gdc_sample.get('time_between_excision_and_freezing'), DAY)
         )
         if specimen.creation_activity:
             specimen.creation_activity.execution_time_observation = time_obs
@@ -157,14 +158,14 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
 
 
 # Demonstrators
-def test_transform_gdc_head_and_mouth():
-    with open('head-and-mouth/gdc-head-and-mouth.json') as file:
-        gdc_head_and_mouth = json.load(file)
+def test_transform_pdc_head_and_mouth():
+    with open('head-and-mouth/pdc-head-and-mouth.json') as file:
+        pdc_head_and_mouth = json.load(file)
 
-    # Each entry is a GDC case. To transform this into CRDC-H instance data, we need to
+    # Each entry is a PDC case. To transform this into CRDC-H instance data, we need to
     # transform it as a series of diagnoses.
     diagnoses = []
-    for (case_index, gdc_case) in enumerate(gdc_head_and_mouth):
+    for (case_index, gdc_case) in enumerate(pdc_head_and_mouth):
         for (diag_index, gdc_diagnosis) in enumerate(gdc_case['diagnoses']):
             diagnosis = crdch_model.Diagnosis(
                 id=f'{EXAMPLE_PREFIX}case_{case_index}_diagnosis_{diag_index}',
@@ -278,7 +279,7 @@ def test_transform_gdc_head_and_mouth():
             })
 
     # Write out all diagnoses into a single YAML file in the imported-node-data directory.
-    with open('ccdh-pilot/imported-node-data/gdc-head-and-mouth.yaml', 'w') as f:
+    with open('ccdh-pilot/imported-node-data/pdc-head-and-mouth.yaml', 'w') as f:
         yaml.dump_all(diagnoses,
                       f, Dumper=yaml.SafeDumper,
                       sort_keys=False)
