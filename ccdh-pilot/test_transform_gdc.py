@@ -73,11 +73,20 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
         )
         specimen.source_subject.identifier = [crdch_model.Identifier(
             value=gdc_sample.get('submitter_id'),
-            system=GDC_URL
+            system=f"{GDC_URL}#submitter_id"
         )]
+
+    if gdc_case.get('case_id'):
+        if specimen.source_subject:
+            specimen.source_subject.identifier.append(crdch_model.Identifier(
+                value=gdc_case.get('case_id'),
+                system=f"{GDC_URL}#case_id"
+            ))
 
     if gdc_sample.get('sample_type'):
         specimen.source_material_type = codeable_concept(GDC_URL, gdc_sample.get('sample_type'))
+
+    # TODO: get the project_id somehow.
 
     if gdc_sample.get('tissue_type'):
         specimen.general_tissue_pathology = codeable_concept(GDC_URL, gdc_sample.get('tissue_type'))
