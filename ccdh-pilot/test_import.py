@@ -57,9 +57,9 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
             system=GDC_URL
         )]
 
-    if gdc_sample.get('sample_submitter_id'):
+    if gdc_sample.get('submitter_id'):
         submitter_identifier = crdch_model.Identifier(
-            value=gdc_sample.get('sample_submitter_id'),
+            value=gdc_sample.get('submitter_id'),
             system=GDC_URL
         )
         if specimen.identifier:
