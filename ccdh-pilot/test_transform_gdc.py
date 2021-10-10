@@ -193,8 +193,6 @@ def test_import_gdc_head_and_mouth():
                     ))
 
             if gdc_diagnosis.get('age_at_diagnosis'):
-                # TODO: this is caused by a weird LinkML bug that means that setting properties directly does NOT
-                # convert it into the correct base type. We should, uh, iron these out at some point.
                 diagnosis.age_at_diagnosis = crdch_model.Quantity(unit=DAY)
                 diagnosis.age_at_diagnosis.value_decimal = gdc_diagnosis['age_at_diagnosis']
 
@@ -216,7 +214,8 @@ def test_import_gdc_head_and_mouth():
 
             diagnosis.condition = crdch_model.CodeableConcept(coding=condition_codings)
 
-            # if gdc_diagnosis.get('tissue_or_organ_of_origin'):
+            # TODO: PDC validation bug (in LinkML?)
+            #if gdc_diagnosis.get('tissue_or_organ_of_origin'):
             #    diagnosis.primary_site = crdch_model.BodySite(
             #        site=codeable_concept(GDC_URL, gdc_diagnosis.get('tissue_or_organ_of_origin'), tags=['original'])
             #    )
