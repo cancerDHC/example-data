@@ -252,7 +252,7 @@ def test_import_gdc_head_and_mouth():
 
             # Year of diagnosis
             if gdc_diagnosis.get('year_of_diagnosis'):
-                # TODO: We need to add support for approximate dates.
+                # TODO: We need to add support for approximate dates (https://github.com/cancerDHC/ccdhmodel/issues/130)
                 diagnosis.diagnosis_date = crdch_model.TimePoint()
                 diagnosis.diagnosis_date.date_time = f"{gdc_diagnosis.get('year_of_diagnosis')}-01-01"
 
