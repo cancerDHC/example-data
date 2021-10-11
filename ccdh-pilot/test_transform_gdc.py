@@ -18,7 +18,7 @@ ICD10_URL = 'http://hl7.org/fhir/ValueSet/icd-10'
 
 
 # Helper method to
-def quantity(value_decimal, unit):
+def quantity_decimal(value_decimal, unit):
     q = crdch_model.Quantity(unit=unit)
     q.value_decimal = value_decimal
     return q
@@ -105,20 +105,20 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
     if gdc_sample.get('current_weight'):
         specimen.quantity_measure = crdch_model.SpecimenQuantityObservation(
             observation_type=codeable_concept(NCIT_URL, 'C25208', 'Weight', tags=['harmonized']),
-            value_quantity=quantity(gdc_sample.get('current_weight'), unit=MILLIGRAM)
+            value_quantity=quantity_decimal(gdc_sample.get('current_weight'), unit=MILLIGRAM)
         )
 
     # The following fields relate to the Specimen.creation_activity.
 
     if gdc_sample.get('days_to_collection'):
         date_ended = crdch_model.TimePoint(
-            offset_from_index=quantity(gdc_sample.get('days_to_collection'), DAY),
+            offset_from_index=quantity_decimal(gdc_sample.get('days_to_collection'), DAY),
             index_time_point=crdch_model.TimePoint(event_type=codeable_concept(NCIT_URL, 'C142714', 'Study Start', tags=['harmonized']))
         )
         specimen.creation_activity = crdch_model.SpecimenCreationActivity(date_ended=date_ended)
 
     if gdc_sample.get('initial_weight'):
-        initial_weight = quantity(gdc_sample.get('initial_weight'), MILLIGRAM)
+        initial_weight = quantity_decimal(gdc_sample.get('initial_weight'), MILLIGRAM)
         if specimen.creation_activity:
             specimen.creation_activity.quantity_collected = initial_weight
         else:
@@ -131,15 +131,17 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
         else:
             specimen.creation_activity = crdch_model.SpecimenCreationActivity(collection_site=crdch_model.BodySite(site=biospecimen_anatomic_site))
 
-    if gdc_sample.get('time_between_excision_and_freezing'):
-        time_obs = crdch_model.ExecutionTimeObservation(
-            observation_type=codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing'),
-            value_quantity=quantity(gdc_sample.get('time_between_excision_and_freezing'), DAY)
-        )
-        if specimen.creation_activity:
-            specimen.creation_activity.execution_time_observation = time_obs
-        else:
-            specimen.creation_activity = crdch_model.SpecimenCreationActivity(execution_time_observation=time_obs)
+    # if gdc_sample.get('time_between_excision_and_freezing'):
+    #     time_obs = crdch_model.ExecutionTimeObservation(
+    #         observation_type=codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing'),
+    #         value_quantity=quantity(gdc_sample.get('time_between_excision_and_freezing'), DAY)
+    #     )
+    #     if not specimen.creation_activity:
+    #         specimen.creation_activity = crdch_model.SpecimenCreationActivity()
+    #     if specimen.creation_activity.execution_time_observation:
+    #         specimen.creation_activity.execution_time_observation.append(time_obs)
+    #     else:
+    #         specimen.creation_activity.execution_time_observation = [time_obs]
 
     # The following fields relate to the Specimen.processing_activity.
     if gdc_sample.get('preservation_method'):
@@ -194,8 +196,7 @@ def test_transform_gdc_head_and_mouth():
                     ))
 
             if gdc_diagnosis.get('age_at_diagnosis'):
-                diagnosis.age_at_diagnosis = crdch_model.Quantity(unit=DAY)
-                diagnosis.age_at_diagnosis.value_decimal = gdc_diagnosis['age_at_diagnosis']
+                diagnosis.age_at_diagnosis = quantity_decimal(gdc_diagnosis['age_at_diagnosis'], unit=DAY)
 
             condition_codings = []
             if gdc_diagnosis.get('primary_diagnosis'):
