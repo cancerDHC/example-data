@@ -25,5 +25,5 @@ def quantity_decimal(value_decimal, unit):
     # TODO: this should be converted to a Decimal, but that doesn't work/pass validation
     # So instead we truncate it to an integer for now.
     # Filed as issue https://github.com/cancerDHC/ccdhmodel/issues/131
-    q.value_decimal = str(value_decimal)
+    q.value_decimal = int(value_decimal)
     return q
