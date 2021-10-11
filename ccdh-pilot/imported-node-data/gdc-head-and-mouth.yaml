@@ -16,7 +16,7 @@ gdc_head_and_mouth_case_0_diagnosis_0_diagnosis:
       - value: AD6426
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19592
+      value_decimal: '19592'
       unit:
         coding:
         - code: C25301
@@ -75,7 +75,7 @@ gdc_head_and_mouth_case_1_diagnosis_0_diagnosis:
       - value: TCGA-CN-6012
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24286
+      value_decimal: '24286'
       unit:
         coding:
         - code: C25301
@@ -190,7 +190,7 @@ gdc_head_and_mouth_case_2_diagnosis_0_diagnosis:
       - value: TCGA-CV-7261
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20992
+      value_decimal: '20992'
       unit:
         coding:
         - code: C25301
@@ -326,7 +326,7 @@ gdc_head_and_mouth_case_3_diagnosis_0_diagnosis:
       - value: TCGA-BA-A6DL
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21886
+      value_decimal: '21886'
       unit:
         coding: &id001
         - code: C25301
@@ -382,11 +382,11 @@ gdc_head_and_mouth_case_3_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 228
+            value_decimal: '228'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 140
+          value_decimal: '140.0'
           unit:
             coding:
             - code: C28253
@@ -426,7 +426,7 @@ gdc_head_and_mouth_case_3_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 228
+            value_decimal: '228'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -478,7 +478,7 @@ gdc_head_and_mouth_case_4_diagnosis_0_diagnosis:
       - value: TCGA-CN-5365
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 14190
+      value_decimal: '14190'
       unit:
         coding:
         - code: C25301
@@ -593,7 +593,7 @@ gdc_head_and_mouth_case_5_diagnosis_0_diagnosis:
       - value: TCGA-CR-6470
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 14133
+      value_decimal: '14133'
       unit:
         coding:
         - code: C25301
@@ -682,7 +682,7 @@ gdc_head_and_mouth_case_6_diagnosis_0_diagnosis:
       - value: TCGA-CN-A641
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17454
+      value_decimal: '17454'
       unit:
         coding: &id001
         - code: C25301
@@ -738,11 +738,11 @@ gdc_head_and_mouth_case_6_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 346
+            value_decimal: '346'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130
+          value_decimal: '130.0'
           unit:
             coding:
             - code: C28253
@@ -782,7 +782,7 @@ gdc_head_and_mouth_case_6_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 346
+            value_decimal: '346'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -834,7 +834,7 @@ gdc_head_and_mouth_case_7_diagnosis_0_diagnosis:
       - value: TCGA-BA-4076
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 14405
+      value_decimal: '14405'
       unit:
         coding:
         - code: C25301
@@ -949,7 +949,7 @@ gdc_head_and_mouth_case_8_diagnosis_0_diagnosis:
       - value: TCGA-CR-6467
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21689
+      value_decimal: '21689'
       unit:
         coding:
         - code: C25301
@@ -1038,7 +1038,7 @@ gdc_head_and_mouth_case_9_diagnosis_0_diagnosis:
       - value: TCGA-DQ-7590
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18718
+      value_decimal: '18718'
       unit:
         coding: &id001
         - code: C25301
@@ -1115,7 +1115,7 @@ gdc_head_and_mouth_case_9_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 797
+            value_decimal: '797'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -1167,7 +1167,7 @@ gdc_head_and_mouth_case_10_diagnosis_0_diagnosis:
       - value: TCGA-CV-7415
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22062
+      value_decimal: '22062'
       unit:
         coding:
         - code: C25301
@@ -1282,7 +1282,7 @@ gdc_head_and_mouth_case_11_diagnosis_0_diagnosis:
       - value: TCGA-CV-7101
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 29550
+      value_decimal: '29550'
       unit:
         coding:
         - code: C25301
@@ -1418,7 +1418,7 @@ gdc_head_and_mouth_case_12_diagnosis_0_diagnosis:
       - value: TCGA-BB-4223
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17608
+      value_decimal: '17608'
       unit:
         coding:
         - code: C25301
@@ -1533,7 +1533,7 @@ gdc_head_and_mouth_case_13_diagnosis_0_diagnosis:
       - value: TCGA-QK-A8ZA
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21979
+      value_decimal: '21979'
       unit:
         coding: &id001
         - code: C25301
@@ -1615,11 +1615,11 @@ gdc_head_and_mouth_case_13_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 35
+            value_decimal: '35'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 30
+          value_decimal: '30.0'
           unit:
             coding:
             - code: C28253
@@ -1659,7 +1659,7 @@ gdc_head_and_mouth_case_13_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 35
+            value_decimal: '35'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -1685,7 +1685,7 @@ gdc_head_and_mouth_case_14_diagnosis_0_diagnosis:
       - value: TCGA-CV-5978
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19480
+      value_decimal: '19480'
       unit:
         coding:
         - code: C25301
@@ -2444,7 +2444,7 @@ gdc_head_and_mouth_case_29_diagnosis_0_diagnosis:
       - value: AD7638
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 13024
+      value_decimal: '13024'
       unit:
         coding:
         - code: C25301
@@ -2825,7 +2825,7 @@ gdc_head_and_mouth_case_37_diagnosis_0_diagnosis:
       - value: AD1281
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18738
+      value_decimal: '18738'
       unit:
         coding:
         - code: C25301
@@ -3022,7 +3022,7 @@ gdc_head_and_mouth_case_41_diagnosis_0_diagnosis:
       - value: AD2206
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 14547
+      value_decimal: '14547'
       unit:
         coding:
         - code: C25301
@@ -3081,7 +3081,7 @@ gdc_head_and_mouth_case_42_diagnosis_0_diagnosis:
       - value: AD2717
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 15088
+      value_decimal: '15088'
       unit:
         coding:
         - code: C25301
@@ -3876,7 +3876,7 @@ gdc_head_and_mouth_case_59_diagnosis_0_diagnosis:
       - value: AD5893
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22346
+      value_decimal: '22346'
       unit:
         coding:
         - code: C25301
@@ -4073,7 +4073,7 @@ gdc_head_and_mouth_case_63_diagnosis_0_diagnosis:
       - value: AD7867
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21298
+      value_decimal: '21298'
       unit:
         coding:
         - code: C25301
@@ -4316,7 +4316,7 @@ gdc_head_and_mouth_case_68_diagnosis_0_diagnosis:
       - value: AD18004
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 9238
+      value_decimal: '9238'
       unit:
         coding:
         - code: C25301
@@ -4651,7 +4651,7 @@ gdc_head_and_mouth_case_75_diagnosis_0_diagnosis:
       - value: AD11803
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25928
+      value_decimal: '25928'
       unit:
         coding:
         - code: C25301
@@ -4756,7 +4756,7 @@ gdc_head_and_mouth_case_77_diagnosis_0_diagnosis:
       - value: TCGA-CR-6482
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22741
+      value_decimal: '22741'
       unit:
         coding:
         - code: C25301
@@ -4845,7 +4845,7 @@ gdc_head_and_mouth_case_78_diagnosis_0_diagnosis:
       - value: TCGA-CV-7421
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 27961
+      value_decimal: '27961'
       unit:
         coding:
         - code: C25301
@@ -4960,7 +4960,7 @@ gdc_head_and_mouth_case_79_diagnosis_0_diagnosis:
       - value: TCGA-CR-6478
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24244
+      value_decimal: '24244'
       unit:
         coding:
         - code: C25301
@@ -5049,7 +5049,7 @@ gdc_head_and_mouth_case_80_diagnosis_0_diagnosis:
       - value: TCGA-CN-4741
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 27506
+      value_decimal: '27506'
       unit:
         coding:
         - code: C25301
@@ -5164,7 +5164,7 @@ gdc_head_and_mouth_case_81_diagnosis_0_diagnosis:
       - value: TCGA-BB-8596
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25408
+      value_decimal: '25408'
       unit:
         coding:
         - code: C25301
@@ -5279,7 +5279,7 @@ gdc_head_and_mouth_case_82_diagnosis_0_diagnosis:
       - value: AD12050
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17686
+      value_decimal: '17686'
       unit:
         coding:
         - code: C25301
@@ -5844,7 +5844,7 @@ gdc_head_and_mouth_case_94_diagnosis_0_diagnosis:
       - value: TCGA-BA-5153
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18743
+      value_decimal: '18743'
       unit:
         coding:
         - code: C25301
@@ -5959,7 +5959,7 @@ gdc_head_and_mouth_case_95_diagnosis_0_diagnosis:
       - value: TCGA-CR-5247
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17810
+      value_decimal: '17810'
       unit:
         coding:
         - code: C25301
@@ -6048,7 +6048,7 @@ gdc_head_and_mouth_case_96_diagnosis_0_diagnosis:
       - value: TCGA-KU-A6H7
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20314
+      value_decimal: '20314'
       unit:
         coding: &id001
         - code: C25301
@@ -6104,7 +6104,7 @@ gdc_head_and_mouth_case_96_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 36
+            value_decimal: '36'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -6139,11 +6139,11 @@ gdc_head_and_mouth_case_96_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 36
+            value_decimal: '36'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 670
+          value_decimal: '670.0'
           unit:
             coding: &id002
             - code: C28253
@@ -6209,11 +6209,11 @@ gdc_head_and_mouth_case_96_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 36
+            value_decimal: '36'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80
+          value_decimal: '80.0'
           unit:
             coding: *id002
       general_tissue_pathology:
@@ -6239,7 +6239,7 @@ gdc_head_and_mouth_case_97_diagnosis_0_diagnosis:
       - value: TCGA-UF-A7JK
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21696
+      value_decimal: '21696'
       unit:
         coding: &id001
         - code: C25301
@@ -6295,7 +6295,7 @@ gdc_head_and_mouth_case_97_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1302
+            value_decimal: '1302'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -6356,11 +6356,11 @@ gdc_head_and_mouth_case_97_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1302
+            value_decimal: '1302'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50.0'
           unit:
             coding:
             - code: C28253
@@ -6391,7 +6391,7 @@ gdc_head_and_mouth_case_98_diagnosis_0_diagnosis:
       - value: TCGA-CV-7433
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18004
+      value_decimal: '18004'
       unit:
         coding:
         - code: C25301
@@ -6506,7 +6506,7 @@ gdc_head_and_mouth_case_99_diagnosis_0_diagnosis:
       - value: TCGA-P3-A6T6
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19694
+      value_decimal: '19694'
       unit:
         coding: &id001
         - code: C25301
@@ -6588,7 +6588,7 @@ gdc_head_and_mouth_case_99_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1333
+            value_decimal: '1333'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -6623,11 +6623,11 @@ gdc_head_and_mouth_case_99_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1333
+            value_decimal: '1333'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50.0'
           unit:
             coding:
             - code: C28253
@@ -6658,7 +6658,7 @@ gdc_head_and_mouth_case_100_diagnosis_0_diagnosis:
       - value: TCGA-CR-7388
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25728
+      value_decimal: '25728'
       unit:
         coding:
         - code: C25301
@@ -6747,7 +6747,7 @@ gdc_head_and_mouth_case_101_diagnosis_0_diagnosis:
       - value: TCGA-CV-A45Z
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 27397
+      value_decimal: '27397'
       unit:
         coding: &id001
         - code: C25301
@@ -6803,7 +6803,7 @@ gdc_head_and_mouth_case_101_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4438
+            value_decimal: '4438'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -6864,11 +6864,11 @@ gdc_head_and_mouth_case_101_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4438
+            value_decimal: '4438'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 160
+          value_decimal: '160.0'
           unit:
             coding:
             - code: C28253
@@ -6899,7 +6899,7 @@ gdc_head_and_mouth_case_102_diagnosis_0_diagnosis:
       - value: TCGA-CV-5430
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22577
+      value_decimal: '22577'
       unit:
         coding:
         - code: C25301
@@ -7035,7 +7035,7 @@ gdc_head_and_mouth_case_103_diagnosis_0_diagnosis:
       - value: TCGA-D6-A6EK
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24558
+      value_decimal: '24558'
       unit:
         coding: &id001
         - code: C25301
@@ -7091,7 +7091,7 @@ gdc_head_and_mouth_case_103_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 211
+            value_decimal: '211'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -7126,11 +7126,11 @@ gdc_head_and_mouth_case_103_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 211
+            value_decimal: '211'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130
+          value_decimal: '130.0'
           unit:
             coding:
             - code: C28253
@@ -7187,7 +7187,7 @@ gdc_head_and_mouth_case_104_diagnosis_0_diagnosis:
       - value: TCGA-CN-A49C
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24495
+      value_decimal: '24495'
       unit:
         coding: &id001
         - code: C25301
@@ -7243,7 +7243,7 @@ gdc_head_and_mouth_case_104_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 132
+            value_decimal: '132'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -7278,11 +7278,11 @@ gdc_head_and_mouth_case_104_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 85
+            value_decimal: '85'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 230
+          value_decimal: '230.0'
           unit:
             coding:
             - code: C28253
@@ -7313,7 +7313,7 @@ gdc_head_and_mouth_case_105_diagnosis_0_diagnosis:
       - value: TCGA-D6-6824
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22633
+      value_decimal: '22633'
       unit:
         coding:
         - code: C25301
@@ -7704,7 +7704,7 @@ gdc_head_and_mouth_case_112_diagnosis_0_diagnosis:
       - value: TCGA-TN-A7HI
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20666
+      value_decimal: '20666'
       unit:
         coding: &id001
         - code: C25301
@@ -7786,7 +7786,7 @@ gdc_head_and_mouth_case_112_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 75
+            value_decimal: '75'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -7821,11 +7821,11 @@ gdc_head_and_mouth_case_112_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 75
+            value_decimal: '75'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 140
+          value_decimal: '140.0'
           unit:
             coding:
             - code: C28253
@@ -7856,7 +7856,7 @@ gdc_head_and_mouth_case_113_diagnosis_0_diagnosis:
       - value: TCGA-CN-4735
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19107
+      value_decimal: '19107'
       unit:
         coding:
         - code: C25301
@@ -7971,7 +7971,7 @@ gdc_head_and_mouth_case_114_diagnosis_0_diagnosis:
       - value: TCGA-CN-A63T
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22201
+      value_decimal: '22201'
       unit:
         coding: &id001
         - code: C25301
@@ -8053,11 +8053,11 @@ gdc_head_and_mouth_case_114_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 519
+            value_decimal: '519'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 150
+          value_decimal: '150.0'
           unit:
             coding:
             - code: C28253
@@ -8097,7 +8097,7 @@ gdc_head_and_mouth_case_114_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 519
+            value_decimal: '519'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -8215,7 +8215,7 @@ gdc_head_and_mouth_case_117_diagnosis_0_diagnosis:
       - value: AD10965
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21784
+      value_decimal: '21784'
       unit:
         coding:
         - code: C25301
@@ -8274,7 +8274,7 @@ gdc_head_and_mouth_case_118_diagnosis_0_diagnosis:
       - value: AD13780
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 30718
+      value_decimal: '30718'
       unit:
         coding:
         - code: C25301
@@ -8471,7 +8471,7 @@ gdc_head_and_mouth_case_122_diagnosis_0_diagnosis:
       - value: AD1220
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 9410
+      value_decimal: '9410'
       unit:
         coding:
         - code: C25301
@@ -8852,7 +8852,7 @@ gdc_head_and_mouth_case_130_diagnosis_0_diagnosis:
       - value: TCGA-DQ-7595
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19530
+      value_decimal: '19530'
       unit:
         coding: &id001
         - code: C25301
@@ -8955,7 +8955,7 @@ gdc_head_and_mouth_case_130_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 499
+            value_decimal: '499'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -8981,7 +8981,7 @@ gdc_head_and_mouth_case_131_diagnosis_0_diagnosis:
       - value: TCGA-QK-A8Z8
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22107
+      value_decimal: '22107'
       unit:
         coding: &id001
         - code: C25301
@@ -9037,11 +9037,11 @@ gdc_head_and_mouth_case_131_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 50
+            value_decimal: '50'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80
+          value_decimal: '80.0'
           unit:
             coding:
             - code: C28253
@@ -9107,7 +9107,7 @@ gdc_head_and_mouth_case_131_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 50
+            value_decimal: '50'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -9133,7 +9133,7 @@ gdc_head_and_mouth_case_132_diagnosis_0_diagnosis:
       - value: TCGA-BA-6869
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22765
+      value_decimal: '22765'
       unit:
         coding:
         - code: C25301
@@ -9248,7 +9248,7 @@ gdc_head_and_mouth_case_133_diagnosis_0_diagnosis:
       - value: TCGA-CN-6022
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17971
+      value_decimal: '17971'
       unit:
         coding:
         - code: C25301
@@ -9363,7 +9363,7 @@ gdc_head_and_mouth_case_134_diagnosis_0_diagnosis:
       - value: TCGA-CV-7410
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22302
+      value_decimal: '22302'
       unit:
         coding:
         - code: C25301
@@ -9708,7 +9708,7 @@ gdc_head_and_mouth_case_140_diagnosis_0_diagnosis:
       - value: TCGA-CR-7364
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24192
+      value_decimal: '24192'
       unit:
         coding:
         - code: C25301
@@ -9797,7 +9797,7 @@ gdc_head_and_mouth_case_141_diagnosis_0_diagnosis:
       - value: TCGA-MZ-A6I9
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24939
+      value_decimal: '24939'
       unit:
         coding: &id001
         - code: C25301
@@ -9853,11 +9853,11 @@ gdc_head_and_mouth_case_141_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 156
+            value_decimal: '156'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60
+          value_decimal: '60.0'
           unit:
             coding:
             - code: C28253
@@ -9897,7 +9897,7 @@ gdc_head_and_mouth_case_141_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 156
+            value_decimal: '156'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -9949,7 +9949,7 @@ gdc_head_and_mouth_case_142_diagnosis_0_diagnosis:
       - value: TCGA-CN-6992
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22598
+      value_decimal: '22598'
       unit:
         coding:
         - code: C25301
@@ -10064,7 +10064,7 @@ gdc_head_and_mouth_case_143_diagnosis_0_diagnosis:
       - value: TCGA-D6-6827
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20175
+      value_decimal: '20175'
       unit:
         coding:
         - code: C25301
@@ -10179,7 +10179,7 @@ gdc_head_and_mouth_case_144_diagnosis_0_diagnosis:
       - value: TCGA-F7-A622
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 27456
+      value_decimal: '27456'
       unit:
         coding: &id001
         - code: C25301
@@ -10261,7 +10261,7 @@ gdc_head_and_mouth_case_144_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 125
+            value_decimal: '125'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -10296,11 +10296,11 @@ gdc_head_and_mouth_case_144_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 125
+            value_decimal: '125'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 240
+          value_decimal: '240.0'
           unit:
             coding:
             - code: C28253
@@ -10331,7 +10331,7 @@ gdc_head_and_mouth_case_145_diagnosis_0_diagnosis:
       - value: TCGA-BB-7866
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 14810
+      value_decimal: '14810'
       unit:
         coding:
         - code: C25301
@@ -10446,7 +10446,7 @@ gdc_head_and_mouth_case_146_diagnosis_0_diagnosis:
       - value: TCGA-BB-7864
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22317
+      value_decimal: '22317'
       unit:
         coding:
         - code: C25301
@@ -10561,7 +10561,7 @@ gdc_head_and_mouth_case_147_diagnosis_0_diagnosis:
       - value: TCGA-CV-5444
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23650
+      value_decimal: '23650'
       unit:
         coding:
         - code: C25301
@@ -10676,7 +10676,7 @@ gdc_head_and_mouth_case_148_diagnosis_0_diagnosis:
       - value: TCGA-D6-A6ES
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18408
+      value_decimal: '18408'
       unit:
         coding: &id001
         - code: C25301
@@ -10758,7 +10758,7 @@ gdc_head_and_mouth_case_148_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 69
+            value_decimal: '69'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -10793,11 +10793,11 @@ gdc_head_and_mouth_case_148_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 69
+            value_decimal: '69'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60
+          value_decimal: '60.0'
           unit:
             coding:
             - code: C28253
@@ -10828,7 +10828,7 @@ gdc_head_and_mouth_case_149_diagnosis_0_diagnosis:
       - value: TCGA-CN-A6V3
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22397
+      value_decimal: '22397'
       unit:
         coding: &id001
         - code: C25301
@@ -10884,7 +10884,7 @@ gdc_head_and_mouth_case_149_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 194
+            value_decimal: '194'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -10919,11 +10919,11 @@ gdc_head_and_mouth_case_149_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 194
+            value_decimal: '194'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 230
+          value_decimal: '230.0'
           unit:
             coding:
             - code: C28253
@@ -10954,7 +10954,7 @@ gdc_head_and_mouth_case_150_diagnosis_0_diagnosis:
       - value: TCGA-CN-6988
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17308
+      value_decimal: '17308'
       unit:
         coding:
         - code: C25301
@@ -11069,7 +11069,7 @@ gdc_head_and_mouth_case_151_diagnosis_0_diagnosis:
       - value: TCGA-CN-5355
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23670
+      value_decimal: '23670'
       unit:
         coding:
         - code: C25301
@@ -11184,7 +11184,7 @@ gdc_head_and_mouth_case_152_diagnosis_0_diagnosis:
       - value: TCGA-HD-7753
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22774
+      value_decimal: '22774'
       unit:
         coding:
         - code: C25301
@@ -11299,7 +11299,7 @@ gdc_head_and_mouth_case_153_diagnosis_0_diagnosis:
       - value: TCGA-UF-A71B
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18404
+      value_decimal: '18404'
       unit:
         coding: &id001
         - code: C25301
@@ -11355,7 +11355,7 @@ gdc_head_and_mouth_case_153_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1176
+            value_decimal: '1176'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -11390,11 +11390,11 @@ gdc_head_and_mouth_case_153_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1071
+            value_decimal: '1071'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80
+          value_decimal: '80.0'
           unit:
             coding:
             - code: C28253
@@ -11451,7 +11451,7 @@ gdc_head_and_mouth_case_154_diagnosis_0_diagnosis:
       - value: TCGA-BA-A4IG
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 28402
+      value_decimal: '28402'
       unit:
         coding: &id001
         - code: C25301
@@ -11507,7 +11507,7 @@ gdc_head_and_mouth_case_154_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 533
+            value_decimal: '533'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -11542,11 +11542,11 @@ gdc_head_and_mouth_case_154_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 457
+            value_decimal: '457'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 240
+          value_decimal: '240.0'
           unit:
             coding:
             - code: C28253
@@ -11577,7 +11577,7 @@ gdc_head_and_mouth_case_155_diagnosis_0_diagnosis:
       - value: TCGA-F7-8298
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21445
+      value_decimal: '21445'
       unit:
         coding:
         - code: C25301
@@ -11692,7 +11692,7 @@ gdc_head_and_mouth_case_156_diagnosis_0_diagnosis:
       - value: TCGA-CN-A63W
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17693
+      value_decimal: '17693'
       unit:
         coding: &id001
         - code: C25301
@@ -11774,11 +11774,11 @@ gdc_head_and_mouth_case_156_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 279
+            value_decimal: '279'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 140
+          value_decimal: '140.0'
           unit:
             coding:
             - code: C28253
@@ -11818,7 +11818,7 @@ gdc_head_and_mouth_case_156_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 279
+            value_decimal: '279'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -11844,7 +11844,7 @@ gdc_head_and_mouth_case_157_diagnosis_0_diagnosis:
       - value: TCGA-D6-6516
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25242
+      value_decimal: '25242'
       unit:
         coding:
         - code: C25301
@@ -11959,7 +11959,7 @@ gdc_head_and_mouth_case_158_diagnosis_0_diagnosis:
       - value: TCGA-BA-6870
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22222
+      value_decimal: '22222'
       unit:
         coding:
         - code: C25301
@@ -12074,7 +12074,7 @@ gdc_head_and_mouth_case_159_diagnosis_0_diagnosis:
       - value: TCGA-D6-A6EQ
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20876
+      value_decimal: '20876'
       unit:
         coding: &id001
         - code: C25301
@@ -12156,11 +12156,11 @@ gdc_head_and_mouth_case_159_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 86
+            value_decimal: '86'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60
+          value_decimal: '60.0'
           unit:
             coding:
             - code: C28253
@@ -12200,7 +12200,7 @@ gdc_head_and_mouth_case_159_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 86
+            value_decimal: '86'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -12226,7 +12226,7 @@ gdc_head_and_mouth_case_160_diagnosis_0_diagnosis:
       - value: TCGA-QK-A6IH
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23936
+      value_decimal: '23936'
       unit:
         coding: &id001
         - code: C25301
@@ -12282,7 +12282,7 @@ gdc_head_and_mouth_case_160_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 38
+            value_decimal: '38'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -12343,11 +12343,11 @@ gdc_head_and_mouth_case_160_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 38
+            value_decimal: '38'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60
+          value_decimal: '60.0'
           unit:
             coding:
             - code: C28253
@@ -12378,7 +12378,7 @@ gdc_head_and_mouth_case_161_diagnosis_0_diagnosis:
       - value: TCGA-P3-A5Q6
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17917
+      value_decimal: '17917'
       unit:
         coding: &id001
         - code: C25301
@@ -12460,11 +12460,11 @@ gdc_head_and_mouth_case_161_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 2922
+            value_decimal: '2922'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 10
+          value_decimal: '10.0'
           unit:
             coding:
             - code: C28253
@@ -12504,7 +12504,7 @@ gdc_head_and_mouth_case_161_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 2922
+            value_decimal: '2922'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -12852,7 +12852,7 @@ gdc_head_and_mouth_case_169_diagnosis_0_diagnosis:
       - value: AD8066
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 8266
+      value_decimal: '8266'
       unit:
         coding:
         - code: C25301
@@ -12957,7 +12957,7 @@ gdc_head_and_mouth_case_171_diagnosis_0_diagnosis:
       - value: AD864
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 7505
+      value_decimal: '7505'
       unit:
         coding:
         - code: C25301
@@ -13016,7 +13016,7 @@ gdc_head_and_mouth_case_172_diagnosis_0_diagnosis:
       - value: AD16071
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19541
+      value_decimal: '19541'
       unit:
         coding:
         - code: C25301
@@ -13213,7 +13213,7 @@ gdc_head_and_mouth_case_176_diagnosis_0_diagnosis:
       - value: AD5017
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20089
+      value_decimal: '20089'
       unit:
         coding:
         - code: C25301
@@ -13870,7 +13870,7 @@ gdc_head_and_mouth_case_190_diagnosis_0_diagnosis:
       - value: AD14561
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20148
+      value_decimal: '20148'
       unit:
         coding:
         - code: C25301
@@ -14113,7 +14113,7 @@ gdc_head_and_mouth_case_195_diagnosis_0_diagnosis:
       - value: AD7774
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17216
+      value_decimal: '17216'
       unit:
         coding:
         - code: C25301
@@ -14218,7 +14218,7 @@ gdc_head_and_mouth_case_197_diagnosis_0_diagnosis:
       - value: AD4383
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 16792
+      value_decimal: '16792'
       unit:
         coding:
         - code: C25301
@@ -14277,7 +14277,7 @@ gdc_head_and_mouth_case_198_diagnosis_0_diagnosis:
       - value: AD3459
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26493
+      value_decimal: '26493'
       unit:
         coding:
         - code: C25301
@@ -14336,7 +14336,7 @@ gdc_head_and_mouth_case_199_diagnosis_0_diagnosis:
       - value: AD5451
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 27365
+      value_decimal: '27365'
       unit:
         coding:
         - code: C25301
@@ -14441,7 +14441,7 @@ gdc_head_and_mouth_case_201_diagnosis_0_diagnosis:
       - value: AD10083
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22699
+      value_decimal: '22699'
       unit:
         coding:
         - code: C25301
@@ -15466,7 +15466,7 @@ gdc_head_and_mouth_case_223_diagnosis_0_diagnosis:
       - value: AD2564
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21871
+      value_decimal: '21871'
       unit:
         coding:
         - code: C25301
@@ -15617,7 +15617,7 @@ gdc_head_and_mouth_case_226_diagnosis_0_diagnosis:
       - value: AD5830
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24334
+      value_decimal: '24334'
       unit:
         coding:
         - code: C25301
@@ -15814,7 +15814,7 @@ gdc_head_and_mouth_case_230_diagnosis_0_diagnosis:
       - value: AD17916
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19509
+      value_decimal: '19509'
       unit:
         coding:
         - code: C25301
@@ -16057,7 +16057,7 @@ gdc_head_and_mouth_case_235_diagnosis_0_diagnosis:
       - value: AD12118
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 14891
+      value_decimal: '14891'
       unit:
         coding:
         - code: C25301
@@ -16162,7 +16162,7 @@ gdc_head_and_mouth_case_237_diagnosis_0_diagnosis:
       - value: AD1478
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 14953
+      value_decimal: '14953'
       unit:
         coding:
         - code: C25301
@@ -17003,7 +17003,7 @@ gdc_head_and_mouth_case_255_diagnosis_0_diagnosis:
       - value: AD14142
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21690
+      value_decimal: '21690'
       unit:
         coding:
         - code: C25301
@@ -17062,7 +17062,7 @@ gdc_head_and_mouth_case_256_diagnosis_0_diagnosis:
       - value: AD4812
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23191
+      value_decimal: '23191'
       unit:
         coding:
         - code: C25301
@@ -17121,7 +17121,7 @@ gdc_head_and_mouth_case_257_diagnosis_0_diagnosis:
       - value: AD1118
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 11506
+      value_decimal: '11506'
       unit:
         coding:
         - code: C25301
@@ -17226,7 +17226,7 @@ gdc_head_and_mouth_case_259_diagnosis_0_diagnosis:
       - value: AD3816
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23030
+      value_decimal: '23030'
       unit:
         coding:
         - code: C25301
@@ -17285,7 +17285,7 @@ gdc_head_and_mouth_case_260_diagnosis_0_diagnosis:
       - value: AD941
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 9352
+      value_decimal: '9352'
       unit:
         coding:
         - code: C25301
@@ -17436,7 +17436,7 @@ gdc_head_and_mouth_case_263_diagnosis_0_diagnosis:
       - value: AD4542
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22230
+      value_decimal: '22230'
       unit:
         coding:
         - code: C25301
@@ -17633,7 +17633,7 @@ gdc_head_and_mouth_case_267_diagnosis_0_diagnosis:
       - value: AD3230
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 30260
+      value_decimal: '30260'
       unit:
         coding:
         - code: C25301
@@ -17830,7 +17830,7 @@ gdc_head_and_mouth_case_271_diagnosis_0_diagnosis:
       - value: AD17065
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 10422
+      value_decimal: '10422'
       unit:
         coding:
         - code: C25301
@@ -17889,7 +17889,7 @@ gdc_head_and_mouth_case_272_diagnosis_0_diagnosis:
       - value: AD8711
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18941
+      value_decimal: '18941'
       unit:
         coding:
         - code: C25301
@@ -17994,7 +17994,7 @@ gdc_head_and_mouth_case_274_diagnosis_0_diagnosis:
       - value: AD5075
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 16230
+      value_decimal: '16230'
       unit:
         coding:
         - code: C25301
@@ -18283,7 +18283,7 @@ gdc_head_and_mouth_case_280_diagnosis_0_diagnosis:
       - value: AD7896
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18871
+      value_decimal: '18871'
       unit:
         coding:
         - code: C25301
@@ -18342,7 +18342,7 @@ gdc_head_and_mouth_case_281_diagnosis_0_diagnosis:
       - value: AD3546
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 15874
+      value_decimal: '15874'
       unit:
         coding:
         - code: C25301
@@ -18401,7 +18401,7 @@ gdc_head_and_mouth_case_282_diagnosis_0_diagnosis:
       - value: AD14308
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19073
+      value_decimal: '19073'
       unit:
         coding:
         - code: C25301
@@ -19012,7 +19012,7 @@ gdc_head_and_mouth_case_295_diagnosis_0_diagnosis:
       - value: AD16283
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20394
+      value_decimal: '20394'
       unit:
         coding:
         - code: C25301
@@ -19163,7 +19163,7 @@ gdc_head_and_mouth_case_298_diagnosis_0_diagnosis:
       - value: AD11228
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 8502
+      value_decimal: '8502'
       unit:
         coding:
         - code: C25301
@@ -19222,7 +19222,7 @@ gdc_head_and_mouth_case_299_diagnosis_0_diagnosis:
       - value: AD5852
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24221
+      value_decimal: '24221'
       unit:
         coding:
         - code: C25301
@@ -19557,7 +19557,7 @@ gdc_head_and_mouth_case_306_diagnosis_0_diagnosis:
       - value: AD5506
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 16644
+      value_decimal: '16644'
       unit:
         coding:
         - code: C25301
@@ -19616,7 +19616,7 @@ gdc_head_and_mouth_case_307_diagnosis_0_diagnosis:
       - value: TCGA-CN-A63U
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18272
+      value_decimal: '18272'
       unit:
         coding: &id001
         - code: C25301
@@ -19672,7 +19672,7 @@ gdc_head_and_mouth_case_307_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 504
+            value_decimal: '504'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -19707,11 +19707,11 @@ gdc_head_and_mouth_case_307_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 504
+            value_decimal: '504'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200.0'
           unit:
             coding:
             - code: C28253
@@ -19768,7 +19768,7 @@ gdc_head_and_mouth_case_308_diagnosis_0_diagnosis:
       - value: TCGA-CN-6021
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23212
+      value_decimal: '23212'
       unit:
         coding:
         - code: C25301
@@ -19883,7 +19883,7 @@ gdc_head_and_mouth_case_309_diagnosis_0_diagnosis:
       - value: TCGA-CR-7402
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25138
+      value_decimal: '25138'
       unit:
         coding:
         - code: C25301
@@ -19972,7 +19972,7 @@ gdc_head_and_mouth_case_310_diagnosis_0_diagnosis:
       - value: TCGA-CR-7385
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 15477
+      value_decimal: '15477'
       unit:
         coding:
         - code: C25301
@@ -20061,7 +20061,7 @@ gdc_head_and_mouth_case_311_diagnosis_0_diagnosis:
       - value: TCGA-CV-5442
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 28040
+      value_decimal: '28040'
       unit:
         coding:
         - code: C25301
@@ -20176,7 +20176,7 @@ gdc_head_and_mouth_case_312_diagnosis_0_diagnosis:
       - value: TCGA-CR-6473
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24857
+      value_decimal: '24857'
       unit:
         coding:
         - code: C25301
@@ -20265,7 +20265,7 @@ gdc_head_and_mouth_case_313_diagnosis_0_diagnosis:
       - value: TCGA-BA-A4IF
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21635
+      value_decimal: '21635'
       unit:
         coding: &id001
         - code: C25301
@@ -20321,11 +20321,11 @@ gdc_head_and_mouth_case_313_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 483
+            value_decimal: '483'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 170
+          value_decimal: '170.0'
           unit:
             coding:
             - code: C28253
@@ -20365,7 +20365,7 @@ gdc_head_and_mouth_case_313_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 559
+            value_decimal: '559'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -20391,7 +20391,7 @@ gdc_head_and_mouth_case_314_diagnosis_0_diagnosis:
       - value: TCGA-BA-A6DJ
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22967
+      value_decimal: '22967'
       unit:
         coding: &id001
         - code: C25301
@@ -20447,11 +20447,11 @@ gdc_head_and_mouth_case_314_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 388
+            value_decimal: '388'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 360
+          value_decimal: '360.0'
           unit:
             coding:
             - code: C28253
@@ -20491,7 +20491,7 @@ gdc_head_and_mouth_case_314_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 388
+            value_decimal: '388'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -21647,7 +21647,7 @@ gdc_head_and_mouth_case_339_diagnosis_0_diagnosis:
       - value: AD17629
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 16191
+      value_decimal: '16191'
       unit:
         coding:
         - code: C25301
@@ -21798,7 +21798,7 @@ gdc_head_and_mouth_case_342_diagnosis_0_diagnosis:
       - value: AD9755
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19500
+      value_decimal: '19500'
       unit:
         coding:
         - code: C25301
@@ -22179,7 +22179,7 @@ gdc_head_and_mouth_case_350_diagnosis_0_diagnosis:
       - value: TCGA-CN-4727
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20748
+      value_decimal: '20748'
       unit:
         coding:
         - code: C25301
@@ -22294,7 +22294,7 @@ gdc_head_and_mouth_case_351_diagnosis_0_diagnosis:
       - value: TCGA-CR-7404
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19532
+      value_decimal: '19532'
       unit:
         coding:
         - code: C25301
@@ -22383,7 +22383,7 @@ gdc_head_and_mouth_case_352_diagnosis_0_diagnosis:
       - value: TCGA-BA-A4IH
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21094
+      value_decimal: '21094'
       unit:
         coding: &id001
         - code: C25301
@@ -22439,7 +22439,7 @@ gdc_head_and_mouth_case_352_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 173
+            value_decimal: '173'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -22474,11 +22474,11 @@ gdc_head_and_mouth_case_352_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 97
+            value_decimal: '97'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 380
+          value_decimal: '380.0'
           unit:
             coding:
             - code: C28253
@@ -22509,7 +22509,7 @@ gdc_head_and_mouth_case_353_diagnosis_0_diagnosis:
       - value: TCGA-DQ-5629
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23550
+      value_decimal: '23550'
       unit:
         coding:
         - code: C25301
@@ -22624,7 +22624,7 @@ gdc_head_and_mouth_case_354_diagnosis_0_diagnosis:
       - value: TCGA-CV-A45W
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 27743
+      value_decimal: '27743'
       unit:
         coding: &id001
         - code: C25301
@@ -22680,11 +22680,11 @@ gdc_head_and_mouth_case_354_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4786
+            value_decimal: '4786'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50.0'
           unit:
             coding:
             - code: C28253
@@ -22724,7 +22724,7 @@ gdc_head_and_mouth_case_354_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4786
+            value_decimal: '4786'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -22776,7 +22776,7 @@ gdc_head_and_mouth_case_355_diagnosis_0_diagnosis:
       - value: TCGA-CN-5369
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 32871
+      value_decimal: '32871'
       unit:
         coding:
         - code: C25301
@@ -22891,7 +22891,7 @@ gdc_head_and_mouth_case_356_diagnosis_0_diagnosis:
       - value: TCGA-CR-6481
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17203
+      value_decimal: '17203'
       unit:
         coding:
         - code: C25301
@@ -22980,7 +22980,7 @@ gdc_head_and_mouth_case_357_diagnosis_0_diagnosis:
       - value: TCGA-BA-A6DA
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 15004
+      value_decimal: '15004'
       unit:
         coding: &id001
         - code: C25301
@@ -23036,7 +23036,7 @@ gdc_head_and_mouth_case_357_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 366
+            value_decimal: '366'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -23097,11 +23097,11 @@ gdc_head_and_mouth_case_357_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 366
+            value_decimal: '366'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 250
+          value_decimal: '250.0'
           unit:
             coding:
             - code: C28253
@@ -23132,7 +23132,7 @@ gdc_head_and_mouth_case_358_diagnosis_0_diagnosis:
       - value: TCGA-BA-6868
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19608
+      value_decimal: '19608'
       unit:
         coding:
         - code: C25301
@@ -23247,7 +23247,7 @@ gdc_head_and_mouth_case_359_diagnosis_0_diagnosis:
       - value: TCGA-MT-A51W
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19098
+      value_decimal: '19098'
       unit:
         coding: &id001
         - code: C25301
@@ -23303,7 +23303,7 @@ gdc_head_and_mouth_case_359_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 49
+            value_decimal: '49'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -23364,11 +23364,11 @@ gdc_head_and_mouth_case_359_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 49
+            value_decimal: '49'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130
+          value_decimal: '130.0'
           unit:
             coding:
             - code: C28253
@@ -23399,7 +23399,7 @@ gdc_head_and_mouth_case_360_diagnosis_0_diagnosis:
       - value: TCGA-BA-5559
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26286
+      value_decimal: '26286'
       unit:
         coding:
         - code: C25301
@@ -23514,7 +23514,7 @@ gdc_head_and_mouth_case_361_diagnosis_0_diagnosis:
       - value: TCGA-CV-7089
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 27149
+      value_decimal: '27149'
       unit:
         coding:
         - code: C25301
@@ -23834,7 +23834,7 @@ gdc_head_and_mouth_case_366_diagnosis_0_diagnosis:
       - value: AD15095
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 15839
+      value_decimal: '15839'
       unit:
         coding:
         - code: C25301
@@ -23939,7 +23939,7 @@ gdc_head_and_mouth_case_368_diagnosis_0_diagnosis:
       - value: AD7475
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18688
+      value_decimal: '18688'
       unit:
         coding:
         - code: C25301
@@ -24182,7 +24182,7 @@ gdc_head_and_mouth_case_373_diagnosis_0_diagnosis:
       - value: TARGET-52-PATBLF
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 761
+      value_decimal: '761'
       unit:
         coding:
         - code: C25301
@@ -24276,7 +24276,7 @@ gdc_head_and_mouth_case_374_diagnosis_0_diagnosis:
       - value: TARGET-52-PARKKN
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 2355
+      value_decimal: '2355'
       unit:
         coding:
         - code: C25301
@@ -24340,7 +24340,7 @@ gdc_head_and_mouth_case_375_diagnosis_0_diagnosis:
       - value: TARGET-52-PATYUA
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 818
+      value_decimal: '818'
       unit:
         coding:
         - code: C25301
@@ -24404,7 +24404,7 @@ gdc_head_and_mouth_case_376_diagnosis_0_diagnosis:
       - value: TARGET-52-PASVDP
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 141
+      value_decimal: '141'
       unit:
         coding:
         - code: C25301
@@ -24498,7 +24498,7 @@ gdc_head_and_mouth_case_377_diagnosis_0_diagnosis:
       - value: TARGET-52-PASAMZ
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 3027
+      value_decimal: '3027'
       unit:
         coding:
         - code: C25301
@@ -24562,7 +24562,7 @@ gdc_head_and_mouth_case_378_diagnosis_0_diagnosis:
       - value: TARGET-52-PASCDH
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 354
+      value_decimal: '354'
       unit:
         coding:
         - code: C25301
@@ -24702,7 +24702,7 @@ gdc_head_and_mouth_case_380_diagnosis_0_diagnosis:
       - value: TCGA-H7-A6C5
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23808
+      value_decimal: '23808'
       unit:
         coding: &id001
         - code: C25301
@@ -24784,11 +24784,11 @@ gdc_head_and_mouth_case_380_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 230
+            value_decimal: '230'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 100
+          value_decimal: '100.0'
           unit:
             coding: &id002
             - code: C28253
@@ -24828,11 +24828,11 @@ gdc_head_and_mouth_case_380_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 230
+            value_decimal: '230'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 150
+          value_decimal: '150.0'
           unit:
             coding: *id002
       general_tissue_pathology:
@@ -24867,7 +24867,7 @@ gdc_head_and_mouth_case_380_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 230
+            value_decimal: '230'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -24893,7 +24893,7 @@ gdc_head_and_mouth_case_381_diagnosis_0_diagnosis:
       - value: TCGA-CN-5356
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20540
+      value_decimal: '20540'
       unit:
         coding:
         - code: C25301
@@ -25054,7 +25054,7 @@ gdc_head_and_mouth_case_383_diagnosis_0_diagnosis:
       - value: TCGA-CV-7177
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 30180
+      value_decimal: '30180'
       unit:
         coding:
         - code: C25301
@@ -25190,7 +25190,7 @@ gdc_head_and_mouth_case_384_diagnosis_0_diagnosis:
       - value: TCGA-CV-7437
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 28221
+      value_decimal: '28221'
       unit:
         coding:
         - code: C25301
@@ -25326,7 +25326,7 @@ gdc_head_and_mouth_case_385_diagnosis_0_diagnosis:
       - value: TCGA-QK-A64Z
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 29037
+      value_decimal: '29037'
       unit:
         coding: &id001
         - code: C25301
@@ -25408,11 +25408,11 @@ gdc_head_and_mouth_case_385_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 555
+            value_decimal: '555'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80
+          value_decimal: '80.0'
           unit:
             coding:
             - code: C28253
@@ -25452,7 +25452,7 @@ gdc_head_and_mouth_case_385_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 555
+            value_decimal: '555'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -25478,7 +25478,7 @@ gdc_head_and_mouth_case_386_diagnosis_0_diagnosis:
       - value: TCGA-CV-7440
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 13992
+      value_decimal: '13992'
       unit:
         coding:
         - code: C25301
@@ -25614,7 +25614,7 @@ gdc_head_and_mouth_case_387_diagnosis_0_diagnosis:
       - value: TCGA-RS-A6TP
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21393
+      value_decimal: '21393'
       unit:
         coding: &id001
         - code: C25301
@@ -25696,7 +25696,7 @@ gdc_head_and_mouth_case_387_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 117
+            value_decimal: '117'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -25731,11 +25731,11 @@ gdc_head_and_mouth_case_387_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 117
+            value_decimal: '117'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 400
+          value_decimal: '400.0'
           unit:
             coding:
             - code: C28253
@@ -25950,7 +25950,7 @@ gdc_head_and_mouth_case_392_diagnosis_0_diagnosis:
       - value: TCGA-CN-5360
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25034
+      value_decimal: '25034'
       unit:
         coding:
         - code: C25301
@@ -26065,7 +26065,7 @@ gdc_head_and_mouth_case_393_diagnosis_0_diagnosis:
       - value: TCGA-CN-A6V7
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 14895
+      value_decimal: '14895'
       unit:
         coding: &id001
         - code: C25301
@@ -26121,11 +26121,11 @@ gdc_head_and_mouth_case_393_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 118
+            value_decimal: '118'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 160
+          value_decimal: '160.0'
           unit:
             coding:
             - code: C28253
@@ -26165,7 +26165,7 @@ gdc_head_and_mouth_case_393_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 118
+            value_decimal: '118'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -26191,7 +26191,7 @@ gdc_head_and_mouth_case_394_diagnosis_0_diagnosis:
       - value: TCGA-CN-5374
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20464
+      value_decimal: '20464'
       unit:
         coding:
         - code: C25301
@@ -26306,7 +26306,7 @@ gdc_head_and_mouth_case_395_diagnosis_0_diagnosis:
       - value: TCGA-CV-A6K1
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23848
+      value_decimal: '23848'
       unit:
         coding: &id001
         - code: C25301
@@ -26362,7 +26362,7 @@ gdc_head_and_mouth_case_395_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 549
+            value_decimal: '549'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -26423,11 +26423,11 @@ gdc_head_and_mouth_case_395_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 549
+            value_decimal: '549'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 20
+          value_decimal: '20.0'
           unit:
             coding:
             - code: C28253
@@ -26458,7 +26458,7 @@ gdc_head_and_mouth_case_396_diagnosis_0_diagnosis:
       - value: TCGA-D6-8568
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22796
+      value_decimal: '22796'
       unit:
         coding:
         - code: C25301
@@ -26573,7 +26573,7 @@ gdc_head_and_mouth_case_397_diagnosis_0_diagnosis:
       - value: TCGA-T2-A6X0
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18114
+      value_decimal: '18114'
       unit:
         coding: &id001
         - code: C25301
@@ -26629,7 +26629,7 @@ gdc_head_and_mouth_case_397_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 314
+            value_decimal: '314'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -26664,11 +26664,11 @@ gdc_head_and_mouth_case_397_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 314
+            value_decimal: '314'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50.0'
           unit:
             coding:
             - code: C28253
@@ -26725,7 +26725,7 @@ gdc_head_and_mouth_case_398_diagnosis_0_diagnosis:
       - value: TCGA-D6-6826
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23722
+      value_decimal: '23722'
       unit:
         coding:
         - code: C25301
@@ -26840,7 +26840,7 @@ gdc_head_and_mouth_case_399_diagnosis_0_diagnosis:
       - value: TCGA-CR-6492
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 28600
+      value_decimal: '28600'
       unit:
         coding:
         - code: C25301
@@ -26929,7 +26929,7 @@ gdc_head_and_mouth_case_400_diagnosis_0_diagnosis:
       - value: TCGA-P3-A6SW
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18536
+      value_decimal: '18536'
       unit:
         coding: &id001
         - code: C25301
@@ -27011,11 +27011,11 @@ gdc_head_and_mouth_case_400_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 3039
+            value_decimal: '3039'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 40
+          value_decimal: '40.0'
           unit:
             coding:
             - code: C28253
@@ -27055,7 +27055,7 @@ gdc_head_and_mouth_case_400_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 3039
+            value_decimal: '3039'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -27081,7 +27081,7 @@ gdc_head_and_mouth_case_401_diagnosis_0_diagnosis:
       - value: TCGA-CN-A49B
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26155
+      value_decimal: '26155'
       unit:
         coding: &id001
         - code: C25301
@@ -27137,7 +27137,7 @@ gdc_head_and_mouth_case_401_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 394
+            value_decimal: '394'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -27172,11 +27172,11 @@ gdc_head_and_mouth_case_401_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 394
+            value_decimal: '394'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 270
+          value_decimal: '270.0'
           unit:
             coding:
             - code: C28253
@@ -27207,7 +27207,7 @@ gdc_head_and_mouth_case_402_diagnosis_0_diagnosis:
       - value: TCGA-CR-7398
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19468
+      value_decimal: '19468'
       unit:
         coding:
         - code: C25301
@@ -27296,7 +27296,7 @@ gdc_head_and_mouth_case_403_diagnosis_0_diagnosis:
       - value: TCGA-IQ-A61I
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23035
+      value_decimal: '23035'
       unit:
         coding: &id001
         - code: C25301
@@ -27378,7 +27378,7 @@ gdc_head_and_mouth_case_403_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 352
+            value_decimal: '352'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -27413,11 +27413,11 @@ gdc_head_and_mouth_case_403_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 352
+            value_decimal: '352'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 100
+          value_decimal: '100.0'
           unit:
             coding:
             - code: C28253
@@ -27448,7 +27448,7 @@ gdc_head_and_mouth_case_404_diagnosis_0_diagnosis:
       - value: TCGA-IQ-7630
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18131
+      value_decimal: '18131'
       unit:
         coding:
         - code: C25301
@@ -27563,7 +27563,7 @@ gdc_head_and_mouth_case_405_diagnosis_0_diagnosis:
       - value: TCGA-CV-5441
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21305
+      value_decimal: '21305'
       unit:
         coding:
         - code: C25301
@@ -27678,7 +27678,7 @@ gdc_head_and_mouth_case_406_diagnosis_0_diagnosis:
       - value: TCGA-CN-6011
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21016
+      value_decimal: '21016'
       unit:
         coding:
         - code: C25301
@@ -27793,7 +27793,7 @@ gdc_head_and_mouth_case_407_diagnosis_0_diagnosis:
       - value: TCGA-CN-6989
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23515
+      value_decimal: '23515'
       unit:
         coding:
         - code: C25301
@@ -27908,7 +27908,7 @@ gdc_head_and_mouth_case_408_diagnosis_0_diagnosis:
       - value: TCGA-CV-5431
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26953
+      value_decimal: '26953'
       unit:
         coding:
         - code: C25301
@@ -28023,7 +28023,7 @@ gdc_head_and_mouth_case_409_diagnosis_0_diagnosis:
       - value: TCGA-BB-4217
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25020
+      value_decimal: '25020'
       unit:
         coding:
         - code: C25301
@@ -28138,7 +28138,7 @@ gdc_head_and_mouth_case_410_diagnosis_0_diagnosis:
       - value: TCGA-CN-A63Y
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17125
+      value_decimal: '17125'
       unit:
         coding: &id001
         - code: C25301
@@ -28194,11 +28194,11 @@ gdc_head_and_mouth_case_410_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 167
+            value_decimal: '167'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200.0'
           unit:
             coding:
             - code: C28253
@@ -28264,7 +28264,7 @@ gdc_head_and_mouth_case_410_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 167
+            value_decimal: '167'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -28290,7 +28290,7 @@ gdc_head_and_mouth_case_411_diagnosis_0_diagnosis:
       - value: TCGA-DQ-7596
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17846
+      value_decimal: '17846'
       unit:
         coding: &id001
         - code: C25301
@@ -28393,7 +28393,7 @@ gdc_head_and_mouth_case_411_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 560
+            value_decimal: '560'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -28419,7 +28419,7 @@ gdc_head_and_mouth_case_412_diagnosis_0_diagnosis:
       - value: TCGA-DQ-7589
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25606
+      value_decimal: '25606'
       unit:
         coding:
         - code: C25301
@@ -28534,7 +28534,7 @@ gdc_head_and_mouth_case_413_diagnosis_0_diagnosis:
       - value: TCGA-CV-5432
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25006
+      value_decimal: '25006'
       unit:
         coding:
         - code: C25301
@@ -28670,7 +28670,7 @@ gdc_head_and_mouth_case_414_diagnosis_0_diagnosis:
       - value: TCGA-CN-5366
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18904
+      value_decimal: '18904'
       unit:
         coding:
         - code: C25301
@@ -28785,7 +28785,7 @@ gdc_head_and_mouth_case_415_diagnosis_0_diagnosis:
       - value: TCGA-T2-A6X2
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 30013
+      value_decimal: '30013'
       unit:
         coding: &id001
         - code: C25301
@@ -28867,7 +28867,7 @@ gdc_head_and_mouth_case_415_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 880
+            value_decimal: '880'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -28902,11 +28902,11 @@ gdc_head_and_mouth_case_415_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 880
+            value_decimal: '880'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50.0'
           unit:
             coding:
             - code: C28253
@@ -28937,7 +28937,7 @@ gdc_head_and_mouth_case_416_diagnosis_0_diagnosis:
       - value: TCGA-BB-7870
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21443
+      value_decimal: '21443'
       unit:
         coding:
         - code: C25301
@@ -29052,7 +29052,7 @@ gdc_head_and_mouth_case_417_diagnosis_0_diagnosis:
       - value: TCGA-CR-7389
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20169
+      value_decimal: '20169'
       unit:
         coding:
         - code: C25301
@@ -29141,7 +29141,7 @@ gdc_head_and_mouth_case_418_diagnosis_0_diagnosis:
       - value: TCGA-UF-A71D
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19747
+      value_decimal: '19747'
       unit:
         coding: &id001
         - code: C25301
@@ -29197,11 +29197,11 @@ gdc_head_and_mouth_case_418_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 950
+            value_decimal: '950'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 120
+          value_decimal: '120.0'
           unit:
             coding:
             - code: C28253
@@ -29241,7 +29241,7 @@ gdc_head_and_mouth_case_418_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1055
+            value_decimal: '1055'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -29293,7 +29293,7 @@ gdc_head_and_mouth_case_419_diagnosis_0_diagnosis:
       - value: TCGA-BB-4227
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24322
+      value_decimal: '24322'
       unit:
         coding:
         - code: C25301
@@ -29408,7 +29408,7 @@ gdc_head_and_mouth_case_420_diagnosis_0_diagnosis:
       - value: TCGA-CV-5434
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22182
+      value_decimal: '22182'
       unit:
         coding:
         - code: C25301
@@ -29544,7 +29544,7 @@ gdc_head_and_mouth_case_421_diagnosis_0_diagnosis:
       - value: TCGA-CR-5243
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18812
+      value_decimal: '18812'
       unit:
         coding:
         - code: C25301
@@ -29633,7 +29633,7 @@ gdc_head_and_mouth_case_422_diagnosis_0_diagnosis:
       - value: TCGA-CR-6487
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18331
+      value_decimal: '18331'
       unit:
         coding:
         - code: C25301
@@ -29722,7 +29722,7 @@ gdc_head_and_mouth_case_423_diagnosis_0_diagnosis:
       - value: TCGA-P3-A6T5
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 28977
+      value_decimal: '28977'
       unit:
         coding: &id001
         - code: C25301
@@ -29778,11 +29778,11 @@ gdc_head_and_mouth_case_423_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1364
+            value_decimal: '1364'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 40
+          value_decimal: '40.0'
           unit:
             coding:
             - code: C28253
@@ -29822,7 +29822,7 @@ gdc_head_and_mouth_case_423_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1364
+            value_decimal: '1364'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -29874,7 +29874,7 @@ gdc_head_and_mouth_case_424_diagnosis_0_diagnosis:
       - value: TCGA-IQ-A61O
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 15920
+      value_decimal: '15920'
       unit:
         coding: &id001
         - code: C25301
@@ -29930,11 +29930,11 @@ gdc_head_and_mouth_case_424_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 288
+            value_decimal: '288'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130
+          value_decimal: '130.0'
           unit:
             coding:
             - code: C28253
@@ -29974,7 +29974,7 @@ gdc_head_and_mouth_case_424_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 288
+            value_decimal: '288'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -30026,7 +30026,7 @@ gdc_head_and_mouth_case_425_diagnosis_0_diagnosis:
       - value: TCGA-CR-6480
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19472
+      value_decimal: '19472'
       unit:
         coding:
         - code: C25301
@@ -30115,7 +30115,7 @@ gdc_head_and_mouth_case_426_diagnosis_0_diagnosis:
       - value: TCGA-CV-5440
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19197
+      value_decimal: '19197'
       unit:
         coding:
         - code: C25301
@@ -30230,7 +30230,7 @@ gdc_head_and_mouth_case_427_diagnosis_0_diagnosis:
       - value: TCGA-CV-7248
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23082
+      value_decimal: '23082'
       unit:
         coding:
         - code: C25301
@@ -30366,7 +30366,7 @@ gdc_head_and_mouth_case_428_diagnosis_0_diagnosis:
       - value: TCGA-CR-6474
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18840
+      value_decimal: '18840'
       unit:
         coding:
         - code: C25301
@@ -30455,7 +30455,7 @@ gdc_head_and_mouth_case_429_diagnosis_0_diagnosis:
       - value: TCGA-CV-5435
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20926
+      value_decimal: '20926'
       unit:
         coding:
         - code: C25301
@@ -30591,7 +30591,7 @@ gdc_head_and_mouth_case_430_diagnosis_0_diagnosis:
       - value: TCGA-HD-A634
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20810
+      value_decimal: '20810'
       unit:
         coding: &id001
         - code: C25301
@@ -30673,7 +30673,7 @@ gdc_head_and_mouth_case_430_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 41
+            value_decimal: '41'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -30708,11 +30708,11 @@ gdc_head_and_mouth_case_430_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 41
+            value_decimal: '41'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50.0'
           unit:
             coding:
             - code: C28253
@@ -30743,7 +30743,7 @@ gdc_head_and_mouth_case_431_diagnosis_0_diagnosis:
       - value: TCGA-CV-A460
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26539
+      value_decimal: '26539'
       unit:
         coding: &id001
         - code: C25301
@@ -30799,11 +30799,11 @@ gdc_head_and_mouth_case_431_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4002
+            value_decimal: '4002'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 220
+          value_decimal: '220.0'
           unit:
             coding:
             - code: C28253
@@ -30843,7 +30843,7 @@ gdc_head_and_mouth_case_431_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4002
+            value_decimal: '4002'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -30895,7 +30895,7 @@ gdc_head_and_mouth_case_432_diagnosis_0_diagnosis:
       - value: TCGA-CN-4739
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26081
+      value_decimal: '26081'
       unit:
         coding:
         - code: C25301
@@ -31010,7 +31010,7 @@ gdc_head_and_mouth_case_433_diagnosis_0_diagnosis:
       - value: TCGA-CV-A468
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 15372
+      value_decimal: '15372'
       unit:
         coding: &id001
         - code: C25301
@@ -31092,7 +31092,7 @@ gdc_head_and_mouth_case_433_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4183
+            value_decimal: '4183'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -31127,11 +31127,11 @@ gdc_head_and_mouth_case_433_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4183
+            value_decimal: '4183'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 220
+          value_decimal: '220.0'
           unit:
             coding:
             - code: C28253
@@ -31162,7 +31162,7 @@ gdc_head_and_mouth_case_434_diagnosis_0_diagnosis:
       - value: TCGA-CN-4723
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24815
+      value_decimal: '24815'
       unit:
         coding:
         - code: C25301
@@ -31277,7 +31277,7 @@ gdc_head_and_mouth_case_435_diagnosis_0_diagnosis:
       - value: TCGA-CV-A45Y
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22442
+      value_decimal: '22442'
       unit:
         coding: &id001
         - code: C25301
@@ -31333,7 +31333,7 @@ gdc_head_and_mouth_case_435_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4481
+            value_decimal: '4481'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -31394,11 +31394,11 @@ gdc_head_and_mouth_case_435_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 4481
+            value_decimal: '4481'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 30
+          value_decimal: '30.0'
           unit:
             coding:
             - code: C28253
@@ -31429,7 +31429,7 @@ gdc_head_and_mouth_case_436_diagnosis_0_diagnosis:
       - value: TCGA-UF-A718
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22836
+      value_decimal: '22836'
       unit:
         coding: &id001
         - code: C25301
@@ -31485,7 +31485,7 @@ gdc_head_and_mouth_case_436_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1494
+            value_decimal: '1494'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -31520,11 +31520,11 @@ gdc_head_and_mouth_case_436_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1494
+            value_decimal: '1494'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 120
+          value_decimal: '120.0'
           unit:
             coding:
             - code: C28253
@@ -31581,7 +31581,7 @@ gdc_head_and_mouth_case_437_diagnosis_0_diagnosis:
       - value: TCGA-QK-A6IF
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22463
+      value_decimal: '22463'
       unit:
         coding: &id001
         - code: C25301
@@ -31637,7 +31637,7 @@ gdc_head_and_mouth_case_437_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 55
+            value_decimal: '55'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -31698,11 +31698,11 @@ gdc_head_and_mouth_case_437_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 55
+            value_decimal: '55'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 70
+          value_decimal: '70.0'
           unit:
             coding:
             - code: C28253
@@ -31733,7 +31733,7 @@ gdc_head_and_mouth_case_438_diagnosis_0_diagnosis:
       - value: TCGA-CN-A6V1
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21730
+      value_decimal: '21730'
       unit:
         coding: &id001
         - code: C25301
@@ -31789,11 +31789,11 @@ gdc_head_and_mouth_case_438_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 141
+            value_decimal: '141'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 170
+          value_decimal: '170.0'
           unit:
             coding:
             - code: C28253
@@ -31833,7 +31833,7 @@ gdc_head_and_mouth_case_438_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 141
+            value_decimal: '141'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -31859,7 +31859,7 @@ gdc_head_and_mouth_case_439_diagnosis_0_diagnosis:
       - value: TCGA-CV-A461
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23955
+      value_decimal: '23955'
       unit:
         coding: &id001
         - code: C25301
@@ -31941,11 +31941,11 @@ gdc_head_and_mouth_case_439_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 2875
+            value_decimal: '2875'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 250
+          value_decimal: '250.0'
           unit:
             coding:
             - code: C28253
@@ -31985,7 +31985,7 @@ gdc_head_and_mouth_case_439_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 2875
+            value_decimal: '2875'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -32011,7 +32011,7 @@ gdc_head_and_mouth_case_440_diagnosis_0_diagnosis:
       - value: TCGA-CV-7424
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24775
+      value_decimal: '24775'
       unit:
         coding:
         - code: C25301
@@ -32147,7 +32147,7 @@ gdc_head_and_mouth_case_441_diagnosis_0_diagnosis:
       - value: TCGA-CN-6010
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19475
+      value_decimal: '19475'
       unit:
         coding:
         - code: C25301
@@ -32354,7 +32354,7 @@ gdc_head_and_mouth_case_444_diagnosis_0_diagnosis:
       - value: TCGA-CV-6962
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24103
+      value_decimal: '24103'
       unit:
         coding:
         - code: C25301
@@ -32490,7 +32490,7 @@ gdc_head_and_mouth_case_445_diagnosis_0_diagnosis:
       - value: TCGA-CR-5249
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 13047
+      value_decimal: '13047'
       unit:
         coding:
         - code: C25301
@@ -33177,7 +33177,7 @@ gdc_head_and_mouth_case_459_diagnosis_0_diagnosis:
       - value: AD3249
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19472
+      value_decimal: '19472'
       unit:
         coding:
         - code: C25301
@@ -33650,7 +33650,7 @@ gdc_head_and_mouth_case_469_diagnosis_0_diagnosis:
       - value: AD14936
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21177
+      value_decimal: '21177'
       unit:
         coding:
         - code: C25301
@@ -33709,7 +33709,7 @@ gdc_head_and_mouth_case_470_diagnosis_0_diagnosis:
       - value: TCGA-CN-5363
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17635
+      value_decimal: '17635'
       unit:
         coding:
         - code: C25301
@@ -33824,7 +33824,7 @@ gdc_head_and_mouth_case_471_diagnosis_0_diagnosis:
       - value: TCGA-CN-A497
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23310
+      value_decimal: '23310'
       unit:
         coding: &id001
         - code: C25301
@@ -33880,7 +33880,7 @@ gdc_head_and_mouth_case_471_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 450
+            value_decimal: '450'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -33915,11 +33915,11 @@ gdc_head_and_mouth_case_471_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 450
+            value_decimal: '450'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 180
+          value_decimal: '180.0'
           unit:
             coding:
             - code: C28253
@@ -33950,7 +33950,7 @@ gdc_head_and_mouth_case_472_diagnosis_0_diagnosis:
       - value: TCGA-H7-A76A
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20946
+      value_decimal: '20946'
       unit:
         coding: &id001
         - code: C25301
@@ -34006,11 +34006,11 @@ gdc_head_and_mouth_case_472_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 58
+            value_decimal: '58'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 510
+          value_decimal: '510.0'
           unit:
             coding:
             - code: C28253
@@ -34050,7 +34050,7 @@ gdc_head_and_mouth_case_472_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 58
+            value_decimal: '58'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -34102,7 +34102,7 @@ gdc_head_and_mouth_case_473_diagnosis_0_diagnosis:
       - value: TCGA-CR-7399
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22182
+      value_decimal: '22182'
       unit:
         coding:
         - code: C25301
@@ -34191,7 +34191,7 @@ gdc_head_and_mouth_case_474_diagnosis_0_diagnosis:
       - value: TCGA-UF-A7JV
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22985
+      value_decimal: '22985'
       unit:
         coding: &id001
         - code: C25301
@@ -34273,7 +34273,7 @@ gdc_head_and_mouth_case_474_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 835
+            value_decimal: '835'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -34308,11 +34308,11 @@ gdc_head_and_mouth_case_474_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 835
+            value_decimal: '835'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 90
+          value_decimal: '90.0'
           unit:
             coding:
             - code: C28253
@@ -34343,7 +34343,7 @@ gdc_head_and_mouth_case_475_diagnosis_0_diagnosis:
       - value: TCGA-CV-7242
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22136
+      value_decimal: '22136'
       unit:
         coding:
         - code: C25301
@@ -34479,7 +34479,7 @@ gdc_head_and_mouth_case_476_diagnosis_0_diagnosis:
       - value: TCGA-T3-A92M
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19247
+      value_decimal: '19247'
       unit:
         coding: &id001
         - code: C25301
@@ -34535,7 +34535,7 @@ gdc_head_and_mouth_case_476_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 147
+            value_decimal: '147'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -34596,11 +34596,11 @@ gdc_head_and_mouth_case_476_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 147
+            value_decimal: '147'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 240
+          value_decimal: '240.0'
           unit:
             coding:
             - code: C28253
@@ -34631,7 +34631,7 @@ gdc_head_and_mouth_case_477_diagnosis_0_diagnosis:
       - value: TCGA-F7-A50I
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26373
+      value_decimal: '26373'
       unit:
         coding: &id001
         - code: C25301
@@ -34687,11 +34687,11 @@ gdc_head_and_mouth_case_477_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 335
+            value_decimal: '335'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 90
+          value_decimal: '90.0'
           unit:
             coding:
             - code: C28253
@@ -34757,7 +34757,7 @@ gdc_head_and_mouth_case_477_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 335
+            value_decimal: '335'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -34783,7 +34783,7 @@ gdc_head_and_mouth_case_478_diagnosis_0_diagnosis:
       - value: TCGA-CV-A45O
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20868
+      value_decimal: '20868'
       unit:
         coding: &id001
         - code: C25301
@@ -34839,11 +34839,11 @@ gdc_head_and_mouth_case_478_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 6651
+            value_decimal: '6651'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 240
+          value_decimal: '240.0'
           unit:
             coding:
             - code: C28253
@@ -34883,7 +34883,7 @@ gdc_head_and_mouth_case_478_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 6651
+            value_decimal: '6651'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -34935,7 +34935,7 @@ gdc_head_and_mouth_case_479_diagnosis_0_diagnosis:
       - value: TCGA-MZ-A5BI
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19500
+      value_decimal: '19500'
       unit:
         coding: &id001
         - code: C25301
@@ -34991,11 +34991,11 @@ gdc_head_and_mouth_case_479_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1723
+            value_decimal: '1723'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 550
+          value_decimal: '550.0'
           unit:
             coding:
             - code: C28253
@@ -35035,7 +35035,7 @@ gdc_head_and_mouth_case_479_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1883
+            value_decimal: '1883'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -35061,7 +35061,7 @@ gdc_head_and_mouth_case_480_diagnosis_0_diagnosis:
       - value: TCGA-CN-4722
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22299
+      value_decimal: '22299'
       unit:
         coding:
         - code: C25301
@@ -35176,7 +35176,7 @@ gdc_head_and_mouth_case_481_diagnosis_0_diagnosis:
       - value: TCGA-QK-A6VC
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22865
+      value_decimal: '22865'
       unit:
         coding: &id001
         - code: C25301
@@ -35258,7 +35258,7 @@ gdc_head_and_mouth_case_481_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 24
+            value_decimal: '24'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -35293,11 +35293,11 @@ gdc_head_and_mouth_case_481_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 24
+            value_decimal: '24'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 210
+          value_decimal: '210.0'
           unit:
             coding:
             - code: C28253
@@ -35374,7 +35374,7 @@ gdc_head_and_mouth_case_483_diagnosis_0_diagnosis:
       - value: TCGA-BA-4078
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 30480
+      value_decimal: '30480'
       unit:
         coding:
         - code: C25301
@@ -35489,7 +35489,7 @@ gdc_head_and_mouth_case_484_diagnosis_0_diagnosis:
       - value: TCGA-D6-A74Q
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24702
+      value_decimal: '24702'
       unit:
         coding: &id001
         - code: C25301
@@ -35545,11 +35545,11 @@ gdc_head_and_mouth_case_484_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 108
+            value_decimal: '108'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80
+          value_decimal: '80.0'
           unit:
             coding:
             - code: C28253
@@ -35589,7 +35589,7 @@ gdc_head_and_mouth_case_484_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 108
+            value_decimal: '108'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -35871,7 +35871,7 @@ gdc_head_and_mouth_case_490_diagnosis_0_diagnosis:
       - value: TCGA-UF-A7JF
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 29468
+      value_decimal: '29468'
       unit:
         coding: &id001
         - code: C25301
@@ -35927,7 +35927,7 @@ gdc_head_and_mouth_case_490_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1219
+            value_decimal: '1219'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -35962,11 +35962,11 @@ gdc_head_and_mouth_case_490_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1219
+            value_decimal: '1219'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 70
+          value_decimal: '70.0'
           unit:
             coding:
             - code: C28253
@@ -36023,7 +36023,7 @@ gdc_head_and_mouth_case_491_diagnosis_0_diagnosis:
       - value: TCGA-F7-7848
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17251
+      value_decimal: '17251'
       unit:
         coding:
         - code: C25301
@@ -36138,7 +36138,7 @@ gdc_head_and_mouth_case_492_diagnosis_0_diagnosis:
       - value: TCGA-CV-7245
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22646
+      value_decimal: '22646'
       unit:
         coding:
         - code: C25301
@@ -36274,7 +36274,7 @@ gdc_head_and_mouth_case_493_diagnosis_0_diagnosis:
       - value: TCGA-CN-6013
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20703
+      value_decimal: '20703'
       unit:
         coding:
         - code: C25301
@@ -36389,7 +36389,7 @@ gdc_head_and_mouth_case_494_diagnosis_0_diagnosis:
       - value: TCGA-BA-A6DI
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22857
+      value_decimal: '22857'
       unit:
         coding: &id001
         - code: C25301
@@ -36445,11 +36445,11 @@ gdc_head_and_mouth_case_494_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 414
+            value_decimal: '414'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60
+          value_decimal: '60.0'
           unit:
             coding:
             - code: C28253
@@ -36515,7 +36515,7 @@ gdc_head_and_mouth_case_494_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 414
+            value_decimal: '414'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -36541,7 +36541,7 @@ gdc_head_and_mouth_case_495_diagnosis_0_diagnosis:
       - value: TCGA-P3-A6SX
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24715
+      value_decimal: '24715'
       unit:
         coding: &id001
         - code: C25301
@@ -36597,11 +36597,11 @@ gdc_head_and_mouth_case_495_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 2855
+            value_decimal: '2855'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50.0'
           unit:
             coding:
             - code: C28253
@@ -36641,7 +36641,7 @@ gdc_head_and_mouth_case_495_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 2855
+            value_decimal: '2855'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -36693,7 +36693,7 @@ gdc_head_and_mouth_case_496_diagnosis_0_diagnosis:
       - value: TCGA-QK-AA3J
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25469
+      value_decimal: '25469'
       unit:
         coding: &id001
         - code: C25301
@@ -36749,11 +36749,11 @@ gdc_head_and_mouth_case_496_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 15
+            value_decimal: '15'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 10
+          value_decimal: '10.0'
           unit:
             coding:
             - code: C28253
@@ -36819,7 +36819,7 @@ gdc_head_and_mouth_case_496_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 15
+            value_decimal: '15'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -36845,7 +36845,7 @@ gdc_head_and_mouth_case_497_diagnosis_0_diagnosis:
       - value: TCGA-BA-A8YP
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18355
+      value_decimal: '18355'
       unit:
         coding: &id001
         - code: C25301
@@ -36927,11 +36927,11 @@ gdc_head_and_mouth_case_497_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 65
+            value_decimal: '65'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 290
+          value_decimal: '290.0'
           unit:
             coding:
             - code: C28253
@@ -36971,7 +36971,7 @@ gdc_head_and_mouth_case_497_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 65
+            value_decimal: '65'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -36997,7 +36997,7 @@ gdc_head_and_mouth_case_498_diagnosis_0_diagnosis:
       - value: TCGA-CN-6023
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26769
+      value_decimal: '26769'
       unit:
         coding:
         - code: C25301
@@ -37112,7 +37112,7 @@ gdc_head_and_mouth_case_499_diagnosis_0_diagnosis:
       - value: TCGA-CV-6935
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24799
+      value_decimal: '24799'
       unit:
         coding:
         - code: C25301
@@ -37248,7 +37248,7 @@ gdc_head_and_mouth_case_500_diagnosis_0_diagnosis:
       - value: TCGA-CV-5443
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23287
+      value_decimal: '23287'
       unit:
         coding:
         - code: C25301
@@ -37363,7 +37363,7 @@ gdc_head_and_mouth_case_501_diagnosis_0_diagnosis:
       - value: TCGA-CN-A499
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21971
+      value_decimal: '21971'
       unit:
         coding: &id001
         - code: C25301
@@ -37419,7 +37419,7 @@ gdc_head_and_mouth_case_501_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 293
+            value_decimal: '293'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -37454,11 +37454,11 @@ gdc_head_and_mouth_case_501_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 293
+            value_decimal: '293'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130
+          value_decimal: '130.0'
           unit:
             coding:
             - code: C28253
@@ -37489,7 +37489,7 @@ gdc_head_and_mouth_case_502_diagnosis_0_diagnosis:
       - value: TCGA-UF-A7J9
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 27459
+      value_decimal: '27459'
       unit:
         coding: &id001
         - code: C25301
@@ -37571,7 +37571,7 @@ gdc_head_and_mouth_case_502_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 945
+            value_decimal: '945'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -37606,11 +37606,11 @@ gdc_head_and_mouth_case_502_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 945
+            value_decimal: '945'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60
+          value_decimal: '60.0'
           unit:
             coding:
             - code: C28253
@@ -37641,7 +37641,7 @@ gdc_head_and_mouth_case_503_diagnosis_0_diagnosis:
       - value: TCGA-BA-5555
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19956
+      value_decimal: '19956'
       unit:
         coding:
         - code: C25301
@@ -37756,7 +37756,7 @@ gdc_head_and_mouth_case_504_diagnosis_0_diagnosis:
       - value: TCGA-CR-7370
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 26468
+      value_decimal: '26468'
       unit:
         coding:
         - code: C25301
@@ -37845,7 +37845,7 @@ gdc_head_and_mouth_case_505_diagnosis_0_diagnosis:
       - value: TCGA-BA-A4II
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 17011
+      value_decimal: '17011'
       unit:
         coding: &id001
         - code: C25301
@@ -37901,11 +37901,11 @@ gdc_head_and_mouth_case_505_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 498
+            value_decimal: '498'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 190
+          value_decimal: '190.0'
           unit:
             coding:
             - code: C28253
@@ -37945,7 +37945,7 @@ gdc_head_and_mouth_case_505_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 574
+            value_decimal: '574'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -37971,7 +37971,7 @@ gdc_head_and_mouth_case_506_diagnosis_0_diagnosis:
       - value: TCGA-CV-7422
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22098
+      value_decimal: '22098'
       unit:
         coding:
         - code: C25301
@@ -38086,7 +38086,7 @@ gdc_head_and_mouth_case_507_diagnosis_0_diagnosis:
       - value: TCGA-CN-5361
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 29383
+      value_decimal: '29383'
       unit:
         coding:
         - code: C25301
@@ -38201,7 +38201,7 @@ gdc_head_and_mouth_case_508_diagnosis_0_diagnosis:
       - value: TCGA-CR-5248
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19441
+      value_decimal: '19441'
       unit:
         coding:
         - code: C25301
@@ -38290,7 +38290,7 @@ gdc_head_and_mouth_case_509_diagnosis_0_diagnosis:
       - value: TCGA-F7-A623
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25592
+      value_decimal: '25592'
       unit:
         coding: &id001
         - code: C25301
@@ -38346,11 +38346,11 @@ gdc_head_and_mouth_case_509_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 101
+            value_decimal: '101'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 800
+          value_decimal: '800.0'
           unit:
             coding:
             - code: C28253
@@ -38390,7 +38390,7 @@ gdc_head_and_mouth_case_509_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 101
+            value_decimal: '101'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -38442,7 +38442,7 @@ gdc_head_and_mouth_case_510_diagnosis_0_diagnosis:
       - value: TCGA-CN-A49A
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21995
+      value_decimal: '21995'
       unit:
         coding: &id001
         - code: C25301
@@ -38498,11 +38498,11 @@ gdc_head_and_mouth_case_510_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 309
+            value_decimal: '309'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 280
+          value_decimal: '280.0'
           unit:
             coding:
             - code: C28253
@@ -38542,7 +38542,7 @@ gdc_head_and_mouth_case_510_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 309
+            value_decimal: '309'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -38568,7 +38568,7 @@ gdc_head_and_mouth_case_511_diagnosis_0_diagnosis:
       - value: TCGA-CR-7371
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 16568
+      value_decimal: '16568'
       unit:
         coding:
         - code: C25301
@@ -38657,7 +38657,7 @@ gdc_head_and_mouth_case_512_diagnosis_0_diagnosis:
       - value: TCGA-CN-6997
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24298
+      value_decimal: '24298'
       unit:
         coding:
         - code: C25301
@@ -38772,7 +38772,7 @@ gdc_head_and_mouth_case_513_diagnosis_0_diagnosis:
       - value: TCGA-HD-7754
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25365
+      value_decimal: '25365'
       unit:
         coding:
         - code: C25301
@@ -38887,7 +38887,7 @@ gdc_head_and_mouth_case_514_diagnosis_0_diagnosis:
       - value: TCGA-D6-A6EP
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22674
+      value_decimal: '22674'
       unit:
         coding: &id001
         - code: C25301
@@ -38969,7 +38969,7 @@ gdc_head_and_mouth_case_514_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 107
+            value_decimal: '107'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -39004,11 +39004,11 @@ gdc_head_and_mouth_case_514_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 107
+            value_decimal: '107'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 300
+          value_decimal: '300.0'
           unit:
             coding:
             - code: C28253
@@ -39039,7 +39039,7 @@ gdc_head_and_mouth_case_515_diagnosis_0_diagnosis:
       - value: TCGA-CR-7383
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 29122
+      value_decimal: '29122'
       unit:
         coding:
         - code: C25301
@@ -39450,7 +39450,7 @@ gdc_head_and_mouth_case_523_diagnosis_0_diagnosis:
       - value: AD14041
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18006
+      value_decimal: '18006'
       unit:
         coding:
         - code: C25301
@@ -39555,7 +39555,7 @@ gdc_head_and_mouth_case_525_diagnosis_0_diagnosis:
       - value: AD5362
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 16283
+      value_decimal: '16283'
       unit:
         coding:
         - code: C25301
@@ -39614,7 +39614,7 @@ gdc_head_and_mouth_case_526_diagnosis_0_diagnosis:
       - value: AD2161
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22054
+      value_decimal: '22054'
       unit:
         coding:
         - code: C25301
@@ -40133,7 +40133,7 @@ gdc_head_and_mouth_case_537_diagnosis_0_diagnosis:
       - value: TCGA-QK-A8ZB
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25192
+      value_decimal: '25192'
       unit:
         coding: &id001
         - code: C25301
@@ -40215,7 +40215,7 @@ gdc_head_and_mouth_case_537_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 30
+            value_decimal: '30'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -40250,11 +40250,11 @@ gdc_head_and_mouth_case_537_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 30
+            value_decimal: '30'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200.0'
           unit:
             coding:
             - code: C28253
@@ -40331,7 +40331,7 @@ gdc_head_and_mouth_case_539_diagnosis_0_diagnosis:
       - value: TCGA-CR-7374
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24558
+      value_decimal: '24558'
       unit:
         coding:
         - code: C25301
@@ -40420,7 +40420,7 @@ gdc_head_and_mouth_case_540_diagnosis_0_diagnosis:
       - value: TCGA-MT-A67G
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19394
+      value_decimal: '19394'
       unit:
         coding: &id001
         - code: C25301
@@ -40476,7 +40476,7 @@ gdc_head_and_mouth_case_540_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 85
+            value_decimal: '85'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -40537,11 +40537,11 @@ gdc_head_and_mouth_case_540_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 85
+            value_decimal: '85'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 110
+          value_decimal: '110.0'
           unit:
             coding:
             - code: C28253
@@ -40572,7 +40572,7 @@ gdc_head_and_mouth_case_541_diagnosis_0_diagnosis:
       - value: TCGA-CV-7418
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22805
+      value_decimal: '22805'
       unit:
         coding:
         - code: C25301
@@ -40708,7 +40708,7 @@ gdc_head_and_mouth_case_542_diagnosis_0_diagnosis:
       - value: TCGA-CV-7247
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20433
+      value_decimal: '20433'
       unit:
         coding:
         - code: C25301
@@ -40844,7 +40844,7 @@ gdc_head_and_mouth_case_543_diagnosis_0_diagnosis:
       - value: TCGA-BB-7862
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 24823
+      value_decimal: '24823'
       unit:
         coding:
         - code: C25301
@@ -40959,7 +40959,7 @@ gdc_head_and_mouth_case_544_diagnosis_0_diagnosis:
       - value: TCGA-UF-A7JH
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21558
+      value_decimal: '21558'
       unit:
         coding: &id001
         - code: C25301
@@ -41015,11 +41015,11 @@ gdc_head_and_mouth_case_544_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 385
+            value_decimal: '385'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 120
+          value_decimal: '120.0'
           unit:
             coding:
             - code: C28253
@@ -41085,7 +41085,7 @@ gdc_head_and_mouth_case_544_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 385
+            value_decimal: '385'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -41111,7 +41111,7 @@ gdc_head_and_mouth_case_545_diagnosis_0_diagnosis:
       - value: TCGA-BB-A6UM
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19194
+      value_decimal: '19194'
       unit:
         coding: &id001
         - code: C25301
@@ -41167,11 +41167,11 @@ gdc_head_and_mouth_case_545_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1149
+            value_decimal: '1149'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 110
+          value_decimal: '110.0'
           unit:
             coding:
             - code: C28253
@@ -41237,7 +41237,7 @@ gdc_head_and_mouth_case_545_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1149
+            value_decimal: '1149'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -41263,7 +41263,7 @@ gdc_head_and_mouth_case_546_diagnosis_0_diagnosis:
       - value: TCGA-P3-A5Q5
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19728
+      value_decimal: '19728'
       unit:
         coding: &id001
         - code: C25301
@@ -41319,11 +41319,11 @@ gdc_head_and_mouth_case_546_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 3207
+            value_decimal: '3207'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 30
+          value_decimal: '30.0'
           unit:
             coding:
             - code: C28253
@@ -41363,7 +41363,7 @@ gdc_head_and_mouth_case_546_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 3207
+            value_decimal: '3207'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -41415,7 +41415,7 @@ gdc_head_and_mouth_case_547_diagnosis_0_diagnosis:
       - value: TCGA-HD-7229
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 22076
+      value_decimal: '22076'
       unit:
         coding:
         - code: C25301
@@ -41530,7 +41530,7 @@ gdc_head_and_mouth_case_548_diagnosis_0_diagnosis:
       - value: TCGA-TN-A7HJ
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18809
+      value_decimal: '18809'
       unit:
         coding: &id001
         - code: C25301
@@ -41612,11 +41612,11 @@ gdc_head_and_mouth_case_548_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 45
+            value_decimal: '45'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 160
+          value_decimal: '160.0'
           unit:
             coding:
             - code: C28253
@@ -41656,7 +41656,7 @@ gdc_head_and_mouth_case_548_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 45
+            value_decimal: '45'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -41682,7 +41682,7 @@ gdc_head_and_mouth_case_549_diagnosis_0_diagnosis:
       - value: TCGA-CV-7250
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23489
+      value_decimal: '23489'
       unit:
         coding:
         - code: C25301
@@ -41818,7 +41818,7 @@ gdc_head_and_mouth_case_550_diagnosis_0_diagnosis:
       - value: TCGA-UF-A7JJ
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25201
+      value_decimal: '25201'
       unit:
         coding: &id001
         - code: C25301
@@ -41874,11 +41874,11 @@ gdc_head_and_mouth_case_550_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 87
+            value_decimal: '87'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200.0'
           unit:
             coding:
             - code: C28253
@@ -41944,7 +41944,7 @@ gdc_head_and_mouth_case_550_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 87
+            value_decimal: '87'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -41970,7 +41970,7 @@ gdc_head_and_mouth_case_551_diagnosis_0_diagnosis:
       - value: TCGA-P3-A5QF
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 18035
+      value_decimal: '18035'
       unit:
         coding: &id001
         - code: C25301
@@ -42026,7 +42026,7 @@ gdc_head_and_mouth_case_551_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1200
+            value_decimal: '1200'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -42061,11 +42061,11 @@ gdc_head_and_mouth_case_551_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 1200
+            value_decimal: '1200'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 20
+          value_decimal: '20.0'
           unit:
             coding:
             - code: C28253
@@ -42122,7 +42122,7 @@ gdc_head_and_mouth_case_552_diagnosis_0_diagnosis:
       - value: TCGA-D6-6517
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21791
+      value_decimal: '21791'
       unit:
         coding:
         - code: C25301
@@ -42237,7 +42237,7 @@ gdc_head_and_mouth_case_553_diagnosis_0_diagnosis:
       - value: TCGA-KU-A66S
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 25454
+      value_decimal: '25454'
       unit:
         coding: &id001
         - code: C25301
@@ -42293,7 +42293,7 @@ gdc_head_and_mouth_case_553_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 150
+            value_decimal: '150'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -42354,11 +42354,11 @@ gdc_head_and_mouth_case_553_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 150
+            value_decimal: '150'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 600
+          value_decimal: '600.0'
           unit:
             coding:
             - code: C28253
@@ -42389,7 +42389,7 @@ gdc_head_and_mouth_case_554_diagnosis_0_diagnosis:
       - value: TCGA-QK-A6V9
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20461
+      value_decimal: '20461'
       unit:
         coding: &id001
         - code: C25301
@@ -42471,11 +42471,11 @@ gdc_head_and_mouth_case_554_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 478
+            value_decimal: '478'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 30
+          value_decimal: '30.0'
           unit:
             coding:
             - code: C28253
@@ -42515,7 +42515,7 @@ gdc_head_and_mouth_case_554_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 478
+            value_decimal: '478'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -42541,7 +42541,7 @@ gdc_head_and_mouth_case_555_diagnosis_0_diagnosis:
       - value: TCGA-CN-4738
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 19621
+      value_decimal: '19621'
       unit:
         coding:
         - code: C25301
@@ -42702,7 +42702,7 @@ gdc_head_and_mouth_case_557_diagnosis_0_diagnosis:
       - value: TCGA-TN-A7HL
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 21731
+      value_decimal: '21731'
       unit:
         coding: &id001
         - code: C25301
@@ -42784,11 +42784,11 @@ gdc_head_and_mouth_case_557_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 45
+            value_decimal: '45'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 230
+          value_decimal: '230.0'
           unit:
             coding:
             - code: C28253
@@ -42828,7 +42828,7 @@ gdc_head_and_mouth_case_557_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 45
+            value_decimal: '45'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -42854,7 +42854,7 @@ gdc_head_and_mouth_case_558_diagnosis_0_diagnosis:
       - value: TCGA-BB-A5HY
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 23640
+      value_decimal: '23640'
       unit:
         coding: &id001
         - code: C25301
@@ -42936,11 +42936,11 @@ gdc_head_and_mouth_case_558_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 141
+            value_decimal: '141'
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60
+          value_decimal: '60.0'
           unit:
             coding:
             - code: C28253
@@ -42980,7 +42980,7 @@ gdc_head_and_mouth_case_558_diagnosis_0_diagnosis:
                 tag:
                 - harmonized
           offset_from_index:
-            value_decimal: 141
+            value_decimal: '141'
             unit:
               coding: *id001
       general_tissue_pathology:
@@ -43006,7 +43006,7 @@ gdc_head_and_mouth_case_559_diagnosis_0_diagnosis:
       - value: TCGA-CV-7430
         system: http://crdc.nci.nih.gov/gdc#submitter_id
     age_at_diagnosis:
-      value_decimal: 20763
+      value_decimal: '20763'
       unit:
         coding:
         - code: C25301

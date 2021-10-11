@@ -1895,7 +1895,7 @@ pdc_head_and_mouth_example_33_diagnosis_0_diagnosis:
       - value: df4e907e-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20653
+      value_decimal: '20653'
       unit:
         coding:
         - code: C25301
@@ -1925,7 +1925,7 @@ pdc_head_and_mouth_example_33_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200'
           unit:
             coding:
             - code: C28253
@@ -1963,7 +1963,7 @@ pdc_head_and_mouth_example_34_diagnosis_0_diagnosis:
       - value: df4e95d2-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22430
+      value_decimal: '22430'
       unit:
         coding:
         - code: C25301
@@ -1993,7 +1993,7 @@ pdc_head_and_mouth_example_34_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 400
+          value_decimal: '400'
           unit:
             coding:
             - code: C28253
@@ -2031,7 +2031,7 @@ pdc_head_and_mouth_example_35_diagnosis_0_diagnosis:
       - value: df4e970b-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 18263
+      value_decimal: '18263'
       unit:
         coding:
         - code: C25301
@@ -2061,7 +2061,7 @@ pdc_head_and_mouth_example_35_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 680
+          value_decimal: '680'
           unit:
             coding: &id001
             - code: C28253
@@ -2097,7 +2097,7 @@ pdc_head_and_mouth_example_35_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 750
+          value_decimal: '750'
           unit:
             coding: *id001
       processing_activity:
@@ -2128,7 +2128,7 @@ pdc_head_and_mouth_example_35_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 700
+          value_decimal: '700'
           unit:
             coding: *id001
       processing_activity:
@@ -2161,7 +2161,7 @@ pdc_head_and_mouth_example_36_diagnosis_0_diagnosis:
       - value: df4e9966-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20780
+      value_decimal: '20780'
       unit:
         coding:
         - code: C25301
@@ -2191,7 +2191,7 @@ pdc_head_and_mouth_example_36_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 300
+          value_decimal: '300'
           unit:
             coding: &id001
             - code: C28253
@@ -2227,7 +2227,7 @@ pdc_head_and_mouth_example_36_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 270
+          value_decimal: '270'
           unit:
             coding: *id001
       processing_activity:
@@ -2260,7 +2260,7 @@ pdc_head_and_mouth_example_37_diagnosis_0_diagnosis:
       - value: df4e9a58-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 17253
+      value_decimal: '17253'
       unit:
         coding:
         - code: C25301
@@ -2290,7 +2290,7 @@ pdc_head_and_mouth_example_37_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 460
+          value_decimal: '460'
           unit:
             coding: &id001
             - code: C28253
@@ -2326,7 +2326,7 @@ pdc_head_and_mouth_example_37_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 130
+          value_decimal: '130'
           unit:
             coding: *id001
       processing_activity:
@@ -2359,7 +2359,7 @@ pdc_head_and_mouth_example_38_diagnosis_0_diagnosis:
       - value: df4e9b42-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20513
+      value_decimal: '20513'
       unit:
         coding:
         - code: C25301
@@ -2389,7 +2389,7 @@ pdc_head_and_mouth_example_38_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 250
+          value_decimal: '250'
           unit:
             coding: &id001
             - code: C28253
@@ -2425,7 +2425,7 @@ pdc_head_and_mouth_example_38_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 750
+          value_decimal: '750'
           unit:
             coding: *id001
       processing_activity:
@@ -2458,7 +2458,7 @@ pdc_head_and_mouth_example_39_diagnosis_0_diagnosis:
       - value: df4e9d3d-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22715
+      value_decimal: '22715'
       unit:
         coding:
         - code: C25301
@@ -2488,7 +2488,7 @@ pdc_head_and_mouth_example_39_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 370
+          value_decimal: '370'
           unit:
             coding: &id001
             - code: C28253
@@ -2524,7 +2524,7 @@ pdc_head_and_mouth_example_39_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 250
+          value_decimal: '250'
           unit:
             coding: *id001
       processing_activity:
@@ -2557,7 +2557,7 @@ pdc_head_and_mouth_example_40_diagnosis_0_diagnosis:
       - value: df4e9e22-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20956
+      value_decimal: '20956'
       unit:
         coding:
         - code: C25301
@@ -2587,7 +2587,7 @@ pdc_head_and_mouth_example_40_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 290
+          value_decimal: '290'
           unit:
             coding: &id001
             - code: C28253
@@ -2623,7 +2623,7 @@ pdc_head_and_mouth_example_40_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 150
+          value_decimal: '150'
           unit:
             coding: *id001
       processing_activity:
@@ -2656,7 +2656,7 @@ pdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
       - value: df4e9ef8-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23710
+      value_decimal: '23710'
       unit:
         coding:
         - code: C25301
@@ -2686,7 +2686,7 @@ pdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 350
+          value_decimal: '350'
           unit:
             coding: &id001
             - code: C28253
@@ -2722,7 +2722,7 @@ pdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 340
+          value_decimal: '340'
           unit:
             coding: *id001
       processing_activity:
@@ -2753,7 +2753,7 @@ pdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 87
+          value_decimal: '87'
           unit:
             coding: *id001
       processing_activity:
@@ -2784,7 +2784,7 @@ pdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 138
+          value_decimal: '138'
           unit:
             coding: *id001
       processing_activity:
@@ -2817,7 +2817,7 @@ pdc_head_and_mouth_example_42_diagnosis_0_diagnosis:
       - value: df4ea101-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25156
+      value_decimal: '25156'
       unit:
         coding:
         - code: C25301
@@ -2847,7 +2847,7 @@ pdc_head_and_mouth_example_42_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 660
+          value_decimal: '660'
           unit:
             coding: &id001
             - code: C28253
@@ -2883,7 +2883,7 @@ pdc_head_and_mouth_example_42_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 101
+          value_decimal: '101'
           unit:
             coding: *id001
       processing_activity:
@@ -2916,7 +2916,7 @@ pdc_head_and_mouth_example_43_diagnosis_0_diagnosis:
       - value: df4ea1e7-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 29752
+      value_decimal: '29752'
       unit:
         coding:
         - code: C25301
@@ -2946,7 +2946,7 @@ pdc_head_and_mouth_example_43_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 101
+          value_decimal: '101'
           unit:
             coding: &id001
             - code: C28253
@@ -2982,7 +2982,7 @@ pdc_head_and_mouth_example_43_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50'
           unit:
             coding: *id001
       processing_activity:
@@ -3015,7 +3015,7 @@ pdc_head_and_mouth_example_44_diagnosis_0_diagnosis:
       - value: df4ea3f5-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20019
+      value_decimal: '20019'
       unit:
         coding:
         - code: C25301
@@ -3045,7 +3045,7 @@ pdc_head_and_mouth_example_44_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 400
+          value_decimal: '400'
           unit:
             coding: &id001
             - code: C28253
@@ -3081,7 +3081,7 @@ pdc_head_and_mouth_example_44_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 660
+          value_decimal: '660'
           unit:
             coding: *id001
       processing_activity:
@@ -3114,7 +3114,7 @@ pdc_head_and_mouth_example_45_diagnosis_0_diagnosis:
       - value: df4ea4dc-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25290
+      value_decimal: '25290'
       unit:
         coding:
         - code: C25301
@@ -3144,7 +3144,7 @@ pdc_head_and_mouth_example_45_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 220
+          value_decimal: '220'
           unit:
             coding:
             - code: C28253
@@ -3182,7 +3182,7 @@ pdc_head_and_mouth_example_46_diagnosis_0_diagnosis:
       - value: df4ea7d8-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22041
+      value_decimal: '22041'
       unit:
         coding:
         - code: C25301
@@ -3212,7 +3212,7 @@ pdc_head_and_mouth_example_46_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 150
+          value_decimal: '150'
           unit:
             coding: &id001
             - code: C28253
@@ -3248,7 +3248,7 @@ pdc_head_and_mouth_example_46_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 114
+          value_decimal: '114'
           unit:
             coding: *id001
       processing_activity:
@@ -3281,7 +3281,7 @@ pdc_head_and_mouth_example_47_diagnosis_0_diagnosis:
       - value: df4ea9fe-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 29749
+      value_decimal: '29749'
       unit:
         coding:
         - code: C25301
@@ -3311,7 +3311,7 @@ pdc_head_and_mouth_example_47_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 160
+          value_decimal: '160'
           unit:
             coding:
             - code: C28253
@@ -3349,7 +3349,7 @@ pdc_head_and_mouth_example_48_diagnosis_0_diagnosis:
       - value: df4eaafe-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22269
+      value_decimal: '22269'
       unit:
         coding:
         - code: C25301
@@ -3379,7 +3379,7 @@ pdc_head_and_mouth_example_48_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 123
+          value_decimal: '123'
           unit:
             coding: &id001
             - code: C28253
@@ -3415,7 +3415,7 @@ pdc_head_and_mouth_example_48_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 57
+          value_decimal: '57'
           unit:
             coding: *id001
       processing_activity:
@@ -3448,7 +3448,7 @@ pdc_head_and_mouth_example_49_diagnosis_0_diagnosis:
       - value: df4eac21-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23099
+      value_decimal: '23099'
       unit:
         coding:
         - code: C25301
@@ -3478,7 +3478,7 @@ pdc_head_and_mouth_example_49_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 156
+          value_decimal: '156'
           unit:
             coding:
             - code: C28253
@@ -3516,7 +3516,7 @@ pdc_head_and_mouth_example_50_diagnosis_0_diagnosis:
       - value: df4eaeb4-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23017
+      value_decimal: '23017'
       unit:
         coding:
         - code: C25301
@@ -3546,7 +3546,7 @@ pdc_head_and_mouth_example_50_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 156
+          value_decimal: '156'
           unit:
             coding: &id001
             - code: C28253
@@ -3582,7 +3582,7 @@ pdc_head_and_mouth_example_50_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 84
+          value_decimal: '84'
           unit:
             coding: *id001
       processing_activity:
@@ -3615,7 +3615,7 @@ pdc_head_and_mouth_example_51_diagnosis_0_diagnosis:
       - value: df4eaf8f-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19751
+      value_decimal: '19751'
       unit:
         coding:
         - code: C25301
@@ -3645,7 +3645,7 @@ pdc_head_and_mouth_example_51_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 242
+          value_decimal: '242'
           unit:
             coding: &id001
             - code: C28253
@@ -3681,7 +3681,7 @@ pdc_head_and_mouth_example_51_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 52
+          value_decimal: '52'
           unit:
             coding: *id001
       processing_activity:
@@ -3714,7 +3714,7 @@ pdc_head_and_mouth_example_52_diagnosis_0_diagnosis:
       - value: df4eb063-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25254
+      value_decimal: '25254'
       unit:
         coding:
         - code: C25301
@@ -3744,7 +3744,7 @@ pdc_head_and_mouth_example_52_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 80
+          value_decimal: '80'
           unit:
             coding:
             - code: C28253
@@ -3782,7 +3782,7 @@ pdc_head_and_mouth_example_53_diagnosis_0_diagnosis:
       - value: df4eb20d-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19881
+      value_decimal: '19881'
       unit:
         coding:
         - code: C25301
@@ -3812,7 +3812,7 @@ pdc_head_and_mouth_example_53_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 381
+          value_decimal: '381'
           unit:
             coding:
             - code: C28253
@@ -3850,7 +3850,7 @@ pdc_head_and_mouth_example_54_diagnosis_0_diagnosis:
       - value: df4eb2e7-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 18561
+      value_decimal: '18561'
       unit:
         coding:
         - code: C25301
@@ -3880,7 +3880,7 @@ pdc_head_and_mouth_example_54_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 273
+          value_decimal: '273'
           unit:
             coding: &id001
             - code: C28253
@@ -3916,7 +3916,7 @@ pdc_head_and_mouth_example_54_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 240
+          value_decimal: '240'
           unit:
             coding: *id001
       processing_activity:
@@ -3949,7 +3949,7 @@ pdc_head_and_mouth_example_55_diagnosis_0_diagnosis:
       - value: df4eb3f1-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25727
+      value_decimal: '25727'
       unit:
         coding:
         - code: C25301
@@ -3979,7 +3979,7 @@ pdc_head_and_mouth_example_55_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 404
+          value_decimal: '404'
           unit:
             coding: &id001
             - code: C28253
@@ -4015,7 +4015,7 @@ pdc_head_and_mouth_example_55_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 460
+          value_decimal: '460'
           unit:
             coding: *id001
       processing_activity:
@@ -4048,7 +4048,7 @@ pdc_head_and_mouth_example_56_diagnosis_0_diagnosis:
       - value: df4eb5b7-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23112
+      value_decimal: '23112'
       unit:
         coding:
         - code: C25301
@@ -4078,7 +4078,7 @@ pdc_head_and_mouth_example_56_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 78
+          value_decimal: '78'
           unit:
             coding: &id001
             - code: C28253
@@ -4114,7 +4114,7 @@ pdc_head_and_mouth_example_56_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 100
+          value_decimal: '100'
           unit:
             coding: *id001
       processing_activity:
@@ -4147,7 +4147,7 @@ pdc_head_and_mouth_example_57_diagnosis_0_diagnosis:
       - value: df4eb697-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24556
+      value_decimal: '24556'
       unit:
         coding:
         - code: C25301
@@ -4177,7 +4177,7 @@ pdc_head_and_mouth_example_57_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 383
+          value_decimal: '383'
           unit:
             coding: &id001
             - code: C28253
@@ -4213,7 +4213,7 @@ pdc_head_and_mouth_example_57_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 380
+          value_decimal: '380'
           unit:
             coding: *id001
       processing_activity:
@@ -4246,7 +4246,7 @@ pdc_head_and_mouth_example_58_diagnosis_0_diagnosis:
       - value: df4eb76a-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19536
+      value_decimal: '19536'
       unit:
         coding:
         - code: C25301
@@ -4276,7 +4276,7 @@ pdc_head_and_mouth_example_58_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 226
+          value_decimal: '226'
           unit:
             coding:
             - code: C28253
@@ -4314,7 +4314,7 @@ pdc_head_and_mouth_example_59_diagnosis_0_diagnosis:
       - value: df4eb92f-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19686
+      value_decimal: '19686'
       unit:
         coding:
         - code: C25301
@@ -4344,7 +4344,7 @@ pdc_head_and_mouth_example_59_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 161
+          value_decimal: '161'
           unit:
             coding:
             - code: C28253
@@ -4382,7 +4382,7 @@ pdc_head_and_mouth_example_60_diagnosis_0_diagnosis:
       - value: df4eba07-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24489
+      value_decimal: '24489'
       unit:
         coding:
         - code: C25301
@@ -4412,7 +4412,7 @@ pdc_head_and_mouth_example_60_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 264
+          value_decimal: '264'
           unit:
             coding:
             - code: C28253
@@ -4450,7 +4450,7 @@ pdc_head_and_mouth_example_61_diagnosis_0_diagnosis:
       - value: df4ebbd7-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19384
+      value_decimal: '19384'
       unit:
         coding:
         - code: C25301
@@ -4480,7 +4480,7 @@ pdc_head_and_mouth_example_61_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 89
+          value_decimal: '89'
           unit:
             coding: &id001
             - code: C28253
@@ -4516,7 +4516,7 @@ pdc_head_and_mouth_example_61_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 137
+          value_decimal: '137'
           unit:
             coding: *id001
       processing_activity:
@@ -4549,7 +4549,7 @@ pdc_head_and_mouth_example_62_diagnosis_0_diagnosis:
       - value: df4ebcaf-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24608
+      value_decimal: '24608'
       unit:
         coding:
         - code: C25301
@@ -4579,7 +4579,7 @@ pdc_head_and_mouth_example_62_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 300
+          value_decimal: '300'
           unit:
             coding:
             - code: C28253
@@ -4617,7 +4617,7 @@ pdc_head_and_mouth_example_63_diagnosis_0_diagnosis:
       - value: df4ebebb-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23545
+      value_decimal: '23545'
       unit:
         coding:
         - code: C25301
@@ -4647,7 +4647,7 @@ pdc_head_and_mouth_example_63_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 90
+          value_decimal: '90'
           unit:
             coding: &id001
             - code: C28253
@@ -4683,7 +4683,7 @@ pdc_head_and_mouth_example_63_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 71
+          value_decimal: '71'
           unit:
             coding: *id001
       processing_activity:
@@ -4716,7 +4716,7 @@ pdc_head_and_mouth_example_64_diagnosis_0_diagnosis:
       - value: df4ebfa3-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21468
+      value_decimal: '21468'
       unit:
         coding:
         - code: C25301
@@ -4746,7 +4746,7 @@ pdc_head_and_mouth_example_64_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 158
+          value_decimal: '158'
           unit:
             coding:
             - code: C28253
@@ -4784,7 +4784,7 @@ pdc_head_and_mouth_example_65_diagnosis_0_diagnosis:
       - value: df4ec190-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19312
+      value_decimal: '19312'
       unit:
         coding:
         - code: C25301
@@ -4814,7 +4814,7 @@ pdc_head_and_mouth_example_65_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 126
+          value_decimal: '126'
           unit:
             coding: &id001
             - code: C28253
@@ -4850,7 +4850,7 @@ pdc_head_and_mouth_example_65_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 257
+          value_decimal: '257'
           unit:
             coding: *id001
       processing_activity:
@@ -4883,7 +4883,7 @@ pdc_head_and_mouth_example_66_diagnosis_0_diagnosis:
       - value: df4ec26a-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 18322
+      value_decimal: '18322'
       unit:
         coding:
         - code: C25301
@@ -4913,7 +4913,7 @@ pdc_head_and_mouth_example_66_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 123
+          value_decimal: '123'
           unit:
             coding: &id001
             - code: C28253
@@ -4949,7 +4949,7 @@ pdc_head_and_mouth_example_66_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 139
+          value_decimal: '139'
           unit:
             coding: *id001
       processing_activity:
@@ -4982,7 +4982,7 @@ pdc_head_and_mouth_example_67_diagnosis_0_diagnosis:
       - value: df4ec459-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25041
+      value_decimal: '25041'
       unit:
         coding:
         - code: C25301
@@ -5012,7 +5012,7 @@ pdc_head_and_mouth_example_67_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 14
+          value_decimal: '14'
           unit:
             coding:
             - code: C28253
@@ -5050,7 +5050,7 @@ pdc_head_and_mouth_example_68_diagnosis_0_diagnosis:
       - value: df4ec539-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 26376
+      value_decimal: '26376'
       unit:
         coding:
         - code: C25301
@@ -5080,7 +5080,7 @@ pdc_head_and_mouth_example_68_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 169
+          value_decimal: '169'
           unit:
             coding: &id001
             - code: C28253
@@ -5116,7 +5116,7 @@ pdc_head_and_mouth_example_68_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 127
+          value_decimal: '127'
           unit:
             coding: *id001
       processing_activity:
@@ -5149,7 +5149,7 @@ pdc_head_and_mouth_example_69_diagnosis_0_diagnosis:
       - value: df4ec739-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20774
+      value_decimal: '20774'
       unit:
         coding:
         - code: C25301
@@ -5179,7 +5179,7 @@ pdc_head_and_mouth_example_69_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 137
+          value_decimal: '137'
           unit:
             coding: &id001
             - code: C28253
@@ -5215,7 +5215,7 @@ pdc_head_and_mouth_example_69_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 57
+          value_decimal: '57'
           unit:
             coding: *id001
       processing_activity:
@@ -5248,7 +5248,7 @@ pdc_head_and_mouth_example_70_diagnosis_0_diagnosis:
       - value: df4ec812-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24920
+      value_decimal: '24920'
       unit:
         coding:
         - code: C25301
@@ -5278,7 +5278,7 @@ pdc_head_and_mouth_example_70_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 177
+          value_decimal: '177'
           unit:
             coding:
             - code: C28253
@@ -5316,7 +5316,7 @@ pdc_head_and_mouth_example_71_diagnosis_0_diagnosis:
       - value: df4eca22-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 26258
+      value_decimal: '26258'
       unit:
         coding:
         - code: C25301
@@ -5346,7 +5346,7 @@ pdc_head_and_mouth_example_71_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 213
+          value_decimal: '213'
           unit:
             coding: &id001
             - code: C28253
@@ -5382,7 +5382,7 @@ pdc_head_and_mouth_example_71_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 98
+          value_decimal: '98'
           unit:
             coding: *id001
       processing_activity:
@@ -5415,7 +5415,7 @@ pdc_head_and_mouth_example_72_diagnosis_0_diagnosis:
       - value: df4ecafb-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 26753
+      value_decimal: '26753'
       unit:
         coding:
         - code: C25301
@@ -5445,7 +5445,7 @@ pdc_head_and_mouth_example_72_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 205
+          value_decimal: '205'
           unit:
             coding:
             - code: C28253
@@ -5483,7 +5483,7 @@ pdc_head_and_mouth_example_73_diagnosis_0_diagnosis:
       - value: df4ecd30-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23404
+      value_decimal: '23404'
       unit:
         coding:
         - code: C25301
@@ -5513,7 +5513,7 @@ pdc_head_and_mouth_example_73_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 75
+          value_decimal: '75'
           unit:
             coding: &id001
             - code: C28253
@@ -5549,7 +5549,7 @@ pdc_head_and_mouth_example_73_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 216
+          value_decimal: '216'
           unit:
             coding: *id001
       processing_activity:
@@ -5582,7 +5582,7 @@ pdc_head_and_mouth_example_74_diagnosis_0_diagnosis:
       - value: df4ece54-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24868
+      value_decimal: '24868'
       unit:
         coding:
         - code: C25301
@@ -5612,7 +5612,7 @@ pdc_head_and_mouth_example_74_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 197
+          value_decimal: '197'
           unit:
             coding:
             - code: C28253
@@ -5650,7 +5650,7 @@ pdc_head_and_mouth_example_75_diagnosis_0_diagnosis:
       - value: df4ecf32-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22915
+      value_decimal: '22915'
       unit:
         coding:
         - code: C25301
@@ -5680,7 +5680,7 @@ pdc_head_and_mouth_example_75_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 280
+          value_decimal: '280'
           unit:
             coding: &id001
             - code: C28253
@@ -5716,7 +5716,7 @@ pdc_head_and_mouth_example_75_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 128
+          value_decimal: '128'
           unit:
             coding: *id001
       processing_activity:
@@ -5749,7 +5749,7 @@ pdc_head_and_mouth_example_76_diagnosis_0_diagnosis:
       - value: df4ed0d5-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23506
+      value_decimal: '23506'
       unit:
         coding:
         - code: C25301
@@ -5779,7 +5779,7 @@ pdc_head_and_mouth_example_76_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200'
           unit:
             coding: &id001
             - code: C28253
@@ -5815,7 +5815,7 @@ pdc_head_and_mouth_example_76_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 80
+          value_decimal: '80'
           unit:
             coding: *id001
       processing_activity:
@@ -5848,7 +5848,7 @@ pdc_head_and_mouth_example_77_diagnosis_0_diagnosis:
       - value: df4ed1b2-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21708
+      value_decimal: '21708'
       unit:
         coding:
         - code: C25301
@@ -5878,7 +5878,7 @@ pdc_head_and_mouth_example_77_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 164
+          value_decimal: '164'
           unit:
             coding: &id001
             - code: C28253
@@ -5914,7 +5914,7 @@ pdc_head_and_mouth_example_77_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 73
+          value_decimal: '73'
           unit:
             coding: *id001
       processing_activity:
@@ -5947,7 +5947,7 @@ pdc_head_and_mouth_example_78_diagnosis_0_diagnosis:
       - value: df4ed282-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22982
+      value_decimal: '22982'
       unit:
         coding:
         - code: C25301
@@ -5977,7 +5977,7 @@ pdc_head_and_mouth_example_78_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 163
+          value_decimal: '163'
           unit:
             coding: &id001
             - code: C28253
@@ -6013,7 +6013,7 @@ pdc_head_and_mouth_example_78_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 82
+          value_decimal: '82'
           unit:
             coding: *id001
       processing_activity:
@@ -6046,7 +6046,7 @@ pdc_head_and_mouth_example_79_diagnosis_0_diagnosis:
       - value: df4ed42c-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24594
+      value_decimal: '24594'
       unit:
         coding:
         - code: C25301
@@ -6076,7 +6076,7 @@ pdc_head_and_mouth_example_79_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 271
+          value_decimal: '271'
           unit:
             coding: &id001
             - code: C28253
@@ -6112,7 +6112,7 @@ pdc_head_and_mouth_example_79_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 50
+          value_decimal: '50'
           unit:
             coding: *id001
       processing_activity:
@@ -6145,7 +6145,7 @@ pdc_head_and_mouth_example_80_diagnosis_0_diagnosis:
       - value: df4ed504-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23038
+      value_decimal: '23038'
       unit:
         coding:
         - code: C25301
@@ -6175,7 +6175,7 @@ pdc_head_and_mouth_example_80_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200'
           unit:
             coding: &id001
             - code: C28253
@@ -6211,7 +6211,7 @@ pdc_head_and_mouth_example_80_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 141
+          value_decimal: '141'
           unit:
             coding: *id001
       processing_activity:
@@ -6244,7 +6244,7 @@ pdc_head_and_mouth_example_81_diagnosis_0_diagnosis:
       - value: df4ed5d3-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24082
+      value_decimal: '24082'
       unit:
         coding:
         - code: C25301
@@ -6274,7 +6274,7 @@ pdc_head_and_mouth_example_81_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 221
+          value_decimal: '221'
           unit:
             coding: &id001
             - code: C28253
@@ -6310,7 +6310,7 @@ pdc_head_and_mouth_example_81_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200'
           unit:
             coding: *id001
       processing_activity:
@@ -6343,7 +6343,7 @@ pdc_head_and_mouth_example_82_diagnosis_0_diagnosis:
       - value: df4ed786-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22403
+      value_decimal: '22403'
       unit:
         coding:
         - code: C25301
@@ -6373,7 +6373,7 @@ pdc_head_and_mouth_example_82_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 133
+          value_decimal: '133'
           unit:
             coding:
             - code: C28253
@@ -6411,7 +6411,7 @@ pdc_head_and_mouth_example_83_diagnosis_0_diagnosis:
       - value: df4ed85e-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23694
+      value_decimal: '23694'
       unit:
         coding:
         - code: C25301
@@ -6441,7 +6441,7 @@ pdc_head_and_mouth_example_83_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 218
+          value_decimal: '218'
           unit:
             coding: &id001
             - code: C28253
@@ -6477,7 +6477,7 @@ pdc_head_and_mouth_example_83_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 134
+          value_decimal: '134'
           unit:
             coding: *id001
       processing_activity:
@@ -6510,7 +6510,7 @@ pdc_head_and_mouth_example_84_diagnosis_0_diagnosis:
       - value: df4eda1a-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 18216
+      value_decimal: '18216'
       unit:
         coding:
         - code: C25301
@@ -6540,7 +6540,7 @@ pdc_head_and_mouth_example_84_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 207
+          value_decimal: '207'
           unit:
             coding: &id001
             - code: C28253
@@ -6576,7 +6576,7 @@ pdc_head_and_mouth_example_84_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 221
+          value_decimal: '221'
           unit:
             coding: *id001
       processing_activity:
@@ -6609,7 +6609,7 @@ pdc_head_and_mouth_example_85_diagnosis_0_diagnosis:
       - value: df4edaf6-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20359
+      value_decimal: '20359'
       unit:
         coding:
         - code: C25301
@@ -6639,7 +6639,7 @@ pdc_head_and_mouth_example_85_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 208
+          value_decimal: '208'
           unit:
             coding:
             - code: C28253
@@ -6677,7 +6677,7 @@ pdc_head_and_mouth_example_86_diagnosis_0_diagnosis:
       - value: df4edcd7-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25376
+      value_decimal: '25376'
       unit:
         coding:
         - code: C25301
@@ -6707,7 +6707,7 @@ pdc_head_and_mouth_example_86_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 207
+          value_decimal: '207'
           unit:
             coding: &id001
             - code: C28253
@@ -6743,7 +6743,7 @@ pdc_head_and_mouth_example_86_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 198
+          value_decimal: '198'
           unit:
             coding: *id001
       processing_activity:
@@ -6776,7 +6776,7 @@ pdc_head_and_mouth_example_87_diagnosis_0_diagnosis:
       - value: df4eddbb-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21586
+      value_decimal: '21586'
       unit:
         coding:
         - code: C25301
@@ -6806,7 +6806,7 @@ pdc_head_and_mouth_example_87_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 245
+          value_decimal: '245'
           unit:
             coding: &id001
             - code: C28253
@@ -6842,7 +6842,7 @@ pdc_head_and_mouth_example_87_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 138
+          value_decimal: '138'
           unit:
             coding: *id001
       processing_activity:
@@ -6875,7 +6875,7 @@ pdc_head_and_mouth_example_88_diagnosis_0_diagnosis:
       - value: df4edf88-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22285
+      value_decimal: '22285'
       unit:
         coding:
         - code: C25301
@@ -6905,7 +6905,7 @@ pdc_head_and_mouth_example_88_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 440
+          value_decimal: '440'
           unit:
             coding:
             - code: C28253
@@ -6943,7 +6943,7 @@ pdc_head_and_mouth_example_89_diagnosis_0_diagnosis:
       - value: df4ee063-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 15703
+      value_decimal: '15703'
       unit:
         coding:
         - code: C25301
@@ -6973,7 +6973,7 @@ pdc_head_and_mouth_example_89_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 199
+          value_decimal: '199'
           unit:
             coding: &id001
             - code: C28253
@@ -7009,7 +7009,7 @@ pdc_head_and_mouth_example_89_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 51
+          value_decimal: '51'
           unit:
             coding: *id001
       processing_activity:
@@ -7042,7 +7042,7 @@ pdc_head_and_mouth_example_90_diagnosis_0_diagnosis:
       - value: df4ee240-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21257
+      value_decimal: '21257'
       unit:
         coding:
         - code: C25301
@@ -7072,7 +7072,7 @@ pdc_head_and_mouth_example_90_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 76
+          value_decimal: '76'
           unit:
             coding:
             - code: C28253
@@ -7110,7 +7110,7 @@ pdc_head_and_mouth_example_91_diagnosis_0_diagnosis:
       - value: df4ee338-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 16652
+      value_decimal: '16652'
       unit:
         coding:
         - code: C25301
@@ -7140,7 +7140,7 @@ pdc_head_and_mouth_example_91_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 101
+          value_decimal: '101'
           unit:
             coding:
             - code: C28253
@@ -7178,7 +7178,7 @@ pdc_head_and_mouth_example_92_diagnosis_0_diagnosis:
       - value: df4ee534-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 29529
+      value_decimal: '29529'
       unit:
         coding:
         - code: C25301
@@ -7208,7 +7208,7 @@ pdc_head_and_mouth_example_92_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 150
+          value_decimal: '150'
           unit:
             coding:
             - code: C28253
@@ -7246,7 +7246,7 @@ pdc_head_and_mouth_example_93_diagnosis_0_diagnosis:
       - value: df4ee623-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23707
+      value_decimal: '23707'
       unit:
         coding:
         - code: C25301
@@ -7276,7 +7276,7 @@ pdc_head_and_mouth_example_93_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 250
+          value_decimal: '250'
           unit:
             coding: &id001
             - code: C28253
@@ -7312,7 +7312,7 @@ pdc_head_and_mouth_example_93_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 270
+          value_decimal: '270'
           unit:
             coding: *id001
       processing_activity:
@@ -7345,7 +7345,7 @@ pdc_head_and_mouth_example_94_diagnosis_0_diagnosis:
       - value: df4ee821-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 8551
+      value_decimal: '8551'
       unit:
         coding:
         - code: C25301
@@ -7375,7 +7375,7 @@ pdc_head_and_mouth_example_94_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 380
+          value_decimal: '380'
           unit:
             coding: &id001
             - code: C28253
@@ -7411,7 +7411,7 @@ pdc_head_and_mouth_example_94_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 400
+          value_decimal: '400'
           unit:
             coding: *id001
       processing_activity:
@@ -7444,7 +7444,7 @@ pdc_head_and_mouth_example_95_diagnosis_0_diagnosis:
       - value: df4ee8fe-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 28077
+      value_decimal: '28077'
       unit:
         coding:
         - code: C25301
@@ -7474,7 +7474,7 @@ pdc_head_and_mouth_example_95_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 190
+          value_decimal: '190'
           unit:
             coding:
             - code: C28253
@@ -7512,7 +7512,7 @@ pdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
       - value: df4eeb29-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 18210
+      value_decimal: '18210'
       unit:
         coding:
         - code: C25301
@@ -7542,7 +7542,7 @@ pdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 300
+          value_decimal: '300'
           unit:
             coding:
             - code: C28253
@@ -7580,7 +7580,7 @@ pdc_head_and_mouth_example_97_diagnosis_0_diagnosis:
       - value: df4eec12-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 14629
+      value_decimal: '14629'
       unit:
         coding:
         - code: C25301
@@ -7610,7 +7610,7 @@ pdc_head_and_mouth_example_97_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 107
+          value_decimal: '107'
           unit:
             coding:
             - code: C28253
@@ -7648,7 +7648,7 @@ pdc_head_and_mouth_example_98_diagnosis_0_diagnosis:
       - value: df4eee28-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25138
+      value_decimal: '25138'
       unit:
         coding:
         - code: C25301
@@ -7678,7 +7678,7 @@ pdc_head_and_mouth_example_98_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 247
+          value_decimal: '247'
           unit:
             coding:
             - code: C28253
@@ -7716,7 +7716,7 @@ pdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
       - value: df4eef1c-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23789
+      value_decimal: '23789'
       unit:
         coding:
         - code: C25301
@@ -7746,7 +7746,7 @@ pdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 132
+          value_decimal: '132'
           unit:
             coding: &id001
             - code: C28253
@@ -7782,7 +7782,7 @@ pdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 104
+          value_decimal: '104'
           unit:
             coding: *id001
       processing_activity:
@@ -7815,7 +7815,7 @@ pdc_head_and_mouth_example_100_diagnosis_0_diagnosis:
       - value: df4ef039-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21529
+      value_decimal: '21529'
       unit:
         coding:
         - code: C25301
@@ -7845,7 +7845,7 @@ pdc_head_and_mouth_example_100_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 55
+          value_decimal: '55'
           unit:
             coding:
             - code: C28253
@@ -7883,7 +7883,7 @@ pdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
       - value: df4ef10e-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22872
+      value_decimal: '22872'
       unit:
         coding:
         - code: C25301
@@ -7913,7 +7913,7 @@ pdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 65
+          value_decimal: '65'
           unit:
             coding: &id001
             - code: C28253
@@ -7949,7 +7949,7 @@ pdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 91
+          value_decimal: '91'
           unit:
             coding: *id001
       processing_activity:
@@ -7982,7 +7982,7 @@ pdc_head_and_mouth_example_102_diagnosis_0_diagnosis:
       - value: df4ef2ab-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 26252
+      value_decimal: '26252'
       unit:
         coding:
         - code: C25301
@@ -8012,7 +8012,7 @@ pdc_head_and_mouth_example_102_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 237
+          value_decimal: '237'
           unit:
             coding: &id001
             - code: C28253
@@ -8048,7 +8048,7 @@ pdc_head_and_mouth_example_102_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 85
+          value_decimal: '85'
           unit:
             coding: *id001
       processing_activity:
@@ -8081,7 +8081,7 @@ pdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
       - value: df4ef386-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21782
+      value_decimal: '21782'
       unit:
         coding:
         - code: C25301
@@ -8111,7 +8111,7 @@ pdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 170
+          value_decimal: '170'
           unit:
             coding: &id001
             - code: C28253
@@ -8147,7 +8147,7 @@ pdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 97
+          value_decimal: '97'
           unit:
             coding: *id001
       processing_activity:
@@ -8180,7 +8180,7 @@ pdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
       - value: df4ef458-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22292
+      value_decimal: '22292'
       unit:
         coding:
         - code: C25301
@@ -8210,7 +8210,7 @@ pdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 137
+          value_decimal: '137'
           unit:
             coding: &id001
             - code: C28253
@@ -8246,7 +8246,7 @@ pdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 142
+          value_decimal: '142'
           unit:
             coding: *id001
       processing_activity:
@@ -8279,7 +8279,7 @@ pdc_head_and_mouth_example_105_diagnosis_0_diagnosis:
       - value: df4ef6b1-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23896
+      value_decimal: '23896'
       unit:
         coding:
         - code: C25301
@@ -8309,7 +8309,7 @@ pdc_head_and_mouth_example_105_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 170
+          value_decimal: '170'
           unit:
             coding: &id001
             - code: C28253
@@ -8345,7 +8345,7 @@ pdc_head_and_mouth_example_105_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 317
+          value_decimal: '317'
           unit:
             coding: *id001
       processing_activity:
@@ -8378,7 +8378,7 @@ pdc_head_and_mouth_example_106_diagnosis_0_diagnosis:
       - value: df4ef7ac-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21881
+      value_decimal: '21881'
       unit:
         coding:
         - code: C25301
@@ -8408,7 +8408,7 @@ pdc_head_and_mouth_example_106_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 214
+          value_decimal: '214'
           unit:
             coding: &id001
             - code: C28253
@@ -8444,7 +8444,7 @@ pdc_head_and_mouth_example_106_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 206
+          value_decimal: '206'
           unit:
             coding: *id001
       processing_activity:
@@ -8477,7 +8477,7 @@ pdc_head_and_mouth_example_107_diagnosis_0_diagnosis:
       - value: df4ef87b-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24572
+      value_decimal: '24572'
       unit:
         coding:
         - code: C25301
@@ -8507,7 +8507,7 @@ pdc_head_and_mouth_example_107_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 215
+          value_decimal: '215'
           unit:
             coding: &id001
             - code: C28253
@@ -8543,7 +8543,7 @@ pdc_head_and_mouth_example_107_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 156
+          value_decimal: '156'
           unit:
             coding: *id001
       processing_activity:
@@ -8576,7 +8576,7 @@ pdc_head_and_mouth_example_108_diagnosis_0_diagnosis:
       - value: df4efa74-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 28410
+      value_decimal: '28410'
       unit:
         coding:
         - code: C25301
@@ -8606,7 +8606,7 @@ pdc_head_and_mouth_example_108_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 125
+          value_decimal: '125'
           unit:
             coding: &id001
             - code: C28253
@@ -8642,7 +8642,7 @@ pdc_head_and_mouth_example_108_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 106
+          value_decimal: '106'
           unit:
             coding: *id001
       processing_activity:
@@ -8675,7 +8675,7 @@ pdc_head_and_mouth_example_109_diagnosis_0_diagnosis:
       - value: df4efb5a-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19938
+      value_decimal: '19938'
       unit:
         coding:
         - code: C25301
@@ -8705,7 +8705,7 @@ pdc_head_and_mouth_example_109_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 460
+          value_decimal: '460'
           unit:
             coding:
             - code: C28253
@@ -8743,7 +8743,7 @@ pdc_head_and_mouth_example_110_diagnosis_0_diagnosis:
       - value: df4efd1a-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 28032
+      value_decimal: '28032'
       unit:
         coding:
         - code: C25301
@@ -8773,7 +8773,7 @@ pdc_head_and_mouth_example_110_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 163
+          value_decimal: '163'
           unit:
             coding:
             - code: C28253
@@ -8811,7 +8811,7 @@ pdc_head_and_mouth_example_111_diagnosis_0_diagnosis:
       - value: df4efdf1-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23616
+      value_decimal: '23616'
       unit:
         coding:
         - code: C25301
@@ -8841,7 +8841,7 @@ pdc_head_and_mouth_example_111_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 273
+          value_decimal: '273'
           unit:
             coding:
             - code: C28253
@@ -8879,7 +8879,7 @@ pdc_head_and_mouth_example_112_diagnosis_0_diagnosis:
       - value: df4effbc-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 26052
+      value_decimal: '26052'
       unit:
         coding:
         - code: C25301
@@ -8909,7 +8909,7 @@ pdc_head_and_mouth_example_112_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 135
+          value_decimal: '135'
           unit:
             coding:
             - code: C28253
@@ -8947,7 +8947,7 @@ pdc_head_and_mouth_example_113_diagnosis_0_diagnosis:
       - value: df4f0094-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25648
+      value_decimal: '25648'
       unit:
         coding:
         - code: C25301
@@ -8977,7 +8977,7 @@ pdc_head_and_mouth_example_113_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 239
+          value_decimal: '239'
           unit:
             coding:
             - code: C28253
@@ -9015,7 +9015,7 @@ pdc_head_and_mouth_example_114_diagnosis_0_diagnosis:
       - value: df4f0263-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19702
+      value_decimal: '19702'
       unit:
         coding:
         - code: C25301
@@ -9045,7 +9045,7 @@ pdc_head_and_mouth_example_114_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 190
+          value_decimal: '190'
           unit:
             coding:
             - code: C28253
@@ -9083,7 +9083,7 @@ pdc_head_and_mouth_example_115_diagnosis_0_diagnosis:
       - value: df4f0338-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23634
+      value_decimal: '23634'
       unit:
         coding:
         - code: C25301
@@ -9113,7 +9113,7 @@ pdc_head_and_mouth_example_115_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 190
+          value_decimal: '190'
           unit:
             coding: &id001
             - code: C28253
@@ -9149,7 +9149,7 @@ pdc_head_and_mouth_example_115_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200'
           unit:
             coding: *id001
       processing_activity:
@@ -9182,7 +9182,7 @@ pdc_head_and_mouth_example_116_diagnosis_0_diagnosis:
       - value: df4f0514-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23729
+      value_decimal: '23729'
       unit:
         coding:
         - code: C25301
@@ -9212,7 +9212,7 @@ pdc_head_and_mouth_example_116_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 320
+          value_decimal: '320'
           unit:
             coding: &id001
             - code: C28253
@@ -9248,7 +9248,7 @@ pdc_head_and_mouth_example_116_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 320
+          value_decimal: '320'
           unit:
             coding: *id001
       processing_activity:
@@ -9281,7 +9281,7 @@ pdc_head_and_mouth_example_117_diagnosis_0_diagnosis:
       - value: df4f05ee-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 18832
+      value_decimal: '18832'
       unit:
         coding:
         - code: C25301
@@ -9311,7 +9311,7 @@ pdc_head_and_mouth_example_117_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 350
+          value_decimal: '350'
           unit:
             coding: &id001
             - code: C28253
@@ -9347,7 +9347,7 @@ pdc_head_and_mouth_example_117_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200'
           unit:
             coding: *id001
       processing_activity:
@@ -9380,7 +9380,7 @@ pdc_head_and_mouth_example_118_diagnosis_0_diagnosis:
       - value: df4f07d3-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21757
+      value_decimal: '21757'
       unit:
         coding:
         - code: C25301
@@ -9410,7 +9410,7 @@ pdc_head_and_mouth_example_118_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 460
+          value_decimal: '460'
           unit:
             coding: &id001
             - code: C28253
@@ -9446,7 +9446,7 @@ pdc_head_and_mouth_example_118_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 280
+          value_decimal: '280'
           unit:
             coding: *id001
       processing_activity:
@@ -9479,7 +9479,7 @@ pdc_head_and_mouth_example_119_diagnosis_0_diagnosis:
       - value: df4f08ad-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22641
+      value_decimal: '22641'
       unit:
         coding:
         - code: C25301
@@ -9509,7 +9509,7 @@ pdc_head_and_mouth_example_119_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 290
+          value_decimal: '290'
           unit:
             coding: &id001
             - code: C28253
@@ -9545,7 +9545,7 @@ pdc_head_and_mouth_example_119_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 420
+          value_decimal: '420'
           unit:
             coding: *id001
       processing_activity:
@@ -9578,7 +9578,7 @@ pdc_head_and_mouth_example_120_diagnosis_0_diagnosis:
       - value: df4f0a9f-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21361
+      value_decimal: '21361'
       unit:
         coding:
         - code: C25301
@@ -9608,7 +9608,7 @@ pdc_head_and_mouth_example_120_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 220
+          value_decimal: '220'
           unit:
             coding:
             - code: C28253
@@ -9646,7 +9646,7 @@ pdc_head_and_mouth_example_121_diagnosis_0_diagnosis:
       - value: df4f0b7a-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24899
+      value_decimal: '24899'
       unit:
         coding:
         - code: C25301
@@ -9676,7 +9676,7 @@ pdc_head_and_mouth_example_121_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 184
+          value_decimal: '184'
           unit:
             coding: &id001
             - code: C28253
@@ -9712,7 +9712,7 @@ pdc_head_and_mouth_example_121_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 116
+          value_decimal: '116'
           unit:
             coding: *id001
       processing_activity:
@@ -9745,7 +9745,7 @@ pdc_head_and_mouth_example_122_diagnosis_0_diagnosis:
       - value: df4f0d7f-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 18540
+      value_decimal: '18540'
       unit:
         coding:
         - code: C25301
@@ -9775,7 +9775,7 @@ pdc_head_and_mouth_example_122_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 134
+          value_decimal: '134'
           unit:
             coding:
             - code: C28253
@@ -9813,7 +9813,7 @@ pdc_head_and_mouth_example_123_diagnosis_0_diagnosis:
       - value: df4f0e55-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24500
+      value_decimal: '24500'
       unit:
         coding:
         - code: C25301
@@ -9843,7 +9843,7 @@ pdc_head_and_mouth_example_123_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 259
+          value_decimal: '259'
           unit:
             coding:
             - code: C28253
@@ -9881,7 +9881,7 @@ pdc_head_and_mouth_example_124_diagnosis_0_diagnosis:
       - value: df4f1067-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24203
+      value_decimal: '24203'
       unit:
         coding:
         - code: C25301
@@ -9911,7 +9911,7 @@ pdc_head_and_mouth_example_124_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 152
+          value_decimal: '152'
           unit:
             coding:
             - code: C28253
@@ -9949,7 +9949,7 @@ pdc_head_and_mouth_example_125_diagnosis_0_diagnosis:
       - value: df4f1155-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19778
+      value_decimal: '19778'
       unit:
         coding:
         - code: C25301
@@ -9979,7 +9979,7 @@ pdc_head_and_mouth_example_125_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 185
+          value_decimal: '185'
           unit:
             coding: &id001
             - code: C28253
@@ -10015,7 +10015,7 @@ pdc_head_and_mouth_example_125_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 115
+          value_decimal: '115'
           unit:
             coding: *id001
       processing_activity:
@@ -10048,7 +10048,7 @@ pdc_head_and_mouth_example_126_diagnosis_0_diagnosis:
       - value: df4f1268-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21732
+      value_decimal: '21732'
       unit:
         coding:
         - code: C25301
@@ -10078,7 +10078,7 @@ pdc_head_and_mouth_example_126_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 112
+          value_decimal: '112'
           unit:
             coding: &id001
             - code: C28253
@@ -10114,7 +10114,7 @@ pdc_head_and_mouth_example_126_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 123
+          value_decimal: '123'
           unit:
             coding: *id001
       processing_activity:
@@ -10147,7 +10147,7 @@ pdc_head_and_mouth_example_127_diagnosis_0_diagnosis:
       - value: df4f1344-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20363
+      value_decimal: '20363'
       unit:
         coding:
         - code: C25301
@@ -10177,7 +10177,7 @@ pdc_head_and_mouth_example_127_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 88
+          value_decimal: '88'
           unit:
             coding: &id001
             - code: C28253
@@ -10213,7 +10213,7 @@ pdc_head_and_mouth_example_127_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 87
+          value_decimal: '87'
           unit:
             coding: *id001
       processing_activity:
@@ -10246,7 +10246,7 @@ pdc_head_and_mouth_example_128_diagnosis_0_diagnosis:
       - value: df4f14e8-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 23849
+      value_decimal: '23849'
       unit:
         coding:
         - code: C25301
@@ -10276,7 +10276,7 @@ pdc_head_and_mouth_example_128_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 96
+          value_decimal: '96'
           unit:
             coding: &id001
             - code: C28253
@@ -10312,7 +10312,7 @@ pdc_head_and_mouth_example_128_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 97
+          value_decimal: '97'
           unit:
             coding: *id001
       processing_activity:
@@ -10345,7 +10345,7 @@ pdc_head_and_mouth_example_129_diagnosis_0_diagnosis:
       - value: df4f15be-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19338
+      value_decimal: '19338'
       unit:
         coding:
         - code: C25301
@@ -10375,7 +10375,7 @@ pdc_head_and_mouth_example_129_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 81
+          value_decimal: '81'
           unit:
             coding: &id001
             - code: C28253
@@ -10411,7 +10411,7 @@ pdc_head_and_mouth_example_129_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 99
+          value_decimal: '99'
           unit:
             coding: *id001
       processing_activity:
@@ -10444,7 +10444,7 @@ pdc_head_and_mouth_example_130_diagnosis_0_diagnosis:
       - value: df4f1689-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 21474
+      value_decimal: '21474'
       unit:
         coding:
         - code: C25301
@@ -10474,7 +10474,7 @@ pdc_head_and_mouth_example_130_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 160
+          value_decimal: '160'
           unit:
             coding: &id001
             - code: C28253
@@ -10510,7 +10510,7 @@ pdc_head_and_mouth_example_130_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 190
+          value_decimal: '190'
           unit:
             coding: *id001
       processing_activity:
@@ -10543,7 +10543,7 @@ pdc_head_and_mouth_example_131_diagnosis_0_diagnosis:
       - value: df4f1830-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19505
+      value_decimal: '19505'
       unit:
         coding:
         - code: C25301
@@ -10573,7 +10573,7 @@ pdc_head_and_mouth_example_131_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 380
+          value_decimal: '380'
           unit:
             coding:
             - code: C28253
@@ -10611,7 +10611,7 @@ pdc_head_and_mouth_example_132_diagnosis_0_diagnosis:
       - value: df4f1907-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22113
+      value_decimal: '22113'
       unit:
         coding:
         - code: C25301
@@ -10641,7 +10641,7 @@ pdc_head_and_mouth_example_132_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 320
+          value_decimal: '320'
           unit:
             coding: &id001
             - code: C28253
@@ -10677,7 +10677,7 @@ pdc_head_and_mouth_example_132_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 380
+          value_decimal: '380'
           unit:
             coding: *id001
       processing_activity:
@@ -10710,7 +10710,7 @@ pdc_head_and_mouth_example_133_diagnosis_0_diagnosis:
       - value: df4f19d3-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 25635
+      value_decimal: '25635'
       unit:
         coding:
         - code: C25301
@@ -10740,7 +10740,7 @@ pdc_head_and_mouth_example_133_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 200
+          value_decimal: '200'
           unit:
             coding: &id001
             - code: C28253
@@ -10776,7 +10776,7 @@ pdc_head_and_mouth_example_133_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 350
+          value_decimal: '350'
           unit:
             coding: *id001
       processing_activity:
@@ -10809,7 +10809,7 @@ pdc_head_and_mouth_example_134_diagnosis_0_diagnosis:
       - value: df4f1b8c-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 19705
+      value_decimal: '19705'
       unit:
         coding:
         - code: C25301
@@ -10839,7 +10839,7 @@ pdc_head_and_mouth_example_134_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 370
+          value_decimal: '370'
           unit:
             coding:
             - code: C28253
@@ -10877,7 +10877,7 @@ pdc_head_and_mouth_example_135_diagnosis_0_diagnosis:
       - value: df4f1c60-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 26874
+      value_decimal: '26874'
       unit:
         coding:
         - code: C25301
@@ -10907,7 +10907,7 @@ pdc_head_and_mouth_example_135_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 77
+          value_decimal: '77'
           unit:
             coding:
             - code: C28253
@@ -10945,7 +10945,7 @@ pdc_head_and_mouth_example_136_diagnosis_0_diagnosis:
       - value: df4f1d2d-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22645
+      value_decimal: '22645'
       unit:
         coding:
         - code: C25301
@@ -10975,7 +10975,7 @@ pdc_head_and_mouth_example_136_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 129
+          value_decimal: '129'
           unit:
             coding: &id001
             - code: C28253
@@ -11011,7 +11011,7 @@ pdc_head_and_mouth_example_136_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 88
+          value_decimal: '88'
           unit:
             coding: *id001
       processing_activity:
@@ -11044,7 +11044,7 @@ pdc_head_and_mouth_example_137_diagnosis_0_diagnosis:
       - value: df4f1ef8-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24876
+      value_decimal: '24876'
       unit:
         coding:
         - code: C25301
@@ -11074,7 +11074,7 @@ pdc_head_and_mouth_example_137_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 210
+          value_decimal: '210'
           unit:
             coding: &id001
             - code: C28253
@@ -11110,7 +11110,7 @@ pdc_head_and_mouth_example_137_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 27
+          value_decimal: '27'
           unit:
             coding: *id001
       processing_activity:
@@ -11143,7 +11143,7 @@ pdc_head_and_mouth_example_138_diagnosis_0_diagnosis:
       - value: df4f1fff-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 26445
+      value_decimal: '26445'
       unit:
         coding:
         - code: C25301
@@ -11173,7 +11173,7 @@ pdc_head_and_mouth_example_138_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 131
+          value_decimal: '131'
           unit:
             coding: &id001
             - code: C28253
@@ -11209,7 +11209,7 @@ pdc_head_and_mouth_example_138_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 126
+          value_decimal: '126'
           unit:
             coding: *id001
       processing_activity:
@@ -11242,7 +11242,7 @@ pdc_head_and_mouth_example_139_diagnosis_0_diagnosis:
       - value: df4f20dd-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 26252
+      value_decimal: '26252'
       unit:
         coding:
         - code: C25301
@@ -11272,7 +11272,7 @@ pdc_head_and_mouth_example_139_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 263
+          value_decimal: '263'
           unit:
             coding: &id001
             - code: C28253
@@ -11308,7 +11308,7 @@ pdc_head_and_mouth_example_139_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 241
+          value_decimal: '241'
           unit:
             coding: *id001
       processing_activity:
@@ -11341,7 +11341,7 @@ pdc_head_and_mouth_example_140_diagnosis_0_diagnosis:
       - value: df4f22b3-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24049
+      value_decimal: '24049'
       unit:
         coding:
         - code: C25301
@@ -11371,7 +11371,7 @@ pdc_head_and_mouth_example_140_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 229
+          value_decimal: '229'
           unit:
             coding: &id001
             - code: C28253
@@ -11407,7 +11407,7 @@ pdc_head_and_mouth_example_140_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 37
+          value_decimal: '37'
           unit:
             coding: *id001
       processing_activity:
@@ -11440,7 +11440,7 @@ pdc_head_and_mouth_example_141_diagnosis_0_diagnosis:
       - value: df4f238b-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 24126
+      value_decimal: '24126'
       unit:
         coding:
         - code: C25301
@@ -11470,7 +11470,7 @@ pdc_head_and_mouth_example_141_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 146
+          value_decimal: '146'
           unit:
             coding:
             - code: C28253
@@ -11508,7 +11508,7 @@ pdc_head_and_mouth_example_142_diagnosis_0_diagnosis:
       - value: df4f2567-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 20250
+      value_decimal: '20250'
       unit:
         coding:
         - code: C25301
@@ -11538,7 +11538,7 @@ pdc_head_and_mouth_example_142_diagnosis_0_diagnosis:
           system: http://crdc.nci.nih.gov/gdc#case_id
       creation_activity:
         quantity_collected:
-          value_decimal: 1390
+          value_decimal: '1390'
           unit:
             coding:
             - code: C28253
