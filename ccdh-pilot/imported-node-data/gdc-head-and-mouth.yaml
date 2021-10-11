@@ -386,7 +386,7 @@ gdc_head_and_mouth_case_3_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 140.0
+          value_decimal: 140
           unit:
             coding:
             - code: C28253
@@ -742,7 +742,7 @@ gdc_head_and_mouth_case_6_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130.0
+          value_decimal: 130
           unit:
             coding:
             - code: C28253
@@ -1619,7 +1619,7 @@ gdc_head_and_mouth_case_13_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 30.0
+          value_decimal: 30
           unit:
             coding:
             - code: C28253
@@ -6143,7 +6143,7 @@ gdc_head_and_mouth_case_96_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 670.0
+          value_decimal: 670
           unit:
             coding: &id002
             - code: C28253
@@ -6213,7 +6213,7 @@ gdc_head_and_mouth_case_96_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80.0
+          value_decimal: 80
           unit:
             coding: *id002
       general_tissue_pathology:
@@ -6360,7 +6360,7 @@ gdc_head_and_mouth_case_97_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50.0
+          value_decimal: 50
           unit:
             coding:
             - code: C28253
@@ -6627,7 +6627,7 @@ gdc_head_and_mouth_case_99_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50.0
+          value_decimal: 50
           unit:
             coding:
             - code: C28253
@@ -6868,7 +6868,7 @@ gdc_head_and_mouth_case_101_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 160.0
+          value_decimal: 160
           unit:
             coding:
             - code: C28253
@@ -7130,7 +7130,7 @@ gdc_head_and_mouth_case_103_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130.0
+          value_decimal: 130
           unit:
             coding:
             - code: C28253
@@ -7282,7 +7282,7 @@ gdc_head_and_mouth_case_104_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 230.0
+          value_decimal: 230
           unit:
             coding:
             - code: C28253
@@ -7825,7 +7825,7 @@ gdc_head_and_mouth_case_112_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 140.0
+          value_decimal: 140
           unit:
             coding:
             - code: C28253
@@ -8057,7 +8057,7 @@ gdc_head_and_mouth_case_114_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 150.0
+          value_decimal: 150
           unit:
             coding:
             - code: C28253
@@ -9041,7 +9041,7 @@ gdc_head_and_mouth_case_131_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80.0
+          value_decimal: 80
           unit:
             coding:
             - code: C28253
@@ -9857,7 +9857,7 @@ gdc_head_and_mouth_case_141_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60.0
+          value_decimal: 60
           unit:
             coding:
             - code: C28253
@@ -10300,7 +10300,7 @@ gdc_head_and_mouth_case_144_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 240.0
+          value_decimal: 240
           unit:
             coding:
             - code: C28253
@@ -10797,7 +10797,7 @@ gdc_head_and_mouth_case_148_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60.0
+          value_decimal: 60
           unit:
             coding:
             - code: C28253
@@ -10923,7 +10923,7 @@ gdc_head_and_mouth_case_149_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 230.0
+          value_decimal: 230
           unit:
             coding:
             - code: C28253
@@ -11394,7 +11394,7 @@ gdc_head_and_mouth_case_153_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80.0
+          value_decimal: 80
           unit:
             coding:
             - code: C28253
@@ -11546,7 +11546,7 @@ gdc_head_and_mouth_case_154_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 240.0
+          value_decimal: 240
           unit:
             coding:
             - code: C28253
@@ -11778,7 +11778,7 @@ gdc_head_and_mouth_case_156_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 140.0
+          value_decimal: 140
           unit:
             coding:
             - code: C28253
@@ -12160,7 +12160,7 @@ gdc_head_and_mouth_case_159_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60.0
+          value_decimal: 60
           unit:
             coding:
             - code: C28253
@@ -12347,7 +12347,7 @@ gdc_head_and_mouth_case_160_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60.0
+          value_decimal: 60
           unit:
             coding:
             - code: C28253
@@ -12464,7 +12464,7 @@ gdc_head_and_mouth_case_161_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 10.0
+          value_decimal: 10
           unit:
             coding:
             - code: C28253
@@ -19711,7 +19711,7 @@ gdc_head_and_mouth_case_307_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 200.0
+          value_decimal: 200
           unit:
             coding:
             - code: C28253
@@ -20325,7 +20325,7 @@ gdc_head_and_mouth_case_313_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 170.0
+          value_decimal: 170
           unit:
             coding:
             - code: C28253
@@ -20451,7 +20451,7 @@ gdc_head_and_mouth_case_314_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 360.0
+          value_decimal: 360
           unit:
             coding:
             - code: C28253
@@ -22478,7 +22478,7 @@ gdc_head_and_mouth_case_352_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 380.0
+          value_decimal: 380
           unit:
             coding:
             - code: C28253
@@ -22684,7 +22684,7 @@ gdc_head_and_mouth_case_354_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50.0
+          value_decimal: 50
           unit:
             coding:
             - code: C28253
@@ -23101,7 +23101,7 @@ gdc_head_and_mouth_case_357_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 250.0
+          value_decimal: 250
           unit:
             coding:
             - code: C28253
@@ -23368,7 +23368,7 @@ gdc_head_and_mouth_case_359_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130.0
+          value_decimal: 130
           unit:
             coding:
             - code: C28253
@@ -24788,7 +24788,7 @@ gdc_head_and_mouth_case_380_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 100.0
+          value_decimal: 100
           unit:
             coding: &id002
             - code: C28253
@@ -24832,7 +24832,7 @@ gdc_head_and_mouth_case_380_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 150.0
+          value_decimal: 150
           unit:
             coding: *id002
       general_tissue_pathology:
@@ -25412,7 +25412,7 @@ gdc_head_and_mouth_case_385_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80.0
+          value_decimal: 80
           unit:
             coding:
             - code: C28253
@@ -25735,7 +25735,7 @@ gdc_head_and_mouth_case_387_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 400.0
+          value_decimal: 400
           unit:
             coding:
             - code: C28253
@@ -26125,7 +26125,7 @@ gdc_head_and_mouth_case_393_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 160.0
+          value_decimal: 160
           unit:
             coding:
             - code: C28253
@@ -26427,7 +26427,7 @@ gdc_head_and_mouth_case_395_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 20.0
+          value_decimal: 20
           unit:
             coding:
             - code: C28253
@@ -26668,7 +26668,7 @@ gdc_head_and_mouth_case_397_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50.0
+          value_decimal: 50
           unit:
             coding:
             - code: C28253
@@ -27015,7 +27015,7 @@ gdc_head_and_mouth_case_400_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 40.0
+          value_decimal: 40
           unit:
             coding:
             - code: C28253
@@ -27176,7 +27176,7 @@ gdc_head_and_mouth_case_401_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 270.0
+          value_decimal: 270
           unit:
             coding:
             - code: C28253
@@ -27417,7 +27417,7 @@ gdc_head_and_mouth_case_403_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 100.0
+          value_decimal: 100
           unit:
             coding:
             - code: C28253
@@ -28198,7 +28198,7 @@ gdc_head_and_mouth_case_410_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 200.0
+          value_decimal: 200
           unit:
             coding:
             - code: C28253
@@ -28906,7 +28906,7 @@ gdc_head_and_mouth_case_415_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50.0
+          value_decimal: 50
           unit:
             coding:
             - code: C28253
@@ -29201,7 +29201,7 @@ gdc_head_and_mouth_case_418_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 120.0
+          value_decimal: 120
           unit:
             coding:
             - code: C28253
@@ -29782,7 +29782,7 @@ gdc_head_and_mouth_case_423_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 40.0
+          value_decimal: 40
           unit:
             coding:
             - code: C28253
@@ -29934,7 +29934,7 @@ gdc_head_and_mouth_case_424_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130.0
+          value_decimal: 130
           unit:
             coding:
             - code: C28253
@@ -30712,7 +30712,7 @@ gdc_head_and_mouth_case_430_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50.0
+          value_decimal: 50
           unit:
             coding:
             - code: C28253
@@ -30803,7 +30803,7 @@ gdc_head_and_mouth_case_431_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 220.0
+          value_decimal: 220
           unit:
             coding:
             - code: C28253
@@ -31131,7 +31131,7 @@ gdc_head_and_mouth_case_433_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 220.0
+          value_decimal: 220
           unit:
             coding:
             - code: C28253
@@ -31398,7 +31398,7 @@ gdc_head_and_mouth_case_435_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 30.0
+          value_decimal: 30
           unit:
             coding:
             - code: C28253
@@ -31524,7 +31524,7 @@ gdc_head_and_mouth_case_436_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 120.0
+          value_decimal: 120
           unit:
             coding:
             - code: C28253
@@ -31702,7 +31702,7 @@ gdc_head_and_mouth_case_437_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 70.0
+          value_decimal: 70
           unit:
             coding:
             - code: C28253
@@ -31793,7 +31793,7 @@ gdc_head_and_mouth_case_438_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 170.0
+          value_decimal: 170
           unit:
             coding:
             - code: C28253
@@ -31945,7 +31945,7 @@ gdc_head_and_mouth_case_439_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 250.0
+          value_decimal: 250
           unit:
             coding:
             - code: C28253
@@ -33919,7 +33919,7 @@ gdc_head_and_mouth_case_471_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 180.0
+          value_decimal: 180
           unit:
             coding:
             - code: C28253
@@ -34010,7 +34010,7 @@ gdc_head_and_mouth_case_472_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 510.0
+          value_decimal: 510
           unit:
             coding:
             - code: C28253
@@ -34312,7 +34312,7 @@ gdc_head_and_mouth_case_474_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 90.0
+          value_decimal: 90
           unit:
             coding:
             - code: C28253
@@ -34600,7 +34600,7 @@ gdc_head_and_mouth_case_476_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 240.0
+          value_decimal: 240
           unit:
             coding:
             - code: C28253
@@ -34691,7 +34691,7 @@ gdc_head_and_mouth_case_477_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 90.0
+          value_decimal: 90
           unit:
             coding:
             - code: C28253
@@ -34843,7 +34843,7 @@ gdc_head_and_mouth_case_478_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 240.0
+          value_decimal: 240
           unit:
             coding:
             - code: C28253
@@ -34995,7 +34995,7 @@ gdc_head_and_mouth_case_479_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 550.0
+          value_decimal: 550
           unit:
             coding:
             - code: C28253
@@ -35297,7 +35297,7 @@ gdc_head_and_mouth_case_481_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 210.0
+          value_decimal: 210
           unit:
             coding:
             - code: C28253
@@ -35549,7 +35549,7 @@ gdc_head_and_mouth_case_484_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 80.0
+          value_decimal: 80
           unit:
             coding:
             - code: C28253
@@ -35966,7 +35966,7 @@ gdc_head_and_mouth_case_490_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 70.0
+          value_decimal: 70
           unit:
             coding:
             - code: C28253
@@ -36449,7 +36449,7 @@ gdc_head_and_mouth_case_494_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60.0
+          value_decimal: 60
           unit:
             coding:
             - code: C28253
@@ -36601,7 +36601,7 @@ gdc_head_and_mouth_case_495_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 50.0
+          value_decimal: 50
           unit:
             coding:
             - code: C28253
@@ -36753,7 +36753,7 @@ gdc_head_and_mouth_case_496_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 10.0
+          value_decimal: 10
           unit:
             coding:
             - code: C28253
@@ -36931,7 +36931,7 @@ gdc_head_and_mouth_case_497_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 290.0
+          value_decimal: 290
           unit:
             coding:
             - code: C28253
@@ -37458,7 +37458,7 @@ gdc_head_and_mouth_case_501_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 130.0
+          value_decimal: 130
           unit:
             coding:
             - code: C28253
@@ -37610,7 +37610,7 @@ gdc_head_and_mouth_case_502_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60.0
+          value_decimal: 60
           unit:
             coding:
             - code: C28253
@@ -37905,7 +37905,7 @@ gdc_head_and_mouth_case_505_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 190.0
+          value_decimal: 190
           unit:
             coding:
             - code: C28253
@@ -38350,7 +38350,7 @@ gdc_head_and_mouth_case_509_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 800.0
+          value_decimal: 800
           unit:
             coding:
             - code: C28253
@@ -38502,7 +38502,7 @@ gdc_head_and_mouth_case_510_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 280.0
+          value_decimal: 280
           unit:
             coding:
             - code: C28253
@@ -39008,7 +39008,7 @@ gdc_head_and_mouth_case_514_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 300.0
+          value_decimal: 300
           unit:
             coding:
             - code: C28253
@@ -40254,7 +40254,7 @@ gdc_head_and_mouth_case_537_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 200.0
+          value_decimal: 200
           unit:
             coding:
             - code: C28253
@@ -40541,7 +40541,7 @@ gdc_head_and_mouth_case_540_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 110.0
+          value_decimal: 110
           unit:
             coding:
             - code: C28253
@@ -41019,7 +41019,7 @@ gdc_head_and_mouth_case_544_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 120.0
+          value_decimal: 120
           unit:
             coding:
             - code: C28253
@@ -41171,7 +41171,7 @@ gdc_head_and_mouth_case_545_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 110.0
+          value_decimal: 110
           unit:
             coding:
             - code: C28253
@@ -41323,7 +41323,7 @@ gdc_head_and_mouth_case_546_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 30.0
+          value_decimal: 30
           unit:
             coding:
             - code: C28253
@@ -41616,7 +41616,7 @@ gdc_head_and_mouth_case_548_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 160.0
+          value_decimal: 160
           unit:
             coding:
             - code: C28253
@@ -41878,7 +41878,7 @@ gdc_head_and_mouth_case_550_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 200.0
+          value_decimal: 200
           unit:
             coding:
             - code: C28253
@@ -42065,7 +42065,7 @@ gdc_head_and_mouth_case_551_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 20.0
+          value_decimal: 20
           unit:
             coding:
             - code: C28253
@@ -42358,7 +42358,7 @@ gdc_head_and_mouth_case_553_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 600.0
+          value_decimal: 600
           unit:
             coding:
             - code: C28253
@@ -42475,7 +42475,7 @@ gdc_head_and_mouth_case_554_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 30.0
+          value_decimal: 30
           unit:
             coding:
             - code: C28253
@@ -42788,7 +42788,7 @@ gdc_head_and_mouth_case_557_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 230.0
+          value_decimal: 230
           unit:
             coding:
             - code: C28253
@@ -42940,7 +42940,7 @@ gdc_head_and_mouth_case_558_diagnosis_0_diagnosis:
             unit:
               coding: *id001
         quantity_collected:
-          value_decimal: 60.0
+          value_decimal: 60
           unit:
             coding:
             - code: C28253

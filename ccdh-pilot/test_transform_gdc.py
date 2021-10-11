@@ -5,9 +5,10 @@
 #
 
 import json
+import yaml
 
 import crdch_model
-import yaml
+import transform
 
 # Some general constants
 EXAMPLE_PREFIX = 'gdc_head_and_mouth_example:'
@@ -17,29 +18,9 @@ GDC_URL = 'http://crdc.nci.nih.gov/gdc'
 ICD10_URL = 'http://hl7.org/fhir/ValueSet/icd-10'
 
 
-# Helper method to
-def quantity_decimal(value_decimal, unit):
-    q = crdch_model.Quantity(unit=unit)
-    q.value_decimal = value_decimal
-    return q
-
-
-# Helper method to create a codeable concept.
-def codeable_concept(system, code, label=None, text=None, tags=[]):
-    coding = crdch_model.Coding(system=system, code=code)
-    if label is not None:
-        coding.label = label
-    if len(tags) > 0:
-        coding.tag = tags
-    cc = crdch_model.CodeableConcept(coding)
-    if text is not None:
-        cc.text = text
-    return cc
-
-
 # Some codeable concepts we use repeatedly.
-DAY = codeable_concept(NCIT_URL, 'C25301', 'Day', tags=['harmonized'])
-MILLIGRAM = codeable_concept(NCIT_URL, 'C28253', 'Milligram', tags=['harmonized'])
+DAY = transform.codeable_concept(NCIT_URL, 'C25301', 'Day', tags=['harmonized'])
+MILLIGRAM = transform.codeable_concept(NCIT_URL, 'C28253', 'Milligram', tags=['harmonized'])
 
 
 # Convert a single GDC sample into a CRDC-H specimen.
@@ -89,43 +70,43 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
     # TODO: How do we calculate the Sample.type?
 
     if gdc_sample.get('sample_type'):
-        specimen.source_material_type = codeable_concept(GDC_URL, gdc_sample.get('sample_type'))
+        specimen.source_material_type = transform.codeable_concept(GDC_URL, gdc_sample.get('sample_type'))
 
     # TODO: get the project_id somehow.
 
     if gdc_sample.get('tissue_type'):
-        specimen.general_tissue_pathology = codeable_concept(GDC_URL, gdc_sample.get('tissue_type'))
+        specimen.general_tissue_pathology = transform.codeable_concept(GDC_URL, gdc_sample.get('tissue_type'))
 
     if gdc_sample.get('tumor_code'):
-        specimen.specific_tissue_pathology = codeable_concept(GDC_URL, gdc_sample.get('tumor_code'))
+        specimen.specific_tissue_pathology = transform.codeable_concept(GDC_URL, gdc_sample.get('tumor_code'))
 
     if gdc_sample.get('tumor_descriptor'):
-        specimen.tumor_status_at_collection = codeable_concept(GDC_URL, gdc_sample.get('tumor_descriptor'))
+        specimen.tumor_status_at_collection = transform.codeable_concept(GDC_URL, gdc_sample.get('tumor_descriptor'))
 
     if gdc_sample.get('current_weight'):
         specimen.quantity_measure = crdch_model.SpecimenQuantityObservation(
-            observation_type=codeable_concept(NCIT_URL, 'C25208', 'Weight', tags=['harmonized']),
-            value_quantity=quantity_decimal(gdc_sample.get('current_weight'), unit=MILLIGRAM)
+            observation_type=transform.codeable_concept(NCIT_URL, 'C25208', 'Weight', tags=['harmonized']),
+            value_quantity=transform.quantity_decimal(gdc_sample.get('current_weight'), unit=MILLIGRAM)
         )
 
     # The following fields relate to the Specimen.creation_activity.
 
     if gdc_sample.get('days_to_collection'):
         date_ended = crdch_model.TimePoint(
-            offset_from_index=quantity_decimal(gdc_sample.get('days_to_collection'), DAY),
-            index_time_point=crdch_model.TimePoint(event_type=codeable_concept(NCIT_URL, 'C142714', 'Study Start', tags=['harmonized']))
+            offset_from_index=transform.quantity_decimal(gdc_sample.get('days_to_collection'), DAY),
+            index_time_point=crdch_model.TimePoint(event_type=transform.codeable_concept(NCIT_URL, 'C142714', 'Study Start', tags=['harmonized']))
         )
         specimen.creation_activity = crdch_model.SpecimenCreationActivity(date_ended=date_ended)
 
     if gdc_sample.get('initial_weight'):
-        initial_weight = quantity_decimal(gdc_sample.get('initial_weight'), MILLIGRAM)
+        initial_weight = transform.quantity_decimal(gdc_sample.get('initial_weight'), MILLIGRAM)
         if specimen.creation_activity:
             specimen.creation_activity.quantity_collected = initial_weight
         else:
             specimen.creation_activity = crdch_model.SpecimenCreationActivity(quantity_collected=initial_weight)
 
     if gdc_sample.get('biospecimen_anatomic_site'):
-        biospecimen_anatomic_site = codeable_concept(GDC_URL, gdc_sample.get('biospecimen_anatomic_site'), label=gdc_sample.get('biospecimen_anatomic_site'))
+        biospecimen_anatomic_site = transform.codeable_concept(GDC_URL, gdc_sample.get('biospecimen_anatomic_site'), label=gdc_sample.get('biospecimen_anatomic_site'))
         if specimen.creation_activity:
             specimen.creation_activity.collection_site = crdch_model.BodySite(site=biospecimen_anatomic_site)
         else:
@@ -133,7 +114,7 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
 
     # if gdc_sample.get('time_between_excision_and_freezing'):
     #     time_obs = crdch_model.ExecutionTimeObservation(
-    #         observation_type=codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing'),
+    #         observation_type=transform.codeable_concept(CCDH_URL, 'time_between_excision_and_freezing', label='time_between_excision_and_freezing'),
     #         value_quantity=quantity(gdc_sample.get('time_between_excision_and_freezing'), DAY)
     #     )
     #     if not specimen.creation_activity:
@@ -146,11 +127,11 @@ def create_specimen(gdc_sample, sample_index, gdc_diagnosis, diagnosis_index, gd
     # The following fields relate to the Specimen.processing_activity.
     if gdc_sample.get('preservation_method'):
         specimen.processing_activity = [
-            crdch_model.SpecimenProcessingActivity(activity_type=codeable_concept(GDC_URL, gdc_sample.get('preservation_method')))
+            crdch_model.SpecimenProcessingActivity(activity_type=transform.codeable_concept(GDC_URL, gdc_sample.get('preservation_method')))
         ]
 
     if gdc_sample.get('freezing_method'):
-        method_type = codeable_concept(GDC_URL, gdc_sample.get('freezing_method'))
+        method_type = transform.codeable_concept(GDC_URL, gdc_sample.get('freezing_method'))
         if len(specimen.processing_activity) > 0:
             specimen.processing_activity[0].method_type = method_type
         else:
@@ -196,7 +177,7 @@ def test_transform_gdc_head_and_mouth():
                     ))
 
             if gdc_diagnosis.get('age_at_diagnosis'):
-                diagnosis.age_at_diagnosis = quantity_decimal(gdc_diagnosis['age_at_diagnosis'], unit=DAY)
+                diagnosis.age_at_diagnosis = transform.quantity_decimal(gdc_diagnosis['age_at_diagnosis'], unit=DAY)
 
             condition_codings = []
             if gdc_diagnosis.get('primary_diagnosis'):
@@ -219,7 +200,7 @@ def test_transform_gdc_head_and_mouth():
             # TODO: PDC validation bug (in LinkML?)
             #if gdc_diagnosis.get('tissue_or_organ_of_origin'):
             #    diagnosis.primary_site = crdch_model.BodySite(
-            #        site=codeable_concept(GDC_URL, gdc_diagnosis.get('tissue_or_organ_of_origin'), tags=['original'])
+            #        site=transform.codeable_concept(GDC_URL, gdc_diagnosis.get('tissue_or_organ_of_origin'), tags=['original'])
             #    )
 
             if gdc_diagnosis.get('ajcc_staging_system_edition'):
@@ -228,8 +209,8 @@ def test_transform_gdc_head_and_mouth():
                 def add_observation(type_code, type_label, stage_code):
                     if stage_code:
                         observations.append(crdch_model.CancerStageObservation(
-                            observation_type=codeable_concept(GDC_URL, type_code, type_label, tags=['harmonized']),
-                            value_codeable_concept=codeable_concept(GDC_URL, stage_code, stage_code, tags=['original'])
+                            observation_type=transform.codeable_concept(GDC_URL, type_code, type_label, tags=['harmonized']),
+                            value_codeable_concept=transform.codeable_concept(GDC_URL, stage_code, stage_code, tags=['original'])
                         ))
 
                 # TODO: I couldn't find AJCC v7 in NCIt, so these codes reference the 8th edition. Need to be fixed.
@@ -245,7 +226,7 @@ def test_transform_gdc_head_and_mouth():
                 # add_observation('C177636', 'AJCC v8 Pathologic T Category', gdc_diagnosis.get('ajcc_pathologic_t'))
 
                 diagnosis.stage = [crdch_model.CancerStageObservationSet(
-                    method_type=codeable_concept(GDC_URL, gdc_diagnosis.get('ajcc_staging_system_edition'),
+                    method_type=transform.codeable_concept(GDC_URL, gdc_diagnosis.get('ajcc_staging_system_edition'),
                                                  tags=['original']),
                     observations=observations
                 )]
