@@ -22,5 +22,8 @@ def codeable_concept(system, code, label=None, text=None, tags=[]):
 def quantity_decimal(value_decimal, unit):
     """ Create a crdch_model.Quantity for a given decimal value and a unit (expressed as a CodeableConcept). """
     q = crdch_model.Quantity(unit=unit)
+    # TODO: this should be converted to a Decimal, but that doesn't work/pass validation
+    # So instead we truncate it to an integer for now.
+    # Filed as issue https://github.com/cancerDHC/ccdhmodel/issues/131
     q.value_decimal = int(value_decimal)
     return q
