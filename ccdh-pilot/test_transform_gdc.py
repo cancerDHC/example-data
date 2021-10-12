@@ -179,6 +179,9 @@ def test_transform_gdc_head_and_mouth():
             if gdc_diagnosis.get('age_at_diagnosis'):
                 diagnosis.age_at_diagnosis = transform.quantity_decimal(gdc_diagnosis['age_at_diagnosis'], unit=DAY)
 
+            if gdc_diagnosis.get('morphology'):
+                diagnosis.morphology = transform.codeable_concept(GDC_URL, gdc_diagnosis.get('morphology'))
+
             condition_codings = []
             if gdc_diagnosis.get('primary_diagnosis'):
                 condition_codings.append(crdch_model.Coding(
