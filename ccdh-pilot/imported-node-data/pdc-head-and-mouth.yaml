@@ -19,6 +19,10 @@ pdc_head_and_mouth_example_0_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_0_sample_0
       identifier:
@@ -76,6 +80,10 @@ pdc_head_and_mouth_example_1_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_1_sample_0
       identifier:
@@ -133,6 +141,10 @@ pdc_head_and_mouth_example_2_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_2_sample_0
       identifier:
@@ -190,6 +202,10 @@ pdc_head_and_mouth_example_3_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_3_sample_0
       identifier:
@@ -247,6 +263,10 @@ pdc_head_and_mouth_example_4_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_4_sample_0
       identifier:
@@ -304,6 +324,10 @@ pdc_head_and_mouth_example_5_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_5_sample_0
       identifier:
@@ -361,6 +385,10 @@ pdc_head_and_mouth_example_6_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_6_sample_0
       identifier:
@@ -418,6 +446,10 @@ pdc_head_and_mouth_example_7_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_7_sample_0
       identifier:
@@ -475,6 +507,10 @@ pdc_head_and_mouth_example_8_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_8_sample_0
       identifier:
@@ -532,6 +568,10 @@ pdc_head_and_mouth_example_9_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_9_sample_0
       identifier:
@@ -589,6 +629,10 @@ pdc_head_and_mouth_example_10_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_10_sample_0
       identifier:
@@ -646,6 +690,10 @@ pdc_head_and_mouth_example_11_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_11_sample_0
       identifier:
@@ -703,6 +751,10 @@ pdc_head_and_mouth_example_12_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_12_sample_0
       identifier:
@@ -760,6 +812,10 @@ pdc_head_and_mouth_example_13_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_13_sample_0
       identifier:
@@ -817,6 +873,10 @@ pdc_head_and_mouth_example_14_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_14_sample_0
       identifier:
@@ -874,6 +934,10 @@ pdc_head_and_mouth_example_15_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_15_sample_0
       identifier:
@@ -931,6 +995,10 @@ pdc_head_and_mouth_example_16_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_16_sample_0
       identifier:
@@ -988,6 +1056,10 @@ pdc_head_and_mouth_example_17_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_17_sample_0
       identifier:
@@ -1045,6 +1117,10 @@ pdc_head_and_mouth_example_18_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_18_sample_0
       identifier:
@@ -1102,6 +1178,10 @@ pdc_head_and_mouth_example_19_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_19_sample_0
       identifier:
@@ -1159,6 +1239,10 @@ pdc_head_and_mouth_example_20_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_20_sample_0
       identifier:
@@ -1216,6 +1300,10 @@ pdc_head_and_mouth_example_21_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_21_sample_0
       identifier:
@@ -1273,6 +1361,10 @@ pdc_head_and_mouth_example_22_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_22_sample_0
       identifier:
@@ -1330,6 +1422,10 @@ pdc_head_and_mouth_example_23_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_23_sample_0
       identifier:
@@ -1387,6 +1483,10 @@ pdc_head_and_mouth_example_24_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_24_sample_0
       identifier:
@@ -1444,6 +1544,10 @@ pdc_head_and_mouth_example_25_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_25_sample_0
       identifier:
@@ -1501,6 +1605,10 @@ pdc_head_and_mouth_example_26_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_26_sample_0
       identifier:
@@ -1558,6 +1666,10 @@ pdc_head_and_mouth_example_27_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_27_sample_0
       identifier:
@@ -1615,6 +1727,10 @@ pdc_head_and_mouth_example_28_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_28_sample_0
       identifier:
@@ -1672,6 +1788,10 @@ pdc_head_and_mouth_example_29_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_29_sample_0
       identifier:
@@ -1729,6 +1849,10 @@ pdc_head_and_mouth_example_30_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_30_sample_0
       identifier:
@@ -1786,6 +1910,10 @@ pdc_head_and_mouth_example_31_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_31_sample_0
       identifier:
@@ -1843,6 +1971,10 @@ pdc_head_and_mouth_example_32_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_32_sample_0
       identifier:
@@ -1909,6 +2041,10 @@ pdc_head_and_mouth_example_33_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_33_sample_0
       identifier:
@@ -1977,6 +2113,10 @@ pdc_head_and_mouth_example_34_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_34_sample_0
       identifier:
@@ -2045,6 +2185,10 @@ pdc_head_and_mouth_example_35_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_35_sample_0
       identifier:
@@ -2175,6 +2319,10 @@ pdc_head_and_mouth_example_36_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_36_sample_0
       identifier:
@@ -2274,6 +2422,10 @@ pdc_head_and_mouth_example_37_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_37_sample_0
       identifier:
@@ -2373,6 +2525,10 @@ pdc_head_and_mouth_example_38_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_38_sample_0
       identifier:
@@ -2472,6 +2628,10 @@ pdc_head_and_mouth_example_39_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_39_sample_0
       identifier:
@@ -2571,6 +2731,10 @@ pdc_head_and_mouth_example_40_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_40_sample_0
       identifier:
@@ -2670,6 +2834,10 @@ pdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_41_sample_0
       identifier:
@@ -2831,6 +2999,10 @@ pdc_head_and_mouth_example_42_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_42_sample_0
       identifier:
@@ -2930,6 +3102,10 @@ pdc_head_and_mouth_example_43_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_43_sample_0
       identifier:
@@ -3029,6 +3205,10 @@ pdc_head_and_mouth_example_44_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_44_sample_0
       identifier:
@@ -3128,6 +3308,10 @@ pdc_head_and_mouth_example_45_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_45_sample_0
       identifier:
@@ -3196,6 +3380,10 @@ pdc_head_and_mouth_example_46_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_46_sample_0
       identifier:
@@ -3295,6 +3483,10 @@ pdc_head_and_mouth_example_47_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_47_sample_0
       identifier:
@@ -3363,6 +3555,10 @@ pdc_head_and_mouth_example_48_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_48_sample_0
       identifier:
@@ -3462,6 +3658,10 @@ pdc_head_and_mouth_example_49_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_49_sample_0
       identifier:
@@ -3530,6 +3730,10 @@ pdc_head_and_mouth_example_50_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_50_sample_0
       identifier:
@@ -3629,6 +3833,10 @@ pdc_head_and_mouth_example_51_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_51_sample_0
       identifier:
@@ -3728,6 +3936,10 @@ pdc_head_and_mouth_example_52_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_52_sample_0
       identifier:
@@ -3796,6 +4008,10 @@ pdc_head_and_mouth_example_53_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_53_sample_0
       identifier:
@@ -3864,6 +4080,10 @@ pdc_head_and_mouth_example_54_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_54_sample_0
       identifier:
@@ -3963,6 +4183,10 @@ pdc_head_and_mouth_example_55_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_55_sample_0
       identifier:
@@ -4062,6 +4286,10 @@ pdc_head_and_mouth_example_56_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_56_sample_0
       identifier:
@@ -4161,6 +4389,10 @@ pdc_head_and_mouth_example_57_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_57_sample_0
       identifier:
@@ -4260,6 +4492,10 @@ pdc_head_and_mouth_example_58_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_58_sample_0
       identifier:
@@ -4328,6 +4564,10 @@ pdc_head_and_mouth_example_59_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_59_sample_0
       identifier:
@@ -4396,6 +4636,10 @@ pdc_head_and_mouth_example_60_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_60_sample_0
       identifier:
@@ -4464,6 +4708,10 @@ pdc_head_and_mouth_example_61_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_61_sample_0
       identifier:
@@ -4563,6 +4811,10 @@ pdc_head_and_mouth_example_62_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_62_sample_0
       identifier:
@@ -4631,6 +4883,10 @@ pdc_head_and_mouth_example_63_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_63_sample_0
       identifier:
@@ -4730,6 +4986,10 @@ pdc_head_and_mouth_example_64_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_64_sample_0
       identifier:
@@ -4798,6 +5058,10 @@ pdc_head_and_mouth_example_65_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_65_sample_0
       identifier:
@@ -4897,6 +5161,10 @@ pdc_head_and_mouth_example_66_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_66_sample_0
       identifier:
@@ -4996,6 +5264,10 @@ pdc_head_and_mouth_example_67_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_67_sample_0
       identifier:
@@ -5064,6 +5336,10 @@ pdc_head_and_mouth_example_68_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_68_sample_0
       identifier:
@@ -5163,6 +5439,10 @@ pdc_head_and_mouth_example_69_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_69_sample_0
       identifier:
@@ -5262,6 +5542,10 @@ pdc_head_and_mouth_example_70_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_70_sample_0
       identifier:
@@ -5330,6 +5614,10 @@ pdc_head_and_mouth_example_71_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_71_sample_0
       identifier:
@@ -5429,6 +5717,10 @@ pdc_head_and_mouth_example_72_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_72_sample_0
       identifier:
@@ -5497,6 +5789,10 @@ pdc_head_and_mouth_example_73_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_73_sample_0
       identifier:
@@ -5596,6 +5892,10 @@ pdc_head_and_mouth_example_74_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_74_sample_0
       identifier:
@@ -5664,6 +5964,10 @@ pdc_head_and_mouth_example_75_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_75_sample_0
       identifier:
@@ -5763,6 +6067,10 @@ pdc_head_and_mouth_example_76_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_76_sample_0
       identifier:
@@ -5862,6 +6170,10 @@ pdc_head_and_mouth_example_77_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_77_sample_0
       identifier:
@@ -5961,6 +6273,10 @@ pdc_head_and_mouth_example_78_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_78_sample_0
       identifier:
@@ -6060,6 +6376,10 @@ pdc_head_and_mouth_example_79_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_79_sample_0
       identifier:
@@ -6159,6 +6479,10 @@ pdc_head_and_mouth_example_80_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_80_sample_0
       identifier:
@@ -6258,6 +6582,10 @@ pdc_head_and_mouth_example_81_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_81_sample_0
       identifier:
@@ -6357,6 +6685,10 @@ pdc_head_and_mouth_example_82_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_82_sample_0
       identifier:
@@ -6425,6 +6757,10 @@ pdc_head_and_mouth_example_83_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_83_sample_0
       identifier:
@@ -6524,6 +6860,10 @@ pdc_head_and_mouth_example_84_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_84_sample_0
       identifier:
@@ -6623,6 +6963,10 @@ pdc_head_and_mouth_example_85_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_85_sample_0
       identifier:
@@ -6691,6 +7035,10 @@ pdc_head_and_mouth_example_86_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_86_sample_0
       identifier:
@@ -6790,6 +7138,10 @@ pdc_head_and_mouth_example_87_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_87_sample_0
       identifier:
@@ -6889,6 +7241,10 @@ pdc_head_and_mouth_example_88_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_88_sample_0
       identifier:
@@ -6957,6 +7313,10 @@ pdc_head_and_mouth_example_89_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_89_sample_0
       identifier:
@@ -7056,6 +7416,10 @@ pdc_head_and_mouth_example_90_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_90_sample_0
       identifier:
@@ -7124,6 +7488,10 @@ pdc_head_and_mouth_example_91_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_91_sample_0
       identifier:
@@ -7192,6 +7560,10 @@ pdc_head_and_mouth_example_92_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_92_sample_0
       identifier:
@@ -7260,6 +7632,10 @@ pdc_head_and_mouth_example_93_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_93_sample_0
       identifier:
@@ -7359,6 +7735,10 @@ pdc_head_and_mouth_example_94_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_94_sample_0
       identifier:
@@ -7458,6 +7838,10 @@ pdc_head_and_mouth_example_95_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_95_sample_0
       identifier:
@@ -7526,6 +7910,10 @@ pdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_96_sample_0
       identifier:
@@ -7594,6 +7982,10 @@ pdc_head_and_mouth_example_97_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_97_sample_0
       identifier:
@@ -7662,6 +8054,10 @@ pdc_head_and_mouth_example_98_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_98_sample_0
       identifier:
@@ -7730,6 +8126,10 @@ pdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_99_sample_0
       identifier:
@@ -7829,6 +8229,10 @@ pdc_head_and_mouth_example_100_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_100_sample_0
       identifier:
@@ -7897,6 +8301,10 @@ pdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_101_sample_0
       identifier:
@@ -7996,6 +8404,10 @@ pdc_head_and_mouth_example_102_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_102_sample_0
       identifier:
@@ -8095,6 +8507,10 @@ pdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_103_sample_0
       identifier:
@@ -8194,6 +8610,10 @@ pdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_104_sample_0
       identifier:
@@ -8293,6 +8713,10 @@ pdc_head_and_mouth_example_105_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_105_sample_0
       identifier:
@@ -8392,6 +8816,10 @@ pdc_head_and_mouth_example_106_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_106_sample_0
       identifier:
@@ -8491,6 +8919,10 @@ pdc_head_and_mouth_example_107_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_107_sample_0
       identifier:
@@ -8590,6 +9022,10 @@ pdc_head_and_mouth_example_108_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_108_sample_0
       identifier:
@@ -8689,6 +9125,10 @@ pdc_head_and_mouth_example_109_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_109_sample_0
       identifier:
@@ -8757,6 +9197,10 @@ pdc_head_and_mouth_example_110_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_110_sample_0
       identifier:
@@ -8825,6 +9269,10 @@ pdc_head_and_mouth_example_111_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_111_sample_0
       identifier:
@@ -8893,6 +9341,10 @@ pdc_head_and_mouth_example_112_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_112_sample_0
       identifier:
@@ -8961,6 +9413,10 @@ pdc_head_and_mouth_example_113_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_113_sample_0
       identifier:
@@ -9029,6 +9485,10 @@ pdc_head_and_mouth_example_114_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_114_sample_0
       identifier:
@@ -9097,6 +9557,10 @@ pdc_head_and_mouth_example_115_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_115_sample_0
       identifier:
@@ -9196,6 +9660,10 @@ pdc_head_and_mouth_example_116_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_116_sample_0
       identifier:
@@ -9295,6 +9763,10 @@ pdc_head_and_mouth_example_117_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_117_sample_0
       identifier:
@@ -9394,6 +9866,10 @@ pdc_head_and_mouth_example_118_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_118_sample_0
       identifier:
@@ -9493,6 +9969,10 @@ pdc_head_and_mouth_example_119_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_119_sample_0
       identifier:
@@ -9592,6 +10072,10 @@ pdc_head_and_mouth_example_120_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_120_sample_0
       identifier:
@@ -9660,6 +10144,10 @@ pdc_head_and_mouth_example_121_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_121_sample_0
       identifier:
@@ -9759,6 +10247,10 @@ pdc_head_and_mouth_example_122_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_122_sample_0
       identifier:
@@ -9827,6 +10319,10 @@ pdc_head_and_mouth_example_123_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_123_sample_0
       identifier:
@@ -9895,6 +10391,10 @@ pdc_head_and_mouth_example_124_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_124_sample_0
       identifier:
@@ -9963,6 +10463,10 @@ pdc_head_and_mouth_example_125_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_125_sample_0
       identifier:
@@ -10062,6 +10566,10 @@ pdc_head_and_mouth_example_126_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_126_sample_0
       identifier:
@@ -10161,6 +10669,10 @@ pdc_head_and_mouth_example_127_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_127_sample_0
       identifier:
@@ -10260,6 +10772,10 @@ pdc_head_and_mouth_example_128_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_128_sample_0
       identifier:
@@ -10359,6 +10875,10 @@ pdc_head_and_mouth_example_129_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_129_sample_0
       identifier:
@@ -10458,6 +10978,10 @@ pdc_head_and_mouth_example_130_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_130_sample_0
       identifier:
@@ -10557,6 +11081,10 @@ pdc_head_and_mouth_example_131_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_131_sample_0
       identifier:
@@ -10625,6 +11153,10 @@ pdc_head_and_mouth_example_132_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_132_sample_0
       identifier:
@@ -10724,6 +11256,10 @@ pdc_head_and_mouth_example_133_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_133_sample_0
       identifier:
@@ -10823,6 +11359,10 @@ pdc_head_and_mouth_example_134_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_134_sample_0
       identifier:
@@ -10891,6 +11431,10 @@ pdc_head_and_mouth_example_135_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_135_sample_0
       identifier:
@@ -10959,6 +11503,10 @@ pdc_head_and_mouth_example_136_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_136_sample_0
       identifier:
@@ -11058,6 +11606,10 @@ pdc_head_and_mouth_example_137_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_137_sample_0
       identifier:
@@ -11157,6 +11709,10 @@ pdc_head_and_mouth_example_138_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_138_sample_0
       identifier:
@@ -11256,6 +11812,10 @@ pdc_head_and_mouth_example_139_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_139_sample_0
       identifier:
@@ -11355,6 +11915,10 @@ pdc_head_and_mouth_example_140_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_140_sample_0
       identifier:
@@ -11454,6 +12018,10 @@ pdc_head_and_mouth_example_141_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_141_sample_0
       identifier:
@@ -11522,6 +12090,10 @@ pdc_head_and_mouth_example_142_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: 8070/3
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_142_sample_0
       identifier:
@@ -11581,6 +12153,10 @@ pdc_head_and_mouth_example_143_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_143_sample_0
       identifier:
@@ -11638,6 +12214,10 @@ pdc_head_and_mouth_example_144_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_144_sample_0
       identifier:
@@ -11695,6 +12275,10 @@ pdc_head_and_mouth_example_145_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_145_sample_0
       identifier:
@@ -11752,6 +12336,10 @@ pdc_head_and_mouth_example_146_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_146_sample_0
       identifier:
@@ -11809,6 +12397,10 @@ pdc_head_and_mouth_example_147_diagnosis_0_diagnosis:
         system: http://crdc.nci.nih.gov/gdc
         tag:
         - original
+    morphology:
+      coding:
+      - code: Not Reported
+        system: http://crdc.nci.nih.gov/gdc
     related_specimen:
     - id: pdc_head_and_mouth_example:case_147_sample_0
       identifier:
