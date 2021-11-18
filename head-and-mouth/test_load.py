@@ -10,6 +10,8 @@ from linkml_runtime.dumpers import json_dumper
 
 import crdch_model as ccdh
 
+# The URI where the CRDCH YAML file is located.
+CRDCH_YAML_URI = 'https://raw.githubusercontent.com/cancerDHC/ccdhmodel/v1.1/model/schema/crdch_model.yaml'
 
 def codeable_concept(text, system, code):
     return ccdh.CodeableConcept(
@@ -275,7 +277,7 @@ def test_transform_gdc_data():
 
     assert len(gdc_head_and_mouth) > 0, "At least one GDC Head and Mouth case loaded."
 
-    jsonldContext = ContextGenerator('ccdh/ccdhmodel.yaml').serialize()
+    jsonldContext = ContextGenerator(CRDCH_YAML_URI).serialize()
     jsonldContextAsDict = json.loads(jsonldContext)
     assert type(jsonldContextAsDict) is dict
 
@@ -303,8 +305,8 @@ def test_transform_gdc_data():
         f.write(as_json_str)
 
     # Convert JSON-LD into Turtle.
-    g = rdflib.Graph()
-    g.parse(data=as_json_str, format="json-ld")
-    rdf_as_turtle = g.serialize(format="turtle").decode()
-    with open('head-and-mouth/diagnoses.ttl', 'w') as file:
-        file.write(rdf_as_turtle)
+    # g = rdflib.Graph()
+    # g.parse(data=as_json_str, format="json-ld")
+    # rdf_as_turtle = g.serialize(format="turtle").decode()
+    # with open('head-and-mouth/diagnoses.ttl', 'w') as file:
+    #     file.write(rdf_as_turtle)
