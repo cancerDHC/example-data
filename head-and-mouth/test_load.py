@@ -14,6 +14,9 @@ import crdch_model as ccdh
 CRDCH_YAML_URI = 'https://raw.githubusercontent.com/cancerDHC/ccdhmodel/v1.1/model/schema/crdch_model.yaml'
 
 def codeable_concept(text, system, code):
+    if code is None:
+        return None
+
     return ccdh.CodeableConcept(
         text=text,
         coding=ccdh.Coding(
@@ -154,10 +157,10 @@ def transform_sample_to_specimen(sample):
     A method for transforming a GDC Sample into CCDH Specimen.
     """
     specimen = ccdh.Specimen(id=sample.get('sample_id'))
-    specimen.source_material_type = sample.get('sample_type')
-    specimen.general_tissue_morphology = sample.get('tissue_type')
-    specimen.specific_tissue_morphology = sample.get('tumor_code')
-    specimen.tumor_status_at_collection = sample.get('tumor_descriptor')
+    specimen.source_material_type = codeable_concept(sample.get('sample_type'), 'GDC', sample.get('sample_type'))
+    specimen.general_tissue_morphology = codeable_concept(sample.get('tissue_type'), 'GDC', sample.get('tissue_type'))
+    specimen.specific_tissue_morphology = codeable_concept(sample.get('tumor_code'), 'GDC', sample.get('tumor_code'))
+    specimen.tumor_status_at_collection = codeable_concept(sample.get('tumor_descriptor'), 'GDC', sample.get('tumor_descriptor'))
     specimen.creation_activity = ccdh.SpecimenCreationActivity(
         date_ended=ccdh.TimePoint(
             date_time=sample.get('created_datetime')
@@ -305,8 +308,8 @@ def test_transform_gdc_data():
         f.write(as_json_str)
 
     # Convert JSON-LD into Turtle.
-    # g = rdflib.Graph()
-    # g.parse(data=as_json_str, format="json-ld")
-    # rdf_as_turtle = g.serialize(format="turtle").decode()
-    # with open('head-and-mouth/diagnoses.ttl', 'w') as file:
-    #     file.write(rdf_as_turtle)
+    g = rdflib.Graph()
+    g.parse(data=as_json_str, format="json-ld")
+    rdf_as_turtle = g.serialize(format="turtle").decode()
+    with open('head-and-mouth/diagnoses.ttl', 'w') as file:
+        file.write(rdf_as_turtle)
