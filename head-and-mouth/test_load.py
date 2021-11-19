@@ -280,6 +280,8 @@ def test_transform_gdc_data():
 
     assert len(gdc_head_and_mouth) > 0, "At least one GDC Head and Mouth case loaded."
 
+    # For now we download this from the web, but the YAML file might eventually be
+    # added to the project file itself: https://github.com/linkml/linkml/issues/475
     jsonldContext = ContextGenerator(CRDCH_YAML_URI).serialize()
     jsonldContextAsDict = json.loads(jsonldContext)
     assert type(jsonldContextAsDict) is dict
