@@ -1,0 +1,28 @@
+id: '1'
+observations:
+- observation_type:
+    coding:
+    - code: abc1
+      system: xxx
+    - code: abc2
+      system: xxx
+  value_codeable_concept:
+    coding:
+    - code: abc1
+      system: xxx
+    - code: abc2
+      system: xxx
+  id: '1'
+- observation_type:
+    coding:
+    - code: abc1
+      system: xxx
+    - code: abc2
+      system: xxx
+  value_codeable_concept:
+    coding:
+    - code: abc1
+      system: xxx
+    - code: abc2
+      system: xxx
+  id: '2'

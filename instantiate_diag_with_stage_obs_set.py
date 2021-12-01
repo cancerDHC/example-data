@@ -5,4 +5,4 @@ diagnosis_fn = "gen_diag_with_stage_obs_set.yaml"
 
 diag = yaml_loader.load(diagnosis_fn, Diagnosis)
 
-print(diagnosis_fn)
+print(diag)
