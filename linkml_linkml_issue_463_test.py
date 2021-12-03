@@ -11,7 +11,7 @@ def load_and_type(fn, expected_type):
     obj = None
     try:
         obj = yaml_loader.load(fn, expected_type)
-    except:
+    except Exception:
         print(f"Exception on loading {fn} vs crdch_model")
     assert isinstance(obj, expected_type)
 
