@@ -13,4 +13,7 @@ pip = "*"
 crdch-model = "*"
 pandas = "*"
 
+# conflicts?
+# black = "*"
+
 [dev-packages]

@@ -1,0 +1,59 @@
+id: "pdc-diagnosis:ff2f0efb-70ca-11e8-bcf1-0a2705229b82"
+#identifier:                                # type = Identifier
+#  - value: "tcga:TCGA-13-1409-DX"
+age_at_diagnosis:                          # type = Quantity
+  value_decimal: 26836
+  unit:                                    # type = CodeableConcept
+    coding:                                # type = Coding
+      - code: C25301
+        label: Day
+        system: http://ncithesaurus.nci.nih.gov/
+        tag:
+          - harmonized
+morphology:                                # type = CodeableConcept
+  coding:                                  # type = Coding
+    - code: C3778
+      label: Serous Cystadenocarcinoma
+      system: https://ncithesaurus.nci.nih.gov/
+      tag:
+        - harmonized
+condition:                                 # type = CodeableConcept
+  coding:                                  # type = Coding
+    - code: C3778
+      label: Serous Cystadenocarcinoma
+      system: https://ncithesaurus.nci.nih.gov/
+      tag:
+        - harmonized
+#primary_site:                              # type = BodySite
+#  - site:                                  # type = CodeableConcept
+#      coding:                              # type = Coding
+#        - code: C12404
+#          label: Ovary
+#          system: https://ncithesaurus.nci.nih.gov/
+#          tag:
+#            - harmonized
+stage:                                     # type = CancerStageObservationSet
+  - method_type:                           # type = CodeableConcept
+    - coding:                              # type = Coding
+      - code: C125738
+        label: FIGO Stage
+        system: https://ncithesaurus.nci.nih.gov/
+        tag:
+          - harmonized
+#  - observations:                          # type = CancerStageObservation
+#    - observation_type:                    # type = CodeableConcept
+#        coding:                            # type = Coding
+#          - code: C25605
+#            label: Overall
+#            system: http://ncithesaurus.nci.nih.gov/
+#            tag:
+#              - harmonized
+#      value_codeable_concept:              # type = CodeableConcept
+#        coding:                            # type = Coding
+#          - code: C96258
+#            label: FIGO Stage IIIC
+#            system: http://ncithesaurus.nci.nih.gov/
+#            tag:
+#              - harmonized
+#diagnosis_date:
+#  date_time: 2008

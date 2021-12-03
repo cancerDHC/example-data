@@ -1,0 +1,13 @@
+id: 1
+observation_type:
+  coding:
+    - code: 'abc1'
+      system: 'xxx'
+    - code: 'abc2'
+      system: 'xxx'
+value_codeable_concept:
+  coding:
+    - code: 'abc1'
+      system: 'xxx'
+    - code: 'abc2'
+      system: 'xxx'
