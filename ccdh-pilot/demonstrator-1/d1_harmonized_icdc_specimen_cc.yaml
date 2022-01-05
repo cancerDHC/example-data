@@ -1,0 +1,192 @@
+icdc_specimen:
+  Title: ICDC Specimen Example - Sept 2021 F2F Demonstrator 1
+  Schema: ccdh.0713cc.Specimen
+  Description:
+    - "CRDC-H-compliant representation of the 'aggregate' ICDC source data example described here: https://docs.google.com/spreadsheets/d/14lWLDD7iyJG0G57m6BgWYIeqrxK04P3qQRwxziqEz1A/edit#gid=0"
+    - "**FOR EASIEST VIEWING TURN WORD WRAP OFF SO THAT COMMENTS DON'T RUN ONTO A NEW LINE**"
+    - "In this example enumerated values are captured using a CodeableConcept object which bundles one or more Coding objects, each holding a single concept code and supporting metadata."
+
+  Example:                                                        # type = Specimen
+    id: "f2f:052c671d-118a-11e9-afb9-0a9c39d33490"                # Local uuid for the Specimen a assigned by the system in which this record lives (here, the CCDH F2F Demonstrator, hence the 'f2f' prefix).
+#    identifier:                                                   # type = Identifier   (Identifier is a complex data type, but we are only showing a single field from this type)
+#      - value: "ncats-cop:NCATS-COP01-CCB050227 0103"             # ICDC.Sample.sample_id (specified here as a CURIE, where the prefix indicates the system that assigned it)
+#      - value: "icdc-sample:30502"                                # ICDC.Sample._id (specified here as a CURIE, where the prefix indicates the system that assigned it)
+#      - value: "biosample:SAMEA1652206"                           # Proposed globally unique identifier format, per recommendation of the CRDC-DST  (specified here as a CURIE, where the prefix indicates the system that assigned it)
+
+    specimen_type:                                                # type = CodeableConcept
+      coding:                                                     # type = Coding
+        - code: C84517                                            # The first Coding holds the harmonized code for this concept - the code for an NCIT term.
+          label: Fresh Specimen                                   # The preferred label of the term from NCIT.
+          system: http://ncithesaurus.nci.nih.gov                 # A URL for the NCIT system (this is likely not the url we would ultimately use)
+          tag:                                                    # A tag indicating this to be the harmonized code for this concept
+            - harmonized
+        - code: Sample                                            # The second Coding holds the original code used by the source node. Here, this is the 'type' of the entity in ICDC (Sample).
+          label: Sample                                           # The human-readable label (implicitly the same as the code, which is  human-readable)
+          system: http://crdc.nci.nih.gov/icdc                    # A URL for the ICDC system (we made this up - t.b.d. what an official URL would look like)
+          tag:                                                    # A 'tag' indicating this to be the code for this concept in the original source data.
+            - original
+    source_subject:                                               # type = Subject
+      id: "f2f:01b2691b-63d8-11e8-bcf1-0a2705229b82"              # Local uuid assigned by this system for the Subject. The Subject instance is represented separately later in this document.
+    source_material_type:                                         # type = CodeableConcept (see comments on the 'specimen_type' field above for a detailed explanation of this data object's content)
+      coding:                                                     # type = Coding
+        - code: C12801                                            # The first Coding holds the harmonized code for this concept - the code for an NCIT term.
+          label: Tissue                                           # The preferred label of the term from NCIT.
+          system: http://ncithesaurus.nci.nih.gov                 # A URL for the NCIT system (this is likely not the url we would ultimately use)
+          tag:                                                    # A tag indicating this to be the harmonized code for this concept
+            - harmonized
+        - code: Tissue                                            # The second Coding holds the original code used by the source node. ICDC uses a readable strings for their codes.
+          label: Tissue                                           # The human-readable label (implicitly the same as the code, which are human-readable in ICDC)
+          system: http://crdc.nci.nih.gov/icdc                    # A URL for the ICDC system (we made this up - t.b.d. what an official URL would look like)
+          tag:                                                    # A 'tag' indicating this to be the code for this concept in the original source data.
+            - original
+    general_tissue_pathology:                                     # type = CodeableConcept
+      coding:                                                     # type = Coding
+        - code: C14143
+          label: Malignant
+          system: http://ncithesaurus.nci.nih.gov
+          tag:
+            - harmonized
+        - code: Malignant
+          label: Malignant
+          system: http://crdc.nci.nih.gov/icdc
+          tag:
+            - original
+    specific_tissue_pathology:                                    # type = CodeableConcept
+      coding:                                                     # type = Coding
+        - code: C9145
+          label: Osteosarcoma
+          system: http://ncithesaurus.nci.nih.gov
+          tag:
+            - harmonized
+        - code: Osteosarcoma
+          label: Osteosarcoma
+          system: http://crdc.nci.nih.gov/icdc
+          tag:
+            - original
+    tumor_status_at_collection:                                   # type = CodeableConcept
+      coding:                                                     # type = Coding
+        - code: C3261
+          label: Metastatic Neoplasm
+          system: http://ncithesaurus.nci.nih.gov
+          tag:
+            - harmonized
+        - code: Metastatic
+          label: Metastatic
+          system: http://crdc.nci.nih.gov/icdc
+          tag:
+            - original
+    creation_activity:                                            # type = SpecimenCreationActivity. This object encapsulates data related to how a specimen was created. It is inlined because this is not a stand-alone, identified entity.
+      activity_type:                                              # type = CodeableConcept. This field indicates that the activity instance here represents the initial collection from a source, rather than derivation from an existing specimen (e.g via portioning or aliquoting).
+        coding:                                                   # type = Coding
+          - code: C93435
+            label: Performed Specimen Collection
+            system: http://ncithesaurus.nci.nih.gov
+            tag:
+              - harmonized
+      date_ended:                                                 # type = TimePoint
+        date_time: "2010-07-23"
+      collection_site:                                            # type = BodySite
+        site:                                                     # type = CodeableConcept
+          coding:                                                 # type = Coding
+            - code: C12468
+              label: Lung
+              system: http://ncithesaurus.nci.nih.gov
+              tag:
+                - harmonized
+            - code: Lung
+              label: Lung
+              system: http://crdc.nci.nih.gov/icdc
+              tag:
+                - original
+    processing_activity:                                          # type = SpecimenProcessingActivity. This object encapsulates data related to how a specimen was processed. It is inlined because this is not a stand-alone, identified entity.
+      - activity_type:                                            # type = CodeableConcept
+          coding:                                                 # type = Coding
+            - code: CC63521
+              label: Quick Freeze
+              system: http://ncithesaurus.nci.nih.gov
+              tag:
+                - harmonized
+            - code: Snap Frozen
+              label: Snap Frozen
+              system: http://crdc.nci.nih.gov/icdc
+              tag:
+                - original
+
+---
+  icdc_subject:
+    Title: ICDC Subject  Example - Sept 2021 F2F Demonstrator 1
+    Schema: ccdh.0713.Subject
+    Description:
+      - "This is a minimal example showing only id and identifiers.  For a richer Subject record, see the examples in Demonstrator 2."
+    Example:                                                        # type: Subject
+      id: "f2f:17029fd8-cd05-4089-8da3-52795823a647"                # Local uuid assigned by this system for the Subject
+#      identifier:                                                   # type: Identifier
+#        - value: "icdc-case:30196"                                  # ICDC.Cases.case_id
+#        - value: "crdc:su0000003"                                   # Proposed globally unique identifier per recommendation of the CRDC-DST
+
+---
+icdc_diagnosis:
+  Title: ICDC Diagnosis Example - Sept 2021 F2F Demonstrator 1
+  Schema: "ccdh.0713cc.Diagnosis"
+  Description:
+    - "CRDC-H-compliant representation of the synthetic source data example described here: https://docs.google.com/spreadsheets/d/14lWLDD7iyJG0G57m6BgWYIeqrxK04P3qQRwxziqEz1A/edit#gid=0"
+    - "For easiest viewing, **TURN WORD WRAP OFF** so that comments don't run onto a new line."
+  Example:                                                          # type = Diagnosis
+    id: "f2f:de3468e83-4c86-4258-98d1-a986445cce73"                 # Local uuid assigned by this system for the Diagnosis
+#    identifier:                                                     # type = Identifier
+#      - value: "icdc-diagnosis:30279"                               # ICDC.Diagnosis._id
+    subject:                                                        # type = Subject
+      id: "f2f:01b2691b-63d8-11e8-bcf1-0a2705229b82"
+    condition:                                                      # type = CodeableConcept
+      coding:                                                       # type = Coding
+        - code: C9145
+          label: Osteosarcoma
+          system: http://ncithesaurus.nci.nih.gov
+          tag:
+            - harmonized
+        - code: Osteosarcoma (OS)
+          label: Osteosarcoma (OS)
+          system: http://crdc.nci.nih.gov/icdc
+          tag:
+            - original
+#    primary_site:                                                   # type = BodySite
+#      - site:                                                       # type = CodeableConcept
+#          coding:                                                   # type = Coding
+#            - code: C12366
+#              label: Bone
+#              system: http://ncithesaurus.nci.nih.gov
+#              tag:
+#                - harmonized
+#            - code: Bone
+#              label: Bone
+#              system: http://crdc.nci.nih.gov/icdc
+#              tag:
+#                - original
+#    stage:                                                          # type = CancerStageObservationSet
+#      -  observations:                                               # type = CancerStageObservation - one of many individual Stage determinations (e.g. T, N, M, Overall) about the same tumor that can comprise a single CancerStageObservationSet (here just an 'Overall' assessment, but may also include T, N, and M assessments).
+#          - observation_type:                                       # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because the staging level semantic is captured in an explicit property in the source PDC model, not a key-value pair as shown here)
+#              coding:                                               # type = Coding
+#                - code: C25605
+#                  label: Overall
+#                  system: http://ncithesaurus.nci.nih.gov
+#                  tag:
+#                    - harmonized
+#            value_codeable_concept:                                 # type = CodeableConcept
+#              coding:                                               # type = Coding
+#                - code: C27971
+#                  label: Stage IV
+#                  system: http://ncithesaurus.nci.nih.gov
+#                  tag:
+#                    - harmonized
+#                - code: IV
+#                  label: IV
+#                  system: http://crdc.nci.nih.gov/icdc
+#                  tag:
+#                      - original
+    diagnosis_date:                                                 # type = TimePoint
+      date_time: "2013-06-14"
+    related_specimen:                                               # type = Specimen
+      - id: "f2f:052c671d-118a-11e9-afb9-0a9c39d33490"              # A reference to a specimen that was used to generate this Diagnosis (the Specimen instance above).
+
+
+

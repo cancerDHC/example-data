@@ -1,0 +1,341 @@
+---
+pdc_specimen:
+  Title: PDC Specimen Example - Sept 2021 F2F Demonstrator 1
+  Schema: ccdh.0713cc.Specimen
+  Description:
+    - "CRDC-H-compliant representation of the 'aggregate' PDC source data example described here: https://docs.google.com/spreadsheets/d/14lWLDD7iyJG0G57m6BgWYIeqrxK04P3qQRwxziqEz1A/edit#gid=0"
+    - "**FOR EASIEST VIEWING TURN WORD WRAP OFF SO THAT COMMENTS DON'T RUN ONTO A NEW LINE**"
+    - "In this example enumerated values are captured using a CodeableConcept object which bundles one or more Coding objects, each holding a single concept code and supporting metadata."
+
+  Example:                                                        # type = Specimen
+    id: "f2f:ecc2bf49-204d-11e9-b7f8-0a80fada099c"                # Local uuid for the Specimen a assigned by the system in which this record lives (here, the CCDH F2F Demonstrator, hence the 'f2f' prefix).
+#    identifier:                                                   # type = Identifier   (Identifier is a complex data type, but we are only showing a single field from this type)
+#      - value: "tcga-coad:C3N-01648-08"                           # PDC.Sample.sample_submitter_id (specified here as a CURIE, where the prefix indicates the system that assigned it)
+#      - value: "pdc-sample:ecc2bf49-204d-11e9-b7f8-0a80fada099c"  # PDC.Sample.sample_id (specified here as a CURIE, where the prefix indicates the system that assigned it)
+#      - value: "biosample:SAMEA1476035"                           # Proposed globally unique identifier format, per recommendation of the CRDC-DST (specified here as a CURIE, where the prefix indicates the system that assigned it)
+
+    specimen_type:                                                # type = CodeableConcept
+      coding:                                                     # type = Coding
+        - code: C84517                                            # The first Coding holds the harmonized code for this concept - the code for an NCIT term.
+          label: Fresh Specimen                                   # The preferred label of the term from NCIT.
+          system: http://ncithesaurus.nci.nih.gov                 # A URL for the NCIT system (this is likely not the url we would ultimately use)
+          tag:                                                    # A tag indicating this to be the harmonized code for this concept
+            - harmonized
+        - code: Sample                                            # The second Coding holds the original code used by the source node. Here, this is the 'type' of the entity in PDC (which defines separate entities for differet types of Specimens - Sample, Portion, Aliquit, Analyte).
+          label: Sample                                           # The human-readable label (implicitly the same as the code which are human-readable in PDC)
+          system: http://crdc.nci.nih.gov/pdc                     # A URL for the PDC system (we made this up - t.b.d. what an official URL would look like)
+          tag:                                                    # A 'tag' indicating this to be the code for this concept in the original source data.
+            - original
+    associated_project:                                           # type = ResearchProject.
+      id: "f2f:69886602-a4f1-4ad4-ba56-a0e031c2e294"              # Local uuid assigned by this system for the Research Project. The Project instance is represented separately later in this document. We will define a formal way to specify references in the next phase of work.
+      research_project_type:                                      # type = CodeableConcept
+        coding:                                                   # type = Coding
+          - code: C47885                                          # Note also that because the CRDC-H collapses PDC.Program and PDC.Project into a single type called 'ResearchProject', the ResearchProject.research_project_type field is used to indicate which specific type this instance represents.
+            label: Project
+            system: http://ncithesaurus.nci.nih.gov/
+            tag:
+              - harmonized
+    source_subject:                                               # type = Subject
+      id: "f2f:55bad781-96ce-537c-ab5c-7492c31c836c"              # Local uuid assigned by this system for the Subject. The Subject instance is represented separately later in this document.
+    source_material_type:                                         # type = CodeableConcept (see comments on the 'specimen_type' field above for a detailed explanation of this data object's content)
+      coding:                                                     # type = Coding
+        - code: C18009                                            # The first Coding holds the harmonized code for this concept - the code for an NCIT term.
+          label: Tumor Tissue                                     # The preferred label of the term from NCIT.
+          system: http://ncithesaurus.nci.nih.gov                 # A URL for the NCIT system (this is likely not the url we would ultimately use)
+          tag:                                                    # A tag indicating this to be the harmonized code for this concept
+            - harmonized
+        - code: Tumor                                             # The second Coding holds the original code used by the source node. PDC uses a readable strings for their codes.
+          label: Tumor                                            # The human-readable label (implicitly the same as the code, which are human-readable in PDC)
+          system: http://crdc.nci.nih.gov/pdc                     # A URL for the PDC system (we made this up - t.b.d. what an official URL would look like)
+          tag:                                                    # A 'tag' indicating this to be the code for this concept in the original source data.
+            - original
+    general_tissue_pathology:                                     # type = CodeableConcept
+      coding:                                                     # type = Coding
+        - code: C18009
+          label: Tumor Tissue
+          system: http://ncithesaurus.nci.nih.gov
+          tag:
+            - harmonized
+        - code: Tumor
+          label: Tumor
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+    specific_tissue_pathology:                                    # type = CodeableConcept
+      coding:                                                     # type = Coding
+        - code: C9145
+          label: Osteosarcoma
+          system: http://ncithesaurus.nci.nih.gov
+          tag:
+            - harmonized
+        - code: Osteosarcoma (OS)
+          label: Osteosarcoma (OS)
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+    tumor_status_at_collection:                                   # type = CodeableConcept
+      coding:                                                     # type = Coding
+        - code: C3261
+          label: Metastatic Neoplasm
+          system: http://ncithesaurus.nci.nih.gov
+          tag:
+            - harmonized
+        - code: Metastatic
+          label: Metastatic
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+#    quantity_measure:                                             # type = QuantityMeasureObservation
+#      - observation_type:                                         # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because the weight of a specimen is captured in PDC using a dedicated property (Sample.current_weight), not as a key-vaule pair as we do here)
+#          coding:                                                 # type = Coding
+#            - code: C25208
+#              label: Weight
+#              system: http://ncithesaurus.nci.nih.gov
+#              tag:
+#                - harmonized
+#        value_quantity:                                           # type = Quantity
+#          value_decimal: 224
+#          unit:                                                   # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because unit of measure is not explicitly declared in the source data - so there is no original value.)
+#            coding:                                               # type = Coding
+#              - code: C28253
+#                label: Milligram
+#                system: http://ncithesaurus.nci.nih.gov
+#                tag:
+#                  - harmonized
+    creation_activity:                                            # type = SpecimenCreationActivity. This object encapsulates data related to how a specimen was created. It is inlined because this is not a stand-alone, identified entity.
+      activity_type:                                              # type = CodeableConcept. This field indicates that the activity instance here represents the initial collection from a source, rather than derivation from an existing specimen (e.g via portioning or aliquoting).
+        coding:                                                   # type = Coding
+          - code: C93435
+            label: Performed Specimen Collection
+            system: http://ncithesaurus.nci.nih.gov
+            tag:
+              - harmonized
+      date_ended:                                                 # type = TimePoint
+        offset_from_index:                                        # type = Quantity
+          value_decimal: 121
+          unit:                                                   # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because unit of measure is not explicitly declared in the source data - so there is no original value.)
+            coding:                                               # type = Coding
+              - code: C25301
+                label: Day
+                system: http://ncithesaurus.nci.nih.gov
+                tag:
+                  - harmonized
+        index_time_point:                                         # type = TimePoint
+          event_type:                                             # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because CCDH made up this 'Study Start' value to demonstrate how to specify events as a conceptual index timepoint.
+            - coding:                                               # type = Coding
+              - code: C142714
+                label: Study Start
+                system: http://ncithesaurus.nci.nih.gov
+                tag:
+                  - harmonized
+
+      quantity_collected:                                         # type = Quantity
+        value_decimal: 224
+        unit:                                                     # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because unit of measure is not explicitly declared in the source data - so there is no original value.)
+          coding:                                                 # type = Coding
+            - code: C28253
+              label: Milligram
+              system: http://ncithesaurus.nci.nih.gov
+              tag:
+                - harmonized
+
+      collection_site:                                            # type = BodySite
+        site:                                                     # type = CodeableConcept
+          coding:                                                 # type = Coding
+            - code: C12468
+              label: Lung
+              system: http://ncithesaurus.nci.nih.gov
+              tag:
+                - harmonized
+            - code: Lung
+              label: Lung
+              system: http://crdc.nci.nih.gov/pdc
+              tag:
+                - original
+
+#      execution_time_observation:                                 # type = ExecutionTimeObservation
+#        - observation_type:                                       # type = CodeableConcept
+#            coding:                                               # type = Coding
+#              - code: time_between_excision_and_freezing          # This enumerated code was generated for the harmonized model, based on the name of a direct Sample property in the PDC model (Sample.time_between_excision_and_freezing). So there is no original source code here.
+#                label: time between excision and freezing
+#                system: http://crdc.nci.nih.gov/ccdh              # This is a temp local code system for terms without mappings, until we find one or get code into NCIt.
+#                tag:
+#                  - harmonized
+#          value_quantity:                                         # type = Quantity
+#            value_decimal: 20
+#            unit:                                                 # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because unit of measure is not explicitly declared in the source data - so there is no original value.)
+#              coding:                                             # type = Coding
+#                - code: C48154
+#                  label: Minute
+#                  system: http://ncithesaurus.nci.nih.gov
+#                  tag:
+#                    - harmonized
+
+    processing_activity:                                          # type = SpecimenProcessingActivity. This object encapsulates data related to how a specimen was processed. It is inlined because this is not a stand-alone, identified entity.
+      - activity_type:                                            # type = CodeableConcept
+          coding:                                                 # type = Coding
+            - code: CC63521
+              label: Quick Freeze
+              system: http://ncithesaurus.nci.nih.gov
+              tag:
+                - harmonized
+            - code: Snap Frozen
+              label: Snap Frozen
+              system: http://crdc.nci.nih.gov/pdc
+              tag:
+                - original
+        method_type:                                              # type = CodeableConcept
+          coding:                                                 # type = Coding
+            - code: C178951
+              label: Liquid Nitrogen Freezer
+              system: http://ncithesaurus.nci.nih.gov
+              tag:
+                - harmonized
+            - code: LN2
+              label: LN2
+              system: http://crdc.nci.nih.gov/pdc
+              tag:
+                - original
+
+---
+  pdc_subject:
+    Title: PDC Subject  Example - Sept 2021 F2F Demonstrator 1
+    Schema: ccdh.0713.Subject
+    Description:
+      - "This is a minimal example showing only id and identifiers.  For a richer Subject record, see the examples in Demonstrator 2."
+    Example:                                                        # type: Subject
+      id: "f2f:55bad781-96ce-537c-ab5c-7492c31c836c"                # Local uuid assigned by this system for the Subject
+#      identifier:                                                   # type: Identifier
+#        - value: "pdc-case:3073d082-63d8-11e8-bcf1-0a2705229b82"   # PDC.Cases.case_id
+#        - value: "tcga-coad:TCGA-AA-3518"                           # PDC.Cases.submitter_id
+#        - value: "crdc:su0000002"                                   # Proposed globally unique identifier per recommendation of the CRDC-DST
+
+---
+  pdc_research_project:
+    Title: PDC ResearchProject Example - Sept 2021 F2F Demonstrator 1
+    Schema: ccdh.0713.ResearchProject
+    Description:
+      - "This is a minimal example showing only id and identifiers.  For a richer Project record, see the examples in Demonstrator 2."
+    Example:                                                        # type = ResearchProject
+        id: "f2f:69886602-a4f1-4ad4-ba56-a0e031c2e294"              # Local uuid assigned by this system for the Research Project
+#        identifier:                                                 # type = Identifier
+#          - value: "pdc-project:TCGA-COAD"                          # PDC.Sample.project_id
+#          - value: "crdc:pj1000005"                                 # Proposed globally unique identifier per recommendation of the CRDC-DST
+        research_project_type:                                      # type = CodeableConcept
+          coding:                                                   # type = Coding
+            - code: C47885                                          # Note also that because the CRDC-H collapses PDC.Program and PDC.Project into a single type called 'ResearchProject', the ResearchProject.research_project_type field is used to indicate which specific type this instance represents.
+              label: Project
+              system: http://ncithesaurus.nci.nih.gov/
+              tag:
+                - harmonized
+---
+pdc_diagnosis:
+  Title: PDC Diagnosis Example - Sept 2021 F2F Demonstrator 1
+  Schema: "ccdh.0713cc.Diagnosis"
+  Description:
+    - "CRDC-H-compliant representation of the synthetic source data example described here: https://docs.google.com/spreadsheets/d/14lWLDD7iyJG0G57m6BgWYIeqrxK04P3qQRwxziqEz1A/edit#gid=0"
+    - "For easiest viewing, **TURN WORD WRAP OFF** so that comments don't run onto a new line."
+  Example:                                                          # type = Diagnosis
+    id: "f2f:62199412-6428-11e8-bcf1-0a2705229b82"                  # Local uuid assigned by this system for the Diagnosis
+#    identifier:                                                     # type = Identifier
+#      - value: "pdc-diagnosis:e3dd3c20-1fcb-11e9-b7f8-0a80fada099c" # PDC.Diagnosis.diagnosis_id
+#      - value: "TCGA-COAD:C3N-01648-DIAG"                           # PDC.Diagnosis.submitter_id
+
+    subject:                                                        # type = Subject
+      id: "f2f:55bad781-96ce-537c-ab5c-7492c31c836c"
+
+    age_at_diagnosis:                                               # type = Quantity
+      value_decimal: 20144
+      unit:                                                         # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because unit of measure is not explicitly declared in the source data - so there is no original value.)
+        coding:                                                     # type = Coding
+          - code: C25301
+            label: Day
+            system: http://ncithesaurus.nci.nih.gov
+            tag:
+              - harmonized
+
+    condition:                                                      # type = CodeableConcept
+      coding:                                                       # type = Coding
+        - code: C9145
+          label: Osteosarcoma
+          system: http://ncithesaurus.nci.nih.gov
+          tag:
+            - harmonized
+        - code: Osteosarcoma (OS)
+          label: Osteosarcoma (OS)
+          system: http://crdc.nci.nih.gov/pdc
+          tag:
+            - original
+#    primary_site:                                                   # type = BodySite
+#      - site:                                                       # type = CodeableConcept
+#          coding:                                                   # type = Coding
+#            - code: C173840
+#              label: Maxillofacial Bone
+#              system: http://ncithesaurus.nci.nih.gov
+#              tag:
+#                - harmonized
+#            - code: Bones of skull and face and associated joints
+#              label: Bones of skull and face and associated joints
+#              system: http://crdc.nci.nih.gov/pdc
+#              tag:
+#                - original
+
+    stage:                                                          # type = CancerStageObservationSet
+      - method_type:                                                # type = CodeableConcept
+         - coding:                                                  # type = Coding
+             - code: C146985
+               label: AJCC Staging Manual 8th Edition
+               system: http://ncithesaurus.nci.nih.gov
+               tag:
+                 - harmonized
+             - code: 8th
+               label: 8th
+               system: http://crdc.nci.nih.gov/pdc
+               tag:
+                 - original
+
+#        observations:                                               # type = CancerStageObservation - one of many individual Stage determinations (e.g. T, N, M, Overall) about the same tumor that can comprise a single CancerStageObservationSet (here just an 'Overall' assessment, but may also include T, N, and M assessments).
+#          - observation_type:                                       # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because the staging level semantic is captured in an explicit property in the source PDC model, not a key-value pair as shown here)
+#              coding:                                               # type = Coding
+#                - code: C25605
+#                  label: Overall
+#                  system: http://ncithesaurus.nci.nih.gov
+#                  tag:
+#                    - harmonized
+#            value_codeable_concept:                                 # type = CodeableConcept
+#              coding:                                               # type = Coding
+#                - code: C27971
+#                  label: Stage IV
+#                  system: http://ncithesaurus.nci.nih.gov
+#                  tag:
+#                    - harmonized
+#                - code: Stage IV
+#                  label: Stage IV
+#                  system: http://crdc.nci.nih.gov/pdc
+#                  tag:
+#                      - original
+
+    diagnosis_date:                                                 # type = TimePoint. PDC specifies date of diagnosis in two ways (the PDC.Diagnosis.year_of_diagnosis field, and PDC.Diagnosis.days_to_diagnosis field). Both are captured in a single TimePoint instance.
+      date_time: "2009-01-01"                                               # Here we capture a broader indication of the year the diagnosis was made (2011).
+      offset_from_index:                                            # type = Quantity
+        value_decimal: 0                                            # Here we capture the offset between an index timepoint (assumed to be the Start of Study) and the diagnosis date - which resolves to a more specific day/date. We used the value '0' because this is the only value in the PDC data for this field.
+        unit:                                                       # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because unit of measure is not explicitly declared in the source data - so there is no original value.)
+          coding:                                                   # type = Coding
+            - code: C25301
+              label: Day
+              system: http://ncithesaurus.nci.nih.gov
+              tag:
+                - harmonized
+      index_time_point:                                             # type = TimePoint (This nested Timepoint specifies the index time point using an event as a proxy, captured in the event_type field.)
+       event_type:                                                  # type = CodeableConcept (This Codeable Concept does not contain a second Coding for the original source code because CCDH made up this 'Study Start' value to demonstrate how to specify events as a conceptual index timepoint.
+         - coding:                                                    # type = Coding
+           - code: C142714
+             label: Study Start
+             system: http://ncithesaurus.nci.nih.gov
+             tag:
+               - harmonized
+    related_specimen:                                               # type = Specimen
+      - id: "f2f:ecc2bf49-204d-11e9-b7f8-0a80fada099c"              # A reference to a specimen that was used to generate this Diagnosis (the Specimen instance above).
+
+
+
