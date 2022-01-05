@@ -7,7 +7,7 @@ import crdch_model
 
 
 def codeable_concept(system, code, label=None, text=None, tags=[]):
-    """ Create a crdch_model.CodeableConcept for a given [single] system and code. """
+    """Create a crdch_model.CodeableConcept for a given [single] system and code."""
     coding = crdch_model.Coding(system=system, code=code)
     if label is not None:
         coding.label = label
@@ -20,7 +20,7 @@ def codeable_concept(system, code, label=None, text=None, tags=[]):
 
 
 def quantity_decimal(value_decimal, unit):
-    """ Create a crdch_model.Quantity for a given decimal value and a unit (expressed as a CodeableConcept). """
+    """Create a crdch_model.Quantity for a given decimal value and a unit (expressed as a CodeableConcept)."""
     q = crdch_model.Quantity(unit=unit)
     # TODO: this should be converted to a Decimal, but that doesn't work/pass validation
     # So instead we truncate it to an integer for now.
