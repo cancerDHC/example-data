@@ -1,8 +1,9 @@
 # python package that contains CRDCH data model as Python dataclasses
 import crdch_model
 
+
 def codeable_concept(system, code, label=None, text=None, tags=[]):
-    """Create a crdch_model.CodeableConcept for a given [single] system and code. """
+    """Create a crdch_model.CodeableConcept for a given [single] system and code."""
 
     coding = crdch_model.Coding(system=system, code=code)
 
