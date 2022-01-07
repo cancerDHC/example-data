@@ -2019,7 +2019,7 @@ pdc_head_and_mouth_example_33_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_33_diagnosis_0
     identifier:
-    - value: df516d7f-8f98-11ea-b1fd-0aad30af8a83
+    - value: 64d2c3a1-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_33
@@ -2035,6 +2035,8 @@ pdc_head_and_mouth_example_33_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2091,7 +2093,7 @@ pdc_head_and_mouth_example_34_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_34_diagnosis_0
     identifier:
-    - value: df516f6b-8f98-11ea-b1fd-0aad30af8a83
+    - value: 64d940cf-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_34
@@ -2107,6 +2109,8 @@ pdc_head_and_mouth_example_34_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2163,7 +2167,7 @@ pdc_head_and_mouth_example_35_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_35_diagnosis_0
     identifier:
-    - value: df51714a-8f98-11ea-b1fd-0aad30af8a83
+    - value: 64e00f97-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_35
@@ -2179,6 +2183,8 @@ pdc_head_and_mouth_example_35_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2297,7 +2303,7 @@ pdc_head_and_mouth_example_36_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_36_diagnosis_0
     identifier:
-    - value: df517351-8f98-11ea-b1fd-0aad30af8a83
+    - value: 64e64bf1-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_36
@@ -2313,6 +2319,8 @@ pdc_head_and_mouth_example_36_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2400,7 +2408,7 @@ pdc_head_and_mouth_example_37_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_37_diagnosis_0
     identifier:
-    - value: df517547-8f98-11ea-b1fd-0aad30af8a83
+    - value: 64ecdbfe-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_37
@@ -2416,6 +2424,8 @@ pdc_head_and_mouth_example_37_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2503,7 +2513,7 @@ pdc_head_and_mouth_example_38_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_38_diagnosis_0
     identifier:
-    - value: df51772f-8f98-11ea-b1fd-0aad30af8a83
+    - value: 64f3126c-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_38
@@ -2519,6 +2529,8 @@ pdc_head_and_mouth_example_38_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2606,7 +2618,7 @@ pdc_head_and_mouth_example_39_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_39_diagnosis_0
     identifier:
-    - value: df51793e-8f98-11ea-b1fd-0aad30af8a83
+    - value: 64f98f28-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_39
@@ -2622,6 +2634,8 @@ pdc_head_and_mouth_example_39_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2709,7 +2723,7 @@ pdc_head_and_mouth_example_40_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_40_diagnosis_0
     identifier:
-    - value: df517aae-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6500272c-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_40
@@ -2725,6 +2739,8 @@ pdc_head_and_mouth_example_40_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2812,7 +2828,7 @@ pdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_41_diagnosis_0
     identifier:
-    - value: df517c57-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65063ce7-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_41
@@ -2828,6 +2844,8 @@ pdc_head_and_mouth_example_41_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -2977,7 +2995,7 @@ pdc_head_and_mouth_example_42_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_42_diagnosis_0
     identifier:
-    - value: df517d75-8f98-11ea-b1fd-0aad30af8a83
+    - value: 650cf942-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_42
@@ -2993,6 +3011,8 @@ pdc_head_and_mouth_example_42_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3080,7 +3100,7 @@ pdc_head_and_mouth_example_43_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_43_diagnosis_0
     identifier:
-    - value: df517fe1-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65133ab5-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_43
@@ -3096,6 +3116,8 @@ pdc_head_and_mouth_example_43_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3183,7 +3205,7 @@ pdc_head_and_mouth_example_44_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_44_diagnosis_0
     identifier:
-    - value: df518126-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6519d22c-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_44
@@ -3199,6 +3221,8 @@ pdc_head_and_mouth_example_44_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3286,7 +3310,7 @@ pdc_head_and_mouth_example_45_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_45_diagnosis_0
     identifier:
-    - value: df5182e8-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6520afcb-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_45
@@ -3302,6 +3326,8 @@ pdc_head_and_mouth_example_45_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3358,7 +3384,7 @@ pdc_head_and_mouth_example_46_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_46_diagnosis_0
     identifier:
-    - value: df51857b-8f98-11ea-b1fd-0aad30af8a83
+    - value: 652d39e7-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_46
@@ -3374,6 +3400,8 @@ pdc_head_and_mouth_example_46_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3461,7 +3489,7 @@ pdc_head_and_mouth_example_47_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_47_diagnosis_0
     identifier:
-    - value: df51871d-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65338be6-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_47
@@ -3477,6 +3505,8 @@ pdc_head_and_mouth_example_47_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3533,7 +3563,7 @@ pdc_head_and_mouth_example_48_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_48_diagnosis_0
     identifier:
-    - value: df518844-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65399c19-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_48
@@ -3541,7 +3571,7 @@ pdc_head_and_mouth_example_48_diagnosis_0_diagnosis:
       - value: df4eaafe-8f98-11ea-b1fd-0aad30af8a83
         system: http://crdc.nci.nih.gov/gdc#case_id
     age_at_diagnosis:
-      value_decimal: 22269
+      value_decimal: 22268
       unit:
         coding:
         - code: C25301
@@ -3549,6 +3579,8 @@ pdc_head_and_mouth_example_48_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3636,7 +3668,7 @@ pdc_head_and_mouth_example_49_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_49_diagnosis_0
     identifier:
-    - value: df5189fa-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6543a48f-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_49
@@ -3652,6 +3684,8 @@ pdc_head_and_mouth_example_49_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3708,7 +3742,7 @@ pdc_head_and_mouth_example_50_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_50_diagnosis_0
     identifier:
-    - value: df518cc8-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65529b27-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_50
@@ -3724,6 +3758,8 @@ pdc_head_and_mouth_example_50_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3811,7 +3847,7 @@ pdc_head_and_mouth_example_51_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_51_diagnosis_0
     identifier:
-    - value: df518df3-8f98-11ea-b1fd-0aad30af8a83
+    - value: 655c0c9b-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_51
@@ -3827,6 +3863,8 @@ pdc_head_and_mouth_example_51_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3914,7 +3952,7 @@ pdc_head_and_mouth_example_52_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_52_diagnosis_0
     identifier:
-    - value: df518f4f-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6562bb39-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_52
@@ -3930,6 +3968,8 @@ pdc_head_and_mouth_example_52_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -3986,7 +4026,7 @@ pdc_head_and_mouth_example_53_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_53_diagnosis_0
     identifier:
-    - value: df5190f6-8f98-11ea-b1fd-0aad30af8a83
+    - value: 656b4d3a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_53
@@ -4002,6 +4042,8 @@ pdc_head_and_mouth_example_53_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4058,7 +4100,7 @@ pdc_head_and_mouth_example_54_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_54_diagnosis_0
     identifier:
-    - value: df51920c-8f98-11ea-b1fd-0aad30af8a83
+    - value: 657a9211-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_54
@@ -4074,6 +4116,8 @@ pdc_head_and_mouth_example_54_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4161,7 +4205,7 @@ pdc_head_and_mouth_example_55_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_55_diagnosis_0
     identifier:
-    - value: df5193ba-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6589e4fa-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_55
@@ -4177,6 +4221,8 @@ pdc_head_and_mouth_example_55_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4264,7 +4310,7 @@ pdc_head_and_mouth_example_56_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_56_diagnosis_0
     identifier:
-    - value: df5195ae-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65909327-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_56
@@ -4280,6 +4326,8 @@ pdc_head_and_mouth_example_56_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4367,7 +4415,7 @@ pdc_head_and_mouth_example_57_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_57_diagnosis_0
     identifier:
-    - value: df51982c-8f98-11ea-b1fd-0aad30af8a83
+    - value: 659eeda2-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_57
@@ -4383,6 +4431,8 @@ pdc_head_and_mouth_example_57_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4470,7 +4520,7 @@ pdc_head_and_mouth_example_58_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_58_diagnosis_0
     identifier:
-    - value: df5199b0-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65a86c34-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_58
@@ -4486,6 +4536,8 @@ pdc_head_and_mouth_example_58_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4542,7 +4594,7 @@ pdc_head_and_mouth_example_59_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_59_diagnosis_0
     identifier:
-    - value: df519b17-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65ae9a54-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_59
@@ -4558,6 +4610,8 @@ pdc_head_and_mouth_example_59_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4614,7 +4668,7 @@ pdc_head_and_mouth_example_60_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_60_diagnosis_0
     identifier:
-    - value: df519cc6-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65b79f60-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_60
@@ -4630,6 +4684,8 @@ pdc_head_and_mouth_example_60_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4686,7 +4742,7 @@ pdc_head_and_mouth_example_61_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_61_diagnosis_0
     identifier:
-    - value: df519de4-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65bde6de-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_61
@@ -4702,6 +4758,8 @@ pdc_head_and_mouth_example_61_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4789,7 +4847,7 @@ pdc_head_and_mouth_example_62_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_62_diagnosis_0
     identifier:
-    - value: df519f90-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65c6dc7a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_62
@@ -4805,6 +4863,8 @@ pdc_head_and_mouth_example_62_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4861,7 +4921,7 @@ pdc_head_and_mouth_example_63_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_63_diagnosis_0
     identifier:
-    - value: df51a0ab-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65d6226c-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_63
@@ -4877,6 +4937,8 @@ pdc_head_and_mouth_example_63_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -4964,7 +5026,7 @@ pdc_head_and_mouth_example_64_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_64_diagnosis_0
     identifier:
-    - value: df51a339-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65e56e4d-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_64
@@ -4980,6 +5042,8 @@ pdc_head_and_mouth_example_64_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2016-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5036,7 +5100,7 @@ pdc_head_and_mouth_example_65_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_65_diagnosis_0
     identifier:
-    - value: df51a495-8f98-11ea-b1fd-0aad30af8a83
+    - value: 65f4b236-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_65
@@ -5052,6 +5116,8 @@ pdc_head_and_mouth_example_65_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5139,7 +5205,7 @@ pdc_head_and_mouth_example_66_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_66_diagnosis_0
     identifier:
-    - value: df51a600-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6603eb7e-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_66
@@ -5155,6 +5221,8 @@ pdc_head_and_mouth_example_66_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5242,7 +5310,7 @@ pdc_head_and_mouth_example_67_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_67_diagnosis_0
     identifier:
-    - value: df51a7b7-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66132ab2-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_67
@@ -5258,6 +5326,8 @@ pdc_head_and_mouth_example_67_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5314,7 +5384,7 @@ pdc_head_and_mouth_example_68_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_68_diagnosis_0
     identifier:
-    - value: df51a8fb-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66226f83-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_68
@@ -5330,6 +5400,8 @@ pdc_head_and_mouth_example_68_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5417,7 +5489,7 @@ pdc_head_and_mouth_example_69_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_69_diagnosis_0
     identifier:
-    - value: df51aabd-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6631abe5-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_69
@@ -5433,6 +5505,8 @@ pdc_head_and_mouth_example_69_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5520,7 +5594,7 @@ pdc_head_and_mouth_example_70_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_70_diagnosis_0
     identifier:
-    - value: df51abd9-8f98-11ea-b1fd-0aad30af8a83
+    - value: 664131af-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_70
@@ -5536,6 +5610,8 @@ pdc_head_and_mouth_example_70_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5592,7 +5668,7 @@ pdc_head_and_mouth_example_71_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_71_diagnosis_0
     identifier:
-    - value: df51ad8e-8f98-11ea-b1fd-0aad30af8a83
+    - value: 665033ce-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_71
@@ -5608,6 +5684,8 @@ pdc_head_and_mouth_example_71_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5695,7 +5773,7 @@ pdc_head_and_mouth_example_72_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_72_diagnosis_0
     identifier:
-    - value: df51aeca-8f98-11ea-b1fd-0aad30af8a83
+    - value: 665f7940-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_72
@@ -5711,6 +5789,8 @@ pdc_head_and_mouth_example_72_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5767,7 +5847,7 @@ pdc_head_and_mouth_example_73_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_73_diagnosis_0
     identifier:
-    - value: df51b035-8f98-11ea-b1fd-0aad30af8a83
+    - value: 666eba2b-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_73
@@ -5783,6 +5863,8 @@ pdc_head_and_mouth_example_73_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5870,7 +5952,7 @@ pdc_head_and_mouth_example_74_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_74_diagnosis_0
     identifier:
-    - value: df51b1e3-8f98-11ea-b1fd-0aad30af8a83
+    - value: 667e002e-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_74
@@ -5886,6 +5968,8 @@ pdc_head_and_mouth_example_74_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -5942,7 +6026,7 @@ pdc_head_and_mouth_example_75_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_75_diagnosis_0
     identifier:
-    - value: df51b303-8f98-11ea-b1fd-0aad30af8a83
+    - value: 668d4474-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_75
@@ -5958,6 +6042,8 @@ pdc_head_and_mouth_example_75_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6045,7 +6131,7 @@ pdc_head_and_mouth_example_76_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_76_diagnosis_0
     identifier:
-    - value: df51b5b0-8f98-11ea-b1fd-0aad30af8a83
+    - value: 669c8650-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_76
@@ -6061,6 +6147,8 @@ pdc_head_and_mouth_example_76_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6148,7 +6236,7 @@ pdc_head_and_mouth_example_77_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_77_diagnosis_0
     identifier:
-    - value: df51b6f3-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66abd3e3-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_77
@@ -6164,6 +6252,8 @@ pdc_head_and_mouth_example_77_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6251,7 +6341,7 @@ pdc_head_and_mouth_example_78_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_78_diagnosis_0
     identifier:
-    - value: df51b8b0-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66bb07df-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_78
@@ -6267,6 +6357,8 @@ pdc_head_and_mouth_example_78_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6354,7 +6446,7 @@ pdc_head_and_mouth_example_79_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_79_diagnosis_0
     identifier:
-    - value: df51b9ed-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66ca4712-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_79
@@ -6370,6 +6462,8 @@ pdc_head_and_mouth_example_79_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6457,7 +6551,7 @@ pdc_head_and_mouth_example_80_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_80_diagnosis_0
     identifier:
-    - value: df51bb53-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66d9d54a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_80
@@ -6473,6 +6567,8 @@ pdc_head_and_mouth_example_80_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6560,7 +6656,7 @@ pdc_head_and_mouth_example_81_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_81_diagnosis_0
     identifier:
-    - value: df51bd00-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66e8ceda-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_81
@@ -6576,6 +6672,8 @@ pdc_head_and_mouth_example_81_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6663,7 +6761,7 @@ pdc_head_and_mouth_example_82_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_82_diagnosis_0
     identifier:
-    - value: df51be1b-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66f814bb-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_82
@@ -6679,6 +6777,8 @@ pdc_head_and_mouth_example_82_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6735,7 +6835,7 @@ pdc_head_and_mouth_example_83_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_83_diagnosis_0
     identifier:
-    - value: df51bfcc-8f98-11ea-b1fd-0aad30af8a83
+    - value: 66fe9c01-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_83
@@ -6751,6 +6851,8 @@ pdc_head_and_mouth_example_83_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6838,7 +6940,7 @@ pdc_head_and_mouth_example_84_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_84_diagnosis_0
     identifier:
-    - value: df51c0f4-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67074dfa-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_84
@@ -6854,6 +6956,8 @@ pdc_head_and_mouth_example_84_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -6941,7 +7045,7 @@ pdc_head_and_mouth_example_85_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_85_diagnosis_0
     identifier:
-    - value: df51c2ac-8f98-11ea-b1fd-0aad30af8a83
+    - value: 670ddfae-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_85
@@ -6957,6 +7061,8 @@ pdc_head_and_mouth_example_85_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7013,7 +7119,7 @@ pdc_head_and_mouth_example_86_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_86_diagnosis_0
     identifier:
-    - value: df51c3e5-8f98-11ea-b1fd-0aad30af8a83
+    - value: 671c4588-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_86
@@ -7029,6 +7135,8 @@ pdc_head_and_mouth_example_86_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7116,7 +7224,7 @@ pdc_head_and_mouth_example_87_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_87_diagnosis_0
     identifier:
-    - value: df51c53b-8f98-11ea-b1fd-0aad30af8a83
+    - value: 672263ee-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_87
@@ -7132,6 +7240,8 @@ pdc_head_and_mouth_example_87_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7219,7 +7329,7 @@ pdc_head_and_mouth_example_88_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_88_diagnosis_0
     identifier:
-    - value: df51c6e6-8f98-11ea-b1fd-0aad30af8a83
+    - value: 672886c6-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_88
@@ -7235,6 +7345,8 @@ pdc_head_and_mouth_example_88_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7291,7 +7403,7 @@ pdc_head_and_mouth_example_89_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_89_diagnosis_0
     identifier:
-    - value: df51c808-8f98-11ea-b1fd-0aad30af8a83
+    - value: 673b1dd9-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_89
@@ -7307,6 +7419,8 @@ pdc_head_and_mouth_example_89_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7394,7 +7508,7 @@ pdc_head_and_mouth_example_90_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_90_diagnosis_0
     identifier:
-    - value: df51c9af-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6741b7c6-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_90
@@ -7410,6 +7524,8 @@ pdc_head_and_mouth_example_90_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7466,7 +7582,7 @@ pdc_head_and_mouth_example_91_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_91_diagnosis_0
     identifier:
-    - value: df51cac8-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6748b230-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_91
@@ -7482,6 +7598,8 @@ pdc_head_and_mouth_example_91_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7538,7 +7656,7 @@ pdc_head_and_mouth_example_92_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_92_diagnosis_0
     identifier:
-    - value: df51cc89-8f98-11ea-b1fd-0aad30af8a83
+    - value: 674eca7e-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_92
@@ -7554,6 +7672,8 @@ pdc_head_and_mouth_example_92_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7610,7 +7730,7 @@ pdc_head_and_mouth_example_93_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_93_diagnosis_0
     identifier:
-    - value: df51cdbe-8f98-11ea-b1fd-0aad30af8a83
+    - value: 675545e6-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_93
@@ -7626,6 +7746,8 @@ pdc_head_and_mouth_example_93_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7713,7 +7835,7 @@ pdc_head_and_mouth_example_94_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_94_diagnosis_0
     identifier:
-    - value: df51cf25-8f98-11ea-b1fd-0aad30af8a83
+    - value: 675b7d2a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_94
@@ -7729,6 +7851,8 @@ pdc_head_and_mouth_example_94_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7816,7 +7940,7 @@ pdc_head_and_mouth_example_95_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_95_diagnosis_0
     identifier:
-    - value: df51d0d0-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67620d51-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_95
@@ -7832,6 +7956,8 @@ pdc_head_and_mouth_example_95_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7888,7 +8014,7 @@ pdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_96_diagnosis_0
     identifier:
-    - value: df51d1ea-8f98-11ea-b1fd-0aad30af8a83
+    - value: 676909d8-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_96
@@ -7904,6 +8030,8 @@ pdc_head_and_mouth_example_96_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -7960,7 +8088,7 @@ pdc_head_and_mouth_example_97_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_97_diagnosis_0
     identifier:
-    - value: df51d3cf-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67700dbe-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_97
@@ -7976,6 +8104,8 @@ pdc_head_and_mouth_example_97_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8032,7 +8162,7 @@ pdc_head_and_mouth_example_98_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_98_diagnosis_0
     identifier:
-    - value: df51d4f9-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67766bff-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_98
@@ -8048,6 +8178,8 @@ pdc_head_and_mouth_example_98_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8104,7 +8236,7 @@ pdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_99_diagnosis_0
     identifier:
-    - value: df51d6b6-8f98-11ea-b1fd-0aad30af8a83
+    - value: 677cf42f-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_99
@@ -8120,6 +8252,8 @@ pdc_head_and_mouth_example_99_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8207,7 +8341,7 @@ pdc_head_and_mouth_example_100_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_100_diagnosis_0
     identifier:
-    - value: df51d7fd-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67832304-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_100
@@ -8223,6 +8357,8 @@ pdc_head_and_mouth_example_100_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8279,7 +8415,7 @@ pdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_101_diagnosis_0
     identifier:
-    - value: df51dc2f-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67894dfa-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_101
@@ -8295,6 +8431,8 @@ pdc_head_and_mouth_example_101_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8382,7 +8520,7 @@ pdc_head_and_mouth_example_102_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_102_diagnosis_0
     identifier:
-    - value: df51de2e-8f98-11ea-b1fd-0aad30af8a83
+    - value: 678fbb7e-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_102
@@ -8398,6 +8536,8 @@ pdc_head_and_mouth_example_102_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8485,7 +8625,7 @@ pdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_103_diagnosis_0
     identifier:
-    - value: df51df84-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67991914-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_103
@@ -8501,6 +8641,8 @@ pdc_head_and_mouth_example_103_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8588,7 +8730,7 @@ pdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_104_diagnosis_0
     identifier:
-    - value: df51e14d-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67a0ccdb-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_104
@@ -8604,6 +8746,8 @@ pdc_head_and_mouth_example_104_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8691,7 +8835,7 @@ pdc_head_and_mouth_example_105_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_105_diagnosis_0
     identifier:
-    - value: df51e278-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67af2d7a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_105
@@ -8707,6 +8851,8 @@ pdc_head_and_mouth_example_105_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8794,7 +8940,7 @@ pdc_head_and_mouth_example_106_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_106_diagnosis_0
     identifier:
-    - value: df51e439-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67b5b830-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_106
@@ -8810,6 +8956,8 @@ pdc_head_and_mouth_example_106_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -8897,7 +9045,7 @@ pdc_head_and_mouth_example_107_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_107_diagnosis_0
     identifier:
-    - value: df51e57c-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67be68c4-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_107
@@ -8913,6 +9061,8 @@ pdc_head_and_mouth_example_107_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9000,7 +9150,7 @@ pdc_head_and_mouth_example_108_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_108_diagnosis_0
     identifier:
-    - value: df51e6f1-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67c53eee-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_108
@@ -9016,6 +9166,8 @@ pdc_head_and_mouth_example_108_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9103,7 +9255,7 @@ pdc_head_and_mouth_example_109_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_109_diagnosis_0
     identifier:
-    - value: df51e8a4-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67d53b48-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_109
@@ -9119,6 +9271,8 @@ pdc_head_and_mouth_example_109_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9175,7 +9329,7 @@ pdc_head_and_mouth_example_110_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_110_diagnosis_0
     identifier:
-    - value: df51e9c8-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67db6809-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_110
@@ -9191,6 +9345,8 @@ pdc_head_and_mouth_example_110_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9247,7 +9403,7 @@ pdc_head_and_mouth_example_111_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_111_diagnosis_0
     identifier:
-    - value: df51eb8a-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67e2e06f-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_111
@@ -9263,6 +9419,8 @@ pdc_head_and_mouth_example_111_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9319,7 +9477,7 @@ pdc_head_and_mouth_example_112_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_112_diagnosis_0
     identifier:
-    - value: df51ecb4-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67e95c42-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_112
@@ -9335,6 +9493,8 @@ pdc_head_and_mouth_example_112_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9391,7 +9551,7 @@ pdc_head_and_mouth_example_113_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_113_diagnosis_0
     identifier:
-    - value: df51ee7b-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67f27c1a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_113
@@ -9407,6 +9567,8 @@ pdc_head_and_mouth_example_113_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9463,7 +9625,7 @@ pdc_head_and_mouth_example_114_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_114_diagnosis_0
     identifier:
-    - value: df51efb6-8f98-11ea-b1fd-0aad30af8a83
+    - value: 67fb6cdf-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_114
@@ -9479,6 +9641,8 @@ pdc_head_and_mouth_example_114_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9535,7 +9699,7 @@ pdc_head_and_mouth_example_115_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_115_diagnosis_0
     identifier:
-    - value: df51f135-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68020a7a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_115
@@ -9551,6 +9715,8 @@ pdc_head_and_mouth_example_115_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2017-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9638,7 +9804,7 @@ pdc_head_and_mouth_example_116_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_116_diagnosis_0
     identifier:
-    - value: df51f2f0-8f98-11ea-b1fd-0aad30af8a83
+    - value: 680ab9e5-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_116
@@ -9654,6 +9820,8 @@ pdc_head_and_mouth_example_116_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9741,7 +9909,7 @@ pdc_head_and_mouth_example_117_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_117_diagnosis_0
     identifier:
-    - value: df51f418-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68115a90-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_117
@@ -9757,6 +9925,8 @@ pdc_head_and_mouth_example_117_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9844,7 +10014,7 @@ pdc_head_and_mouth_example_118_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_118_diagnosis_0
     identifier:
-    - value: df51f5cf-8f98-11ea-b1fd-0aad30af8a83
+    - value: 681a7065-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_118
@@ -9860,6 +10030,8 @@ pdc_head_and_mouth_example_118_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -9947,7 +10119,7 @@ pdc_head_and_mouth_example_119_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_119_diagnosis_0
     identifier:
-    - value: df51f6eb-8f98-11ea-b1fd-0aad30af8a83
+    - value: 682946c7-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_119
@@ -9963,6 +10135,8 @@ pdc_head_and_mouth_example_119_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10050,7 +10224,7 @@ pdc_head_and_mouth_example_120_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_120_diagnosis_0
     identifier:
-    - value: df51f8b7-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6838c631-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_120
@@ -10066,6 +10240,8 @@ pdc_head_and_mouth_example_120_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10122,7 +10298,7 @@ pdc_head_and_mouth_example_121_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_121_diagnosis_0
     identifier:
-    - value: df51f9e7-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6847c025-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_121
@@ -10138,6 +10314,8 @@ pdc_head_and_mouth_example_121_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10225,7 +10403,7 @@ pdc_head_and_mouth_example_122_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_122_diagnosis_0
     identifier:
-    - value: df51fb62-8f98-11ea-b1fd-0aad30af8a83
+    - value: 685706fc-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_122
@@ -10241,6 +10419,8 @@ pdc_head_and_mouth_example_122_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10297,7 +10477,7 @@ pdc_head_and_mouth_example_123_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_123_diagnosis_0
     identifier:
-    - value: df51fd19-8f98-11ea-b1fd-0aad30af8a83
+    - value: 685d5a1d-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_123
@@ -10313,6 +10493,8 @@ pdc_head_and_mouth_example_123_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10369,7 +10551,7 @@ pdc_head_and_mouth_example_124_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_124_diagnosis_0
     identifier:
-    - value: df51ff4e-8f98-11ea-b1fd-0aad30af8a83
+    - value: 686c32ff-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_124
@@ -10385,6 +10567,8 @@ pdc_head_and_mouth_example_124_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10441,7 +10625,7 @@ pdc_head_and_mouth_example_125_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_125_diagnosis_0
     identifier:
-    - value: df520120-8f98-11ea-b1fd-0aad30af8a83
+    - value: 687b3d16-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_125
@@ -10457,6 +10641,8 @@ pdc_head_and_mouth_example_125_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10544,7 +10730,7 @@ pdc_head_and_mouth_example_126_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_126_diagnosis_0
     identifier:
-    - value: df520249-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68940ad2-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_126
@@ -10560,6 +10746,8 @@ pdc_head_and_mouth_example_126_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10647,7 +10835,7 @@ pdc_head_and_mouth_example_127_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_127_diagnosis_0
     identifier:
-    - value: df5204d4-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68a35f4e-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_127
@@ -10663,6 +10851,8 @@ pdc_head_and_mouth_example_127_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10750,7 +10940,7 @@ pdc_head_and_mouth_example_128_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_128_diagnosis_0
     identifier:
-    - value: df520657-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68b28d75-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_128
@@ -10766,6 +10956,8 @@ pdc_head_and_mouth_example_128_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10853,7 +11045,7 @@ pdc_head_and_mouth_example_129_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_129_diagnosis_0
     identifier:
-    - value: df5207ce-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68c1cddb-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_129
@@ -10869,6 +11061,8 @@ pdc_head_and_mouth_example_129_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -10956,7 +11150,7 @@ pdc_head_and_mouth_example_130_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_130_diagnosis_0
     identifier:
-    - value: df520983-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68d10f44-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_130
@@ -10972,6 +11166,8 @@ pdc_head_and_mouth_example_130_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11059,7 +11255,7 @@ pdc_head_and_mouth_example_131_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_131_diagnosis_0
     identifier:
-    - value: df520aac-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68e054bf-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_131
@@ -11075,6 +11271,8 @@ pdc_head_and_mouth_example_131_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11131,7 +11329,7 @@ pdc_head_and_mouth_example_132_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_132_diagnosis_0
     identifier:
-    - value: df520c6b-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68ef9643-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_132
@@ -11147,6 +11345,8 @@ pdc_head_and_mouth_example_132_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11234,7 +11434,7 @@ pdc_head_and_mouth_example_133_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_133_diagnosis_0
     identifier:
-    - value: df520d93-8f98-11ea-b1fd-0aad30af8a83
+    - value: 68fed57f-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_133
@@ -11250,6 +11450,8 @@ pdc_head_and_mouth_example_133_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11337,7 +11539,7 @@ pdc_head_and_mouth_example_134_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_134_diagnosis_0
     identifier:
-    - value: df520f60-8f98-11ea-b1fd-0aad30af8a83
+    - value: 690e1883-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_134
@@ -11353,6 +11555,8 @@ pdc_head_and_mouth_example_134_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11409,7 +11613,7 @@ pdc_head_and_mouth_example_135_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_135_diagnosis_0
     identifier:
-    - value: df5210a0-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6914edd5-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_135
@@ -11425,6 +11629,8 @@ pdc_head_and_mouth_example_135_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11481,7 +11687,7 @@ pdc_head_and_mouth_example_136_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_136_diagnosis_0
     identifier:
-    - value: df52120e-8f98-11ea-b1fd-0aad30af8a83
+    - value: 691d5a0a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_136
@@ -11497,6 +11703,8 @@ pdc_head_and_mouth_example_136_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11584,7 +11792,7 @@ pdc_head_and_mouth_example_137_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_137_diagnosis_0
     identifier:
-    - value: df5213c1-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6923f558-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_137
@@ -11600,6 +11808,8 @@ pdc_head_and_mouth_example_137_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11687,7 +11897,7 @@ pdc_head_and_mouth_example_138_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_138_diagnosis_0
     identifier:
-    - value: df521517-8f98-11ea-b1fd-0aad30af8a83
+    - value: 692c9c67-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_138
@@ -11703,6 +11913,8 @@ pdc_head_and_mouth_example_138_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11790,7 +12002,7 @@ pdc_head_and_mouth_example_139_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_139_diagnosis_0
     identifier:
-    - value: df521955-8f98-11ea-b1fd-0aad30af8a83
+    - value: 6932e81f-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_139
@@ -11806,6 +12018,8 @@ pdc_head_and_mouth_example_139_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11893,7 +12107,7 @@ pdc_head_and_mouth_example_140_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_140_diagnosis_0
     identifier:
-    - value: df521ac9-8f98-11ea-b1fd-0aad30af8a83
+    - value: 69398191-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_140
@@ -11909,6 +12123,8 @@ pdc_head_and_mouth_example_140_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -11996,7 +12212,7 @@ pdc_head_and_mouth_example_141_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_141_diagnosis_0
     identifier:
-    - value: df521ca7-8f98-11ea-b1fd-0aad30af8a83
+    - value: 69407715-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_141
@@ -12012,6 +12228,8 @@ pdc_head_and_mouth_example_141_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS
@@ -12068,7 +12286,7 @@ pdc_head_and_mouth_example_142_diagnosis_0_diagnosis:
   Example:
     id: pdc_head_and_mouth_example:case_142_diagnosis_0
     identifier:
-    - value: df521df1-8f98-11ea-b1fd-0aad30af8a83
+    - value: 69472e1a-2850-11ec-b712-0a4e2186f121
       system: http://crdc.nci.nih.gov/gdc#diagnosis_id
     subject:
       id: pdc_head_and_mouth_example:case_142
@@ -12084,6 +12302,8 @@ pdc_head_and_mouth_example_142_diagnosis_0_diagnosis:
           label: Day
           tag:
           - harmonized
+    diagnosis_date:
+      date_time: '2018-01-01'
     condition:
       coding:
       - code: Squamous cell carcinoma, NOS

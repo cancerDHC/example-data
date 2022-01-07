@@ -33,3 +33,12 @@ the `.ipynb` file and open it in Jupyter Notebook on your computer by running:
 ```bash
 $ jupyter notebook cptac2-subject-09CO022/CDA\ example\ for\ subject\ 09CO022.ipynb
 ```
+
+This repository uses [Poetry](https://python-poetry.org/) for dependency management.
+You can therefore also [install Poetry](https://python-poetry.org/docs/#installation),
+then run:
+
+```bash
+$ poetry install
+$ poetry run jupyter notebook
+```
